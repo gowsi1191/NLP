@@ -1,0 +1,158 @@
+{
+  "query_type_analysis": {
+    "implicit_not": {
+      "count": 22,
+      "BGE": {
+        "P@1": 0.0,
+        "P@2": 0.0,
+        "P@3": 0.0,
+        "P@Full": 0.5714285714285713,
+        "MRR": 0.25,
+        "NDCG@3": 0.03670294482261712
+      },
+      "Roberta": {
+        "P@1": 0.18181818181818182,
+        "P@2": 0.4090909090909091,
+        "P@3": 0.4090909090909091,
+        "P@Full": 0.5714285714285713,
+        "MRR": 0.553030303030303,
+        "NDCG@3": 0.4124899303966194
+      },
+      "p_values": {
+        "MRR": 3.1769284960237394e-06,
+        "P@3": 9.011065787667473e-12,
+        "P@1": 0.0424631889116036,
+        "P@2": 1.644883730328608e-07,
+        "P@Full": null,
+        "NDCG@3": 1.1500697601862947e-12
+      }
+    }
+  },
+  "combined_analysis": {
+    "metadata": {
+      "total_documents": 22,
+      "best_configuration": "thresh_0.110_steep_18.0",
+      "best_configuration_score": 0.3623833427553494,
+      "config_composite_scores": {
+        "thresh_0.110_steep_16.5": 0.26881623741670935,
+        "thresh_0.110_steep_18.0": 0.3623833427553494
+      },
+      "docs_with_best_config": 7,
+      "detected_query_types": [
+        "implicit_not"
+      ],
+      "selection_criteria": "Weighted composite score (P@1:40%, MRR:30%, NDCG@3:30%)",
+      "config_distribution_all": {
+        "thresh_0.110_steep_16.5": 15,
+        "thresh_0.110_steep_18.0": 7
+      },
+      "config_distribution_implicit_not": {
+        "thresh_0.110_steep_16.5": 15,
+        "thresh_0.110_steep_18.0": 7
+      }
+    },
+    "overall_comparison": {
+      "BGE": {
+        "P@1": 0.0,
+        "P@2": 0.0,
+        "P@3": 0.0,
+        "P@Full": 0.5714285714285713,
+        "MRR": 0.25,
+        "NDCG@3": 0.03670294482261712
+      },
+      "Roberta": {
+        "P@1": 0.18181818181818182,
+        "P@2": 0.4090909090909091,
+        "P@3": 0.4090909090909091,
+        "P@Full": 0.5714285714285713,
+        "MRR": 0.553030303030303,
+        "NDCG@3": 0.4124899303966194
+      },
+      "p_values": {
+        "MRR": 3.1769284960237394e-06,
+        "P@3": 9.011065787667473e-12,
+        "P@1": 0.0424631889116036,
+        "P@2": 1.644883730328608e-07,
+        "P@Full": null,
+        "NDCG@3": 1.1500697601862947e-12
+      }
+    }
+  },
+  "metric_specific_analysis": {
+    "P@1": {
+      "overall_means": {
+        "thresh_0.110_steep_16.5": 0.045454545454545456,
+        "thresh_0.110_steep_18.0": 0.18181818181818182
+      },
+      "by_query_type": {
+        "implicit_not": {
+          "count": 22,
+          "config_means": {
+            "thresh_0.110_steep_16.5": 0.045454545454545456,
+            "thresh_0.110_steep_18.0": 0.18181818181818182
+          },
+          "top_configs": [
+            [
+              "thresh_0.110_steep_18.0",
+              0.18181818181818182
+            ],
+            [
+              "thresh_0.110_steep_16.5",
+              0.045454545454545456
+            ]
+          ]
+        }
+      }
+    },
+    "MRR": {
+      "overall_means": {
+        "thresh_0.110_steep_16.5": 0.46212121212121215,
+        "thresh_0.110_steep_18.0": 0.553030303030303
+      },
+      "by_query_type": {
+        "implicit_not": {
+          "count": 22,
+          "config_means": {
+            "thresh_0.110_steep_16.5": 0.46212121212121215,
+            "thresh_0.110_steep_18.0": 0.553030303030303
+          },
+          "top_configs": [
+            [
+              "thresh_0.110_steep_18.0",
+              0.553030303030303
+            ],
+            [
+              "thresh_0.110_steep_16.5",
+              0.46212121212121215
+            ]
+          ]
+        }
+      }
+    },
+    "NDCG@3": {
+      "overall_means": {
+        "thresh_0.110_steep_16.5": 0.373326851995092,
+        "thresh_0.110_steep_18.0": 0.4124899303966194
+      },
+      "by_query_type": {
+        "implicit_not": {
+          "count": 22,
+          "config_means": {
+            "thresh_0.110_steep_16.5": 0.373326851995092,
+            "thresh_0.110_steep_18.0": 0.4124899303966194
+          },
+          "top_configs": [
+            [
+              "thresh_0.110_steep_18.0",
+              0.4124899303966194
+            ],
+            [
+              "thresh_0.110_steep_16.5",
+              0.373326851995092
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

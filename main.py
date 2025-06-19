@@ -9,8 +9,11 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Construct full paths to the JSON files
 file_names = [
-    # os.path.join(script_dir, "explicit.json"),
-    os.path.join(script_dir, "implicit.json")
+    # os.path.join(script_dir, "json", "explicit.json"),
+    # os.path.join(script_dir, "json","implicit.json"),
+        # os.path.join(script_dir, "json","comparative.json")
+            # os.path.join(script_dir, "json","scope.json")
+                os.path.join(script_dir, "json","prohibition.json")
 ]
 
 def main():

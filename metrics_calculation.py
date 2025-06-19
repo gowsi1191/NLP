@@ -105,14 +105,12 @@ class MetricsCalculator:
         # Define query-type specific parameter configurations
         PARAM_CONFIGS = {
             "default": {
-                "thresholds": [base_threshold - 0.02, base_threshold - 0.01, 
-                            base_threshold, base_threshold + 0.01, base_threshold + 0.02],
-                "steepness": [base_steepness - 3, base_steepness - 1.5, 
-                            base_steepness, base_steepness + 1.5, base_steepness + 3]
+                "thresholds": [0.09, 0.10, 0.11, 0.12, 0.13],
+                "steepness": [5.0, 10.0 , 13.0, 17.0, 10.0 ]
             },
             "implicit_NOT": {
-                "thresholds": [0.12],  # Focused around optimal for implicit_NOT
-                "steepness": [12.0, 13.5, 15.0, 16.5, 18.0]  # Wider steepness variations
+                "thresholds": [0.11], 
+                 "steepness": [16.5,18]
             },
             "explicit_NOT": {
                 "thresholds": [0.12, 0.13, 0.14],  # Narrower threshold range

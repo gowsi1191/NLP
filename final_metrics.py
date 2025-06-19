@@ -3,6 +3,22 @@ import numpy as np
 from scipy import stats
 from collections import defaultdict
 
+class NumpyEncoder(json.JSONEncoder):
+    """ Custom encoder for numpy data types """
+    def default(self, obj):
+        if isinstance(obj, (np.int_, np.intc, np.intp, np.int8,
+                          np.int16, np.int32, np.int64, np.uint8,
+                          np.uint16, np.uint32, np.uint64)):
+            return int(obj)
+        elif isinstance(obj, (np.float_, np.float16, np.float32, 
+                            np.float64)):
+            return float(obj)
+        elif isinstance(obj, (np.ndarray,)):
+            return obj.tolist()
+        elif isinstance(obj, (np.bool_)):
+            return bool(obj)
+        return json.JSONEncoder.default(self, obj)
+
 def analyze_data(data):
     # Initialize data structures
     config_counts_all = defaultdict(int)
@@ -11,15 +27,23 @@ def analyze_data(data):
     best_configs = {}
     query_types = set()
     
+    # Metric-specific storage and composite scoring
+    metric_specific_data = {
+        'P@1': defaultdict(lambda: defaultdict(list)),
+        'MRR': defaultdict(lambda: defaultdict(list)),
+        'NDCG@3': defaultdict(lambda: defaultdict(list))
+    }
+    config_composite_scores = defaultdict(list)
+    
     # Configuration distribution tracking
     config_distribution = {
         'all': defaultdict(int),
         'by_query_type': defaultdict(lambda: defaultdict(int))
     }
 
-    # First pass: Find best config for each document
+    # First pass: Process all documents and configurations
     for doc_id, doc_data in data.items():
-        best_ndcg = -1
+        best_score = -1
         best_config = None
         best_metrics = None
         query_type = None
@@ -27,11 +51,31 @@ def analyze_data(data):
         for config_key, config_data in doc_data.items():
             current_type = config_data.get('query_type', 'default').lower()
             query_type = current_type
-            query_types.add(query_type)
+            query_types.add(current_type)
             
-            current_ndcg = config_data['Roberta']['metrics']['NDCG@3']
-            if current_ndcg > best_ndcg:
-                best_ndcg = current_ndcg
+            # Store metric-specific data
+            roberta_metrics = config_data['Roberta']['metrics']
+            for metric in ['P@1', 'MRR', 'NDCG@3']:
+                if metric in roberta_metrics:
+                    value = roberta_metrics[metric]
+                    if isinstance(value, (np.float_, np.float32, np.float64)):
+                        value = float(value)
+                    elif isinstance(value, (np.int_, np.int32, np.int64)):
+                        value = int(value)
+                    elif isinstance(value, np.bool_):
+                        value = bool(value)
+                    metric_specific_data[metric][config_key][current_type].append(value)
+            
+            # Calculate weighted composite score (40% P@1, 30% MRR, 30% NDCG@3)
+            composite_score = (
+                0.4 * roberta_metrics.get('P@1', 0) +
+                0.3 * roberta_metrics.get('MRR', 0) +
+                0.3 * roberta_metrics.get('NDCG@3', 0)
+            )
+            config_composite_scores[config_key].append(composite_score)
+            
+            if composite_score > best_score:
+                best_score = composite_score
                 best_config = config_key
                 best_metrics = config_data
 
@@ -80,6 +124,10 @@ def analyze_data(data):
     for qtype in query_types:
         config_distribution_reports[f'config_distribution_{qtype}'] = dict(config_distribution['by_query_type'][qtype])
 
+    # Calculate composite scores for each configuration
+    config_composite_means = {config: float(np.mean(scores)) for config, scores in config_composite_scores.items()}
+    best_composite_config = max(config_composite_means.items(), key=lambda x: x[1]) if config_composite_means else (None, 0)
+
     # Query type-wise analysis (primary focus)
     query_stats = {}
     for qtype in sorted(query_types):
@@ -100,36 +148,63 @@ def analyze_data(data):
         for metric, value in doc['Roberta_metrics'].items():
             overall_roberta[metric].append(value)
 
-    most_common_config = max(config_counts_all.items(), key=lambda x: x[1]) if config_counts_all else (None, 0)
+    # Generate metric-specific reports
+    metric_reports = {}
+    for metric, metric_data in metric_specific_data.items():
+        metric_stats = {}
+        for qtype in query_types:
+            qtype_data = {k: v[qtype] for k, v in metric_data.items() if qtype in v}
+            if qtype_data:
+                metric_stats[qtype] = {
+                    'count': len(next(iter(qtype_data.values()))),
+                    'config_means': {config: float(np.mean(vals)) for config, vals in qtype_data.items()},
+                    'top_configs': sorted(
+                        [(config, float(np.mean(vals))) for config, vals in qtype_data.items()],
+                        key=lambda x: x[1],
+                        reverse=True
+                    )[:5]  # Top 5 configs per metric per query type
+                }
+        
+        metric_reports[metric] = {
+            'overall_means': {config: float(np.mean(sum(vals.values(), []))) for config, vals in metric_data.items()},
+            'by_query_type': metric_stats
+        }
 
+    # Main report with all data
     reports = {
         "query_type_analysis": query_stats,
         "combined_analysis": {
             "metadata": {
                 "total_documents": len(best_configs),
-                "best_configuration": most_common_config[0],
-                "docs_with_best_config": most_common_config[1],
+                "best_configuration": best_composite_config[0],
+                "best_configuration_score": best_composite_config[1],
+                "config_composite_scores": config_composite_means,
+                "docs_with_best_config": config_counts_all.get(best_composite_config[0], 0),
                 "detected_query_types": sorted(query_types),
-                **config_distribution_reports  # Include all config distribution reports
+                "selection_criteria": "Weighted composite score (P@1:40%, MRR:30%, NDCG@3:30%)",
+                **config_distribution_reports
             },
             "overall_comparison": {
                 "BGE": calculate_means(overall_bge),
                 "Roberta": calculate_means(overall_roberta),
                 "p_values": calculate_pvalues(overall_bge, overall_roberta)
             }
-        }
+        },
+        "metric_specific_analysis": metric_reports
     }
 
     return reports
 
 if __name__ == "__main__":
-    # Example usage
+    # Load evaluation data
     with open('evaluation_results.json') as f:
         evaluation_data = json.load(f)
     
+    # Generate analysis reports
     analysis_reports = analyze_data(evaluation_data)
     
+    # Save single comprehensive report
     with open('enhanced_query_type_analysis.json', 'w') as f:
-        json.dump(analysis_reports, f, indent=2)
+        json.dump(analysis_reports, f, indent=2, cls=NumpyEncoder)
     
-    print("Analysis complete. Reports saved to enhanced_query_type_analysis.json")
+    print("Analysis complete. Report saved to enhanced_query_type_analysis.json")

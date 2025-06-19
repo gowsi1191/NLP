@@ -1,0 +1,464 @@
+[
+  {
+    "query_id": "P01",
+    "query_type": "prohibition_NOT",
+    "query_text": "Find clinical studies about ibuprofen prohibition NOT taken with alcohol",
+    "documents": [
+      {
+        "doc_id": "P01_1",
+        "text": "Placeholder text for ibuprofen and taken with alcohol in context of prohibition_NOT (doc 1).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P01_2",
+        "text": "Placeholder text for ibuprofen and taken with alcohol in context of prohibition_NOT (doc 2).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P01_3",
+        "text": "Placeholder text for ibuprofen and taken with alcohol in context of prohibition_NOT (doc 3).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P01_4",
+        "text": "Placeholder text for ibuprofen and taken with alcohol in context of prohibition_NOT (doc 4).",
+        "relevance": 4
+      },
+      {
+        "doc_id": "P01_5",
+        "text": "Placeholder text for ibuprofen and taken with alcohol in context of prohibition_NOT (doc 5).",
+        "relevance": 1
+      },
+      {
+        "doc_id": "P01_6",
+        "text": "Placeholder text for ibuprofen and taken with alcohol in context of prohibition_NOT (doc 6).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "P01_7",
+        "text": "Placeholder text for ibuprofen and taken with alcohol in context of prohibition_NOT (doc 7).",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "P02",
+    "query_type": "prohibition_NOT",
+    "query_text": "Find clinical studies about paracetamol prohibition NOT used in liver disease",
+    "documents": [
+      {
+        "doc_id": "P02_1",
+        "text": "Placeholder text for paracetamol and used in liver disease in context of prohibition_NOT (doc 1).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P02_2",
+        "text": "Placeholder text for paracetamol and used in liver disease in context of prohibition_NOT (doc 2).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P02_3",
+        "text": "Placeholder text for paracetamol and used in liver disease in context of prohibition_NOT (doc 3).",
+        "relevance": 1
+      },
+      {
+        "doc_id": "P02_4",
+        "text": "Placeholder text for paracetamol and used in liver disease in context of prohibition_NOT (doc 4).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P02_5",
+        "text": "Placeholder text for paracetamol and used in liver disease in context of prohibition_NOT (doc 5).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P02_6",
+        "text": "Placeholder text for paracetamol and used in liver disease in context of prohibition_NOT (doc 6).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "P02_7",
+        "text": "Placeholder text for paracetamol and used in liver disease in context of prohibition_NOT (doc 7).",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "P03",
+    "query_type": "prohibition_NOT",
+    "query_text": "Find clinical studies about statins prohibition NOT combined with grapefruit juice",
+    "documents": [
+      {
+        "doc_id": "P03_1",
+        "text": "Placeholder text for statins and combined with grapefruit juice in context of prohibition_NOT (doc 1).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P03_2",
+        "text": "Placeholder text for statins and combined with grapefruit juice in context of prohibition_NOT (doc 2).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P03_3",
+        "text": "Placeholder text for statins and combined with grapefruit juice in context of prohibition_NOT (doc 3).",
+        "relevance": 4
+      },
+      {
+        "doc_id": "P03_4",
+        "text": "Placeholder text for statins and combined with grapefruit juice in context of prohibition_NOT (doc 4).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P03_5",
+        "text": "Placeholder text for statins and combined with grapefruit juice in context of prohibition_NOT (doc 5).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P03_6",
+        "text": "Placeholder text for statins and combined with grapefruit juice in context of prohibition_NOT (doc 6).",
+        "relevance": 1
+      },
+      {
+        "doc_id": "P03_7",
+        "text": "Placeholder text for statins and combined with grapefruit juice in context of prohibition_NOT (doc 7).",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "P04",
+    "query_type": "prohibition_NOT",
+    "query_text": "Find clinical studies about antibiotics prohibition NOT used during pregnancy",
+    "documents": [
+      {
+        "doc_id": "P04_1",
+        "text": "Placeholder text for antibiotics and used during pregnancy in context of prohibition_NOT (doc 1).",
+        "relevance": 1
+      },
+      {
+        "doc_id": "P04_2",
+        "text": "Placeholder text for antibiotics and used during pregnancy in context of prohibition_NOT (doc 2).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P04_3",
+        "text": "Placeholder text for antibiotics and used during pregnancy in context of prohibition_NOT (doc 3).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P04_4",
+        "text": "Placeholder text for antibiotics and used during pregnancy in context of prohibition_NOT (doc 4).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P04_5",
+        "text": "Placeholder text for antibiotics and used during pregnancy in context of prohibition_NOT (doc 5).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P04_6",
+        "text": "Placeholder text for antibiotics and used during pregnancy in context of prohibition_NOT (doc 6).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "P04_7",
+        "text": "Placeholder text for antibiotics and used during pregnancy in context of prohibition_NOT (doc 7).",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "P05",
+    "query_type": "prohibition_NOT",
+    "query_text": "Find clinical studies about SSRIs prohibition NOT prescribed to minors",
+    "documents": [
+      {
+        "doc_id": "P05_1",
+        "text": "Placeholder text for SSRIs and prescribed to minors in context of prohibition_NOT (doc 1).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "P05_2",
+        "text": "Placeholder text for SSRIs and prescribed to minors in context of prohibition_NOT (doc 2).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P05_3",
+        "text": "Placeholder text for SSRIs and prescribed to minors in context of prohibition_NOT (doc 3).",
+        "relevance": 1
+      },
+      {
+        "doc_id": "P05_4",
+        "text": "Placeholder text for SSRIs and prescribed to minors in context of prohibition_NOT (doc 4).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P05_5",
+        "text": "Placeholder text for SSRIs and prescribed to minors in context of prohibition_NOT (doc 5).",
+        "relevance": 4
+      },
+      {
+        "doc_id": "P05_6",
+        "text": "Placeholder text for SSRIs and prescribed to minors in context of prohibition_NOT (doc 6).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P05_7",
+        "text": "Placeholder text for SSRIs and prescribed to minors in context of prohibition_NOT (doc 7).",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "P06",
+    "query_type": "prohibition_NOT",
+    "query_text": "Find clinical studies about insulin prohibition NOT shared between users",
+    "documents": [
+      {
+        "doc_id": "P06_1",
+        "text": "Placeholder text for insulin and shared between users in context of prohibition_NOT (doc 1).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P06_2",
+        "text": "Placeholder text for insulin and shared between users in context of prohibition_NOT (doc 2).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P06_3",
+        "text": "Placeholder text for insulin and shared between users in context of prohibition_NOT (doc 3).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P06_4",
+        "text": "Placeholder text for insulin and shared between users in context of prohibition_NOT (doc 4).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P06_5",
+        "text": "Placeholder text for insulin and shared between users in context of prohibition_NOT (doc 5).",
+        "relevance": 4
+      },
+      {
+        "doc_id": "P06_6",
+        "text": "Placeholder text for insulin and shared between users in context of prohibition_NOT (doc 6).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "P06_7",
+        "text": "Placeholder text for insulin and shared between users in context of prohibition_NOT (doc 7).",
+        "relevance": 1
+      }
+    ]
+  },
+  {
+    "query_id": "P07",
+    "query_type": "prohibition_NOT",
+    "query_text": "Find clinical studies about beta blockers prohibition NOT used with asthma",
+    "documents": [
+      {
+        "doc_id": "P07_1",
+        "text": "Placeholder text for beta blockers and used with asthma in context of prohibition_NOT (doc 1).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "P07_2",
+        "text": "Placeholder text for beta blockers and used with asthma in context of prohibition_NOT (doc 2).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P07_3",
+        "text": "Placeholder text for beta blockers and used with asthma in context of prohibition_NOT (doc 3).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P07_4",
+        "text": "Placeholder text for beta blockers and used with asthma in context of prohibition_NOT (doc 4).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P07_5",
+        "text": "Placeholder text for beta blockers and used with asthma in context of prohibition_NOT (doc 5).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P07_6",
+        "text": "Placeholder text for beta blockers and used with asthma in context of prohibition_NOT (doc 6).",
+        "relevance": 4
+      },
+      {
+        "doc_id": "P07_7",
+        "text": "Placeholder text for beta blockers and used with asthma in context of prohibition_NOT (doc 7).",
+        "relevance": 1
+      }
+    ]
+  },
+  {
+    "query_id": "P08",
+    "query_type": "prohibition_NOT",
+    "query_text": "Find clinical studies about aspirin prohibition NOT taken before surgery",
+    "documents": [
+      {
+        "doc_id": "P08_1",
+        "text": "Placeholder text for aspirin and taken before surgery in context of prohibition_NOT (doc 1).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P08_2",
+        "text": "Placeholder text for aspirin and taken before surgery in context of prohibition_NOT (doc 2).",
+        "relevance": 1
+      },
+      {
+        "doc_id": "P08_3",
+        "text": "Placeholder text for aspirin and taken before surgery in context of prohibition_NOT (doc 3).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P08_4",
+        "text": "Placeholder text for aspirin and taken before surgery in context of prohibition_NOT (doc 4).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "P08_5",
+        "text": "Placeholder text for aspirin and taken before surgery in context of prohibition_NOT (doc 5).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P08_6",
+        "text": "Placeholder text for aspirin and taken before surgery in context of prohibition_NOT (doc 6).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P08_7",
+        "text": "Placeholder text for aspirin and taken before surgery in context of prohibition_NOT (doc 7).",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "P09",
+    "query_type": "prohibition_NOT",
+    "query_text": "Find clinical studies about ACE inhibitors prohibition NOT used in kidney failure",
+    "documents": [
+      {
+        "doc_id": "P09_1",
+        "text": "Placeholder text for ACE inhibitors and used in kidney failure in context of prohibition_NOT (doc 1).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P09_2",
+        "text": "Placeholder text for ACE inhibitors and used in kidney failure in context of prohibition_NOT (doc 2).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P09_3",
+        "text": "Placeholder text for ACE inhibitors and used in kidney failure in context of prohibition_NOT (doc 3).",
+        "relevance": 4
+      },
+      {
+        "doc_id": "P09_4",
+        "text": "Placeholder text for ACE inhibitors and used in kidney failure in context of prohibition_NOT (doc 4).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "P09_5",
+        "text": "Placeholder text for ACE inhibitors and used in kidney failure in context of prohibition_NOT (doc 5).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P09_6",
+        "text": "Placeholder text for ACE inhibitors and used in kidney failure in context of prohibition_NOT (doc 6).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P09_7",
+        "text": "Placeholder text for ACE inhibitors and used in kidney failure in context of prohibition_NOT (doc 7).",
+        "relevance": 1
+      }
+    ]
+  },
+  {
+    "query_id": "P10",
+    "query_type": "prohibition_NOT",
+    "query_text": "Find clinical studies about metformin prohibition NOT used during fasting",
+    "documents": [
+      {
+        "doc_id": "P10_1",
+        "text": "Placeholder text for metformin and used during fasting in context of prohibition_NOT (doc 1).",
+        "relevance": 1
+      },
+      {
+        "doc_id": "P10_2",
+        "text": "Placeholder text for metformin and used during fasting in context of prohibition_NOT (doc 2).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P10_3",
+        "text": "Placeholder text for metformin and used during fasting in context of prohibition_NOT (doc 3).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "P10_4",
+        "text": "Placeholder text for metformin and used during fasting in context of prohibition_NOT (doc 4).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P10_5",
+        "text": "Placeholder text for metformin and used during fasting in context of prohibition_NOT (doc 5).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P10_6",
+        "text": "Placeholder text for metformin and used during fasting in context of prohibition_NOT (doc 6).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P10_7",
+        "text": "Placeholder text for metformin and used during fasting in context of prohibition_NOT (doc 7).",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "P11",
+    "query_type": "prohibition_NOT",
+    "query_text": "Find clinical studies about antacids prohibition NOT used long-term without guidance",
+    "documents": [
+      {
+        "doc_id": "P11_1",
+        "text": "Placeholder text for antacids and used long-term without guidance in context of prohibition_NOT (doc 1).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "P11_2",
+        "text": "Placeholder text for antacids and used long-term without guidance in context of prohibition_NOT (doc 2).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P11_3",
+        "text": "Placeholder text for antacids and used long-term without guidance in context of prohibition_NOT (doc 3).",
+        "relevance": 1
+      },
+      {
+        "doc_id": "P11_4",
+        "text": "Placeholder text for antacids and used long-term without guidance in context of prohibition_NOT (doc 4).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "P11_5",
+        "text": "Placeholder text for antacids and used long-term without guidance in context of prohibition_NOT (doc 5).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "P11_6",
+        "text": "Placeholder text for antacids and used long-term without guidance in context of prohibition_NOT (doc 6).",
+        "relevance": 4
+      },
+      {
+        "doc_id": "P11_7",
+        "text": "Placeholder text for antacids and used long-term without guidance in context of prohibition_NOT (doc 7).",
+        "relevance": 5
+      }
+    ]
+  }
+]

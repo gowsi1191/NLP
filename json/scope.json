@@ -1,0 +1,464 @@
+[
+  {
+    "query_id": "S01",
+    "query_type": "scope_NOT",
+    "query_text": "Find clinical studies about ibuprofen scope NOT reducing inflammation",
+    "documents": [
+      {
+        "doc_id": "S01_1",
+        "text": "Placeholder text for ibuprofen and reducing inflammation in context of scope_NOT (doc 1).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "S01_2",
+        "text": "Placeholder text for ibuprofen and reducing inflammation in context of scope_NOT (doc 2).",
+        "relevance": 4
+      },
+      {
+        "doc_id": "S01_3",
+        "text": "Placeholder text for ibuprofen and reducing inflammation in context of scope_NOT (doc 3).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "S01_4",
+        "text": "Placeholder text for ibuprofen and reducing inflammation in context of scope_NOT (doc 4).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "S01_5",
+        "text": "Placeholder text for ibuprofen and reducing inflammation in context of scope_NOT (doc 5).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "S01_6",
+        "text": "Placeholder text for ibuprofen and reducing inflammation in context of scope_NOT (doc 6).",
+        "relevance": 1
+      },
+      {
+        "doc_id": "S01_7",
+        "text": "Placeholder text for ibuprofen and reducing inflammation in context of scope_NOT (doc 7).",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "S02",
+    "query_type": "scope_NOT",
+    "query_text": "Find clinical studies about paracetamol scope NOT affecting fever",
+    "documents": [
+      {
+        "doc_id": "S02_1",
+        "text": "Placeholder text for paracetamol and affecting fever in context of scope_NOT (doc 1).",
+        "relevance": 1
+      },
+      {
+        "doc_id": "S02_2",
+        "text": "Placeholder text for paracetamol and affecting fever in context of scope_NOT (doc 2).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "S02_3",
+        "text": "Placeholder text for paracetamol and affecting fever in context of scope_NOT (doc 3).",
+        "relevance": 4
+      },
+      {
+        "doc_id": "S02_4",
+        "text": "Placeholder text for paracetamol and affecting fever in context of scope_NOT (doc 4).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "S02_5",
+        "text": "Placeholder text for paracetamol and affecting fever in context of scope_NOT (doc 5).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "S02_6",
+        "text": "Placeholder text for paracetamol and affecting fever in context of scope_NOT (doc 6).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "S02_7",
+        "text": "Placeholder text for paracetamol and affecting fever in context of scope_NOT (doc 7).",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "S03",
+    "query_type": "scope_NOT",
+    "query_text": "Find clinical studies about statins scope NOT impacting cholesterol",
+    "documents": [
+      {
+        "doc_id": "S03_1",
+        "text": "Placeholder text for statins and impacting cholesterol in context of scope_NOT (doc 1).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "S03_2",
+        "text": "Placeholder text for statins and impacting cholesterol in context of scope_NOT (doc 2).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "S03_3",
+        "text": "Placeholder text for statins and impacting cholesterol in context of scope_NOT (doc 3).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "S03_4",
+        "text": "Placeholder text for statins and impacting cholesterol in context of scope_NOT (doc 4).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "S03_5",
+        "text": "Placeholder text for statins and impacting cholesterol in context of scope_NOT (doc 5).",
+        "relevance": 1
+      },
+      {
+        "doc_id": "S03_6",
+        "text": "Placeholder text for statins and impacting cholesterol in context of scope_NOT (doc 6).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "S03_7",
+        "text": "Placeholder text for statins and impacting cholesterol in context of scope_NOT (doc 7).",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "S04",
+    "query_type": "scope_NOT",
+    "query_text": "Find clinical studies about antibiotics scope NOT modulating gut bacteria",
+    "documents": [
+      {
+        "doc_id": "S04_1",
+        "text": "Placeholder text for antibiotics and modulating gut bacteria in context of scope_NOT (doc 1).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "S04_2",
+        "text": "Placeholder text for antibiotics and modulating gut bacteria in context of scope_NOT (doc 2).",
+        "relevance": 4
+      },
+      {
+        "doc_id": "S04_3",
+        "text": "Placeholder text for antibiotics and modulating gut bacteria in context of scope_NOT (doc 3).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "S04_4",
+        "text": "Placeholder text for antibiotics and modulating gut bacteria in context of scope_NOT (doc 4).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "S04_5",
+        "text": "Placeholder text for antibiotics and modulating gut bacteria in context of scope_NOT (doc 5).",
+        "relevance": 1
+      },
+      {
+        "doc_id": "S04_6",
+        "text": "Placeholder text for antibiotics and modulating gut bacteria in context of scope_NOT (doc 6).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "S04_7",
+        "text": "Placeholder text for antibiotics and modulating gut bacteria in context of scope_NOT (doc 7).",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "S05",
+    "query_type": "scope_NOT",
+    "query_text": "Find clinical studies about SSRIs scope NOT changing mood",
+    "documents": [
+      {
+        "doc_id": "S05_1",
+        "text": "Placeholder text for SSRIs and changing mood in context of scope_NOT (doc 1).",
+        "relevance": 4
+      },
+      {
+        "doc_id": "S05_2",
+        "text": "Placeholder text for SSRIs and changing mood in context of scope_NOT (doc 2).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "S05_3",
+        "text": "Placeholder text for SSRIs and changing mood in context of scope_NOT (doc 3).",
+        "relevance": 1
+      },
+      {
+        "doc_id": "S05_4",
+        "text": "Placeholder text for SSRIs and changing mood in context of scope_NOT (doc 4).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "S05_5",
+        "text": "Placeholder text for SSRIs and changing mood in context of scope_NOT (doc 5).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "S05_6",
+        "text": "Placeholder text for SSRIs and changing mood in context of scope_NOT (doc 6).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "S05_7",
+        "text": "Placeholder text for SSRIs and changing mood in context of scope_NOT (doc 7).",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "S06",
+    "query_type": "scope_NOT",
+    "query_text": "Find clinical studies about insulin scope NOT regulating blood sugar",
+    "documents": [
+      {
+        "doc_id": "S06_1",
+        "text": "Placeholder text for insulin and regulating blood sugar in context of scope_NOT (doc 1).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "S06_2",
+        "text": "Placeholder text for insulin and regulating blood sugar in context of scope_NOT (doc 2).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "S06_3",
+        "text": "Placeholder text for insulin and regulating blood sugar in context of scope_NOT (doc 3).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "S06_4",
+        "text": "Placeholder text for insulin and regulating blood sugar in context of scope_NOT (doc 4).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "S06_5",
+        "text": "Placeholder text for insulin and regulating blood sugar in context of scope_NOT (doc 5).",
+        "relevance": 1
+      },
+      {
+        "doc_id": "S06_6",
+        "text": "Placeholder text for insulin and regulating blood sugar in context of scope_NOT (doc 6).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "S06_7",
+        "text": "Placeholder text for insulin and regulating blood sugar in context of scope_NOT (doc 7).",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "S07",
+    "query_type": "scope_NOT",
+    "query_text": "Find clinical studies about beta blockers scope NOT lowering blood pressure",
+    "documents": [
+      {
+        "doc_id": "S07_1",
+        "text": "Placeholder text for beta blockers and lowering blood pressure in context of scope_NOT (doc 1).",
+        "relevance": 1
+      },
+      {
+        "doc_id": "S07_2",
+        "text": "Placeholder text for beta blockers and lowering blood pressure in context of scope_NOT (doc 2).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "S07_3",
+        "text": "Placeholder text for beta blockers and lowering blood pressure in context of scope_NOT (doc 3).",
+        "relevance": 4
+      },
+      {
+        "doc_id": "S07_4",
+        "text": "Placeholder text for beta blockers and lowering blood pressure in context of scope_NOT (doc 4).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "S07_5",
+        "text": "Placeholder text for beta blockers and lowering blood pressure in context of scope_NOT (doc 5).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "S07_6",
+        "text": "Placeholder text for beta blockers and lowering blood pressure in context of scope_NOT (doc 6).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "S07_7",
+        "text": "Placeholder text for beta blockers and lowering blood pressure in context of scope_NOT (doc 7).",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "S08",
+    "query_type": "scope_NOT",
+    "query_text": "Find clinical studies about aspirin scope NOT preventing stroke",
+    "documents": [
+      {
+        "doc_id": "S08_1",
+        "text": "Placeholder text for aspirin and preventing stroke in context of scope_NOT (doc 1).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "S08_2",
+        "text": "Placeholder text for aspirin and preventing stroke in context of scope_NOT (doc 2).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "S08_3",
+        "text": "Placeholder text for aspirin and preventing stroke in context of scope_NOT (doc 3).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "S08_4",
+        "text": "Placeholder text for aspirin and preventing stroke in context of scope_NOT (doc 4).",
+        "relevance": 4
+      },
+      {
+        "doc_id": "S08_5",
+        "text": "Placeholder text for aspirin and preventing stroke in context of scope_NOT (doc 5).",
+        "relevance": 1
+      },
+      {
+        "doc_id": "S08_6",
+        "text": "Placeholder text for aspirin and preventing stroke in context of scope_NOT (doc 6).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "S08_7",
+        "text": "Placeholder text for aspirin and preventing stroke in context of scope_NOT (doc 7).",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "S09",
+    "query_type": "scope_NOT",
+    "query_text": "Find clinical studies about ACE inhibitors scope NOT affecting heart rate",
+    "documents": [
+      {
+        "doc_id": "S09_1",
+        "text": "Placeholder text for ACE inhibitors and affecting heart rate in context of scope_NOT (doc 1).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "S09_2",
+        "text": "Placeholder text for ACE inhibitors and affecting heart rate in context of scope_NOT (doc 2).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "S09_3",
+        "text": "Placeholder text for ACE inhibitors and affecting heart rate in context of scope_NOT (doc 3).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "S09_4",
+        "text": "Placeholder text for ACE inhibitors and affecting heart rate in context of scope_NOT (doc 4).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "S09_5",
+        "text": "Placeholder text for ACE inhibitors and affecting heart rate in context of scope_NOT (doc 5).",
+        "relevance": 4
+      },
+      {
+        "doc_id": "S09_6",
+        "text": "Placeholder text for ACE inhibitors and affecting heart rate in context of scope_NOT (doc 6).",
+        "relevance": 1
+      },
+      {
+        "doc_id": "S09_7",
+        "text": "Placeholder text for ACE inhibitors and affecting heart rate in context of scope_NOT (doc 7).",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "S10",
+    "query_type": "scope_NOT",
+    "query_text": "Find clinical studies about metformin scope NOT regulating glucose levels",
+    "documents": [
+      {
+        "doc_id": "S10_1",
+        "text": "Placeholder text for metformin and regulating glucose levels in context of scope_NOT (doc 1).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "S10_2",
+        "text": "Placeholder text for metformin and regulating glucose levels in context of scope_NOT (doc 2).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "S10_3",
+        "text": "Placeholder text for metformin and regulating glucose levels in context of scope_NOT (doc 3).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "S10_4",
+        "text": "Placeholder text for metformin and regulating glucose levels in context of scope_NOT (doc 4).",
+        "relevance": 4
+      },
+      {
+        "doc_id": "S10_5",
+        "text": "Placeholder text for metformin and regulating glucose levels in context of scope_NOT (doc 5).",
+        "relevance": 1
+      },
+      {
+        "doc_id": "S10_6",
+        "text": "Placeholder text for metformin and regulating glucose levels in context of scope_NOT (doc 6).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "S10_7",
+        "text": "Placeholder text for metformin and regulating glucose levels in context of scope_NOT (doc 7).",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "S11",
+    "query_type": "scope_NOT",
+    "query_text": "Find clinical studies about antacids scope NOT neutralizing stomach acid",
+    "documents": [
+      {
+        "doc_id": "S11_1",
+        "text": "Placeholder text for antacids and neutralizing stomach acid in context of scope_NOT (doc 1).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "S11_2",
+        "text": "Placeholder text for antacids and neutralizing stomach acid in context of scope_NOT (doc 2).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "S11_3",
+        "text": "Placeholder text for antacids and neutralizing stomach acid in context of scope_NOT (doc 3).",
+        "relevance": 4
+      },
+      {
+        "doc_id": "S11_4",
+        "text": "Placeholder text for antacids and neutralizing stomach acid in context of scope_NOT (doc 4).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "S11_5",
+        "text": "Placeholder text for antacids and neutralizing stomach acid in context of scope_NOT (doc 5).",
+        "relevance": 1
+      },
+      {
+        "doc_id": "S11_6",
+        "text": "Placeholder text for antacids and neutralizing stomach acid in context of scope_NOT (doc 6).",
+        "relevance": 5
+      },
+      {
+        "doc_id": "S11_7",
+        "text": "Placeholder text for antacids and neutralizing stomach acid in context of scope_NOT (doc 7).",
+        "relevance": 2
+      }
+    ]
+  }
+]
