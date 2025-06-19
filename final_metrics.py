@@ -2,6 +2,7 @@ import json
 import numpy as np
 from scipy import stats
 from collections import defaultdict
+import warnings
 
 class NumpyEncoder(json.JSONEncoder):
     """ Custom encoder for numpy data types """
@@ -18,6 +19,33 @@ class NumpyEncoder(json.JSONEncoder):
         elif isinstance(obj, (np.bool_)):
             return bool(obj)
         return json.JSONEncoder.default(self, obj)
+
+def calculate_pvalues(bge_metrics, roberta_metrics):
+    """Calculate p-values with handling for precision warnings and identical data"""
+    pvals = {}
+    common_metrics = set(bge_metrics.keys()) & set(roberta_metrics.keys())
+    
+    for metric in common_metrics:
+        try:
+            # Suppress specific runtime warnings for this calculation
+            with warnings.catch_warnings():
+                warnings.filterwarnings('ignore', category=RuntimeWarning)
+                _, pval = stats.ttest_rel(bge_metrics[metric], roberta_metrics[metric])
+                
+                # Handle cases where p-value calculation fails
+                if np.isnan(pval):
+                    # Check if data is identical
+                    if np.allclose(bge_metrics[metric], roberta_metrics[metric]):
+                        pvals[metric] = 1.0  # Identical distributions
+                    else:
+                        pvals[metric] = None
+                else:
+                    pvals[metric] = float(pval)
+        except Exception as e:
+            print(f"Error calculating p-value for {metric}: {str(e)}")
+            pvals[metric] = None
+    
+    return pvals
 
 def analyze_data(data):
     # Initialize data structures
@@ -53,7 +81,7 @@ def analyze_data(data):
             query_type = current_type
             query_types.add(current_type)
             
-            # Store metric-specific data
+            # Store metric-specific data with type conversion
             roberta_metrics = config_data['Roberta']['metrics']
             for metric in ['P@1', 'MRR', 'NDCG@3']:
                 if metric in roberta_metrics:
@@ -66,13 +94,17 @@ def analyze_data(data):
                         value = bool(value)
                     metric_specific_data[metric][config_key][current_type].append(value)
             
-            # Calculate weighted composite score (40% P@1, 30% MRR, 30% NDCG@3)
-            composite_score = (
-                0.4 * roberta_metrics.get('P@1', 0) +
-                0.3 * roberta_metrics.get('MRR', 0) +
-                0.3 * roberta_metrics.get('NDCG@3', 0)
-            )
-            config_composite_scores[config_key].append(composite_score)
+            # Calculate weighted composite score with safe numerical operations
+            try:
+                composite_score = (
+                    0.4 * float(roberta_metrics.get('P@1', 0)) +
+                    0.3 * float(roberta_metrics.get('MRR', 0)) +
+                    0.3 * float(roberta_metrics.get('NDCG@3', 0))
+                )
+                config_composite_scores[config_key].append(composite_score)
+            except (TypeError, ValueError) as e:
+                print(f"Error calculating composite score for {doc_id}/{config_key}: {e}")
+                continue
             
             if composite_score > best_score:
                 best_score = composite_score
@@ -103,18 +135,16 @@ def analyze_data(data):
 
     # Statistics calculation functions
     def calculate_means(metrics_dict):
-        return {metric: float(np.mean(values)) for metric, values in metrics_dict.items()}
-
-    def calculate_pvalues(bge_metrics, roberta_metrics):
-        pvals = {}
-        common_metrics = set(bge_metrics.keys()) & set(roberta_metrics.keys())
-        for metric in common_metrics:
+        """Calculate means with NaN handling"""
+        result = {}
+        for metric, values in metrics_dict.items():
             try:
-                _, pval = stats.ttest_rel(bge_metrics[metric], roberta_metrics[metric])
-                pvals[metric] = float(pval) if not np.isnan(pval) else None
+                with warnings.catch_warnings():
+                    warnings.filterwarnings('ignore', category=RuntimeWarning)
+                    result[metric] = float(np.nanmean(values))
             except:
-                pvals[metric] = None
-        return pvals
+                result[metric] = None
+        return result
 
     # Prepare configuration distribution reports
     config_distribution_reports = {
@@ -124,9 +154,21 @@ def analyze_data(data):
     for qtype in query_types:
         config_distribution_reports[f'config_distribution_{qtype}'] = dict(config_distribution['by_query_type'][qtype])
 
-    # Calculate composite scores for each configuration
-    config_composite_means = {config: float(np.mean(scores)) for config, scores in config_composite_scores.items()}
-    best_composite_config = max(config_composite_means.items(), key=lambda x: x[1]) if config_composite_means else (None, 0)
+    # Calculate composite scores for each configuration with NaN handling
+    config_composite_means = {}
+    for config, scores in config_composite_scores.items():
+        try:
+            with warnings.catch_warnings():
+                warnings.filterwarnings('ignore', category=RuntimeWarning)
+                config_composite_means[config] = float(np.nanmean(scores))
+        except:
+            config_composite_means[config] = None
+
+    best_composite_config = max(
+        [(k, v) for k, v in config_composite_means.items() if v is not None], 
+        key=lambda x: x[1], 
+        default=(None, 0)
+    )
 
     # Query type-wise analysis (primary focus)
     query_stats = {}
@@ -148,25 +190,34 @@ def analyze_data(data):
         for metric, value in doc['Roberta_metrics'].items():
             overall_roberta[metric].append(value)
 
-    # Generate metric-specific reports
+    # Generate metric-specific reports with improved numerical stability
     metric_reports = {}
     for metric, metric_data in metric_specific_data.items():
         metric_stats = {}
         for qtype in query_types:
             qtype_data = {k: v[qtype] for k, v in metric_data.items() if qtype in v}
             if qtype_data:
+                config_means = {}
+                for config, vals in qtype_data.items():
+                    try:
+                        with warnings.catch_warnings():
+                            warnings.filterwarnings('ignore', category=RuntimeWarning)
+                            config_means[config] = float(np.nanmean(vals))
+                    except:
+                        config_means[config] = None
+                
                 metric_stats[qtype] = {
                     'count': len(next(iter(qtype_data.values()))),
-                    'config_means': {config: float(np.mean(vals)) for config, vals in qtype_data.items()},
+                    'config_means': config_means,
                     'top_configs': sorted(
-                        [(config, float(np.mean(vals))) for config, vals in qtype_data.items()],
+                        [(config, mean) for config, mean in config_means.items() if mean is not None],
                         key=lambda x: x[1],
                         reverse=True
-                    )[:5]  # Top 5 configs per metric per query type
+                    )[:5]
                 }
         
         metric_reports[metric] = {
-            'overall_means': {config: float(np.mean(sum(vals.values(), []))) for config, vals in metric_data.items()},
+            'overall_means': {config: float(np.nanmean(sum(vals.values(), []))) for config, vals in metric_data.items()},
             'by_query_type': metric_stats
         }
 

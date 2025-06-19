@@ -105,16 +105,16 @@ class MetricsCalculator:
         # Define query-type specific parameter configurations
         PARAM_CONFIGS = {
             "default": {
-                "thresholds": [0.09, 0.10, 0.11, 0.12, 0.13],
-                "steepness": [5.0, 10.0 , 13.0, 17.0, 10.0 ]
+                "thresholds": [0.12],
+                "steepness": [15.0]
             },
             "implicit_NOT": {
                 "thresholds": [0.11], 
-                 "steepness": [16.5,18]
+                "steepness": [16.5]
             },
             "explicit_NOT": {
-                "thresholds": [0.12, 0.13, 0.14],  # Narrower threshold range
-                "steepness": [12.0, 15.0, 16.5]    # Selected steepness values
+                "thresholds": [0.2],
+                "steepness": [ 15.0,]
             }
         }
 
@@ -152,18 +152,28 @@ class MetricsCalculator:
                     
                     # Score documents using current parameters
                     logic_scores = []
+                    entailment_scores = []  # Store (e, n, c) tuples for each document
                     for doc in documents:
                         e, n, c = model_ops.get_entailment_scores(query_text, doc)
                         score = model_ops.calculate_score(e, n, c, threshold, steepness)
                         logic_scores.append(score)
+                        entailment_scores.append((e, n, c))
                     
                     # Create ranked lists with relevance scores
                     bge_rank = [
                         {"score": bge_scores[i], "relevance": relevance_labels[i]}
                         for i in sorted(range(len(bge_scores)), key=lambda i: -bge_scores[i])
                     ]
+                    
+                    # Create Roberta ranking with additional entailment scores
                     logic_rank = [
-                        {"score": logic_scores[i], "relevance": relevance_labels[i]}
+                        {
+                            "score": logic_scores[i], 
+                            "relevance": relevance_labels[i],
+                            "e": entailment_scores[i][0],
+                            "n": entailment_scores[i][1],
+                            "c": entailment_scores[i][2]
+                        }
                         for i in sorted(range(len(logic_scores)), key=lambda i: -logic_scores[i])
                     ]
 
