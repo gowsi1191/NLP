@@ -3,7 +3,7 @@ import numpy as np
 from sentence_transformers import SentenceTransformer, util
 from collections import defaultdict
 import time
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
 import os
 
@@ -83,44 +83,30 @@ class MetricsCalculator:
             "P@1": self.precision_at_k(ranked_list, relevance_labels, 1),
             "P@2": self.precision_at_k(ranked_list, relevance_labels, 2),
             "P@3": self.precision_at_k(ranked_list, relevance_labels, 3),
-            "P@Full": self.precision_at_k(ranked_list, relevance_labels, len(ranked_list)),
+            # "P@Full": self.precision_at_k(ranked_list, relevance_labels, len(ranked_list)),
             "MRR": self.mean_reciprocal_rank(ranked_list, relevance_labels),
             "NDCG@3": self.ndcg_at_k(ranked_list, relevance_labels, 3)
         }
     
     def evaluate_thresholds(self, queries: Dict[str, Any], relevance_data: Dict[str, List[int]], 
                       model_ops, base_threshold: float = 0.14, base_steepness: float = 15.0):
-        """Evaluate model performance with query-type specific parameter configurations
-        
-        Args:
-            queries: Dictionary of query data with query texts and documents
-            relevance_data: Dictionary mapping query IDs to relevance labels
-            model_ops: ModelOperations instance for scoring
-            base_threshold: Base threshold value for evaluation
-            base_steepness: Base steepness value for evaluation
-        
-        Returns:
-            Dictionary containing evaluation results for all configurations
-        """
-        # Define query-type specific parameter configurations
         PARAM_CONFIGS = {
             "default": {
                 "thresholds": [0.12],
                 "steepness": [15.0]
             },
             "implicit_NOT": {
-                "thresholds": [0.11], 
-                "steepness": [16.5]
+                "thresholds": [0.12], 
+                "steepness": [15]
             },
             "explicit_NOT": {
-                "thresholds": [0.2],
-                "steepness": [ 15.0,]
+                "thresholds": [0.12],
+                "steepness": [15.0]
             }
         }
 
         results = defaultdict(dict)
         total_queries = len(queries)
-
         print(f"Starting evaluation of {total_queries} queries")
 
         for query_idx, (query_id, query_data) in enumerate(queries.items(), 1):
@@ -128,44 +114,38 @@ class MetricsCalculator:
             documents = query_data['documents']
             relevance_labels = relevance_data[query_id]
             query_type = query_data.get('query_type', 'default')
-            
-            # Select appropriate parameter configuration
+
             config = PARAM_CONFIGS.get(query_type, PARAM_CONFIGS["default"])
             thresholds = config["thresholds"]
             steepness_vals = config["steepness"]
             total_configs = len(thresholds) * len(steepness_vals)
-            
+
             self._print_progress(query_idx, total_queries, 
-                            f"Processing query {query_id} ({query_type}) with {total_configs} configs")
-            
-            # Pre-compute BGE embeddings once per query
+                                f"Processing query {query_id} ({query_type}) with {total_configs} configs")
+
             bge_query_emb = model_ops.bge_model.encode(query_text, convert_to_tensor=True)
             bge_doc_embs = [model_ops.bge_model.encode(doc, convert_to_tensor=True) for doc in documents]
             bge_scores = [util.cos_sim(bge_query_emb, emb).item() for emb in bge_doc_embs]
-            
+
             config_idx = 0
             for threshold in thresholds:
                 for steepness in steepness_vals:
                     config_idx += 1
                     self._print_progress(config_idx, total_configs, 
-                                    f"Config {threshold:.3f}/{steepness:.1f}")
-                    
-                    # Score documents using current parameters
+                                        f"Config {threshold:.3f}/{steepness:.1f}")
+
                     logic_scores = []
-                    entailment_scores = []  # Store (e, n, c) tuples for each document
+                    entailment_scores = []
                     for doc in documents:
                         e, n, c = model_ops.get_entailment_scores(query_text, doc)
-                        score = model_ops.calculate_score(e, n, c, threshold, steepness)
+                        score = model_ops.calculate_score(e, n, c, threshold, steepness, mode=query_type)
                         logic_scores.append(score)
                         entailment_scores.append((e, n, c))
-                    
-                    # Create ranked lists with relevance scores
+
                     bge_rank = [
                         {"score": bge_scores[i], "relevance": relevance_labels[i]}
                         for i in sorted(range(len(bge_scores)), key=lambda i: -bge_scores[i])
                     ]
-                    
-                    # Create Roberta ranking with additional entailment scores
                     logic_rank = [
                         {
                             "score": logic_scores[i], 
@@ -177,7 +157,6 @@ class MetricsCalculator:
                         for i in sorted(range(len(logic_scores)), key=lambda i: -logic_scores[i])
                     ]
 
-                    # Calculate evaluation metrics
                     bge_metrics = self.calculate_all_metrics(
                         [i+1 for i in sorted(range(len(bge_scores)), key=lambda i: -bge_scores[i])], 
                         relevance_labels
@@ -187,7 +166,6 @@ class MetricsCalculator:
                         relevance_labels
                     )
 
-                    # Store results
                     key = f"thresh_{threshold:.3f}_steep_{steepness:.1f}"
                     results[query_id][key] = {
                         "query_type": query_type,

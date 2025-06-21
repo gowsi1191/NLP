@@ -1,926 +1,227 @@
 [
   {
-    "query_id": "IM01",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about NSAIDs and causing ulcers",
-    "documents": [
-      {
-        "doc_id": "IM01_1",
-        "text": "There are safety alerts about the risk of causing ulcers associated with NSAIDs.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM01_2",
-        "text": "No statistically significant increase in causing ulcers was observed in patients using NSAIDs (p=0.76).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM01_3",
-        "text": "Nsaids may influence several pathways, but evidence of causing ulcers is inconclusive.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "IM01_4",
-        "text": "Case reports describe instances of causing ulcers in individuals taking NSAIDs.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM01_5",
-        "text": "Multiple reports have suggested a potential rise in causing ulcers following NSAIDs use.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM01_6",
-        "text": "Causing ulcers rates remained stable across groups treated with NSAIDs.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM01_7",
-        "text": "Studies have not found a meaningful link between NSAIDs and causing ulcers.",
-        "relevance": 5
-      }
-    ]
-  },
-  {
-    "query_id": "IM02",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about PPIs and increasing fracture risk",
-    "documents": [
-      {
-        "doc_id": "IM02_1",
-        "text": "There are safety alerts about the risk of increasing fracture risk associated with PPIs.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM02_2",
-        "text": "Increasing fracture risk rates remained stable across groups treated with PPIs.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM02_3",
-        "text": "Multiple reports have suggested a potential rise in increasing fracture risk following PPIs use.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM02_4",
-        "text": "Studies have not found a meaningful link between PPIs and increasing fracture risk.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM02_5",
-        "text": "Case reports describe instances of increasing fracture risk in individuals taking PPIs.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM02_6",
-        "text": "No statistically significant increase in increasing fracture risk was observed in patients using PPIs (p=0.76).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM02_7",
-        "text": "Ppis may influence several pathways, but evidence of increasing fracture risk is inconclusive.",
-        "relevance": 3
-      }
-    ]
-  },
-  {
-    "query_id": "IM03",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about antipsychotics and leading to diabetes",
-    "documents": [
-      {
-        "doc_id": "IM03_1",
-        "text": "Studies have not found a meaningful link between antipsychotics and leading to diabetes.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM03_2",
-        "text": "Leading to diabetes rates remained stable across groups treated with antipsychotics.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM03_3",
-        "text": "Antipsychotics may influence several pathways, but evidence of leading to diabetes is inconclusive.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "IM03_4",
-        "text": "There are safety alerts about the risk of leading to diabetes associated with antipsychotics.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM03_5",
-        "text": "Multiple reports have suggested a potential rise in leading to diabetes following antipsychotics use.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM03_6",
-        "text": "Case reports describe instances of leading to diabetes in individuals taking antipsychotics.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM03_7",
-        "text": "No statistically significant increase in leading to diabetes was observed in patients using antipsychotics (p=0.76).",
-        "relevance": 5
-      }
-    ]
-  },
-  {
-    "query_id": "IM04",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about antibiotics and causing liver damage",
-    "documents": [
-      {
-        "doc_id": "IM04_1",
-        "text": "Antibiotics may influence several pathways, but evidence of causing liver damage is inconclusive.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "IM04_2",
-        "text": "No statistically significant increase in causing liver damage was observed in patients using antibiotics (p=0.76).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM04_3",
-        "text": "There are safety alerts about the risk of causing liver damage associated with antibiotics.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM04_4",
-        "text": "Studies have not found a meaningful link between antibiotics and causing liver damage.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM04_5",
-        "text": "Causing liver damage rates remained stable across groups treated with antibiotics.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM04_6",
-        "text": "Case reports describe instances of causing liver damage in individuals taking antibiotics.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM04_7",
-        "text": "Multiple reports have suggested a potential rise in causing liver damage following antibiotics use.",
-        "relevance": 1
-      }
-    ]
-  },
-  {
-    "query_id": "IM05",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about immunotherapy and causing autoimmunity",
-    "documents": [
-      {
-        "doc_id": "IM05_1",
-        "text": "Multiple reports have suggested a potential rise in causing autoimmunity following immunotherapy use.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM05_2",
-        "text": "Studies have not found a meaningful link between immunotherapy and causing autoimmunity.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM05_3",
-        "text": "Immunotherapy may influence several pathways, but evidence of causing autoimmunity is inconclusive.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "IM05_4",
-        "text": "There are safety alerts about the risk of causing autoimmunity associated with immunotherapy.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM05_5",
-        "text": "Causing autoimmunity rates remained stable across groups treated with immunotherapy.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM05_6",
-        "text": "Case reports describe instances of causing autoimmunity in individuals taking immunotherapy.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM05_7",
-        "text": "No statistically significant increase in causing autoimmunity was observed in patients using immunotherapy (p=0.76).",
-        "relevance": 5
-      }
-    ]
-  },
-  {
-    "query_id": "IM06",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about chemotherapy and causing hair loss",
-    "documents": [
-      {
-        "doc_id": "IM06_1",
-        "text": "No statistically significant increase in causing hair loss was observed in patients using chemotherapy (p=0.76).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM06_2",
-        "text": "There are safety alerts about the risk of causing hair loss associated with chemotherapy.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM06_3",
-        "text": "Chemotherapy may influence several pathways, but evidence of causing hair loss is inconclusive.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "IM06_4",
-        "text": "Case reports describe instances of causing hair loss in individuals taking chemotherapy.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM06_5",
-        "text": "Causing hair loss rates remained stable across groups treated with chemotherapy.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM06_6",
-        "text": "Multiple reports have suggested a potential rise in causing hair loss following chemotherapy use.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM06_7",
-        "text": "Studies have not found a meaningful link between chemotherapy and causing hair loss.",
-        "relevance": 5
-      }
-    ]
-  },
-  {
-    "query_id": "IM07",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about insulin and causing hypoglycemia",
-    "documents": [
-      {
-        "doc_id": "IM07_1",
-        "text": "Multiple reports have suggested a potential rise in causing hypoglycemia following insulin use.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM07_2",
-        "text": "Insulin may influence several pathways, but evidence of causing hypoglycemia is inconclusive.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "IM07_3",
-        "text": "Case reports describe instances of causing hypoglycemia in individuals taking insulin.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM07_4",
-        "text": "Causing hypoglycemia rates remained stable across groups treated with insulin.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM07_5",
-        "text": "Studies have not found a meaningful link between insulin and causing hypoglycemia.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM07_6",
-        "text": "No statistically significant increase in causing hypoglycemia was observed in patients using insulin (p=0.76).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM07_7",
-        "text": "There are safety alerts about the risk of causing hypoglycemia associated with insulin.",
-        "relevance": 1
-      }
-    ]
-  },
-  {
-    "query_id": "IM08",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about glucocorticoids and causing osteoporosis",
-    "documents": [
-      {
-        "doc_id": "IM08_1",
-        "text": "No statistically significant increase in causing osteoporosis was observed in patients using glucocorticoids (p=0.76).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM08_2",
-        "text": "Glucocorticoids may influence several pathways, but evidence of causing osteoporosis is inconclusive.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "IM08_3",
-        "text": "Causing osteoporosis rates remained stable across groups treated with glucocorticoids.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM08_4",
-        "text": "Case reports describe instances of causing osteoporosis in individuals taking glucocorticoids.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM08_5",
-        "text": "Multiple reports have suggested a potential rise in causing osteoporosis following glucocorticoids use.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM08_6",
-        "text": "There are safety alerts about the risk of causing osteoporosis associated with glucocorticoids.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM08_7",
-        "text": "Studies have not found a meaningful link between glucocorticoids and causing osteoporosis.",
-        "relevance": 5
-      }
-    ]
-  },
-  {
-    "query_id": "IM09",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about anticoagulants and increasing bleeding risk",
-    "documents": [
-      {
-        "doc_id": "IM09_1",
-        "text": "Anticoagulants may influence several pathways, but evidence of increasing bleeding risk is inconclusive.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "IM09_2",
-        "text": "There are safety alerts about the risk of increasing bleeding risk associated with anticoagulants.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM09_3",
-        "text": "No statistically significant increase in increasing bleeding risk was observed in patients using anticoagulants (p=0.76).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM09_4",
-        "text": "Studies have not found a meaningful link between anticoagulants and increasing bleeding risk.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM09_5",
-        "text": "Increasing bleeding risk rates remained stable across groups treated with anticoagulants.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM09_6",
-        "text": "Multiple reports have suggested a potential rise in increasing bleeding risk following anticoagulants use.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM09_7",
-        "text": "Case reports describe instances of increasing bleeding risk in individuals taking anticoagulants.",
-        "relevance": 1
-      }
-    ]
-  },
-  {
-    "query_id": "IM10",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about thyroid drugs and causing heart palpitations",
-    "documents": [
-      {
-        "doc_id": "IM10_1",
-        "text": "Causing heart palpitations rates remained stable across groups treated with thyroid drugs.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM10_2",
-        "text": "Thyroid drugs may influence several pathways, but evidence of causing heart palpitations is inconclusive.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "IM10_3",
-        "text": "Case reports describe instances of causing heart palpitations in individuals taking thyroid drugs.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM10_4",
-        "text": "There are safety alerts about the risk of causing heart palpitations associated with thyroid drugs.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM10_5",
-        "text": "Multiple reports have suggested a potential rise in causing heart palpitations following thyroid drugs use.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM10_6",
-        "text": "No statistically significant increase in causing heart palpitations was observed in patients using thyroid drugs (p=0.76).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM10_7",
-        "text": "Studies have not found a meaningful link between thyroid drugs and causing heart palpitations.",
-        "relevance": 5
-      }
-    ]
-  },
-  {
-    "query_id": "IM11",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about calcium supplements and causing kidney stones",
-    "documents": [
-      {
-        "doc_id": "IM11_1",
-        "text": "Studies have not found a meaningful link between calcium supplements and causing kidney stones.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM11_2",
-        "text": "Causing kidney stones rates remained stable across groups treated with calcium supplements.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM11_3",
-        "text": "No statistically significant increase in causing kidney stones was observed in patients using calcium supplements (p=0.76).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM11_4",
-        "text": "Case reports describe instances of causing kidney stones in individuals taking calcium supplements.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM11_5",
-        "text": "Calcium supplements may influence several pathways, but evidence of causing kidney stones is inconclusive.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "IM11_6",
-        "text": "Multiple reports have suggested a potential rise in causing kidney stones following calcium supplements use.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM11_7",
-        "text": "There are safety alerts about the risk of causing kidney stones associated with calcium supplements.",
-        "relevance": 1
-      }
-    ]
-  },
-  {
-    "query_id": "IM12",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about vitamin D and causing toxicity",
-    "documents": [
-      {
-        "doc_id": "IM12_1",
-        "text": "Studies have not found a meaningful link between vitamin D and causing toxicity.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM12_2",
-        "text": "Vitamin d may influence several pathways, but evidence of causing toxicity is inconclusive.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "IM12_3",
-        "text": "Case reports describe instances of causing toxicity in individuals taking vitamin D.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM12_4",
-        "text": "Multiple reports have suggested a potential rise in causing toxicity following vitamin D use.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM12_5",
-        "text": "Causing toxicity rates remained stable across groups treated with vitamin D.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM12_6",
-        "text": "No statistically significant increase in causing toxicity was observed in patients using vitamin D (p=0.76).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM12_7",
-        "text": "There are safety alerts about the risk of causing toxicity associated with vitamin D.",
-        "relevance": 1
-      }
-    ]
-  },
-  {
-    "query_id": "IM13",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about opioids and causing dependency",
-    "documents": [
-      {
-        "doc_id": "IM13_1",
-        "text": "Opioids may influence several pathways, but evidence of causing dependency is inconclusive.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "IM13_2",
-        "text": "Causing dependency rates remained stable across groups treated with opioids.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM13_3",
-        "text": "Studies have not found a meaningful link between opioids and causing dependency.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM13_4",
-        "text": "There are safety alerts about the risk of causing dependency associated with opioids.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM13_5",
-        "text": "Case reports describe instances of causing dependency in individuals taking opioids.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM13_6",
-        "text": "Multiple reports have suggested a potential rise in causing dependency following opioids use.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM13_7",
-        "text": "No statistically significant increase in causing dependency was observed in patients using opioids (p=0.76).",
-        "relevance": 5
-      }
-    ]
-  },
-  {
-    "query_id": "IM14",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about vaccines and causing infertility",
-    "documents": [
-      {
-        "doc_id": "IM14_1",
-        "text": "No statistically significant increase in causing infertility was observed in patients using vaccines (p=0.76).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM14_2",
-        "text": "Multiple reports have suggested a potential rise in causing infertility following vaccines use.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM14_3",
-        "text": "There are safety alerts about the risk of causing infertility associated with vaccines.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM14_4",
-        "text": "Causing infertility rates remained stable across groups treated with vaccines.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM14_5",
-        "text": "Case reports describe instances of causing infertility in individuals taking vaccines.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM14_6",
-        "text": "Studies have not found a meaningful link between vaccines and causing infertility.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM14_7",
-        "text": "Vaccines may influence several pathways, but evidence of causing infertility is inconclusive.",
-        "relevance": 3
-      }
-    ]
-  },
-  {
-    "query_id": "IM15",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about probiotics and causing bloating",
-    "documents": [
-      {
-        "doc_id": "IM15_1",
-        "text": "Case reports describe instances of causing bloating in individuals taking probiotics.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM15_2",
-        "text": "Causing bloating rates remained stable across groups treated with probiotics.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM15_3",
-        "text": "There are safety alerts about the risk of causing bloating associated with probiotics.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM15_4",
-        "text": "No statistically significant increase in causing bloating was observed in patients using probiotics (p=0.76).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM15_5",
-        "text": "Probiotics may influence several pathways, but evidence of causing bloating is inconclusive.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "IM15_6",
-        "text": "Studies have not found a meaningful link between probiotics and causing bloating.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM15_7",
-        "text": "Multiple reports have suggested a potential rise in causing bloating following probiotics use.",
-        "relevance": 1
-      }
-    ]
-  },
-  {
-    "query_id": "IM16",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about beta-agonists and causing tremors",
-    "documents": [
-      {
-        "doc_id": "IM16_1",
-        "text": "No statistically significant increase in causing tremors was observed in patients using beta-agonists (p=0.76).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM16_2",
-        "text": "Beta-agonists may influence several pathways, but evidence of causing tremors is inconclusive.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "IM16_3",
-        "text": "Causing tremors rates remained stable across groups treated with beta-agonists.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM16_4",
-        "text": "Studies have not found a meaningful link between beta-agonists and causing tremors.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM16_5",
-        "text": "There are safety alerts about the risk of causing tremors associated with beta-agonists.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM16_6",
-        "text": "Case reports describe instances of causing tremors in individuals taking beta-agonists.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM16_7",
-        "text": "Multiple reports have suggested a potential rise in causing tremors following beta-agonists use.",
-        "relevance": 1
-      }
-    ]
-  },
-  {
-    "query_id": "IM17",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about benzodiazepines and causing memory loss",
-    "documents": [
-      {
-        "doc_id": "IM17_1",
-        "text": "Studies have not found a meaningful link between benzodiazepines and causing memory loss.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM17_2",
-        "text": "There are safety alerts about the risk of causing memory loss associated with benzodiazepines.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM17_3",
-        "text": "Case reports describe instances of causing memory loss in individuals taking benzodiazepines.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM17_4",
-        "text": "Benzodiazepines may influence several pathways, but evidence of causing memory loss is inconclusive.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "IM17_5",
-        "text": "No statistically significant increase in causing memory loss was observed in patients using benzodiazepines (p=0.76).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM17_6",
-        "text": "Causing memory loss rates remained stable across groups treated with benzodiazepines.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM17_7",
-        "text": "Multiple reports have suggested a potential rise in causing memory loss following benzodiazepines use.",
-        "relevance": 1
-      }
-    ]
-  },
-  {
-    "query_id": "IM18",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about antihistamines and causing drowsiness",
-    "documents": [
-      {
-        "doc_id": "IM18_1",
-        "text": "Causing drowsiness rates remained stable across groups treated with antihistamines.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM18_2",
-        "text": "Case reports describe instances of causing drowsiness in individuals taking antihistamines.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM18_3",
-        "text": "Studies have not found a meaningful link between antihistamines and causing drowsiness.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM18_4",
-        "text": "No statistically significant increase in causing drowsiness was observed in patients using antihistamines (p=0.76).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM18_5",
-        "text": "There are safety alerts about the risk of causing drowsiness associated with antihistamines.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM18_6",
-        "text": "Multiple reports have suggested a potential rise in causing drowsiness following antihistamines use.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM18_7",
-        "text": "Antihistamines may influence several pathways, but evidence of causing drowsiness is inconclusive.",
-        "relevance": 3
-      }
-    ]
-  },
-  {
-    "query_id": "IM19",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about heparin and causing thrombocytopenia",
-    "documents": [
-      {
-        "doc_id": "IM19_1",
-        "text": "Heparin may influence several pathways, but evidence of causing thrombocytopenia is inconclusive.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "IM19_2",
-        "text": "Causing thrombocytopenia rates remained stable across groups treated with heparin.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM19_3",
-        "text": "Studies have not found a meaningful link between heparin and causing thrombocytopenia.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM19_4",
-        "text": "Case reports describe instances of causing thrombocytopenia in individuals taking heparin.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM19_5",
-        "text": "No statistically significant increase in causing thrombocytopenia was observed in patients using heparin (p=0.76).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM19_6",
-        "text": "Multiple reports have suggested a potential rise in causing thrombocytopenia following heparin use.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM19_7",
-        "text": "There are safety alerts about the risk of causing thrombocytopenia associated with heparin.",
-        "relevance": 1
-      }
-    ]
-  },
-  {
-    "query_id": "IM20",
-    "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about steroids and causing mood swings",
-    "documents": [
-      {
-        "doc_id": "IM20_1",
-        "text": "No statistically significant increase in causing mood swings was observed in patients using steroids (p=0.76).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM20_2",
-        "text": "Case reports describe instances of causing mood swings in individuals taking steroids.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM20_3",
-        "text": "Multiple reports have suggested a potential rise in causing mood swings following steroids use.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM20_4",
-        "text": "Causing mood swings rates remained stable across groups treated with steroids.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM20_5",
-        "text": "There are safety alerts about the risk of causing mood swings associated with steroids.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM20_6",
-        "text": "Steroids may influence several pathways, but evidence of causing mood swings is inconclusive.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "IM20_7",
-        "text": "Studies have not found a meaningful link between steroids and causing mood swings.",
-        "relevance": 5
-      }
-    ]
-  },
-  {
     "query_id": "IM21",
     "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about H2 blockers and causing nutrient deficiencies",
+    "query_text": "Can biologic treatments lead to increased liver enzyme levels?",
     "documents": [
-      {
-        "doc_id": "IM21_1",
-        "text": "H2 blockers may influence several pathways, but evidence of causing nutrient deficiencies is inconclusive.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "IM21_2",
-        "text": "Causing nutrient deficiencies rates remained stable across groups treated with H2 blockers.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM21_3",
-        "text": "Multiple reports have suggested a potential rise in causing nutrient deficiencies following H2 blockers use.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM21_4",
-        "text": "Studies have not found a meaningful link between H2 blockers and causing nutrient deficiencies.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM21_5",
-        "text": "No statistically significant increase in causing nutrient deficiencies was observed in patients using H2 blockers (p=0.76).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM21_6",
-        "text": "There are safety alerts about the risk of causing nutrient deficiencies associated with H2 blockers.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM21_7",
-        "text": "Case reports describe instances of causing nutrient deficiencies in individuals taking H2 blockers.",
-        "relevance": 1
-      }
+      { "doc_id": "IM21_1", "text": "Safety alerts indicate elevated liver enzymes with biologic use.", "relevance": 1 },
+      { "doc_id": "IM21_2", "text": "No significant enzyme elevations were observed in biologic trials (p=0.81).", "relevance": 5 },
+      { "doc_id": "IM21_3", "text": "Biologics may affect liver metabolism, but evidence is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM21_4", "text": "Case reports describe mild enzyme increases in biologic patients.", "relevance": 1 },
+      { "doc_id": "IM21_5", "text": "Some cohorts suggested transient liver enzyme rises post-treatment.", "relevance": 1 },
+      { "doc_id": "IM21_6", "text": "Enzyme levels remained comparable between treated and control groups.", "relevance": 4 },
+      { "doc_id": "IM21_7", "text": "Systematic reviews found no meaningful hepatic impact from biologics.", "relevance": 5 }
     ]
   },
   {
     "query_id": "IM22",
     "query_type": "implicit_NOT",
-    "query_text": "Find clinical studies about diuretics and causing dehydration",
+    "query_text": "Is there clinical evidence that PPIs contribute to magnesium deficiency?",
     "documents": [
-      {
-        "doc_id": "IM22_1",
-        "text": "Studies have not found a meaningful link between diuretics and causing dehydration.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "IM22_2",
-        "text": "Diuretics may influence several pathways, but evidence of causing dehydration is inconclusive.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "IM22_3",
-        "text": "Multiple reports have suggested a potential rise in causing dehydration following diuretics use.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM22_4",
-        "text": "Causing dehydration rates remained stable across groups treated with diuretics.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "IM22_5",
-        "text": "Case reports describe instances of causing dehydration in individuals taking diuretics.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM22_6",
-        "text": "There are safety alerts about the risk of causing dehydration associated with diuretics.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "IM22_7",
-        "text": "No statistically significant increase in causing dehydration was observed in patients using diuretics (p=0.76).",
-        "relevance": 5
-      }
+      { "doc_id": "IM22_1", "text": "Safety notices warn about magnesium deficiency with PPI use.", "relevance": 1 },
+      { "doc_id": "IM22_2", "text": "No significant magnesium drop was reported in PPI trials (p=0.79).", "relevance": 5 },
+      { "doc_id": "IM22_3", "text": "PPIs may alter mineral absorption, but evidence is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM22_4", "text": "Case series document mild deficiencies in PPI users.", "relevance": 1 },
+      { "doc_id": "IM22_5", "text": "Some studies suggested marginal magnesium changes post-therapy.", "relevance": 1 },
+      { "doc_id": "IM22_6", "text": "Magnesium levels remained steady across study arms.", "relevance": 4 },
+      { "doc_id": "IM22_7", "text": "Reviews found no consistent PPI-induced magnesium deficiency.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM23",
+    "query_type": "implicit_NOT",
+    "query_text": "Are antibiotics linked to increased risk of tendon rupture?",
+    "documents": [
+      { "doc_id": "IM23_1", "text": "Alerts warn about tendon injury risk with certain antibiotics.", "relevance": 1 },
+      { "doc_id": "IM23_2", "text": "No significant tendon rupture rates were seen in trials (p=0.84).", "relevance": 5 },
+      { "doc_id": "IM23_3", "text": "Antibiotics may affect connective tissue, but data remain inconclusive.", "relevance": 3 },
+      { "doc_id": "IM23_4", "text": "Case reports mention tendon issues in antibiotic users.", "relevance": 1 },
+      { "doc_id": "IM23_5", "text": "Some studies suggested possible tendon injury post-therapy.", "relevance": 1 },
+      { "doc_id": "IM23_6", "text": "Rupture rates stayed similar in treated and control groups.", "relevance": 4 },
+      { "doc_id": "IM23_7", "text": "Meta-analyses found no definitive antibiotic-tendon rupture link.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM24",
+    "query_type": "implicit_NOT",
+    "query_text": "What do trials show about beta-agonists and cardiovascular arrhythmias?",
+    "documents": [
+      { "doc_id": "IM24_1", "text": "Safety alerts mention arrhythmia risk with beta-agonist use.", "relevance": 1 },
+      { "doc_id": "IM24_2", "text": "No significant arrhythmia increase was noted in trials (p=0.82).", "relevance": 5 },
+      { "doc_id": "IM24_3", "text": "Beta‑agonists may alter cardiac conduction, but evidence is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM24_4", "text": "Case studies report arrhythmic events in some patients.", "relevance": 1 },
+      { "doc_id": "IM24_5", "text": "Some cohorts suggested arrhythmia risk post-therapy.", "relevance": 1 },
+      { "doc_id": "IM24_6", "text": "Arrhythmia incidence remained similar across groups.", "relevance": 4 },
+      { "doc_id": "IM24_7", "text": "Systematic reviews found no causal link to arrhythmias.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM25",
+    "query_type": "implicit_NOT",
+    "query_text": "Do statin trials indicate any link to new-onset diabetes?",
+    "documents": [
+      { "doc_id": "IM25_1", "text": "Safety notes warn new-onset diabetes may occur with statins.", "relevance": 1 },
+      { "doc_id": "IM25_2", "text": "No significant diabetes incidence seen in trial data (p=0.83).", "relevance": 5 },
+      { "doc_id": "IM25_3", "text": "Statins may affect glucose metabolism, but evidence remains unclear.", "relevance": 3 },
+      { "doc_id": "IM25_4", "text": "Case reports note diabetes in rare post-statin cases.", "relevance": 1 },
+      { "doc_id": "IM25_5", "text": "Some studies suggested possible diabetes risk post-use.", "relevance": 1 },
+      { "doc_id": "IM25_6", "text": "Diabetes rates stayed consistent between arms.", "relevance": 4 },
+      { "doc_id": "IM25_7", "text": "Meta-analyses found no clear statin-diabetes link.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM26",
+    "query_type": "implicit_NOT",
+    "query_text": "Are sedative hypnotics associated with daytime drowsiness?",
+    "documents": [
+      { "doc_id": "IM26_1", "text": "Warnings mention daytime drowsiness with hypnotic use.", "relevance": 1 },
+      { "doc_id": "IM26_2", "text": "No significant drowsiness reported in trials (p=0.78).", "relevance": 5 },
+      { "doc_id": "IM26_3", "text": "Hypnotics may affect central alertness, but evidence unclear.", "relevance": 3 },
+      { "doc_id": "IM26_4", "text": "Case reports note daytime sleepiness in users.", "relevance": 1 },
+      { "doc_id": "IM26_5", "text": "Some studies suggested minimal drowsiness post-use.", "relevance": 1 },
+      { "doc_id": "IM26_6", "text": "Daytime alertness remained similar across trial arms.", "relevance": 4 },
+      { "doc_id": "IM26_7", "text": "Reviews found no definitive link to drowsiness.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM27",
+    "query_type": "implicit_NOT",
+    "query_text": "Could corticosteroids exacerbate hypertension?",
+    "documents": [
+      { "doc_id": "IM27_1", "text": "Alerts warn of hypertension risk with corticosteroid therapy.", "relevance": 1 },
+      { "doc_id": "IM27_2", "text": "No significant blood pressure increase was observed (p=0.84).", "relevance": 5 },
+      { "doc_id": "IM27_3", "text": "Corticosteroids may influence vascular tone, but evidence is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM27_4", "text": "Case reports document hypertensive episodes.", "relevance": 1 },
+      { "doc_id": "IM27_5", "text": "Some cohorts suggested minor BP changes post-use.", "relevance": 1 },
+      { "doc_id": "IM27_6", "text": "BP remained steady between treated and control groups.", "relevance": 4 },
+      { "doc_id": "IM27_7", "text": "Meta-analyses found no meaningful corticosteroid-hypertension link.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM28",
+    "query_type": "implicit_NOT",
+    "query_text": "Have trials documented cognitive impairment from anticholinergics?",
+    "documents": [
+      { "doc_id": "IM28_1", "text": "Warnings mention potential cognitive decline with anticholinergic use.", "relevance": 1 },
+      { "doc_id": "IM28_2", "text": "No significant decline was observed in randomized trials (p=0.79).", "relevance": 5 },
+      { "doc_id": "IM28_3", "text": "Anticholinergics may affect cognition, but evidence remains unclear.", "relevance": 3 },
+      { "doc_id": "IM28_4", "text": "Case studies report memory issues in some users.", "relevance": 1 },
+      { "doc_id": "IM28_5", "text": "Some studies suggested risk of decline post-therapy.", "relevance": 1 },
+      { "doc_id": "IM28_6", "text": "Cognitive scores remained consistent across groups.", "relevance": 4 },
+      { "doc_id": "IM28_7", "text": "Review papers found no definitive cognitive harm.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM29",
+    "query_type": "implicit_NOT",
+    "query_text": "Are proton pump inhibitors linked to increased fracture rates?",
+    "documents": [
+      { "doc_id": "IM29_1", "text": "Alerts warn about bone fracture risk with long-term PPI use.", "relevance": 1 },
+      { "doc_id": "IM29_2", "text": "No significant fracture risk increase was seen in cohorts (p=0.85).", "relevance": 5 },
+      { "doc_id": "IM29_3", "text": "PPIs may affect calcium absorption, but evidence is unclear.", "relevance": 3 },
+      { "doc_id": "IM29_4", "text": "Case reports describe fractures in some patients.", "relevance": 1 },
+      { "doc_id": "IM29_5", "text": "Some studies suggested marginal fracture risk post-use.", "relevance": 1 },
+      { "doc_id": "IM29_6", "text": "Fracture incidence remained steady across groups.", "relevance": 4 },
+      { "doc_id": "IM29_7", "text": "Systematic reviews found no causal link to fractures.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM30",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence anticoagulants increase stroke risk?",
+    "documents": [
+      { "doc_id": "IM30_1", "text": "Safety alerts mention stroke risk with anticoagulant therapy.", "relevance": 1 },
+      { "doc_id": "IM30_2", "text": "No significant stroke increase was found in randomized trials (p=0.86).", "relevance": 5 },
+      { "doc_id": "IM30_3", "text": "Anticoagulants may affect clot dynamics, but evidence is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM30_4", "text": "Case reports document stroke incidents in treated patients.", "relevance": 1 },
+      { "doc_id": "IM30_5", "text": "Some cohorts suggested minor stroke risk post-initiation.", "relevance": 1 },
+      { "doc_id": "IM30_6", "text": "Stroke rates remained stable between groups.", "relevance": 4 },
+      { "doc_id": "IM30_7", "text": "Meta-analyses found no strong evidence for stroke risk.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM31",
+    "query_type": "implicit_NOT",
+    "query_text": "Do antihistamines raise intraocular pressure in clinical studies?",
+    "documents": [
+      { "doc_id": "IM31_1", "text": "Alerts mention IOP increase with antihistamine use.", "relevance": 1 },
+      { "doc_id": "IM31_2", "text": "No significant IOP rise was observed in trials (p=0.80).", "relevance": 5 },
+      { "doc_id": "IM31_3", "text": "Antihistamines may affect ocular pressure, but evidence inconclusive.", "relevance": 3 },
+      { "doc_id": "IM31_4", "text": "Case studies report IOP spikes in some patients.", "relevance": 1 },
+      { "doc_id": "IM31_5", "text": "Some cohorts suggested IOP risk post-use.", "relevance": 1 },
+      { "doc_id": "IM31_6", "text": "IOP remained steady across treatment arms.", "relevance": 4 },
+      { "doc_id": "IM31_7", "text": "Reviews show no definitive antihistamine‑IOP link.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM32",
+    "query_type": "implicit_NOT",
+    "query_text": "Are herbal supplements linked to liver toxicity in trials?",
+    "documents": [
+      { "doc_id": "IM32_1", "text": "Alerts warn about hepatotoxicity with some herbal supplements.", "relevance": 1 },
+      { "doc_id": "IM32_2", "text": "No significant liver toxicity was observed in clinical studies (p=0.88).", "relevance": 5 },
+      { "doc_id": "IM32_3", "text": "Supplements may interact with liver enzymes, but evidence is unclear.", "relevance": 3 },
+      { "doc_id": "IM32_4", "text": "Case reports note liver issues in isolated supplement users.", "relevance": 1 },
+      { "doc_id": "IM32_5", "text": "Some studies suggested mild hepatotoxicity post-use.", "relevance": 1 },
+      { "doc_id": "IM32_6", "text": "Liver function remained normal across groups.", "relevance": 4 },
+      { "doc_id": "IM32_7", "text": "Reviews did not confirm any supplement‑induced liver toxicity.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM33",
+    "query_type": "implicit_NOT",
+    "query_text": "Could SSRIs worsen anxiety according to clinical trials?",
+    "documents": [
+      { "doc_id": "IM33_1", "text": "Warnings mention anxiety spikes with SSRIs in some patients.", "relevance": 1 },
+      { "doc_id": "IM33_2", "text": "No significant anxiety increase was noted in SSRI studies (p=0.85).", "relevance": 5 },
+      { "doc_id": "IM33_3", "text": "SSRIs may affect mood regulation, but data remain inconclusive.", "relevance": 3 },
+      { "doc_id": "IM33_4", "text": "Case reports describe anxiety incidents post-SSRI initiation.", "relevance": 1 },
+      { "doc_id": "IM33_5", "text": "Some cohorts suggested anxiety changes post-use.", "relevance": 1 },
+      { "doc_id": "IM33_6", "text": "Anxiety scores stayed stable across groups.", "relevance": 4 },
+      { "doc_id": "IM33_7", "text": "Meta-analyses found no definitive SSRI‑anxiety worsening link.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM34",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence NSAIDs increase risk of heart attacks?",
+    "documents": [
+      { "doc_id": "IM34_1", "text": "Safety alerts warn about cardiovascular risk with NSAIDs.", "relevance": 1 },
+      { "doc_id": "IM34_2", "text": "No significant heart attack increase seen in trial populations (p=0.82).", "relevance": 5 },
+      { "doc_id": "IM34_3", "text": "NSAIDs may affect prostaglandin pathways, but evidence is unclear.", "relevance": 3 }, 
+
+      { "doc_id": "IM34_4", "text": "Case reports cite myocardial events in some NSAID users.", "relevance": 1 },
+      { "doc_id": "IM34_5", "text": "Some studies suggested marginal cardiovascular signals post-use.", "relevance": 1 },
+      { "doc_id": "IM34_6", "text": "Heart attack rates remained consistent across arms.", "relevance": 4 },
+      { "doc_id": "IM34_7", "text": "Systematic reviews did not confirm NSAID‑myocardial infarction link.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM35",
+    "query_type": "implicit_NOT",
+    "query_text": "Have opioids been shown to impair renal function?",
+    "documents": [
+      { "doc_id": "IM35_1", "text": "Alerts mention kidney injury risk with opioids.", "relevance": 1 },
+      { "doc_id": "IM35_2", "text": "No significant renal impairment recorded in trials (p=0.80).", "relevance": 5 },
+      { "doc_id": "IM35_3", "text": "Opioids may influence renal hemodynamics, but evidence is uncertain.", "relevance": 3 },
+      { "doc_id": "IM35_4", "text": "Case reports note transient kidney injury.", "relevance": 1 },
+      { "doc_id": "IM35_5", "text": "Some studies suggested mild kidney changes post-use.", "relevance": 1 },
+      { "doc_id": "IM35_6", "text": "Renal markers remained stable across study groups.", "relevance": 4 },
+      { "doc_id": "IM35_7", "text": "Systematic reviews found no conclusive opioid‑renal link.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM36",
+    "query_type": "implicit_NOT",
+    "query_text": "Do antihypertensives increase risk of sexual dysfunction?",
+    "documents": [
+      { "doc_id": "IM36_1", "text": "Safety alerts mention sexual dysfunction risk with antihypertensives.", "relevance": 1 },
+      { "doc_id": "IM36_2", "text": "No significant sexual dysfunction signal in trials (p=0.83).", "relevance": 5 },
+      { "doc_id": "IM36_3", "text": "They may affect libido, but evidence is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM36_4", "text": "Case studies describe dysfunction events.", "relevance": 1 },
+      { "doc_id": "IM36_5", "text": "Some research hinted minor libido impact.", "relevance": 1 },
+      { "doc_id": "IM36_6", "text": "Event rates remained similar between groups.", "relevance": 4 },
+      { "doc_id": "IM36_7", "text": "Reviews found no definitive dysfunction link.", "relevance": 5 }
     ]
   }
 ]

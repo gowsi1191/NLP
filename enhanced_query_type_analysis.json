@@ -1,0 +1,137 @@
+{
+  "query_type_analysis": {
+    "implicit_not": {
+      "count": 19,
+      "BGE": {
+        "P@1": 0.10526315789473684,
+        "P@2": 0.07894736842105263,
+        "P@3": 0.26315789473684204,
+        "P@Full": 0.5714285714285714,
+        "MRR": 0.39035087719298245,
+        "NDCG@3": 0.09815203873082623
+      },
+      "Roberta": {
+        "P@1": 0.7368421052631579,
+        "P@2": 0.6578947368421053,
+        "P@3": 0.6491228070175438,
+        "P@Full": 0.5714285714285714,
+        "MRR": 0.850877192982456,
+        "NDCG@3": 0.4923117692885082
+      },
+      "p_values": {
+        "P@3": 0.00016844141755336287,
+        "P@1": 2.8394441201143097e-05,
+        "MRR": 7.68020646383691e-06,
+        "P@2": 2.485671007989908e-05,
+        "NDCG@3": 2.7790402867392923e-06,
+        "P@Full": 1.0
+      }
+    }
+  },
+  "combined_analysis": {
+    "metadata": {
+      "total_documents": 19,
+      "best_configuration": "thresh_0.120_steep_15.0",
+      "best_configuration_score": 0.6976935307865524,
+      "config_composite_scores": {
+        "thresh_0.120_steep_15.0": 0.6976935307865524
+      },
+      "docs_with_best_config": 19,
+      "detected_query_types": [
+        "implicit_not"
+      ],
+      "selection_criteria": "Weighted composite score (P@1:40%, MRR:30%, NDCG@3:30%)",
+      "config_distribution_all": {
+        "thresh_0.120_steep_15.0": 19
+      },
+      "config_distribution_implicit_not": {
+        "thresh_0.120_steep_15.0": 19
+      }
+    },
+    "overall_comparison": {
+      "BGE": {
+        "P@1": 0.10526315789473684,
+        "P@2": 0.07894736842105263,
+        "P@3": 0.26315789473684204,
+        "P@Full": 0.5714285714285714,
+        "MRR": 0.39035087719298245,
+        "NDCG@3": 0.09815203873082623
+      },
+      "Roberta": {
+        "P@1": 0.7368421052631579,
+        "P@2": 0.6578947368421053,
+        "P@3": 0.6491228070175438,
+        "P@Full": 0.5714285714285714,
+        "MRR": 0.850877192982456,
+        "NDCG@3": 0.4923117692885082
+      },
+      "p_values": {
+        "P@3": 0.00016844141755336287,
+        "P@1": 2.8394441201143097e-05,
+        "MRR": 7.68020646383691e-06,
+        "P@2": 2.485671007989908e-05,
+        "NDCG@3": 2.7790402867392923e-06,
+        "P@Full": 1.0
+      }
+    }
+  },
+  "metric_specific_analysis": {
+    "P@1": {
+      "overall_means": {
+        "thresh_0.120_steep_15.0": 0.7368421052631579
+      },
+      "by_query_type": {
+        "implicit_not": {
+          "count": 19,
+          "config_means": {
+            "thresh_0.120_steep_15.0": 0.7368421052631579
+          },
+          "top_configs": [
+            [
+              "thresh_0.120_steep_15.0",
+              0.7368421052631579
+            ]
+          ]
+        }
+      }
+    },
+    "MRR": {
+      "overall_means": {
+        "thresh_0.120_steep_15.0": 0.850877192982456
+      },
+      "by_query_type": {
+        "implicit_not": {
+          "count": 19,
+          "config_means": {
+            "thresh_0.120_steep_15.0": 0.850877192982456
+          },
+          "top_configs": [
+            [
+              "thresh_0.120_steep_15.0",
+              0.850877192982456
+            ]
+          ]
+        }
+      }
+    },
+    "NDCG@3": {
+      "overall_means": {
+        "thresh_0.120_steep_15.0": 0.4923117692885082
+      },
+      "by_query_type": {
+        "implicit_not": {
+          "count": 19,
+          "config_means": {
+            "thresh_0.120_steep_15.0": 0.4923117692885082
+          },
+          "top_configs": [
+            [
+              "thresh_0.120_steep_15.0",
+              0.4923117692885082
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

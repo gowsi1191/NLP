@@ -1,0 +1,283 @@
+[
+  {
+    "query_id": "IM01",
+    "query_type": "implicit_NOT",
+    "query_text": "Are there clinical trials linking antibiotics to causing liver dysfunction?",
+    "documents": [
+      { "doc_id": "IM01_1", "text": "There are safety alerts about the risk of causing liver dysfunction associated with antibiotics.", "relevance": 1 },
+      { "doc_id": "IM01_2", "text": "No statistically significant rise in liver dysfunction was observed in patients using antibiotics (p=0.78).", "relevance": 5 },
+      { "doc_id": "IM01_3", "text": "Antibiotics may alter liver metabolism, but evidence of causing liver dysfunction is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM01_4", "text": "Case reports describe liver dysfunction in individuals taking antibiotics.", "relevance": 1 },
+      { "doc_id": "IM01_5", "text": "Multiple reports have suggested a potential rise in liver dysfunction following antibiotic therapy.", "relevance": 1 },
+      { "doc_id": "IM01_6", "text": "Liver dysfunction rates remained stable across cohorts treated with antibiotics.", "relevance": 4 },
+      { "doc_id": "IM01_7", "text": "Studies have not found a meaningful link between antibiotics and causing liver dysfunction.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM02",
+    "query_type": "implicit_NOT",
+    "query_text": "Can beta-blockers increase the likelihood of developing sleep disorders?",
+    "documents": [
+      { "doc_id": "IM02_1", "text": "There are safety alerts about the risk of developing sleep disorders associated with beta-blocker use.", "relevance": 1 },
+      { "doc_id": "IM02_2", "text": "No statistically significant rise in sleep disorders was reported in patients on beta-blockers (p=0.65).", "relevance": 5 },
+      { "doc_id": "IM02_3", "text": "Beta-blockers may affect sleep architecture, but evidence of causing sleep disorders remains inconclusive.", "relevance": 3 },
+      { "doc_id": "IM02_4", "text": "Case studies describe sleep disruption in individuals using beta-blockers.", "relevance": 1 },
+      { "doc_id": "IM02_5", "text": "Multiple reports have suggested a potential risk of sleep disorders following beta-blocker treatment.", "relevance": 1 },
+      { "doc_id": "IM02_6", "text": "Rates of sleep disorders remained stable in cohorts administered beta-blockers.", "relevance": 4 },
+      { "doc_id": "IM02_7", "text": "Research has found no meaningful association between beta-blockers and sleep disorders.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM03",
+    "query_type": "implicit_NOT",
+    "query_text": "How does statin therapy impact risk of cognitive decline?",
+    "documents": [
+      { "doc_id": "IM03_1", "text": "There are alerts warning about possible cognitive decline associated with statin therapy.", "relevance": 1 },
+      { "doc_id": "IM03_2", "text": "No significant increase in cognitive decline was observed in trials on statins (p=0.82).", "relevance": 5 },
+      { "doc_id": "IM03_3", "text": "Statins may interact with neurocognitive pathways, but evidence of causing decline is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM03_4", "text": "Case reports describe cognitive impairment in individuals after long-term statin use.", "relevance": 1 },
+      { "doc_id": "IM03_5", "text": "Multiple reports have suggested possible cognitive decline following statin use.", "relevance": 1 },
+      { "doc_id": "IM03_6", "text": "Cognitive decline rates remained stable across statin-treated and control groups.", "relevance": 4 },
+      { "doc_id": "IM03_7", "text": "Review studies found no credible link between statin use and cognitive decline.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM04",
+    "query_type": "implicit_NOT",
+    "query_text": "Do clinical analyses indicate that opioids are associated with causing urinary retention?",
+    "documents": [
+      { "doc_id": "IM04_1", "text": "Alerts indicate potential urinary retention risk linked to opioids.", "relevance": 1 },
+      { "doc_id": "IM04_2", "text": "No significant urinary retention increase was noted in opioid studies (p=0.70).", "relevance": 5 },
+      { "doc_id": "IM04_3", "text": "Opioids may alter bladder function, but evidence shows inconclusive association.", "relevance": 3 },
+      { "doc_id": "IM04_4", "text": "Case reports describe urinary retention incidents in opioid users.", "relevance": 1 },
+      { "doc_id": "IM04_5", "text": "Some reports suggest possible urinary retention following opioid therapy.", "relevance": 1 },
+      { "doc_id": "IM04_6", "text": "Urinary retention rates were stable in opioid-treated versus control groups.", "relevance": 4 },
+      { "doc_id": "IM04_7", "text": "Studies found no definitive link between opioid use and urinary retention.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM05",
+    "query_type": "implicit_NOT",
+    "query_text": "Has use of ACE inhibitors been shown to cause persistent cough?",
+    "documents": [
+      { "doc_id": "IM05_1", "text": "There are warnings about persistent cough associated with ACE inhibitor therapy.", "relevance": 1 },
+      { "doc_id": "IM05_2", "text": "No significant increase in cough was recorded in ACE inhibitor trial cohorts (p=0.88).", "relevance": 5 },
+      { "doc_id": "IM05_3", "text": "ACE inhibitors may affect respiratory reflexes, but evidence of cough induction is unclear.", "relevance": 3 },
+      { "doc_id": "IM05_4", "text": "Case reports mention cough development in ACE inhibitor users.", "relevance": 1 },
+      { "doc_id": "IM05_5", "text": "Some studies have flagged potential cough risk with ACE inhibitor use.", "relevance": 1 },
+      { "doc_id": "IM05_6", "text": "Cough incidence remained comparable in ACE inhibitor and placebo groups.", "relevance": 4 },
+      { "doc_id": "IM05_7", "text": "Systematic reviews found no causal link between ACE inhibitors and cough.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM06",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that chemotherapy causes significant neuropathy?",
+    "documents": [
+      { "doc_id": "IM06_1", "text": "There are safety alerts about neuropathy linked to chemotherapy agents.", "relevance": 1 },
+      { "doc_id": "IM06_2", "text": "No significant neuropathy increase was observed in chemotherapy clinical trials (p=0.79).", "relevance": 5 },
+      { "doc_id": "IM06_3", "text": "Chemotherapy may target neural structures, but data on neuropathy remain inconclusive.", "relevance": 3 },
+      { "doc_id": "IM06_4", "text": "Case reports document neuropathy occurrences post-chemotherapy.", "relevance": 1 },
+      { "doc_id": "IM06_5", "text": "Multiple cohort studies suggested possible neuropathy risk with chemo.", "relevance": 1 },
+      { "doc_id": "IM06_6", "text": "Neuropathy incidence remained similar in treated vs. untreated groups.", "relevance": 4 },
+      { "doc_id": "IM06_7", "text": "Comprehensive reviews found no definitive chemo-induced neuropathy link.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM07",
+    "query_type": "implicit_NOT",
+    "query_text": "Can antidepressants trigger weight gain according to clinical research?",
+    "documents": [
+      { "doc_id": "IM07_1", "text": "Safety alerts mention potential weight gain linked to antidepressant use.", "relevance": 1 },
+      { "doc_id": "IM07_2", "text": "No statistically significant weight gain was observed in patients on antidepressants (p=0.81).", "relevance": 5 },
+      { "doc_id": "IM07_3", "text": "Antidepressants may alter appetite, but evidence of weight gain is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM07_4", "text": "Case reports note weight fluctuations in some antidepressant users.", "relevance": 1 },
+      { "doc_id": "IM07_5", "text": "Several studies suggested minor weight gain following antidepressant therapy.", "relevance": 1 },
+      { "doc_id": "IM07_6", "text": "Weight gain rates remained stable across treated and control populations.", "relevance": 4 },
+      { "doc_id": "IM07_7", "text": "Meta-analyses found no meaningful association between antidepressants and weight gain.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM08",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there any clinical proof that NSAIDs elevate blood pressure?",
+    "documents": [
+      { "doc_id": "IM08_1", "text": "Safety communications warn about elevated blood pressure with NSAID use.", "relevance": 1 },
+      { "doc_id": "IM08_2", "text": "No significant blood pressure increase was recorded in NSAID trials (p=0.72).", "relevance": 5 },
+      { "doc_id": "IM08_3", "text": "NSAIDs may affect renal-vascular function, but evidence of blood pressure elevation is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM08_4", "text": "Case series report hypertensive episodes in NSAID users.", "relevance": 1 },
+      { "doc_id": "IM08_5", "text": "Some reports have indicated possible blood pressure rise post-NSAID therapy.", "relevance": 1 },
+      { "doc_id": "IM08_6", "text": "Blood pressure changes remained minimal in NSAID vs. placebo groups.", "relevance": 4 },
+      { "doc_id": "IM08_7", "text": "Systematic reviews did not find a causal link between NSAIDs and elevated blood pressure.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM09",
+    "query_type": "implicit_NOT",
+    "query_text": "Has research shown that sleeping pills lead to dependency issues?",
+    "documents": [
+      { "doc_id": "IM09_1", "text": "Health advisories warn about dependency risks with sleeping pill use.", "relevance": 1 },
+      { "doc_id": "IM09_2", "text": "No significant increase in dependency was noted in trials of sleeping pills (p=0.84).", "relevance": 5 },
+      { "doc_id": "IM09_3", "text": "Sleeping pills may alter neural inhibition, but evidence of dependency remains unclear.", "relevance": 3 },
+      { "doc_id": "IM09_4", "text": "Case reports describe dependency incidents in sleeping pill users.", "relevance": 1 },
+      { "doc_id": "IM09_5", "text": "Some studies suggest potential dependency following sleeping pill therapy.", "relevance": 1 },
+      { "doc_id": "IM09_6", "text": "Dependency rates remained similar in treated versus control groups.", "relevance": 4 },
+      { "doc_id": "IM09_7", "text": "Comprehensive reviews found no strong link between sleeping pills and dependency.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM10",
+    "query_type": "implicit_NOT",
+    "query_text": "What do clinical studies say about diuretics and causing dehydration?",
+    "documents": [
+      { "doc_id": "IM10_1", "text": "Safety alerts note increased dehydration risk with diuretic use.", "relevance": 1 },
+      { "doc_id": "IM10_2", "text": "No statistically significant dehydration increase was observed in diuretic trials (p=0.77).", "relevance": 5 },
+      { "doc_id": "IM10_3", "text": "Diuretics affect fluid balance, but evidence of causing dehydration is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM10_4", "text": "Case reports mention dehydration cases among diuretic users.", "relevance": 1 },
+      { "doc_id": "IM10_5", "text": "Several reports suggested possible dehydration following diuretic therapy.", "relevance": 1 },
+      { "doc_id": "IM10_6", "text": "Dehydration rates remained stable in diuretic-treated cohorts.", "relevance": 4 },
+      { "doc_id": "IM10_7", "text": "Meta-analyses found no significant link between diuretics and dehydration.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM11",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there any study indicating that ACE inhibitors provoke persistent coughing?",
+    "documents": [
+      { "doc_id": "IM11_1", "text": "Safety alerts mention persistent coughing with ACE inhibitor therapy.", "relevance": 1 },
+      { "doc_id": "IM11_2", "text": "No statistically significant cough increase was observed in ACE inhibitor trials (p=0.85).", "relevance": 5 },
+      { "doc_id": "IM11_3", "text": "ACE inhibitors may impact airway reflexes, but evidence for cough is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM11_4", "text": "Case reports describe cough in individuals on ACE inhibitors.", "relevance": 1 },
+      { "doc_id": "IM11_5", "text": "Some reports have suggested cough risk with ACE inhibitor use.", "relevance": 1 },
+      { "doc_id": "IM11_6", "text": "Cough incidence remained consistent across ACE inhibitor and placebo groups.", "relevance": 4 },
+      { "doc_id": "IM11_7", "text": "Reviews found no causal link between ACE inhibitors and persistent coughing.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM12",
+    "query_type": "implicit_NOT",
+    "query_text": "Do clinical trials support that chemotherapy leads to neuropathy?",
+    "documents": [
+      { "doc_id": "IM12_1", "text": "Alerts warn about neuropathy linked to chemotherapy.", "relevance": 1 },
+      { "doc_id": "IM12_2", "text": "No significant neuropathy spike was reported in chemo trials (p=0.79).", "relevance": 5 },
+      { "doc_id": "IM12_3", "text": "Chemotherapy may affect nerves, but evidence is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM12_4", "text": "Case series report neuropathy in chemo patients.", "relevance": 1 },
+      { "doc_id": "IM12_5", "text": "Several cohorts suggested possible neuropathy risk post-chemotherapy.", "relevance": 1 },
+      { "doc_id": "IM12_6", "text": "Neuropathy rates stayed steady in treated vs control groups.", "relevance": 4 },
+      { "doc_id": "IM12_7", "text": "Meta-analysis found no definitive chemo-induced neuropathy link.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM13",
+    "query_type": "implicit_NOT",
+    "query_text": "Has research shown that sedatives impair cognitive function?",
+    "documents": [
+      { "doc_id": "IM13_1", "text": "Safety alerts mention cognitive impairment with sedative use.", "relevance": 1 },
+      { "doc_id": "IM13_2", "text": "No significant cognitive decline was observed in sedative trials (p=0.83).", "relevance": 5 },
+      { "doc_id": "IM13_3", "text": "Sedatives may affect cognition, but evidence is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM13_4", "text": "Case reports describe cognitive issues in sedative users.", "relevance": 1 },
+      { "doc_id": "IM13_5", "text": "Some studies suggested cognitive impairment post-sedative therapy.", "relevance": 1 },
+      { "doc_id": "IM13_6", "text": "Cognitive decline rates were similar across groups.", "relevance": 4 },
+      { "doc_id": "IM13_7", "text": "Studies found no strong link between sedatives and cognitive impairment.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM14",
+    "query_type": "implicit_NOT",
+    "query_text": "In patients taking contraceptives, is weight gain commonly reported?",
+    "documents": [
+      { "doc_id": "IM14_1", "text": "Alerts warn of potential weight gain with contraceptive use.", "relevance": 1 },
+      { "doc_id": "IM14_2", "text": "No significant weight gain was observed in contraceptive trials (p=0.80).", "relevance": 5 },
+      { "doc_id": "IM14_3", "text": "Contraceptives may alter metabolism, but evidence is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM14_4", "text": "Case reports note weight changes in contraceptive users.", "relevance": 1 },
+      { "doc_id": "IM14_5", "text": "Some cohorts suggested weight gain risk post-contraceptive use.", "relevance": 1 },
+      { "doc_id": "IM14_6", "text": "Weight gain remained similar between treated and control subjects.", "relevance": 4 },
+      { "doc_id": "IM14_7", "text": "Reviews found no credible link between contraceptives and weight gain.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM15",
+    "query_type": "implicit_NOT",
+    "query_text": "Can anticoagulant therapy elevate bleeding risk?",
+    "documents": [
+      { "doc_id": "IM15_1", "text": "Safety alerts mention bleeding risk with anticoagulant therapy.", "relevance": 1 },
+      { "doc_id": "IM15_2", "text": "No significant bleeding increase was seen in anticoagulant trials (p=0.74).", "relevance": 5 },
+      { "doc_id": "IM15_3", "text": "Anticoagulants may influence hemostasis, but evidence is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM15_4", "text": "Case studies report bleeding events in anticoagulant users.", "relevance": 1 },
+      { "doc_id": "IM15_5", "text": "Some reports suggest bleeding risk post-anticoagulant therapy.", "relevance": 1 },
+      { "doc_id": "IM15_6", "text": "Bleeding rates remained consistent in treated vs control groups.", "relevance": 4 },
+      { "doc_id": "IM15_7", "text": "Meta-analysis found no definitive link between anticoagulants and bleeding.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM16",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that muscle relaxants slow reaction time?",
+    "documents": [
+      { "doc_id": "IM16_1", "text": "Safety alerts warn about slowed reaction time with muscle relaxants.", "relevance": 1 },
+      { "doc_id": "IM16_2", "text": "No significant reaction time delay reported in trials (p=0.82).", "relevance": 5 },
+      { "doc_id": "IM16_3", "text": "Muscle relaxants may affect neural pathways, but evidence is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM16_4", "text": "Case series describe slowed response in muscle relaxant users.", "relevance": 1 },
+      { "doc_id": "IM16_5", "text": "Some reports suggested slowed reaction time post-therapy.", "relevance": 1 },
+      { "doc_id": "IM16_6", "text": "Reaction times remained similar between treated/control cohorts.", "relevance": 4 },
+      { "doc_id": "IM16_7", "text": "Reviews found no meaningful link between muscle relaxants and slowed reaction.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM17",
+    "query_type": "implicit_NOT",
+    "query_text": "Have clinical analyses confirmed that antivirals impair kidney function?",
+    "documents": [
+      { "doc_id": "IM17_1", "text": "Safety alerts mention kidney impairment with antiviral therapy.", "relevance": 1 },
+      { "doc_id": "IM17_2", "text": "No significant kidney function decline was observed in antiviral trials (p=0.76).", "relevance": 5 },
+      { "doc_id": "IM17_3", "text": "Antivirals may affect renal physiology, but evidence is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM17_4", "text": "Case reports record kidney issues in antiviral users.", "relevance": 1 },
+      { "doc_id": "IM17_5", "text": "Some studies suggested potential renal risk post-antiviral therapy.", "relevance": 1 },
+      { "doc_id": "IM17_6", "text": "Kidney function remained stable in treated/control groups.", "relevance": 4 },
+      { "doc_id": "IM17_7", "text": "Systematic reviews found no definitive antiviral-induced renal harm.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM18",
+    "query_type": "implicit_NOT",
+    "query_text": "Are there reports linking immunosuppressants to increased infection rates?",
+    "documents": [
+      { "doc_id": "IM18_1", "text": "Safety communications warn about infection risk with immunosuppressants.", "relevance": 1 },
+      { "doc_id": "IM18_2", "text": "No significant infection rate increase was seen in therapy trials (p=0.77).", "relevance": 5 },
+      { "doc_id": "IM18_3", "text": "Immunosuppressants may modulate immunity, but evidence is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM18_4", "text": "Case reports describe infections in immunosuppressant-treated patients.", "relevance": 1 },
+      { "doc_id": "IM18_5", "text": "Some cohorts suggested infection risk post-treatment.", "relevance": 1 },
+      { "doc_id": "IM18_6", "text": "Infection rates remained steady across cohorts.", "relevance": 4 },
+      { "doc_id": "IM18_7", "text": "Meta-analysis found no strong link between immunosuppressants and infections.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM19",
+    "query_type": "implicit_NOT",
+    "query_text": "Do trials show that insulin use influences weight gain?",
+    "documents": [
+      { "doc_id": "IM19_1", "text": "Alerts mention weight gain risk associated with insulin use.", "relevance": 1 },
+      { "doc_id": "IM19_2", "text": "No significant weight gain was noted in insulin trials (p=0.80).", "relevance": 5 },
+      { "doc_id": "IM19_3", "text": "Insulin may alter metabolism, but evidence is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM19_4", "text": "Case reports record weight changes in insulin-treated individuals.", "relevance": 1 },
+      { "doc_id": "IM19_5", "text": "Some studies suggest possible weight gain post-insulin therapy.", "relevance": 1 },
+      { "doc_id": "IM19_6", "text": "Weight gain rates remained similar between study arms.", "relevance": 4 },
+      { "doc_id": "IM19_7", "text": "Reviews found no meaningful link between insulin and weight gain.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM20",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that muscle relaxants affect driving performance?",
+    "documents": [
+      { "doc_id": "IM20_1", "text": "Safety advisories warn about impaired driving with muscle relaxants.", "relevance": 1 },
+      { "doc_id": "IM20_2", "text": "No significant driving impairment was detected in trials (p=0.81).", "relevance": 5 },
+      { "doc_id": "IM20_3", "text": "Muscle relaxants may slow motor function, but evidence is inconclusive.", "relevance": 3 },
+      { "doc_id": "IM20_4", "text": "Case series describe driving incidents in muscle relaxant users.", "relevance": 1 },
+      { "doc_id": "IM20_5", "text": "Some studies indicated potential driving risk post-therapy.", "relevance": 1 },
+      { "doc_id": "IM20_6", "text": "Driving performance remained consistent across control groups.", "relevance": 4 },
+      { "doc_id": "IM20_7", "text": "Systematic reviews found no definitive link to impaired driving.", "relevance": 5 }
+    ]
+  }
+
+]
