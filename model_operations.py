@@ -13,7 +13,7 @@ class ModelOperations:
         "prajjwal1/albert-base-v2-mnli": "ALBERT-base (MNLI)",
         
         # Biomedical NLI model
-        "pritamdeka/PubMedBERT-MNLI-MedNLI": "PubMedBERT (MNLI → MedNLI)",
+        "pritamdeka/PubMedBERT-MNLI-MedNLI": "Pub-MedBERT (MNLI → MedNLI)",
 
         #gemini
             "facebook/bart-large-mnli": "BART-large (MNLI)", 
@@ -81,13 +81,13 @@ class ModelOperations:
         MAX_SCORE = 1.5
         MIN_SCORE = -1.0
 
-        if mode == "explicit_NOT":
+        if mode == "explicit_NOT" or mode == "implicit_NOT" and mode =="2":
             C_WEIGHT = 1.4
             N_WEIGHT = 0.1
             penalty = 1.0 * torch.sigmoid(7 * (e_tensor - threshold))
             raw_score = (C_WEIGHT * torch.sigmoid(steepness * (c_tensor - threshold))) + (N_WEIGHT * n_tensor) - penalty
 
-        elif mode == "implicit_NOT":
+        elif mode == "implicit_NOT"  and mode =="2":
             # Reward when entailment (e) is above 0.95
             e_reward = -0.5 * torch.sigmoid(30 * (e_tensor - 0.95))
             # Penalty when neutral (n) is above 0.04
@@ -97,7 +97,8 @@ class ModelOperations:
 
 
         else:
-            raise ValueError(f"Unknown scoring mode: {mode}")
+            # General mode: use sum of neutral and contradiction directly
+            raw_score = n_tensor + c_tensor
 
         return max(MIN_SCORE, min(MAX_SCORE, raw_score.item()))
 

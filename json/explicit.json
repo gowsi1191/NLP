@@ -1,926 +1,143 @@
-[
-    {
-      "query_id": "A01",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about aspirin NOT causing bleeding",
-      "documents": [
-        {
-          "doc_id": "A01_1",
-          "text": "Mechanistic analysis suggests aspirin does not directly contribute to causing bleeding.",
-          "relevance": 5
-        },
-        {
-          "doc_id": "A01_2",
-          "text": "Aspirin is associated with side effects including causing bleeding, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "A01_3",
-          "text": "Causing bleeding incidence was unchanged among aspirin users.",
-          "relevance": 4
-        },
-        {
-          "doc_id": "A01_4",
-          "text": "Some studies indicate aspirin may increase the risk of causing bleeding.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "A01_5",
-          "text": "A clinical trial found no evidence that aspirin is linked to causing bleeding (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "A01_6",
-          "text": "Clinical guidelines warn of possible causing bleeding with high doses of aspirin.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "A01_7",
-          "text": "Aspirin mainly affects other outcomes; causing bleeding remains unclear.",
-          "relevance": 3
-        }
-      ]
-    },
-    {
-      "query_id": "A02",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about metformin NOT leading to kidney failure",
-      "documents": [
-        {
-          "doc_id": "A02_1",
-          "text": "Metformin is associated with side effects including leading to kidney failure, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "A02_2",
-          "text": "Clinical guidelines warn of possible leading to kidney failure with high doses of metformin.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "A02_3",
-          "text": "A clinical trial found no evidence that metformin is linked to leading to kidney failure (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "A02_4",
-          "text": "Mechanistic analysis suggests metformin does not directly contribute to leading to kidney failure.",
-          "relevance": 5
-        },
-        {
-          "doc_id": "A02_5",
-          "text": "Some studies indicate metformin may increase the risk of leading to kidney failure.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "A02_6",
-          "text": "Metformin mainly affects other outcomes; leading to kidney failure remains unclear.",
-          "relevance": 3
-        },
-        {
-          "doc_id": "A02_7",
-          "text": "Leading to kidney failure incidence was unchanged among metformin users.",
-          "relevance": 4
-        }
-      ]
-    },
-    {
-      "query_id": "A03",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about ACE inhibitors NOT worsening cough",
-      "documents": [
-        {
-          "doc_id": "A03_1",
-          "text": "Worsening cough incidence was unchanged among ACE inhibitors users.",
-          "relevance": 4
-        },
-        {
-          "doc_id": "A03_2",
-          "text": "Clinical guidelines warn of possible worsening cough with high doses of ACE inhibitors.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "A03_3",
-          "text": "Ace inhibitors is associated with side effects including worsening cough, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "A03_4",
-          "text": "A clinical trial found no evidence that ACE inhibitors is linked to worsening cough (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "A03_5",
-          "text": "Mechanistic analysis suggests ACE inhibitors does not directly contribute to worsening cough.",
-          "relevance": 5
-        },
-        {
-          "doc_id": "A03_6",
-          "text": "Some studies indicate ACE inhibitors may increase the risk of worsening cough.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "A03_7",
-          "text": "Ace inhibitors mainly affects other outcomes; worsening cough remains unclear.",
-          "relevance": 3
-        }
-      ]
-    },
-    {
-      "query_id": "A04",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about beta-blockers NOT increasing fatigue",
-      "documents": [
-        {
-          "doc_id": "A04_1",
-          "text": "Mechanistic analysis suggests beta-blockers does not directly contribute to increasing fatigue.",
-          "relevance": 5
-        },
-        {
-          "doc_id": "A04_2",
-          "text": "Beta-blockers mainly affects other outcomes; increasing fatigue remains unclear.",
-          "relevance": 3
-        },
-        {
-          "doc_id": "A04_3",
-          "text": "A clinical trial found no evidence that beta-blockers is linked to increasing fatigue (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "A04_4",
-          "text": "Clinical guidelines warn of possible increasing fatigue with high doses of beta-blockers.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "A04_5",
-          "text": "Some studies indicate beta-blockers may increase the risk of increasing fatigue.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "A04_6",
-          "text": "Beta-blockers is associated with side effects including increasing fatigue, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "A04_7",
-          "text": "Increasing fatigue incidence was unchanged among beta-blockers users.",
-          "relevance": 4
-        }
-      ]
-    },
-    {
-      "query_id": "B01",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about statins NOT causing muscle pain",
-      "documents": [
-        {
-          "doc_id": "B01_1",
-          "text": "Causing muscle pain incidence was unchanged among statins users.",
-          "relevance": 4
-        },
-        {
-          "doc_id": "B01_2",
-          "text": "A clinical trial found no evidence that statins is linked to causing muscle pain (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "B01_3",
-          "text": "Clinical guidelines warn of possible causing muscle pain with high doses of statins.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "B01_4",
-          "text": "Statins is associated with side effects including causing muscle pain, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "B01_5",
-          "text": "Mechanistic analysis suggests statins does not directly contribute to causing muscle pain.",
-          "relevance": 5
-        },
-        {
-          "doc_id": "B01_6",
-          "text": "Some studies indicate statins may increase the risk of causing muscle pain.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "B01_7",
-          "text": "Statins mainly affects other outcomes; causing muscle pain remains unclear.",
-          "relevance": 3
-        }
-      ]
-    },
-    {
-      "query_id": "B02",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about antidepressants NOT causing weight gain",
-      "documents": [
-        {
-          "doc_id": "B02_1",
-          "text": "Some studies indicate antidepressants may increase the risk of causing weight gain.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "B02_2",
-          "text": "A clinical trial found no evidence that antidepressants is linked to causing weight gain (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "B02_3",
-          "text": "Causing weight gain incidence was unchanged among antidepressants users.",
-          "relevance": 4
-        },
-        {
-          "doc_id": "B02_4",
-          "text": "Antidepressants is associated with side effects including causing weight gain, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "B02_5",
-          "text": "Antidepressants mainly affects other outcomes; causing weight gain remains unclear.",
-          "relevance": 3
-        },
-        {
-          "doc_id": "B02_6",
-          "text": "Clinical guidelines warn of possible causing weight gain with high doses of antidepressants.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "B02_7",
-          "text": "Mechanistic analysis suggests antidepressants does not directly contribute to causing weight gain.",
-          "relevance": 5
-        }
-      ]
-    },
-    {
-      "query_id": "B03",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about NSAIDs NOT causing ulcers",
-      "documents": [
-        {
-          "doc_id": "B03_1",
-          "text": "A clinical trial found no evidence that NSAIDs is linked to causing ulcers (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "B03_2",
-          "text": "Causing ulcers incidence was unchanged among NSAIDs users.",
-          "relevance": 4
-        },
-        {
-          "doc_id": "B03_3",
-          "text": "Mechanistic analysis suggests NSAIDs does not directly contribute to causing ulcers.",
-          "relevance": 5
-        },
-        {
-          "doc_id": "B03_4",
-          "text": "Some studies indicate NSAIDs may increase the risk of causing ulcers.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "B03_5",
-          "text": "Nsaids is associated with side effects including causing ulcers, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "B03_6",
-          "text": "Clinical guidelines warn of possible causing ulcers with high doses of NSAIDs.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "B03_7",
-          "text": "Nsaids mainly affects other outcomes; causing ulcers remains unclear.",
-          "relevance": 3
-        }
-      ]
-    },
-    {
-      "query_id": "B04",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about PPIs NOT increasing fracture risk",
-      "documents": [
-        {
-          "doc_id": "B04_1",
-          "text": "Ppis mainly affects other outcomes; increasing fracture risk remains unclear.",
-          "relevance": 3
-        },
-        {
-          "doc_id": "B04_2",
-          "text": "A clinical trial found no evidence that PPIs is linked to increasing fracture risk (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "B04_3",
-          "text": "Some studies indicate PPIs may increase the risk of increasing fracture risk.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "B04_4",
-          "text": "Clinical guidelines warn of possible increasing fracture risk with high doses of PPIs.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "B04_5",
-          "text": "Ppis is associated with side effects including increasing fracture risk, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "B04_6",
-          "text": "Mechanistic analysis suggests PPIs does not directly contribute to increasing fracture risk.",
-          "relevance": 5
-        },
-        {
-          "doc_id": "B04_7",
-          "text": "Increasing fracture risk incidence was unchanged among PPIs users.",
-          "relevance": 4
-        }
-      ]
-    },
-    {
-      "query_id": "C01",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about antipsychotics NOT leading to diabetes",
-      "documents": [
-        {
-          "doc_id": "C01_1",
-          "text": "Some studies indicate antipsychotics may increase the risk of leading to diabetes.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "C01_2",
-          "text": "Antipsychotics mainly affects other outcomes; leading to diabetes remains unclear.",
-          "relevance": 3
-        },
-        {
-          "doc_id": "C01_3",
-          "text": "Leading to diabetes incidence was unchanged among antipsychotics users.",
-          "relevance": 4
-        },
-        {
-          "doc_id": "C01_4",
-          "text": "A clinical trial found no evidence that antipsychotics is linked to leading to diabetes (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "C01_5",
-          "text": "Clinical guidelines warn of possible leading to diabetes with high doses of antipsychotics.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "C01_6",
-          "text": "Mechanistic analysis suggests antipsychotics does not directly contribute to leading to diabetes.",
-          "relevance": 5
-        },
-        {
-          "doc_id": "C01_7",
-          "text": "Antipsychotics is associated with side effects including leading to diabetes, especially in vulnerable populations.",
-          "relevance": 1
-        }
-      ]
-    },
-    {
-      "query_id": "C02",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about antibiotics NOT causing liver damage",
-      "documents": [
-        {
-          "doc_id": "C02_1",
-          "text": "Antibiotics mainly affects other outcomes; causing liver damage remains unclear.",
-          "relevance": 3
-        },
-        {
-          "doc_id": "C02_2",
-          "text": "A clinical trial found no evidence that antibiotics is linked to causing liver damage (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "C02_3",
-          "text": "Mechanistic analysis suggests antibiotics does not directly contribute to causing liver damage.",
-          "relevance": 5
-        },
-        {
-          "doc_id": "C02_4",
-          "text": "Some studies indicate antibiotics may increase the risk of causing liver damage.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "C02_5",
-          "text": "Antibiotics is associated with side effects including causing liver damage, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "C02_6",
-          "text": "Clinical guidelines warn of possible causing liver damage with high doses of antibiotics.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "C02_7",
-          "text": "Causing liver damage incidence was unchanged among antibiotics users.",
-          "relevance": 4
-        }
-      ]
-    },
-    {
-      "query_id": "C03",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about immunotherapy NOT causing autoimmunity",
-      "documents": [
-        {
-          "doc_id": "C03_1",
-          "text": "Mechanistic analysis suggests immunotherapy does not directly contribute to causing autoimmunity.",
-          "relevance": 5
-        },
-        {
-          "doc_id": "C03_2",
-          "text": "Clinical guidelines warn of possible causing autoimmunity with high doses of immunotherapy.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "C03_3",
-          "text": "Some studies indicate immunotherapy may increase the risk of causing autoimmunity.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "C03_4",
-          "text": "A clinical trial found no evidence that immunotherapy is linked to causing autoimmunity (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "C03_5",
-          "text": "Immunotherapy is associated with side effects including causing autoimmunity, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "C03_6",
-          "text": "Immunotherapy mainly affects other outcomes; causing autoimmunity remains unclear.",
-          "relevance": 3
-        },
-        {
-          "doc_id": "C03_7",
-          "text": "Causing autoimmunity incidence was unchanged among immunotherapy users.",
-          "relevance": 4
-        }
-      ]
-    },
-    {
-      "query_id": "C04",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about chemotherapy NOT causing hair loss",
-      "documents": [
-        {
-          "doc_id": "C04_1",
-          "text": "Chemotherapy is associated with side effects including causing hair loss, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "C04_2",
-          "text": "A clinical trial found no evidence that chemotherapy is linked to causing hair loss (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "C04_3",
-          "text": "Mechanistic analysis suggests chemotherapy does not directly contribute to causing hair loss.",
-          "relevance": 5
-        },
-        {
-          "doc_id": "C04_4",
-          "text": "Clinical guidelines warn of possible causing hair loss with high doses of chemotherapy.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "C04_5",
-          "text": "Chemotherapy mainly affects other outcomes; causing hair loss remains unclear.",
-          "relevance": 3
-        },
-        {
-          "doc_id": "C04_6",
-          "text": "Some studies indicate chemotherapy may increase the risk of causing hair loss.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "C04_7",
-          "text": "Causing hair loss incidence was unchanged among chemotherapy users.",
-          "relevance": 4
-        }
-      ]
-    },
-    {
-      "query_id": "D01",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about insulin NOT causing hypoglycemia",
-      "documents": [
-        {
-          "doc_id": "D01_1",
-          "text": "Insulin mainly affects other outcomes; causing hypoglycemia remains unclear.",
-          "relevance": 3
-        },
-        {
-          "doc_id": "D01_2",
-          "text": "Clinical guidelines warn of possible causing hypoglycemia with high doses of insulin.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "D01_3",
-          "text": "Some studies indicate insulin may increase the risk of causing hypoglycemia.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "D01_4",
-          "text": "Causing hypoglycemia incidence was unchanged among insulin users.",
-          "relevance": 4
-        },
-        {
-          "doc_id": "D01_5",
-          "text": "Mechanistic analysis suggests insulin does not directly contribute to causing hypoglycemia.",
-          "relevance": 5
-        },
-        {
-          "doc_id": "D01_6",
-          "text": "A clinical trial found no evidence that insulin is linked to causing hypoglycemia (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "D01_7",
-          "text": "Insulin is associated with side effects including causing hypoglycemia, especially in vulnerable populations.",
-          "relevance": 1
-        }
-      ]
-    },
-    {
-      "query_id": "D02",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about glucocorticoids NOT causing osteoporosis",
-      "documents": [
-        {
-          "doc_id": "D02_1",
-          "text": "Glucocorticoids mainly affects other outcomes; causing osteoporosis remains unclear.",
-          "relevance": 3
-        },
-        {
-          "doc_id": "D02_2",
-          "text": "Clinical guidelines warn of possible causing osteoporosis with high doses of glucocorticoids.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "D02_3",
-          "text": "Glucocorticoids is associated with side effects including causing osteoporosis, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "D02_4",
-          "text": "A clinical trial found no evidence that glucocorticoids is linked to causing osteoporosis (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "D02_5",
-          "text": "Causing osteoporosis incidence was unchanged among glucocorticoids users.",
-          "relevance": 4
-        },
-        {
-          "doc_id": "D02_6",
-          "text": "Some studies indicate glucocorticoids may increase the risk of causing osteoporosis.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "D02_7",
-          "text": "Mechanistic analysis suggests glucocorticoids does not directly contribute to causing osteoporosis.",
-          "relevance": 5
-        }
-      ]
-    },
-    {
-      "query_id": "D03",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about anticoagulants NOT increasing bleeding risk",
-      "documents": [
-        {
-          "doc_id": "D03_1",
-          "text": "Increasing bleeding risk incidence was unchanged among anticoagulants users.",
-          "relevance": 4
-        },
-        {
-          "doc_id": "D03_2",
-          "text": "Mechanistic analysis suggests anticoagulants does not directly contribute to increasing bleeding risk.",
-          "relevance": 5
-        },
-        {
-          "doc_id": "D03_3",
-          "text": "Clinical guidelines warn of possible increasing bleeding risk with high doses of anticoagulants.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "D03_4",
-          "text": "Anticoagulants mainly affects other outcomes; increasing bleeding risk remains unclear.",
-          "relevance": 3
-        },
-        {
-          "doc_id": "D03_5",
-          "text": "Some studies indicate anticoagulants may increase the risk of increasing bleeding risk.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "D03_6",
-          "text": "Anticoagulants is associated with side effects including increasing bleeding risk, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "D03_7",
-          "text": "A clinical trial found no evidence that anticoagulants is linked to increasing bleeding risk (p>0.5).",
-          "relevance": 5
-        }
-      ]
-    },
-    {
-      "query_id": "D04",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about thyroid drugs NOT causing heart palpitations",
-      "documents": [
-        {
-          "doc_id": "D04_1",
-          "text": "Thyroid drugs is associated with side effects including causing heart palpitations, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "D04_2",
-          "text": "Causing heart palpitations incidence was unchanged among thyroid drugs users.",
-          "relevance": 4
-        },
-        {
-          "doc_id": "D04_3",
-          "text": "Thyroid drugs mainly affects other outcomes; causing heart palpitations remains unclear.",
-          "relevance": 3
-        },
-        {
-          "doc_id": "D04_4",
-          "text": "Clinical guidelines warn of possible causing heart palpitations with high doses of thyroid drugs.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "D04_5",
-          "text": "Some studies indicate thyroid drugs may increase the risk of causing heart palpitations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "D04_6",
-          "text": "A clinical trial found no evidence that thyroid drugs is linked to causing heart palpitations (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "D04_7",
-          "text": "Mechanistic analysis suggests thyroid drugs does not directly contribute to causing heart palpitations.",
-          "relevance": 5
-        }
-      ]
-    },
-    {
-      "query_id": "E01",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about calcium supplements NOT causing kidney stones",
-      "documents": [
-        {
-          "doc_id": "E01_1",
-          "text": "Mechanistic analysis suggests calcium supplements does not directly contribute to causing kidney stones.",
-          "relevance": 5
-        },
-        {
-          "doc_id": "E01_2",
-          "text": "Calcium supplements mainly affects other outcomes; causing kidney stones remains unclear.",
-          "relevance": 3
-        },
-        {
-          "doc_id": "E01_3",
-          "text": "Some studies indicate calcium supplements may increase the risk of causing kidney stones.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "E01_4",
-          "text": "A clinical trial found no evidence that calcium supplements is linked to causing kidney stones (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "E01_5",
-          "text": "Calcium supplements is associated with side effects including causing kidney stones, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "E01_6",
-          "text": "Causing kidney stones incidence was unchanged among calcium supplements users.",
-          "relevance": 4
-        },
-        {
-          "doc_id": "E01_7",
-          "text": "Clinical guidelines warn of possible causing kidney stones with high doses of calcium supplements.",
-          "relevance": 1
-        }
-      ]
-    },
-    {
-      "query_id": "E02",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about vitamin D NOT causing toxicity",
-      "documents": [
-        {
-          "doc_id": "E02_1",
-          "text": "Causing toxicity incidence was unchanged among vitamin D users.",
-          "relevance": 4
-        },
-        {
-          "doc_id": "E02_2",
-          "text": "Mechanistic analysis suggests vitamin D does not directly contribute to causing toxicity.",
-          "relevance": 5
-        },
-        {
-          "doc_id": "E02_3",
-          "text": "Some studies indicate vitamin D may increase the risk of causing toxicity.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "E02_4",
-          "text": "Clinical guidelines warn of possible causing toxicity with high doses of vitamin D.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "E02_5",
-          "text": "A clinical trial found no evidence that vitamin D is linked to causing toxicity (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "E02_6",
-          "text": "Vitamin d is associated with side effects including causing toxicity, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "E02_7",
-          "text": "Vitamin d mainly affects other outcomes; causing toxicity remains unclear.",
-          "relevance": 3
-        }
-      ]
-    },
-    {
-      "query_id": "E03",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about opioids NOT causing dependency",
-      "documents": [
-        {
-          "doc_id": "E03_1",
-          "text": "A clinical trial found no evidence that opioids is linked to causing dependency (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "E03_2",
-          "text": "Clinical guidelines warn of possible causing dependency with high doses of opioids.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "E03_3",
-          "text": "Opioids is associated with side effects including causing dependency, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "E03_4",
-          "text": "Some studies indicate opioids may increase the risk of causing dependency.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "E03_5",
-          "text": "Causing dependency incidence was unchanged among opioids users.",
-          "relevance": 4
-        },
-        {
-          "doc_id": "E03_6",
-          "text": "Opioids mainly affects other outcomes; causing dependency remains unclear.",
-          "relevance": 3
-        },
-        {
-          "doc_id": "E03_7",
-          "text": "Mechanistic analysis suggests opioids does not directly contribute to causing dependency.",
-          "relevance": 5
-        }
-      ]
-    },
-    {
-      "query_id": "E04",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about vaccines NOT causing infertility",
-      "documents": [
-        {
-          "doc_id": "E04_1",
-          "text": "Mechanistic analysis suggests vaccines does not directly contribute to causing infertility.",
-          "relevance": 5
-        },
-        {
-          "doc_id": "E04_2",
-          "text": "Causing infertility incidence was unchanged among vaccines users.",
-          "relevance": 4
-        },
-        {
-          "doc_id": "E04_3",
-          "text": "A clinical trial found no evidence that vaccines is linked to causing infertility (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "E04_4",
-          "text": "Vaccines is associated with side effects including causing infertility, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "E04_5",
-          "text": "Some studies indicate vaccines may increase the risk of causing infertility.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "E04_6",
-          "text": "Vaccines mainly affects other outcomes; causing infertility remains unclear.",
-          "relevance": 3
-        },
-        {
-          "doc_id": "E04_7",
-          "text": "Clinical guidelines warn of possible causing infertility with high doses of vaccines.",
-          "relevance": 1
-        }
-      ]
-    },
-    {
-      "query_id": "F01",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about probiotics NOT causing bloating",
-      "documents": [
-        {
-          "doc_id": "F01_1",
-          "text": "Some studies indicate probiotics may increase the risk of causing bloating.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "F01_2",
-          "text": "Mechanistic analysis suggests probiotics does not directly contribute to causing bloating.",
-          "relevance": 5
-        },
-        {
-          "doc_id": "F01_3",
-          "text": "Probiotics is associated with side effects including causing bloating, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "F01_4",
-          "text": "A clinical trial found no evidence that probiotics is linked to causing bloating (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "F01_5",
-          "text": "Causing bloating incidence was unchanged among probiotics users.",
-          "relevance": 4
-        },
-        {
-          "doc_id": "F01_6",
-          "text": "Probiotics mainly affects other outcomes; causing bloating remains unclear.",
-          "relevance": 3
-        },
-        {
-          "doc_id": "F01_7",
-          "text": "Clinical guidelines warn of possible causing bloating with high doses of probiotics.",
-          "relevance": 1
-        }
-      ]
-    },
-    {
-      "query_id": "F02",
-      "query_type": "explicit_NOT",
-      "query_text": "Find clinical studies about beta-agonists NOT causing tremors",
-      "documents": [
-        {
-          "doc_id": "F02_1",
-          "text": "Beta-agonists is associated with side effects including causing tremors, especially in vulnerable populations.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "F02_2",
-          "text": "Some studies indicate beta-agonists may increase the risk of causing tremors.",
-          "relevance": 1
-        },
-        {
-          "doc_id": "F02_3",
-          "text": "Causing tremors incidence was unchanged among beta-agonists users.",
-          "relevance": 4
-        },
-        {
-          "doc_id": "F02_4",
-          "text": "Mechanistic analysis suggests beta-agonists does not directly contribute to causing tremors.",
-          "relevance": 5
-        },
-        {
-          "doc_id": "F02_5",
-          "text": "A clinical trial found no evidence that beta-agonists is linked to causing tremors (p>0.5).",
-          "relevance": 5
-        },
-        {
-          "doc_id": "F02_6",
-          "text": "Beta-agonists mainly affects other outcomes; causing tremors remains unclear.",
-          "relevance": 3
-        },
-        {
-          "doc_id": "F02_7",
-          "text": "Clinical guidelines warn of possible causing tremors with high doses of beta-agonists.",
-          "relevance": 1
-        }
-      ]
-    }
+[{
+  "query_id": "EX101",
+  "query_type": "explicit_NOT",
+  "query_text": "Is it true that statins explicitly do NOT increase the risk of muscle weakness?",
+  "documents": [
+    { "doc_id": "EX101_1", "text": "Casual patient anecdotes often exaggerate statins’ role in muscle fatigue.", "relevance": 1 },
+    { "doc_id": "EX101_2", "text": "Older blog posts claim muscle issues are common, but lack scientific basis.", "relevance": 1 },
+    { "doc_id": "EX101_3", "text": "Minor studies suggest slight muscular discomfort may arise in some users.", "relevance": 2 },
+    { "doc_id": "EX101_4", "text": "There is some moderate evidence of muscle symptom reports in statin trials.", "relevance": 3 },
+    { "doc_id": "EX101_5", "text": "Meta-analyses show varying results with limited consensus on muscle side effects.", "relevance": 3 },
+    { "doc_id": "EX101_6", "text": "Clinical trial reports often mention muscle complaints, though rarely statistically significant.", "relevance": 4 },
+    { "doc_id": "EX101_7", "text": "Randomized trials found no causal link between statins and persistent muscle weakness.", "relevance": 5 }
+  ]
+},
+{
+  "query_id": "EX102",
+  "query_type": "explicit_NOT",
+  "query_text": "Does metformin explicitly NOT cause vitamin B12 deficiency in diabetic patients?",
+  "documents": [
+    { "doc_id": "EX102_1", "text": "Anecdotal claims often associate metformin with nutrient loss without rigorous backing.", "relevance": 1 },
+    { "doc_id": "EX102_2", "text": "Popular health sites incorrectly generalize risks of B12 deficiency with metformin.", "relevance": 1 },
+    { "doc_id": "EX102_3", "text": "Some smaller studies observed modest drops in B12 after prolonged metformin use.", "relevance": 2 },
+    { "doc_id": "EX102_4", "text": "Low-level observational data point to decreased B12 in certain demographics.", "relevance": 2 },
+    { "doc_id": "EX102_5", "text": "Experts note potential for reduced B12 levels, especially with high doses over time.", "relevance": 3 },
+    { "doc_id": "EX102_6", "text": "Systematic reviews suggest moderate but reversible reductions in B12.", "relevance": 4 },
+    { "doc_id": "EX102_7", "text": "Double-blind studies conclude no significant B12 impact in most patients.", "relevance": 5 }
+  ]
+},
+{
+  "query_id": "EX103",
+  "query_type": "explicit_NOT",
+  "query_text": "Is it accurate that PPIs explicitly do NOT contribute to calcium absorption issues?",
+  "documents": [
+    { "doc_id": "EX103_1", "text": "Blog writers often misrepresent calcium risks related to PPIs.", "relevance": 1 },
+    { "doc_id": "EX103_2", "text": "Many pharmacy leaflets omit detailed calcium interaction discussions.", "relevance": 1 },
+    { "doc_id": "EX103_3", "text": "Some cohort studies showed slight reductions in calcium uptake in older adults.", "relevance": 2 },
+    { "doc_id": "EX103_4", "text": "Mild effects on calcium absorption have been found in long-term PPI users.", "relevance": 3 },
+    { "doc_id": "EX103_5", "text": "Clinical results are mixed; some trials show a weak calcium interaction.", "relevance": 4 },
+    { "doc_id": "EX103_6", "text": "Larger-scale trials find no clinical evidence linking PPIs with bone mineral deficits.", "relevance": 4 },
+    { "doc_id": "EX103_7", "text": "Controlled studies affirm calcium metabolism remains stable with PPI use.", "relevance": 5 }
+  ]
+},
+{
+  "query_id": "EX104",
+  "query_type": "explicit_NOT",
+  "query_text": "Do beta blockers explicitly NOT cause memory loss in elderly populations?",
+  "documents": [
+    { "doc_id": "EX104_1", "text": "Rumors persist online about memory issues from beta blockers, but lack evidence.", "relevance": 1 },
+    { "doc_id": "EX104_2", "text": "User forums often speculate memory changes, without controlled study validation.", "relevance": 2 },
+    { "doc_id": "EX104_3", "text": "Some trial participants report memory lapses, though inconsistently.", "relevance": 2 },
+    { "doc_id": "EX104_4", "text": "A few observational studies associate mild cognitive decline with beta blocker exposure.", "relevance": 3 },
+    { "doc_id": "EX104_5", "text": "Systematic reviews suggest minor effects on cognition in sensitive populations.", "relevance": 3 },
+    { "doc_id": "EX104_6", "text": "Clinical findings report slight delays in recall among high-dose users.", "relevance": 4 },
+    { "doc_id": "EX104_7", "text": "Robust randomized trials show no long-term cognitive impact of beta blockers.", "relevance": 5 }
+  ]
+},
+{
+  "query_id": "EX105",
+  "query_type": "explicit_NOT",
+  "query_text": "Is it correct to say that corticosteroids explicitly do NOT elevate blood glucose in healthy individuals?",
+  "documents": [
+    { "doc_id": "EX105_1", "text": "Some health blogs falsely reassure readers that corticosteroids never raise glucose levels.", "relevance": 1 },
+    { "doc_id": "EX105_2", "text": "Layman summaries often ignore temporary glucose elevations from corticosteroid use.", "relevance": 2 },
+    { "doc_id": "EX105_3", "text": "Short-term studies document brief spikes in glucose post-steroid treatment.", "relevance": 3 },
+    { "doc_id": "EX105_4", "text": "Reports indicate glucose tolerance varies with corticosteroid dose and duration.", "relevance": 3 },
+    { "doc_id": "EX105_5", "text": "Controlled trials show reversible hyperglycemia in certain patients.", "relevance": 4 },
+    { "doc_id": "EX105_6", "text": "Meta-analyses confirm minimal long-term glucose effects in normoglycemic adults.", "relevance": 4 },
+    { "doc_id": "EX105_7", "text": "Multiple RCTs conclude no sustained glucose abnormalities from corticosteroids in healthy users.", "relevance": 5 }
+  ]
+},
+{
+  "query_id": "EX106",
+  "query_type": "explicit_NOT",
+  "query_text": "Is it accurate to claim that SSRIs explicitly do NOT lead to weight gain over time?",
+  "documents": [
+    { "doc_id": "EX106_1", "text": "Many lifestyle blogs incorrectly claim SSRIs always result in weight gain regardless of duration or dose.", "relevance": 1 },
+    { "doc_id": "EX106_2", "text": "General statements made in forums lack evidence when discussing long-term SSRI effects.", "relevance": 1 },
+    { "doc_id": "EX106_3", "text": "Some open-label trials show marginal weight gain trends in certain populations.", "relevance": 2 },
+    { "doc_id": "EX106_4", "text": "Double-blind studies note gradual weight increases over prolonged SSRI therapy.", "relevance": 3 },
+    { "doc_id": "EX106_5", "text": "Evidence suggests weight effects vary across SSRIs and individual metabolism.", "relevance": 3 },
+    { "doc_id": "EX106_6", "text": "Clinical evaluations confirm some SSRIs lead to weight gain more than others.", "relevance": 4 },
+    { "doc_id": "EX106_7", "text": "Several controlled studies conclude that while short-term use is neutral, weight gain is possible in long-term SSRI use.", "relevance": 5 }
+  ]
+},
+{
+  "query_id": "EX107",
+  "query_type": "explicit_NOT",
+  "query_text": "Do antihistamines explicitly NOT impair cognitive function in older adults?",
+  "documents": [
+    { "doc_id": "EX107_1", "text": "TV ads often suggest all antihistamines are completely safe without discussing potential cognitive side effects.", "relevance": 1 },
+    { "doc_id": "EX107_2", "text": "Patient blogs downplay the possibility of mental fog from common antihistamines.", "relevance": 1 },
+    { "doc_id": "EX107_3", "text": "There are limited studies showing mild cognitive decline in elderly antihistamine users.", "relevance": 2 },
+    { "doc_id": "EX107_4", "text": "Some trials found transient memory issues during high-dose antihistamine regimens.", "relevance": 2 },
+    { "doc_id": "EX107_5", "text": "Clinical evidence suggests older adults may experience minor confusion after prolonged use.", "relevance": 3 },
+    { "doc_id": "EX107_6", "text": "Meta-analyses support a moderate association between first-generation antihistamines and cognition issues.", "relevance": 4 },
+    { "doc_id": "EX107_7", "text": "Controlled studies confirm second-generation antihistamines do not impact cognition.", "relevance": 5 }
+  ]
+},
+{
+  "query_id": "EX108",
+  "query_type": "explicit_NOT",
+  "query_text": "Can ACE inhibitors explicitly NOT lead to persistent cough in patients?",
+  "documents": [
+    { "doc_id": "EX108_1", "text": "Popular social media health influencers often claim ACE inhibitors never cause cough.", "relevance": 1 },
+    { "doc_id": "EX108_2", "text": "Some pamphlets distributed in clinics minimize discussion on ACE inhibitor-induced cough.", "relevance": 1 },
+    { "doc_id": "EX108_3", "text": "Case reports occasionally mention patients discontinuing ACE inhibitors due to cough.", "relevance": 2 },
+    { "doc_id": "EX108_4", "text": "Retrospective studies reveal varying cough incidence rates across different populations.", "relevance": 3 },
+    { "doc_id": "EX108_5", "text": "The literature indicates that dry cough is one of the more common side effects.", "relevance": 4 },
+    { "doc_id": "EX108_6", "text": "Systematic reviews confirm that while some patients report cough, it is reversible and varies by formulation.", "relevance": 4 },
+    { "doc_id": "EX108_7", "text": "Large RCTs suggest that a majority of patients tolerate ACE inhibitors without developing chronic cough.", "relevance": 5 }
+  ]
+},
+{
+  "query_id": "EX109",
+  "query_type": "explicit_NOT",
+  "query_text": "Is it fair to say that anticoagulants explicitly do NOT elevate the risk of gastrointestinal bleeding?",
+  "documents": [
+    { "doc_id": "EX109_1", "text": "Misinformation online often promotes the idea that anticoagulants have no GI side effects.", "relevance": 1 },
+    { "doc_id": "EX109_2", "text": "Some educational brochures understate GI bleeding as a relevant anticoagulant concern.", "relevance": 2 },
+    { "doc_id": "EX109_3", "text": "Several studies link warfarin and DOACs with occasional GI bleeding, particularly in older populations.", "relevance": 2 },
+    { "doc_id": "EX109_4", "text": "Clinical registries report bleeding events in real-world anticoagulant use.", "relevance": 3 },
+    { "doc_id": "EX109_5", "text": "Trials indicate bleeding risk increases with NSAID co-administration or ulcer history.", "relevance": 4 },
+    { "doc_id": "EX109_6", "text": "High-quality RCTs show GI bleeding incidence is relatively low with modern agents.", "relevance": 4 },
+    { "doc_id": "EX109_7", "text": "Evidence from comparative studies confirms newer anticoagulants have reduced GI bleeding risk.", "relevance": 5 }
+  ]
+},
+{
+  "query_id": "EX110",
+  "query_type": "explicit_NOT",
+  "query_text": "Should we consider that antipsychotics explicitly do NOT increase prolactin levels in adolescent patients?",
+  "documents": [
+    { "doc_id": "EX110_1", "text": "Online discussions frequently dismiss prolactin elevation as a concern in modern antipsychotics.", "relevance": 1 },
+    { "doc_id": "EX110_2", "text": "Parental blogs often ignore the endocrine side effects of psychiatric medications in teens.", "relevance": 2 },
+    { "doc_id": "EX110_3", "text": "Case series have reported mild prolactin increases with certain atypical antipsychotics.", "relevance": 3 },
+    { "doc_id": "EX110_4", "text": "Endocrinology studies highlight dose-dependent prolactin response in pediatric cases.", "relevance": 3 },
+    { "doc_id": "EX110_5", "text": "Pharmacological data confirm risperidone and similar agents are more likely to influence prolactin.", "relevance": 4 },
+    { "doc_id": "EX110_6", "text": "Comprehensive reviews affirm some antipsychotics are prolactin-sparing, offering safer adolescent options.", "relevance": 4 },
+    { "doc_id": "EX110_7", "text": "Head-to-head trials show negligible prolactin impact with newer agents like aripiprazole.", "relevance": 5 }
+  ]
+}
+
+
 ]

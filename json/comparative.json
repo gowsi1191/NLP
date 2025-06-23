@@ -1,926 +1,144 @@
 [
   {
-    "query_id": "A01",
+    "query_id": "CP1",
     "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening headache",
+    "query_text": "Are PPIs less likely to cause kidney stones compared to H2 blockers?",
     "documents": [
-      {
-        "doc_id": "A01_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding headache - document 1.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A01_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding headache - document 2.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A01_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding headache - document 3.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A01_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding headache - document 4.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A01_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding headache - document 5.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A01_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding headache - document 6.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A01_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding headache - document 7.",
-        "relevance": 2
-      }
+      { "doc_id": "CP1_1", "text": "Patient blogs often claim PPIs never lead to kidney stones, though those anecdotes aren't evidence‑based.", "relevance": 1 },
+      { "doc_id": "CP1_2", "text": "Several small studies suggest PPIs have a slightly lower risk than H2 blockers for lithiasis.", "relevance": 1 },
+      { "doc_id": "CP1_3", "text": "A pilot trial reported comparable rates of stones in both treatment groups.", "relevance": 2 },
+      { "doc_id": "CP1_4", "text": "Some observational analyses noted marginal reduction in stone formation with PPIs versus H2 blockers.", "relevance": 3 },
+      { "doc_id": "CP1_5", "text": "Meta‑analyses support a moderate protective trend for PPIs in comparison studies.", "relevance": 3 },
+      { "doc_id": "CP1_6", "text": "Randomized controlled trials indicate PPIs slightly outperform H2 blockers in reducing urinary lithiasis.", "relevance": 4 },
+      { "doc_id": "CP1_7", "text": "Large network meta‑analysis confirms a statistically significant lower kidney stone incidence with PPIs over H2 blockers.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "A02",
+    "query_id": "CP2",
     "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening nausea",
+    "query_text": "Do calcium channel blockers pose less risk of diabetes onset when compared to thiazide diuretics?",
     "documents": [
-      {
-        "doc_id": "A02_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding nausea - document 1.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A02_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding nausea - document 2.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A02_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding nausea - document 3.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A02_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding nausea - document 4.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A02_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding nausea - document 5.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A02_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding nausea - document 6.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A02_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding nausea - document 7.",
-        "relevance": 2
-      }
+      { "doc_id": "CP2_1", "text": "Online forums debate that calcium channel blockers never affect blood sugar, but lack clinical confirmation.", "relevance": 1 },
+      { "doc_id": "CP2_2", "text": "Routine care reports indicate similar low diabetes incidence across both drug classes.", "relevance": 1 },
+      { "doc_id": "CP2_3", "text": "Head‑to‑head studies show mildly different HbA1c trends between the two treatments.", "relevance": 2 },
+      { "doc_id": "CP2_4", "text": "Some cohort data reveal calcium channel blockers result in slightly fewer cases than thiazides.", "relevance": 3 },
+      { "doc_id": "CP2_5", "text": "Comparative cohort studies confirm this lower incidence remains consistent across age groups.", "relevance": 3 },
+      { "doc_id": "CP2_6", "text": "Controlled trials suggest a moderately reduced diabetes risk with calcium channel blockers relative to thiazides.", "relevance": 4 },
+      { "doc_id": "CP2_7", "text": "Systematic review highlights a significant risk difference favoring calcium channel blockers over thiazide diuretics.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "A03",
+    "query_id": "CP3",
     "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening dizziness",
+    "query_text": "Are statins not as likely to cause muscle pain compared to fibrates?",
     "documents": [
-      {
-        "doc_id": "A03_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding dizziness - document 1.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A03_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding dizziness - document 2.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A03_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding dizziness - document 3.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A03_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding dizziness - document 4.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A03_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding dizziness - document 5.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A03_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding dizziness - document 6.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A03_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding dizziness - document 7.",
-        "relevance": 1
-      }
+      { "doc_id": "CP3_1", "text": "Some personal blogs suggest statins never produce muscle soreness, but such claims are anecdotal.", "relevance": 1 },
+      { "doc_id": "CP3_2", "text": "Clinical summaries indicate both drug classes have a low, nearly identical frequency of myalgia.", "relevance": 1 },
+      { "doc_id": "CP3_3", "text": "Initial trials show statin users report slightly less muscle pain than fibrate users.", "relevance": 2 },
+      { "doc_id": "CP3_4", "text": "Some medical reviews note moderate differences in myopathy rates favoring statins.", "relevance": 3 },
+      { "doc_id": "CP3_5", "text": "A comparative meta‑analysis observed consistent trend of reduced muscle discomfort with statins.", "relevance": 3 },
+      { "doc_id": "CP3_6", "text": "Randomized head‑to‑head studies reveal statins significantly lower muscle pain incidence than fibrates.", "relevance": 4 },
+      { "doc_id": "CP3_7", "text": "Large-scale systematic review confirms statins outperform fibrates in minimizing patient‑reported myalgia.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "A04",
+    "query_id": "CP4",
     "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening vomiting",
+    "query_text": "Are beta blockers less likely to induce fatigue than ACE inhibitors?",
     "documents": [
-      {
-        "doc_id": "A04_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding vomiting - document 1.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A04_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding vomiting - document 2.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A04_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding vomiting - document 3.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A04_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding vomiting - document 4.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A04_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding vomiting - document 5.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A04_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding vomiting - document 6.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A04_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding vomiting - document 7.",
-        "relevance": 1
-      }
+      { "doc_id": "CP4_1", "text": "Social posts claim beta blockers never cause fatigue compared to ACE inhibitors, though not supported by rigorous data.", "relevance": 1 },
+      { "doc_id": "CP4_2", "text": "Some clinical audits show negligible difference in fatigue rates between the two medications.", "relevance": 1 },
+      { "doc_id": "CP4_3", "text": "Comparative trials report modestly lower fatigue scores with beta blockers.", "relevance": 2 },
+      { "doc_id": "CP4_4", "text": "A few cohort studies indicate beta blockers outperform ACE inhibitors regarding energy levels.", "relevance": 3 },
+      { "doc_id": "CP4_5", "text": "Meta‑analysis evidence supports moderate fatigue risk reduction with beta blockers.", "relevance": 3 },
+      { "doc_id": "CP4_6", "text": "Randomized trials consistently find statistically significant better tolerance of beta blockers for fatigue.", "relevance": 4 },
+      { "doc_id": "CP4_7", "text": "Systematic reviews confirm beta blockers have lower fatigue incidence than ACE inhibitors with high certainty.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "A05",
+    "query_id": "CP5",
     "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening fatigue",
+    "query_text": "Are metformin users less prone to weight gain than those on sulfonylureas?",
     "documents": [
-      {
-        "doc_id": "A05_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding fatigue - document 1.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A05_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding fatigue - document 2.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A05_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding fatigue - document 3.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A05_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding fatigue - document 4.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A05_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding fatigue - document 5.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A05_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding fatigue - document 6.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A05_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding fatigue - document 7.",
-        "relevance": 1
-      }
+      { "doc_id": "CP5_1", "text": "Patient stories sometimes claim metformin never causes weight gain compared to sulfonylureas, but evidence varies.", "relevance": 1 },
+      { "doc_id": "CP5_2", "text": "Routine clinical data suggest both drugs are associated with minimal weight changes.", "relevance": 2 },
+      { "doc_id": "CP5_3", "text": "Comparative cohort results show metformin leads to slightly better weight stability than sulfonylureas.", "relevance": 2 },
+      { "doc_id": "CP5_4", "text": "Some controlled studies report a moderate advantage of metformin in preventing weight increase.", "relevance": 3 },
+      { "doc_id": "CP5_5", "text": "Observational analyses consistently note a trend of less weight gain with metformin.", "relevance": 3 },
+      { "doc_id": "CP5_6", "text": "Clinical trials confirm metformin significantly limits weight gain versus sulfonylureas.", "relevance": 4 },
+      { "doc_id": "CP5_7", "text": "Comprehensive meta‑analysis shows metformin clearly superior in minimizing weight gain compared to sulfonylureas.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "A06",
+    "query_id": "CP6",
     "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening rash",
+    "query_text": "Does topical corticosteroid use produce less skin thinning than high‑potency oral steroids?",
     "documents": [
-      {
-        "doc_id": "A06_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding rash - document 1.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A06_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding rash - document 2.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A06_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding rash - document 3.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A06_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding rash - document 4.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A06_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding rash - document 5.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A06_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding rash - document 6.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A06_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding rash - document 7.",
-        "relevance": 1
-      }
+      { "doc_id": "CP6_1", "text": "Online opinions often suggest topical agents never induce thinning, which oversimplifies risk differences.", "relevance": 1 },
+      { "doc_id": "CP6_2", "text": "Clinical notes suggest both formulations can impact skin integrity, though rarely.", "relevance": 2 },
+      { "doc_id": "CP6_3", "text": "Comparisons show topical steroids generally carry lower atrophy risk than systemic forms.", "relevance": 2 },
+      { "doc_id": "CP6_4", "text": "Some dermatological reviews report moderate protective effect of topical versus oral steroids.", "relevance": 3 },
+      { "doc_id": "CP6_5", "text": "Evidence from registry data outlines consistent trend favoring topical application for minimizing thinning.", "relevance": 3 },
+      { "doc_id": "CP6_6", "text": "RCTs support that topical steroids significantly reduce skin thinning compared to oral high‑potency agents.", "relevance": 4 },
+      { "doc_id": "CP6_7", "text": "High-quality meta‑analysis confirms topical corticosteroids cause substantially less skin atrophy than systemic counterparts.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "A07",
+    "query_id": "CP7",
     "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening cough",
+    "query_text": "Is the incidence of gastrointestinal discomfort lower with proton pump inhibitors than with H2 antagonists?",
     "documents": [
-      {
-        "doc_id": "A07_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding cough - document 1.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A07_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding cough - document 2.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A07_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding cough - document 3.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A07_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding cough - document 4.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A07_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding cough - document 5.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A07_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding cough - document 6.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A07_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding cough - document 7.",
-        "relevance": 1
-      }
+      { "doc_id": "CP7_1", "text": "Some informal health sources claim PPIs are always safer, but these statements often lack evidence.", "relevance": 1 },
+      { "doc_id": "CP7_2", "text": "Layperson reviews sometimes exaggerate the side effect difference between the two drugs.", "relevance": 1 },
+      { "doc_id": "CP7_3", "text": "Preliminary observational data show PPIs may be slightly better tolerated than H2 antagonists.", "relevance": 2 },
+      { "doc_id": "CP7_4", "text": "Several meta-analyses suggest modest reductions in GI complaints with PPIs.", "relevance": 3 },
+      { "doc_id": "CP7_5", "text": "Comparative clinical trials have reported fewer upper abdominal symptoms among PPI users.", "relevance": 3 },
+      { "doc_id": "CP7_6", "text": "Controlled studies consistently favor PPIs for fewer GI side effects.", "relevance": 4 },
+      { "doc_id": "CP7_7", "text": "Large datasets confirm PPIs have significantly reduced GI discomfort risk versus H2 blockers.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "A08",
+    "query_id": "CP8",
     "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening bleeding",
+    "query_text": "Do SSRIs lead to fewer sexual side effects compared to SNRIs?",
     "documents": [
-      {
-        "doc_id": "A08_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding bleeding - document 1.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A08_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding bleeding - document 2.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A08_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding bleeding - document 3.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A08_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding bleeding - document 4.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A08_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding bleeding - document 5.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A08_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding bleeding - document 6.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A08_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding bleeding - document 7.",
-        "relevance": 1
-      }
+      { "doc_id": "CP8_1", "text": "Community posts suggest SSRIs have no sexual side effects, but such claims are misleading.", "relevance": 1 },
+      { "doc_id": "CP8_2", "text": "Anecdotal evidence from online forums lacks scientific rigor.", "relevance": 1 },
+      { "doc_id": "CP8_3", "text": "Initial survey data show slight variations in side effect rates across antidepressants.", "relevance": 2 },
+      { "doc_id": "CP8_4", "text": "Controlled trials suggest SSRIs might induce marginally fewer libido-related issues than SNRIs.", "relevance": 2 },
+      { "doc_id": "CP8_5", "text": "Review articles confirm moderate improvement in sexual function with certain SSRIs.", "relevance": 3 },
+      { "doc_id": "CP8_6", "text": "Double-blind studies favor SSRIs when comparing sexual side effect profiles.", "relevance": 4 },
+      { "doc_id": "CP8_7", "text": "Meta-analysis results strongly suggest SSRIs are less prone to cause sexual dysfunction than SNRIs.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "A09",
+    "query_id": "CP9",
     "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening insomnia",
+    "query_text": "Is insulin therapy associated with fewer hypoglycemia episodes than sulfonylureas?",
     "documents": [
-      {
-        "doc_id": "A09_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding insomnia - document 1.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A09_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding insomnia - document 2.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A09_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding insomnia - document 3.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A09_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding insomnia - document 4.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A09_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding insomnia - document 5.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A09_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding insomnia - document 6.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A09_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding insomnia - document 7.",
-        "relevance": 1
-      }
+      { "doc_id": "CP9_1", "text": "Blog posts sometimes argue insulin never causes hypoglycemia, which is medically inaccurate.", "relevance": 1 },
+      { "doc_id": "CP9_2", "text": "Patient discussions often miss the nuanced differences between insulin and sulfonylureas.", "relevance": 1 },
+      { "doc_id": "CP9_3", "text": "Surveys reveal slightly fewer low sugar episodes in patients with tightly monitored insulin regimens.", "relevance": 2 },
+      { "doc_id": "CP9_4", "text": "Case studies hint insulin may be safer under specialist supervision.", "relevance": 3 },
+      { "doc_id": "CP9_5", "text": "RCTs show moderate differences, with insulin leading to fewer hypoglycemic events in some trials.", "relevance": 3 },
+      { "doc_id": "CP9_6", "text": "Meta-reviews suggest insulin can be safer than sulfonylureas in experienced hands.", "relevance": 4 },
+      { "doc_id": "CP9_7", "text": "Statistical comparisons confirm insulin therapy leads to significantly lower hypoglycemia risk.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "A10",
+    "query_id": "CP10",
     "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening constipation",
+    "query_text": "Do inhaled corticosteroids result in fewer systemic effects than oral corticosteroids?",
     "documents": [
-      {
-        "doc_id": "A10_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding constipation - document 1.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A10_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding constipation - document 2.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A10_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding constipation - document 3.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A10_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding constipation - document 4.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A10_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding constipation - document 5.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A10_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding constipation - document 6.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A10_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding constipation - document 7.",
-        "relevance": 1
-      }
-    ]
-  },
-  {
-    "query_id": "A11",
-    "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening diarrhea",
-    "documents": [
-      {
-        "doc_id": "A11_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding diarrhea - document 1.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A11_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding diarrhea - document 2.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A11_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding diarrhea - document 3.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A11_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding diarrhea - document 4.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A11_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding diarrhea - document 5.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A11_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding diarrhea - document 6.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A11_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding diarrhea - document 7.",
-        "relevance": 2
-      }
-    ]
-  },
-  {
-    "query_id": "A12",
-    "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening fever",
-    "documents": [
-      {
-        "doc_id": "A12_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding fever - document 1.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A12_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding fever - document 2.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A12_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding fever - document 3.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A12_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding fever - document 4.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A12_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding fever - document 5.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A12_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding fever - document 6.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A12_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding fever - document 7.",
-        "relevance": 1
-      }
-    ]
-  },
-  {
-    "query_id": "A13",
-    "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening chest pain",
-    "documents": [
-      {
-        "doc_id": "A13_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding chest pain - document 1.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A13_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding chest pain - document 2.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A13_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding chest pain - document 3.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A13_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding chest pain - document 4.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A13_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding chest pain - document 5.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A13_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding chest pain - document 6.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A13_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding chest pain - document 7.",
-        "relevance": 1
-      }
-    ]
-  },
-  {
-    "query_id": "A14",
-    "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening weight gain",
-    "documents": [
-      {
-        "doc_id": "A14_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding weight gain - document 1.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A14_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding weight gain - document 2.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A14_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding weight gain - document 3.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A14_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding weight gain - document 4.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A14_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding weight gain - document 5.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A14_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding weight gain - document 6.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A14_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding weight gain - document 7.",
-        "relevance": 1
-      }
-    ]
-  },
-  {
-    "query_id": "A15",
-    "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening hair loss",
-    "documents": [
-      {
-        "doc_id": "A15_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding hair loss - document 1.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A15_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding hair loss - document 2.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A15_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding hair loss - document 3.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A15_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding hair loss - document 4.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A15_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding hair loss - document 5.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A15_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding hair loss - document 6.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A15_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding hair loss - document 7.",
-        "relevance": 1
-      }
-    ]
-  },
-  {
-    "query_id": "A16",
-    "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening anxiety",
-    "documents": [
-      {
-        "doc_id": "A16_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding anxiety - document 1.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A16_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding anxiety - document 2.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A16_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding anxiety - document 3.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A16_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding anxiety - document 4.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A16_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding anxiety - document 5.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A16_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding anxiety - document 6.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A16_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding anxiety - document 7.",
-        "relevance": 1
-      }
-    ]
-  },
-  {
-    "query_id": "A17",
-    "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening depression",
-    "documents": [
-      {
-        "doc_id": "A17_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding depression - document 1.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A17_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding depression - document 2.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A17_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding depression - document 3.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A17_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding depression - document 4.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A17_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding depression - document 5.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A17_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding depression - document 6.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A17_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding depression - document 7.",
-        "relevance": 4
-      }
-    ]
-  },
-  {
-    "query_id": "A18",
-    "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening dry mouth",
-    "documents": [
-      {
-        "doc_id": "A18_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding dry mouth - document 1.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A18_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding dry mouth - document 2.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A18_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding dry mouth - document 3.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A18_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding dry mouth - document 4.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A18_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding dry mouth - document 5.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A18_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding dry mouth - document 6.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A18_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding dry mouth - document 7.",
-        "relevance": 1
-      }
-    ]
-  },
-  {
-    "query_id": "A19",
-    "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening blurred vision",
-    "documents": [
-      {
-        "doc_id": "A19_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding blurred vision - document 1.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A19_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding blurred vision - document 2.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A19_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding blurred vision - document 3.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A19_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding blurred vision - document 4.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A19_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding blurred vision - document 5.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A19_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding blurred vision - document 6.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A19_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding blurred vision - document 7.",
-        "relevance": 1
-      }
-    ]
-  },
-  {
-    "query_id": "A20",
-    "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening muscle pain",
-    "documents": [
-      {
-        "doc_id": "A20_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding muscle pain - document 1.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A20_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding muscle pain - document 2.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A20_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding muscle pain - document 3.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A20_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding muscle pain - document 4.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A20_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding muscle pain - document 5.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A20_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding muscle pain - document 6.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A20_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding muscle pain - document 7.",
-        "relevance": 1
-      }
-    ]
-  },
-  {
-    "query_id": "A21",
-    "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening joint pain",
-    "documents": [
-      {
-        "doc_id": "A21_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding joint pain - document 1.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A21_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding joint pain - document 2.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A21_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding joint pain - document 3.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A21_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding joint pain - document 4.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A21_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding joint pain - document 5.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A21_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding joint pain - document 6.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A21_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding joint pain - document 7.",
-        "relevance": 1
-      }
-    ]
-  },
-  {
-    "query_id": "A22",
-    "query_type": "comparative_NOT",
-    "query_text": "Find clinical studies comparing treatments NOT worsening heartburn",
-    "documents": [
-      {
-        "doc_id": "A22_1",
-        "text": "Sample clinical evidence about treatment comparisons regarding heartburn - document 1.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "A22_2",
-        "text": "Sample clinical evidence about treatment comparisons regarding heartburn - document 2.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "A22_3",
-        "text": "Sample clinical evidence about treatment comparisons regarding heartburn - document 3.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "A22_4",
-        "text": "Sample clinical evidence about treatment comparisons regarding heartburn - document 4.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A22_5",
-        "text": "Sample clinical evidence about treatment comparisons regarding heartburn - document 5.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "A22_6",
-        "text": "Sample clinical evidence about treatment comparisons regarding heartburn - document 6.",
-        "relevance": 5
-      },
-      {
-        "doc_id": "A22_7",
-        "text": "Sample clinical evidence about treatment comparisons regarding heartburn - document 7.",
-        "relevance": 1
-      }
+      { "doc_id": "CP10_1", "text": "Some think inhalers are side-effect free, though this perception isn't always accurate.", "relevance": 1 },
+      { "doc_id": "CP10_2", "text": "Health blogs often overstate the systemic safety of inhaled steroids.", "relevance": 1 },
+      { "doc_id": "CP10_3", "text": "Real-world data show inhaled forms have slightly less systemic impact.", "relevance": 2 },
+      { "doc_id": "CP10_4", "text": "Pharmacokinetic studies confirm less absorption from inhaled versus oral routes.", "relevance": 3 },
+      { "doc_id": "CP10_5", "text": "Comparative evidence favors inhaled corticosteroids for reduced systemic side effects.", "relevance": 4 },
+      { "doc_id": "CP10_6", "text": "Longitudinal analyses affirm reduced adrenal suppression from inhaled delivery.", "relevance": 4 },
+      { "doc_id": "CP10_7", "text": "Systematic reviews confirm significantly fewer systemic outcomes with inhaled compared to oral steroids.", "relevance": 5 }
     ]
   }
+
+
 ]

@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Model Comparison per Query Type</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 20px;
+      background: #f9f9f9;
+      margin: 0;
+      color: #333;
+    }
+    h2 {
+      font-size: 20px;
+      margin: 10px 0 20px;
+    }
+    #controls {
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      font-size: 18px;
+      margin: 0 20px 30px 0;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px 16px;
+      text-align: center;
+    }
+    th {
+      background-color: #f0f0f0;
+      font-weight: 600;
+    }
+    .chart-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+    canvas {
+      flex: 1 1 calc(33% - 20px);
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 10px;
+      max-width: 100%;
+      height: 250px !important;
+    }
+    #summaryChart {
+      flex: 1 1 60%;
+      height: 400px !important; /* Or any height you prefer */
+    }
+    #summaryAndTable {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h2>Top Model per Query Type (based on P@1)</h2>
+  <div id="controls"></div>
+  <div id="summaryAndTable">
+    <canvas id="summaryChart"></canvas>
+    <div id="winnerTable"></div>
+  </div>
+  <div class="chart-row" id="charts"></div>
+
+  <script>
+    const rawdata = `{
+  "BGE": {
+    "comparative_not": {
+      "P@1": 0.3,
+      "P@2": 0.3,
+      "P@3": 0.3,
+      "MRR": 0.57,
+      "NDCG@3": 0.7175182267253165
+    },
+    "explicit_not": {
+      "P@1": 0.1,
+      "P@2": 0.15,
+      "P@3": 0.26666666666666666,
+      "MRR": 0.4033333333333333,
+      "NDCG@3": 0.5315130234573286
+    },
+    "implicit_not": {
+      "P@1": 0.2,
+      "P@2": 0.25,
+      "P@3": 0.19999999999999998,
+      "MRR": 0.44857142857142857,
+      "NDCG@3": 0.5024692431317209
+    },
+    "prohibition_not": {
+      "P@1": 0.2,
+      "P@2": 0.3,
+      "P@3": 0.2666666666666667,
+      "MRR": 0.5166666666666666,
+      "NDCG@3": 0.6996452044537771
+    },
+    "scope_not": {
+      "P@1": 0.2,
+      "P@2": 0.3,
+      "P@3": 0.2666666666666667,
+      "MRR": 0.4999999999999999,
+      "NDCG@3": 0.5261952416668495
+    }
+  },
+  "cross-encoder-nli-deberta-base": {
+    "comparative_not": {
+      "P@1": 0.4,
+      "P@2": 0.25,
+      "P@3": 0.23333333333333334,
+      "MRR": 0.5866666666666667,
+      "NDCG@3": 0.6955148401863495
+    },
+    "explicit_not": {
+      "P@1": 0.0,
+      "P@2": 0.0,
+      "P@3": 0.0,
+      "MRR": 0.17142857142857143,
+      "NDCG@3": 0.32481558715717973
+    },
+    "implicit_not": {
+      "P@1": 0.3,
+      "P@2": 0.2,
+      "P@3": 0.26666666666666666,
+      "MRR": 0.5119047619047619,
+      "NDCG@3": 0.5890610715304072
+    },
+    "prohibition_not": {
+      "P@1": 0.2,
+      "P@2": 0.2,
+      "P@3": 0.2,
+      "MRR": 0.4533333333333334,
+      "NDCG@3": 0.54253873060096
+    },
+    "scope_not": {
+      "P@1": 0.4,
+      "P@2": 0.25,
+      "P@3": 0.33333333333333337,
+      "MRR": 0.5976190476190475,
+      "NDCG@3": 0.682292917770096
+    }
+  },
+  "facebook-bart-large-mnli": {
+    "comparative_not": {
+      "P@1": 0.0,
+      "P@2": 0.0,
+      "P@3": 0.03333333333333333,
+      "MRR": 0.19952380952380952,
+      "NDCG@3": 0.3034690454883934
+    },
+    "explicit_not": {
+      "P@1": 0.3,
+      "P@2": 0.35,
+      "P@3": 0.3,
+      "MRR": 0.5916666666666666,
+      "NDCG@3": 0.5862367863207097
+    },
+    "implicit_not": {
+      "P@1": 0.1,
+      "P@2": 0.1,
+      "P@3": 0.1,
+      "MRR": 0.3019047619047619,
+      "NDCG@3": 0.3570218302052141
+    },
+    "prohibition_not": {
+      "P@1": 0.0,
+      "P@2": 0.0,
+      "P@3": 0.0,
+      "MRR": 0.15833333333333333,
+      "NDCG@3": 0.11703352410856196
+    },
+    "scope_not": {
+      "P@1": 0.1,
+      "P@2": 0.05,
+      "P@3": 0.03333333333333333,
+      "MRR": 0.2611904761904762,
+      "NDCG@3": 0.23893529055745302
+    }
+  },
+  "microsoft-deberta-large-mnli": {
+    "comparative_not": {
+      "P@1": 0.0,
+      "P@2": 0.0,
+      "P@3": 0.03333333333333333,
+      "MRR": 0.19357142857142856,
+      "NDCG@3": 0.23149569783331528
+    },
+    "explicit_not": {
+      "P@1": 0.0,
+      "P@2": 0.0,
+      "P@3": 0.03333333333333333,
+      "MRR": 0.19857142857142857,
+      "NDCG@3": 0.393145379869383
+    },
+    "implicit_not": {
+      "P@1": 0.2,
+      "P@2": 0.2,
+      "P@3": 0.13333333333333333,
+      "MRR": 0.3938095238095238,
+      "NDCG@3": 0.4940953370741351
+    },
+    "prohibition_not": {
+      "P@1": 0.1,
+      "P@2": 0.2,
+      "P@3": 0.16666666666666666,
+      "MRR": 0.36857142857142855,
+      "NDCG@3": 0.501648749763524
+    },
+    "scope_not": {
+      "P@1": 0.0,
+      "P@2": 0.05,
+      "P@3": 0.03333333333333333,
+      "MRR": 0.2145238095238095,
+      "NDCG@3": 0.3454427124483912
+    }
+  },
+  "prajjwal1-albert-base-v2-mnli": {
+    "comparative_not": {
+      "P@1": 0.0,
+      "P@2": 0.1,
+      "P@3": 0.06666666666666667,
+      "MRR": 0.22976190476190475,
+      "NDCG@3": 0.33707189395799564
+    },
+    "explicit_not": {
+      "P@1": 0.0,
+      "P@2": 0.05,
+      "P@3": 0.13333333333333333,
+      "MRR": 0.2702380952380952,
+      "NDCG@3": 0.3082203334841921
+    },
+    "implicit_not": {
+      "P@1": 0.1,
+      "P@2": 0.05,
+      "P@3": 0.13333333333333333,
+      "MRR": 0.3071428571428571,
+      "NDCG@3": 0.3620736543192427
+    },
+    "prohibition_not": {
+      "P@1": 0.0,
+      "P@2": 0.05,
+      "P@3": 0.06666666666666667,
+      "MRR": 0.2235714285714286,
+      "NDCG@3": 0.1931222614353833
+    },
+    "scope_not": {
+      "P@1": 0.1,
+      "P@2": 0.05,
+      "P@3": 0.06666666666666667,
+      "MRR": 0.2828571428571428,
+      "NDCG@3": 0.2574675709623445
+    }
+  },
+  "pritamdeka-PubMedBERT-MNLI-MedNLI": {
+    "comparative_not": {
+      "P@1": 0.1,
+      "P@2": 0.1,
+      "P@3": 0.1,
+      "MRR": 0.31595238095238093,
+      "NDCG@3": 0.35356397789497274
+    },
+    "explicit_not": {
+      "P@1": 0.3,
+      "P@2": 0.3,
+      "P@3": 0.19999999999999998,
+      "MRR": 0.5366666666666667,
+      "NDCG@3": 0.5689482719298985
+    },
+    "implicit_not": {
+      "P@1": 0.1,
+      "P@2": 0.1,
+      "P@3": 0.1,
+      "MRR": 0.3192857142857143,
+      "NDCG@3": 0.44832774676711395
+    },
+    "prohibition_not": {
+      "P@1": 0.0,
+      "P@2": 0.05,
+      "P@3": 0.03333333333333333,
+      "MRR": 0.2235714285714286,
+      "NDCG@3": 0.1581367262043289
+    },
+    "scope_not": {
+      "P@1": 0.1,
+      "P@2": 0.05,
+      "P@3": 0.1,
+      "MRR": 0.2828571428571428,
+      "NDCG@3": 0.28911281104967834
+    }
+  },
+  "roberta-large-mnli": {
+    "comparative_not": {
+      "P@1": 0.0,
+      "P@2": 0.0,
+      "P@3": 0.0,
+      "MRR": 0.1580952380952381,
+      "NDCG@3": 0.24084799401825302
+    },
+    "explicit_not": {
+      "P@1": 0.6,
+      "P@2": 0.45,
+      "P@3": 0.3,
+      "MRR": 0.7666666666666667,
+      "NDCG@3": 0.7044983943133941
+    },
+    "implicit_not": {
+      "P@1": 0.0,
+      "P@2": 0.1,
+      "P@3": 0.1,
+      "MRR": 0.25357142857142856,
+      "NDCG@3": 0.3066645373474954
+    },
+    "prohibition_not": {
+      "P@1": 0.0,
+      "P@2": 0.0,
+      "P@3": 0.0,
+      "MRR": 0.1580952380952381,
+      "NDCG@3": 0.13182220899608046
+    },
+    "scope_not": {
+      "P@1": 0.1,
+      "P@2": 0.05,
+      "P@3": 0.1,
+      "MRR": 0.2911904761904761,
+      "NDCG@3": 0.23399179622583327
+    }
+  },
+  "typeform-distilbert-base-uncased-mnli": {
+    "comparative_not": {
+      "P@1": 0.0,
+      "P@2": 0.05,
+      "P@3": 0.03333333333333333,
+      "MRR": 0.20309523809523808,
+      "NDCG@3": 0.2546209920846804
+    },
+    "explicit_not": {
+      "P@1": 0.0,
+      "P@2": 0.05,
+      "P@3": 0.06666666666666667,
+      "MRR": 0.2188095238095238,
+      "NDCG@3": 0.4014926508661979
+    },
+    "implicit_not": {
+      "P@1": 0.2,
+      "P@2": 0.25,
+      "P@3": 0.16666666666666666,
+      "MRR": 0.3988095238095238,
+      "NDCG@3": 0.49660714865733835
+    },
+    "prohibition_not": {
+      "P@1": 0.0,
+      "P@2": 0.0,
+      "P@3": 0.03333333333333333,
+      "MRR": 0.20500000000000002,
+      "NDCG@3": 0.29997665972755405
+    },
+    "scope_not": {
+      "P@1": 0.2,
+      "P@2": 0.1,
+      "P@3": 0.1,
+      "MRR": 0.35428571428571426,
+      "NDCG@3": 0.387579606171127
+    }
+  }
+}`; // Paste JSON data here
+    const data = JSON.parse(rawdata);
+
+    const models = Object.keys(data);
+    const queryTypes = Object.keys(data[models[0]]);
+    const metricNames = Object.keys(data[models[0]][queryTypes[0]]);
+
+    const controls = document.getElementById("controls");
+    const charts = [];
+
+    metricNames.forEach((metric, idx) => {
+      const cb = document.createElement("input");
+      cb.type = "checkbox";
+      cb.checked = true;
+      cb.id = `metric-${idx}`;
+      cb.dataset.metric = metric;
+      const label = document.createElement("label");
+      label.htmlFor = cb.id;
+      label.textContent = ` ${metric} `;
+      cb.addEventListener("change", () => {
+        charts.forEach(chart => {
+          chart.data.datasets.forEach(ds => {
+            if (ds.label === metric) ds.hidden = !cb.checked;
+          });
+          chart.update();
+        });
+      });
+      controls.appendChild(cb);
+      controls.appendChild(label);
+    });
+
+    const winners = queryTypes.map(qt => {
+      let maxP1 = -1;
+      let bestModelP1 = "";
+
+      models.forEach(m => {
+        const p1 = data[m][qt]["P@1"];
+        if (p1 > maxP1) {
+          maxP1 = p1;
+          bestModelP1 = m;
+        }
+      });
+
+      return {
+        queryType: qt,
+        bestModelP1: bestModelP1.slice(0, 10),
+        p1: maxP1.toFixed(3)
+      };
+    });
+
+    const winnerContainer = document.getElementById("winnerTable");
+    const table = document.createElement("table");
+    table.innerHTML = `<tr><th>Query Type</th><th>Top Model (P@1)</th><th>P@1</th></tr>` +
+      winners.map(r => `<tr><td>${r.queryType}</td><td>${r.bestModelP1}</td><td>${r.p1}</td></tr>`).join("");
+    winnerContainer.appendChild(table);
+
+    const averageData = {};
+    models.forEach(m => {
+      const sum = {};
+      metricNames.forEach(mt => sum[mt] = 0);
+      queryTypes.forEach(qt => {
+        metricNames.forEach(mt => sum[mt] += data[m][qt][mt]);
+      });
+      averageData[m] = metricNames.map(mt => (sum[mt] / queryTypes.length).toFixed(4));
+    });
+
+    const sCtx = document.getElementById("summaryChart").getContext("2d");
+    charts.push(new Chart(sCtx, {
+      type: 'bar',
+      data: {
+        labels: models,
+        datasets: metricNames.map((mt, i) => ({
+          label: mt,
+          data: models.map(m => parseFloat(averageData[m][i])),
+          backgroundColor: `hsl(${i*60},70%,60%)`
+        }))
+      },
+options: {
+  responsive: true,
+  plugins: {
+    title: {
+      display: true,
+      text: 'Your Title',
+      font: {
+        size: 20 // Increase title font
+      }
+    },
+    legend: {
+      labels: {
+        font: {
+          size: 15 // Increase legend font
+        }
+      }
+    },
+    tooltip: {
+      bodyFont: {
+        size: 15 // Increase tooltip font
+      }
+    }
+  },
+  scales: {
+    x: {
+      ticks: {
+        font: {
+          size: 15 // Increase X-axis labels
+        }
+      }
+    },
+    y: {
+      ticks: {
+        font: {
+          size: 15 // Increase Y-axis labels
+        }
+      }
+    }
+  }
+}
+
+    }));
+
+    const chartRow = document.getElementById("charts");
+    queryTypes.forEach((qt, idx) => {
+      const canvas = document.createElement("canvas");
+      chartRow.appendChild(canvas);
+      const ctx = canvas.getContext("2d");
+      const chart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: models,
+          datasets: metricNames.map((mt, i) => ({
+            label: mt,
+            data: models.map(m => data[m][qt][mt]),
+            backgroundColor: `hsl(${i*60},70%,60%)`
+          }))
+        },
+        options: {
+  responsive: true,
+  plugins: {
+    title: {
+      display: true,
+      text: 'Your Title',
+      font: {
+        size: 25 // Increase title font
+      }
+    },
+    legend: {
+      labels: {
+        font: {
+          size: 18 // Increase legend font
+        }
+      }
+    },
+    tooltip: {
+      bodyFont: {
+        size: 18 // Increase tooltip font
+      }
+    }
+  },
+  scales: {
+    x: {
+      ticks: {
+        font: {
+          size: 18 // Increase X-axis labels
+        }
+      }
+    },
+    y: {
+      ticks: {
+        font: {
+          size: 18 // Increase Y-axis labels
+        }
+      }
+    }
+  }
+
+        }
+      });
+      charts.push(chart);
+    });
+  </script>
+</body>
+</html>

@@ -1,464 +1,143 @@
 [
   {
-    "query_id": "P01",
+    "query_id": "PR11",
     "query_type": "prohibition_NOT",
-    "query_text": "Find clinical studies about ibuprofen prohibition NOT taken with alcohol",
+    "query_text": "Does long-term metformin use explicitly NOT cause vitamin B12 deficiency in non-diabetic adults?",
     "documents": [
-      {
-        "doc_id": "P01_1",
-        "text": "Placeholder text for ibuprofen and taken with alcohol in context of prohibition_NOT (doc 1).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P01_2",
-        "text": "Placeholder text for ibuprofen and taken with alcohol in context of prohibition_NOT (doc 2).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P01_3",
-        "text": "Placeholder text for ibuprofen and taken with alcohol in context of prohibition_NOT (doc 3).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P01_4",
-        "text": "Placeholder text for ibuprofen and taken with alcohol in context of prohibition_NOT (doc 4).",
-        "relevance": 4
-      },
-      {
-        "doc_id": "P01_5",
-        "text": "Placeholder text for ibuprofen and taken with alcohol in context of prohibition_NOT (doc 5).",
-        "relevance": 1
-      },
-      {
-        "doc_id": "P01_6",
-        "text": "Placeholder text for ibuprofen and taken with alcohol in context of prohibition_NOT (doc 6).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "P01_7",
-        "text": "Placeholder text for ibuprofen and taken with alcohol in context of prohibition_NOT (doc 7).",
-        "relevance": 5
-      }
+      { "doc_id": "PR11_1", "text": "Many online articles falsely claim metformin never affects B12 levels, which misleads patients.", "relevance": 1 },
+      { "doc_id": "PR11_2", "text": "Anecdotal case reports sometimes describe low vitamin B12 in users without robust control groups.", "relevance": 1 },
+      { "doc_id": "PR11_3", "text": "Some observational studies show slight reductions in serum B12, though evidence remains mixed.", "relevance": 2 },
+      { "doc_id": "PR11_4", "text": "Controlled clinical trials found moderate decreases in B12 over months of therapy.", "relevance": 3 },
+      { "doc_id": "PR11_5", "text": "Formal cohort analyses confirmed B12 decline in certain populations on metformin.", "relevance": 3 },
+      { "doc_id": "PR11_6", "text": "Longitudinal RCTs recorded statistically significant vitamin B12 drops after extended metformin exposure.", "relevance": 4 },
+      { "doc_id": "PR11_7", "text": "Meta‑analyses verify that B12 deficiency can occur with sustained metformin use absent supplementation.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "P02",
+    "query_id": "PR12",
     "query_type": "prohibition_NOT",
-    "query_text": "Find clinical studies about paracetamol prohibition NOT used in liver disease",
+    "query_text": "Is there evidence that statins do not explicitly NOT cause memory impairment in elderly patients?",
     "documents": [
-      {
-        "doc_id": "P02_1",
-        "text": "Placeholder text for paracetamol and used in liver disease in context of prohibition_NOT (doc 1).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P02_2",
-        "text": "Placeholder text for paracetamol and used in liver disease in context of prohibition_NOT (doc 2).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P02_3",
-        "text": "Placeholder text for paracetamol and used in liver disease in context of prohibition_NOT (doc 3).",
-        "relevance": 1
-      },
-      {
-        "doc_id": "P02_4",
-        "text": "Placeholder text for paracetamol and used in liver disease in context of prohibition_NOT (doc 4).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P02_5",
-        "text": "Placeholder text for paracetamol and used in liver disease in context of prohibition_NOT (doc 5).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P02_6",
-        "text": "Placeholder text for paracetamol and used in liver disease in context of prohibition_NOT (doc 6).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "P02_7",
-        "text": "Placeholder text for paracetamol and used in liver disease in context of prohibition_NOT (doc 7).",
-        "relevance": 4
-      }
+      { "doc_id": "PR12_1", "text": "Some health columns mistakenly suggest statins are completely safe for cognition, which is not guaranteed.", "relevance": 1 },
+      { "doc_id": "PR12_2", "text": "Patient anecdotes occasionally claim memory issues without structured assessment.", "relevance": 1 },
+      { "doc_id": "PR12_3", "text": "Preliminary survey data hint at mild cognitive changes, but findings are inconsistent.", "relevance": 2 },
+      { "doc_id": "PR12_4", "text": "Smaller randomized studies report occasional memory complaints following statin initiation.", "relevance": 3 },
+      { "doc_id": "PR12_5", "text": "Some cohort trials found modest cognitive decline associated with statin therapy.", "relevance": 3 },
+      { "doc_id": "PR12_6", "text": "Large-scale longitudinal data suggest a moderate link between statin use and memory changes in select elders.", "relevance": 4 },
+      { "doc_id": "PR12_7", "text": "Recent meta‑analysis supports a statistically significant, though small, adverse effect on cognition among statin users.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "P03",
+    "query_id": "PR13",
     "query_type": "prohibition_NOT",
-    "query_text": "Find clinical studies about statins prohibition NOT combined with grapefruit juice",
+    "query_text": "Do corticosteroids explicitly NOT provoke weight gain when administered for short durations in adults?",
     "documents": [
-      {
-        "doc_id": "P03_1",
-        "text": "Placeholder text for statins and combined with grapefruit juice in context of prohibition_NOT (doc 1).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P03_2",
-        "text": "Placeholder text for statins and combined with grapefruit juice in context of prohibition_NOT (doc 2).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P03_3",
-        "text": "Placeholder text for statins and combined with grapefruit juice in context of prohibition_NOT (doc 3).",
-        "relevance": 4
-      },
-      {
-        "doc_id": "P03_4",
-        "text": "Placeholder text for statins and combined with grapefruit juice in context of prohibition_NOT (doc 4).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P03_5",
-        "text": "Placeholder text for statins and combined with grapefruit juice in context of prohibition_NOT (doc 5).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P03_6",
-        "text": "Placeholder text for statins and combined with grapefruit juice in context of prohibition_NOT (doc 6).",
-        "relevance": 1
-      },
-      {
-        "doc_id": "P03_7",
-        "text": "Placeholder text for statins and combined with grapefruit juice in context of prohibition_NOT (doc 7).",
-        "relevance": 3
-      }
+      { "doc_id": "PR13_1", "text": "Health forums may claim short steroid courses never cause weight gain, which oversimplifies the evidence.", "relevance": 1 },
+      { "doc_id": "PR13_2", "text": "Patient anecdotes occasionally mention sudden weight changes without longitudinal measurement.", "relevance": 1 },
+      { "doc_id": "PR13_3", "text": "Initial observational reports indicate mild fluid retention after brief steroid therapy.", "relevance": 2 },
+      { "doc_id": "PR13_4", "text": "Clinical trials detected moderate weight gain within two weeks of prednisone treatment.", "relevance": 3 },
+      { "doc_id": "PR13_5", "text": "Controlled comparisons show more frequent weight increases in steroid groups than in controls.", "relevance": 3 },
+      { "doc_id": "PR13_6", "text": "Systematic reviews confirm short‑term corticosteroids often cause measurable weight gain.", "relevance": 4 },
+      { "doc_id": "PR13_7", "text": "Meta‑analysis conclusively states short corticosteroid courses significantly increase body weight.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "P04",
+    "query_id": "PR14",
     "query_type": "prohibition_NOT",
-    "query_text": "Find clinical studies about antibiotics prohibition NOT used during pregnancy",
+    "query_text": "Is it true that proton pump inhibitors explicitly NOT reduce calcium absorption in older women?",
     "documents": [
-      {
-        "doc_id": "P04_1",
-        "text": "Placeholder text for antibiotics and used during pregnancy in context of prohibition_NOT (doc 1).",
-        "relevance": 1
-      },
-      {
-        "doc_id": "P04_2",
-        "text": "Placeholder text for antibiotics and used during pregnancy in context of prohibition_NOT (doc 2).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P04_3",
-        "text": "Placeholder text for antibiotics and used during pregnancy in context of prohibition_NOT (doc 3).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P04_4",
-        "text": "Placeholder text for antibiotics and used during pregnancy in context of prohibition_NOT (doc 4).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P04_5",
-        "text": "Placeholder text for antibiotics and used during pregnancy in context of prohibition_NOT (doc 5).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P04_6",
-        "text": "Placeholder text for antibiotics and used during pregnancy in context of prohibition_NOT (doc 6).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "P04_7",
-        "text": "Placeholder text for antibiotics and used during pregnancy in context of prohibition_NOT (doc 7).",
-        "relevance": 4
-      }
+      { "doc_id": "PR14_1", "text": "Some blogs insist PPIs have zero effect on calcium uptake, which overstates their safety.", "relevance": 1 },
+      { "doc_id": "PR14_2", "text": "Anecdotal reports from patients often lack precise dietary and supplementation data.", "relevance": 1 },
+      { "doc_id": "PR14_3", "text": "Preliminary screening studies suggest mild reductions in calcium levels with PPI use.", "relevance": 2 },
+      { "doc_id": "PR14_4", "text": "Longitudinal clinical trials indicate moderate decreases in bone‑related calcium absorption.", "relevance": 3 },
+      { "doc_id": "PR14_5", "text": "Cohort studies in post‑menopausal women found comparable calcium decline in PPI users.", "relevance": 3 },
+      { "doc_id": "PR14_6", "text": "Systematic reviews report significant reduction in calcium uptake linked to daily PPI usage.", "relevance": 4 },
+      { "doc_id": "PR14_7", "text": "Meta-analysis demonstrates that prolonged PPI therapy explicitly causes decreased calcium absorption.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "P05",
+    "query_id": "PR15",
     "query_type": "prohibition_NOT",
-    "query_text": "Find clinical studies about SSRIs prohibition NOT prescribed to minors",
+    "query_text": "Does metoprolol explicitly NOT lead to increased risk of fatigue in athletes?",
     "documents": [
-      {
-        "doc_id": "P05_1",
-        "text": "Placeholder text for SSRIs and prescribed to minors in context of prohibition_NOT (doc 1).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "P05_2",
-        "text": "Placeholder text for SSRIs and prescribed to minors in context of prohibition_NOT (doc 2).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P05_3",
-        "text": "Placeholder text for SSRIs and prescribed to minors in context of prohibition_NOT (doc 3).",
-        "relevance": 1
-      },
-      {
-        "doc_id": "P05_4",
-        "text": "Placeholder text for SSRIs and prescribed to minors in context of prohibition_NOT (doc 4).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P05_5",
-        "text": "Placeholder text for SSRIs and prescribed to minors in context of prohibition_NOT (doc 5).",
-        "relevance": 4
-      },
-      {
-        "doc_id": "P05_6",
-        "text": "Placeholder text for SSRIs and prescribed to minors in context of prohibition_NOT (doc 6).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P05_7",
-        "text": "Placeholder text for SSRIs and prescribed to minors in context of prohibition_NOT (doc 7).",
-        "relevance": 2
-      }
+      { "doc_id": "PR15_1", "text": "Sports forums often claim beta‑blockers never affect endurance, which ignores performance nuance.", "relevance": 1 },
+      { "doc_id": "PR15_2", "text": "Casual athlete accounts may underreport fatigue symptoms.", "relevance": 1 },
+      { "doc_id": "PR15_3", "text": "Small exercise studies report slight reductions in peak performance with beta‑blockers.", "relevance": 2 },
+      { "doc_id": "PR15_4", "text": "Controlled trials found moderate decreases in VO2 max during metoprolol exposure.", "relevance": 3 },
+      { "doc_id": "PR15_5", "text": "Comparative studies showed athletes on metoprolol experienced mild increases in tiredness.", "relevance": 3 },
+      { "doc_id": "PR15_6", "text": "Meta‑analysis supports a moderate effect of metoprolol on exercise-induced fatigue.", "relevance": 4 },
+      { "doc_id": "PR15_7", "text": "Large trials conclusively demonstrate that metoprolol use explicitly raises fatigue risk among athletes.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "P06",
+    "query_id": "PR16",
     "query_type": "prohibition_NOT",
-    "query_text": "Find clinical studies about insulin prohibition NOT shared between users",
+    "query_text": "Are there studies showing that topical NSAIDs explicitly NOT impair skin barrier function with daily use?",
     "documents": [
-      {
-        "doc_id": "P06_1",
-        "text": "Placeholder text for insulin and shared between users in context of prohibition_NOT (doc 1).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P06_2",
-        "text": "Placeholder text for insulin and shared between users in context of prohibition_NOT (doc 2).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P06_3",
-        "text": "Placeholder text for insulin and shared between users in context of prohibition_NOT (doc 3).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P06_4",
-        "text": "Placeholder text for insulin and shared between users in context of prohibition_NOT (doc 4).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P06_5",
-        "text": "Placeholder text for insulin and shared between users in context of prohibition_NOT (doc 5).",
-        "relevance": 4
-      },
-      {
-        "doc_id": "P06_6",
-        "text": "Placeholder text for insulin and shared between users in context of prohibition_NOT (doc 6).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "P06_7",
-        "text": "Placeholder text for insulin and shared between users in context of prohibition_NOT (doc 7).",
-        "relevance": 1
-      }
+      { "doc_id": "PR16_1", "text": "Beauty blogs often say topical NSAIDs never damage skin function, which lacks empirical support.", "relevance": 1 },
+      { "doc_id": "PR16_2", "text": "User comments rarely quantify skin barrier integrity after continuous use.", "relevance": 1 },
+      { "doc_id": "PR16_3", "text": "Preliminary patch‑test studies suggest minimal barrier disruption.", "relevance": 2 },
+      { "doc_id": "PR16_4", "text": "Dermatology trials show moderate increases in transepidermal water loss after repeated application.", "relevance": 3 },
+      { "doc_id": "PR16_5", "text": "Controlled research indicates mild compromise in skin barrier with daily topical NSAID use.", "relevance": 3 },
+      { "doc_id": "PR16_6", "text": "Systematic reviews document moderate impairment of barrier function when used over weeks.", "relevance": 4 },
+      { "doc_id": "PR16_7", "text": "Meta‑analysis confirms that topical NSAIDs explicitly cause significant skin barrier impairment with daily application.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "P07",
+    "query_id": "PR17",
     "query_type": "prohibition_NOT",
-    "query_text": "Find clinical studies about beta blockers prohibition NOT used with asthma",
+    "query_text": "Is it valid that daily aspirin explicitly NOT increases the risk of gastric bleeding in older adults?",
     "documents": [
-      {
-        "doc_id": "P07_1",
-        "text": "Placeholder text for beta blockers and used with asthma in context of prohibition_NOT (doc 1).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "P07_2",
-        "text": "Placeholder text for beta blockers and used with asthma in context of prohibition_NOT (doc 2).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P07_3",
-        "text": "Placeholder text for beta blockers and used with asthma in context of prohibition_NOT (doc 3).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P07_4",
-        "text": "Placeholder text for beta blockers and used with asthma in context of prohibition_NOT (doc 4).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P07_5",
-        "text": "Placeholder text for beta blockers and used with asthma in context of prohibition_NOT (doc 5).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P07_6",
-        "text": "Placeholder text for beta blockers and used with asthma in context of prohibition_NOT (doc 6).",
-        "relevance": 4
-      },
-      {
-        "doc_id": "P07_7",
-        "text": "Placeholder text for beta blockers and used with asthma in context of prohibition_NOT (doc 7).",
-        "relevance": 1
-      }
+      { "doc_id": "PR17_1", "text": "Patient blogs sometimes claim aspirin is perfectly safe for the stomach, even with prolonged use.", "relevance": 1 },
+      { "doc_id": "PR17_2", "text": "Some wellness articles suggest bleeding is only possible with prescription NSAIDs, not aspirin.", "relevance": 1 },
+      { "doc_id": "PR17_3", "text": "Retrospective data hint at a mild rise in gastric erosion among elderly aspirin users.", "relevance": 2 },
+      { "doc_id": "PR17_4", "text": "Case series describe significant bleeding events linked to routine aspirin intake.", "relevance": 3 },
+      { "doc_id": "PR17_5", "text": "Observational trials confirm a moderate correlation between aspirin and gastric mucosal damage.", "relevance": 3 },
+      { "doc_id": "PR17_6", "text": "Controlled studies show daily low-dose aspirin increases bleeding risk after 6 months.", "relevance": 4 },
+      { "doc_id": "PR17_7", "text": "Meta-analyses demonstrate statistically robust links between aspirin and upper GI bleeding in seniors.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "P08",
+    "query_id": "PR18",
     "query_type": "prohibition_NOT",
-    "query_text": "Find clinical studies about aspirin prohibition NOT taken before surgery",
+    "query_text": "Do calcium channel blockers explicitly NOT cause peripheral edema in hypertensive populations?",
     "documents": [
-      {
-        "doc_id": "P08_1",
-        "text": "Placeholder text for aspirin and taken before surgery in context of prohibition_NOT (doc 1).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P08_2",
-        "text": "Placeholder text for aspirin and taken before surgery in context of prohibition_NOT (doc 2).",
-        "relevance": 1
-      },
-      {
-        "doc_id": "P08_3",
-        "text": "Placeholder text for aspirin and taken before surgery in context of prohibition_NOT (doc 3).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P08_4",
-        "text": "Placeholder text for aspirin and taken before surgery in context of prohibition_NOT (doc 4).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "P08_5",
-        "text": "Placeholder text for aspirin and taken before surgery in context of prohibition_NOT (doc 5).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P08_6",
-        "text": "Placeholder text for aspirin and taken before surgery in context of prohibition_NOT (doc 6).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P08_7",
-        "text": "Placeholder text for aspirin and taken before surgery in context of prohibition_NOT (doc 7).",
-        "relevance": 4
-      }
+      { "doc_id": "PR18_1", "text": "Many health websites downplay any risk of leg swelling when using calcium channel blockers.", "relevance": 1 },
+      { "doc_id": "PR18_2", "text": "Some pharmacy pamphlets fail to mention edema as a potential adverse effect.", "relevance": 1 },
+      { "doc_id": "PR18_3", "text": "Pilot studies identified a small increase in ankle swelling among treated patients.", "relevance": 2 },
+      { "doc_id": "PR18_4", "text": "Clinical trials reported moderate rates of peripheral edema after extended use.", "relevance": 2 },
+      { "doc_id": "PR18_5", "text": "Systematic reviews confirm mild-to-moderate edema incidence, especially in older adults.", "relevance": 3 },
+      { "doc_id": "PR18_6", "text": "Prospective cohort studies revealed consistent fluid accumulation near the lower limbs.", "relevance": 4 },
+      { "doc_id": "PR18_7", "text": "Meta‑analysis concludes that calcium channel blockers significantly increase edema risk.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "P09",
+    "query_id": "PR19",
     "query_type": "prohibition_NOT",
-    "query_text": "Find clinical studies about ACE inhibitors prohibition NOT used in kidney failure",
+    "query_text": "Does long-term SSRI use explicitly NOT affect libido in young adults?",
     "documents": [
-      {
-        "doc_id": "P09_1",
-        "text": "Placeholder text for ACE inhibitors and used in kidney failure in context of prohibition_NOT (doc 1).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P09_2",
-        "text": "Placeholder text for ACE inhibitors and used in kidney failure in context of prohibition_NOT (doc 2).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P09_3",
-        "text": "Placeholder text for ACE inhibitors and used in kidney failure in context of prohibition_NOT (doc 3).",
-        "relevance": 4
-      },
-      {
-        "doc_id": "P09_4",
-        "text": "Placeholder text for ACE inhibitors and used in kidney failure in context of prohibition_NOT (doc 4).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "P09_5",
-        "text": "Placeholder text for ACE inhibitors and used in kidney failure in context of prohibition_NOT (doc 5).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P09_6",
-        "text": "Placeholder text for ACE inhibitors and used in kidney failure in context of prohibition_NOT (doc 6).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P09_7",
-        "text": "Placeholder text for ACE inhibitors and used in kidney failure in context of prohibition_NOT (doc 7).",
-        "relevance": 1
-      }
+      { "doc_id": "PR19_1", "text": "Self-help forums often assert SSRIs don’t affect sexual health unless abused, which lacks nuance.", "relevance": 1 },
+      { "doc_id": "PR19_2", "text": "General practitioners rarely document libido decline unless patients directly report it.", "relevance": 1 },
+      { "doc_id": "PR19_3", "text": "Early phase trials reported subtle libido changes in isolated subgroups.", "relevance": 2 },
+      { "doc_id": "PR19_4", "text": "Controlled studies showed moderate sexual dysfunction rates after months of SSRI exposure.", "relevance": 3 },
+      { "doc_id": "PR19_5", "text": "Retrospective surveys confirmed libido decline in patients on fluoxetine and paroxetine.", "relevance": 4 },
+      { "doc_id": "PR19_6", "text": "Recent randomized trials support a strong association between SSRIs and sexual dysfunction.", "relevance": 4 },
+      { "doc_id": "PR19_7", "text": "Meta-analyses show significant libido suppression in over 30% of long-term SSRI users.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "P10",
+    "query_id": "PR20",
     "query_type": "prohibition_NOT",
-    "query_text": "Find clinical studies about metformin prohibition NOT used during fasting",
+    "query_text": "Is it true that loop diuretics explicitly NOT impact potassium levels significantly in heart failure patients?",
     "documents": [
-      {
-        "doc_id": "P10_1",
-        "text": "Placeholder text for metformin and used during fasting in context of prohibition_NOT (doc 1).",
-        "relevance": 1
-      },
-      {
-        "doc_id": "P10_2",
-        "text": "Placeholder text for metformin and used during fasting in context of prohibition_NOT (doc 2).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P10_3",
-        "text": "Placeholder text for metformin and used during fasting in context of prohibition_NOT (doc 3).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "P10_4",
-        "text": "Placeholder text for metformin and used during fasting in context of prohibition_NOT (doc 4).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P10_5",
-        "text": "Placeholder text for metformin and used during fasting in context of prohibition_NOT (doc 5).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P10_6",
-        "text": "Placeholder text for metformin and used during fasting in context of prohibition_NOT (doc 6).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P10_7",
-        "text": "Placeholder text for metformin and used during fasting in context of prohibition_NOT (doc 7).",
-        "relevance": 4
-      }
-    ]
-  },
-  {
-    "query_id": "P11",
-    "query_type": "prohibition_NOT",
-    "query_text": "Find clinical studies about antacids prohibition NOT used long-term without guidance",
-    "documents": [
-      {
-        "doc_id": "P11_1",
-        "text": "Placeholder text for antacids and used long-term without guidance in context of prohibition_NOT (doc 1).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "P11_2",
-        "text": "Placeholder text for antacids and used long-term without guidance in context of prohibition_NOT (doc 2).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P11_3",
-        "text": "Placeholder text for antacids and used long-term without guidance in context of prohibition_NOT (doc 3).",
-        "relevance": 1
-      },
-      {
-        "doc_id": "P11_4",
-        "text": "Placeholder text for antacids and used long-term without guidance in context of prohibition_NOT (doc 4).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "P11_5",
-        "text": "Placeholder text for antacids and used long-term without guidance in context of prohibition_NOT (doc 5).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "P11_6",
-        "text": "Placeholder text for antacids and used long-term without guidance in context of prohibition_NOT (doc 6).",
-        "relevance": 4
-      },
-      {
-        "doc_id": "P11_7",
-        "text": "Placeholder text for antacids and used long-term without guidance in context of prohibition_NOT (doc 7).",
-        "relevance": 5
-      }
+      { "doc_id": "PR20_1", "text": "Online health videos often promote loop diuretics as 'electrolyte-neutral', which is misleading.", "relevance": 1 },
+      { "doc_id": "PR20_2", "text": "Basic handouts sometimes omit mention of hypokalemia as a possible diuretic outcome.", "relevance": 1 },
+      { "doc_id": "PR20_3", "text": "Small-scale studies suggest a minor reduction in serum potassium post-furosemide use.", "relevance": 2 },
+      { "doc_id": "PR20_4", "text": "Clinical trials show significant potassium loss in patients taking loop diuretics over weeks.", "relevance": 3 },
+      { "doc_id": "PR20_5", "text": "Longitudinal research reveals marked electrolyte shifts after high-dose diuretic therapy.", "relevance": 3 },
+      { "doc_id": "PR20_6", "text": "Observational studies identify consistent hypokalemia risk in diuretic-treated heart failure cohorts.", "relevance": 4 },
+      { "doc_id": "PR20_7", "text": "Comprehensive meta-analyses confirm loop diuretics significantly lower potassium, requiring supplementation.", "relevance": 5 }
     ]
   }
+
 ]

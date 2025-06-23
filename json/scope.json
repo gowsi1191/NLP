@@ -1,464 +1,144 @@
 [
   {
-    "query_id": "S01",
+    "query_id": "SCP1",
     "query_type": "scope_NOT",
-    "query_text": "Find clinical studies about ibuprofen scope NOT reducing inflammation",
+    "query_text": "Clinical data examining if PPIs truly scope NOT reduce the risk of gastric bleeding.",
     "documents": [
-      {
-        "doc_id": "S01_1",
-        "text": "Placeholder text for ibuprofen and reducing inflammation in context of scope_NOT (doc 1).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "S01_2",
-        "text": "Placeholder text for ibuprofen and reducing inflammation in context of scope_NOT (doc 2).",
-        "relevance": 4
-      },
-      {
-        "doc_id": "S01_3",
-        "text": "Placeholder text for ibuprofen and reducing inflammation in context of scope_NOT (doc 3).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "S01_4",
-        "text": "Placeholder text for ibuprofen and reducing inflammation in context of scope_NOT (doc 4).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "S01_5",
-        "text": "Placeholder text for ibuprofen and reducing inflammation in context of scope_NOT (doc 5).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "S01_6",
-        "text": "Placeholder text for ibuprofen and reducing inflammation in context of scope_NOT (doc 6).",
-        "relevance": 1
-      },
-      {
-        "doc_id": "S01_7",
-        "text": "Placeholder text for ibuprofen and reducing inflammation in context of scope_NOT (doc 7).",
-        "relevance": 5
-      }
+      { "doc_id": "SCP1_1", "text": "Low-level correlations suggest a possible increase in gastric bleeding with PPIs, contradicting expectations.", "relevance": 1 },
+      { "doc_id": "SCP1_2", "text": "Some post-marketing studies fail to show protective effects from PPIs against gastric issues.", "relevance": 1 },
+      { "doc_id": "SCP1_3", "text": "Neutral meta-analyses conclude PPI's effect on bleeding is minimal.", "relevance": 2 },
+      { "doc_id": "SCP1_4", "text": "Other observational data indicate mild reductions in bleeding rates.", "relevance": 3 },
+      { "doc_id": "SCP1_5", "text": "Conflicting results in RCTs show variability in outcomes related to PPIs.", "relevance": 3 },
+      { "doc_id": "SCP1_6", "text": "Larger trials hint at PPI efficacy in reducing gastrointestinal events.", "relevance": 4 },
+      { "doc_id": "SCP1_7", "text": "Well-controlled studies consistently demonstrate PPIs lower gastric bleeding risks significantly.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "S02",
+    "query_id": "SCP2",
     "query_type": "scope_NOT",
-    "query_text": "Find clinical studies about paracetamol scope NOT affecting fever",
+    "query_text": "Research asking whether ibuprofen scope NOT is protective against cardiovascular events.",
     "documents": [
-      {
-        "doc_id": "S02_1",
-        "text": "Placeholder text for paracetamol and affecting fever in context of scope_NOT (doc 1).",
-        "relevance": 1
-      },
-      {
-        "doc_id": "S02_2",
-        "text": "Placeholder text for paracetamol and affecting fever in context of scope_NOT (doc 2).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "S02_3",
-        "text": "Placeholder text for paracetamol and affecting fever in context of scope_NOT (doc 3).",
-        "relevance": 4
-      },
-      {
-        "doc_id": "S02_4",
-        "text": "Placeholder text for paracetamol and affecting fever in context of scope_NOT (doc 4).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "S02_5",
-        "text": "Placeholder text for paracetamol and affecting fever in context of scope_NOT (doc 5).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "S02_6",
-        "text": "Placeholder text for paracetamol and affecting fever in context of scope_NOT (doc 6).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "S02_7",
-        "text": "Placeholder text for paracetamol and affecting fever in context of scope_NOT (doc 7).",
-        "relevance": 2
-      }
+      { "doc_id": "SCP2_1", "text": "Clinical investigations reveal potential cardiovascular risks associated with ibuprofen use.", "relevance": 1 },
+      { "doc_id": "SCP2_2", "text": "Some patients taking ibuprofen experienced adverse cardiac symptoms, contradicting safety assumptions.", "relevance": 1 },
+      { "doc_id": "SCP2_3", "text": "A few case-control studies present limited neutral outcomes on heart safety.", "relevance": 2 },
+      { "doc_id": "SCP2_4", "text": "Studies found inconclusive evidence on whether ibuprofen significantly affects heart function.", "relevance": 2 },
+      { "doc_id": "SCP2_5", "text": "Larger trials find marginal but notable protective effects under specific conditions.", "relevance": 3 },
+      { "doc_id": "SCP2_6", "text": "Controlled environments demonstrate minor benefits in certain cardiovascular parameters.", "relevance": 4 },
+      { "doc_id": "SCP2_7", "text": "Meta-analyses indicate ibuprofen reduces cardiovascular complications under monitored use.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "S03",
+    "query_id": "SCP3",
     "query_type": "scope_NOT",
-    "query_text": "Find clinical studies about statins scope NOT impacting cholesterol",
+    "query_text": "Evidence around statins scope NOT contributing to memory loss in aging adults.",
     "documents": [
-      {
-        "doc_id": "S03_1",
-        "text": "Placeholder text for statins and impacting cholesterol in context of scope_NOT (doc 1).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "S03_2",
-        "text": "Placeholder text for statins and impacting cholesterol in context of scope_NOT (doc 2).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "S03_3",
-        "text": "Placeholder text for statins and impacting cholesterol in context of scope_NOT (doc 3).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "S03_4",
-        "text": "Placeholder text for statins and impacting cholesterol in context of scope_NOT (doc 4).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "S03_5",
-        "text": "Placeholder text for statins and impacting cholesterol in context of scope_NOT (doc 5).",
-        "relevance": 1
-      },
-      {
-        "doc_id": "S03_6",
-        "text": "Placeholder text for statins and impacting cholesterol in context of scope_NOT (doc 6).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "S03_7",
-        "text": "Placeholder text for statins and impacting cholesterol in context of scope_NOT (doc 7).",
-        "relevance": 4
-      }
+      { "doc_id": "SCP3_1", "text": "Casual sources often claim memory issues linked to statins without scientific consensus.", "relevance": 1 },
+      { "doc_id": "SCP3_2", "text": "Preliminary findings lacked statistical power to show a definitive link.", "relevance": 1 },
+      { "doc_id": "SCP3_3", "text": "Mild cognitive differences were observed in some cross-sectional surveys.", "relevance": 2 },
+      { "doc_id": "SCP3_4", "text": "Several double-blind studies found no measurable decline in memory scores.", "relevance": 3 },
+      { "doc_id": "SCP3_5", "text": "Certain populations exhibited slight recall changes, but not statistically robust.", "relevance": 4 },
+      { "doc_id": "SCP3_6", "text": "Long-term follow-ups found no sustained cognitive impairment from statin use.", "relevance": 4 },
+      { "doc_id": "SCP3_7", "text": "Major reviews conclude statins are not associated with memory loss.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "S04",
+    "query_id": "SCP4",
     "query_type": "scope_NOT",
-    "query_text": "Find clinical studies about antibiotics scope NOT modulating gut bacteria",
+    "query_text": "Clinical data examining if metformin truly scope NOT reduces cardiovascular mortality in diabetics.",
     "documents": [
-      {
-        "doc_id": "S04_1",
-        "text": "Placeholder text for antibiotics and modulating gut bacteria in context of scope_NOT (doc 1).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "S04_2",
-        "text": "Placeholder text for antibiotics and modulating gut bacteria in context of scope_NOT (doc 2).",
-        "relevance": 4
-      },
-      {
-        "doc_id": "S04_3",
-        "text": "Placeholder text for antibiotics and modulating gut bacteria in context of scope_NOT (doc 3).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "S04_4",
-        "text": "Placeholder text for antibiotics and modulating gut bacteria in context of scope_NOT (doc 4).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "S04_5",
-        "text": "Placeholder text for antibiotics and modulating gut bacteria in context of scope_NOT (doc 5).",
-        "relevance": 1
-      },
-      {
-        "doc_id": "S04_6",
-        "text": "Placeholder text for antibiotics and modulating gut bacteria in context of scope_NOT (doc 6).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "S04_7",
-        "text": "Placeholder text for antibiotics and modulating gut bacteria in context of scope_NOT (doc 7).",
-        "relevance": 2
-      }
+      { "doc_id": "SCP4_1", "text": "Clinical investigations with weak endpoints fail to support metformin's heart benefits.", "relevance": 1 },
+      { "doc_id": "SCP4_2", "text": "Some studies challenge the idea that metformin lowers cardiovascular death rates.", "relevance": 2 },
+      { "doc_id": "SCP4_3", "text": "Meta-analysis results remain equivocal on metformin's cardiac effects.", "relevance": 3 },
+      { "doc_id": "SCP4_4", "text": "There is modest support from observational studies for reduced mortality trends.", "relevance": 3 },
+      { "doc_id": "SCP4_5", "text": "Several trials confirm moderate reductions in cardiovascular risk factors.", "relevance": 4 },
+      { "doc_id": "SCP4_6", "text": "Randomized studies verify consistent mortality decline in metformin-treated groups.", "relevance": 5 },
+      { "doc_id": "SCP4_7", "text": "Real-world data show fewer heart-related deaths in metformin cohorts.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "S05",
+    "query_id": "SCP5",
     "query_type": "scope_NOT",
-    "query_text": "Find clinical studies about SSRIs scope NOT changing mood",
+    "query_text": "Clinical data examining if aspirin truly scope NOT prevents clot-related strokes.",
     "documents": [
-      {
-        "doc_id": "S05_1",
-        "text": "Placeholder text for SSRIs and changing mood in context of scope_NOT (doc 1).",
-        "relevance": 4
-      },
-      {
-        "doc_id": "S05_2",
-        "text": "Placeholder text for SSRIs and changing mood in context of scope_NOT (doc 2).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "S05_3",
-        "text": "Placeholder text for SSRIs and changing mood in context of scope_NOT (doc 3).",
-        "relevance": 1
-      },
-      {
-        "doc_id": "S05_4",
-        "text": "Placeholder text for SSRIs and changing mood in context of scope_NOT (doc 4).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "S05_5",
-        "text": "Placeholder text for SSRIs and changing mood in context of scope_NOT (doc 5).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "S05_6",
-        "text": "Placeholder text for SSRIs and changing mood in context of scope_NOT (doc 6).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "S05_7",
-        "text": "Placeholder text for SSRIs and changing mood in context of scope_NOT (doc 7).",
-        "relevance": 2
-      }
+      { "doc_id": "SCP5_1", "text": "Reports show mild increases in clotting complications among certain aspirin users.", "relevance": 1 },
+      { "doc_id": "SCP5_2", "text": "Older studies fail to confirm aspirin's protective effect for primary stroke prevention.", "relevance": 2 },
+      { "doc_id": "SCP5_3", "text": "Outcomes remain inconsistent when aspirin is used in low-risk individuals.", "relevance": 3 },
+      { "doc_id": "SCP5_4", "text": "RCTs confirm stroke reduction among high-risk cohorts taking aspirin regularly.", "relevance": 4 },
+      { "doc_id": "SCP5_5", "text": "Aspirin substantially lowers ischemic stroke rates in targeted clinical groups.", "relevance": 5 },
+      { "doc_id": "SCP5_6", "text": "Professional guidelines continue endorsing aspirin’s benefits in stroke mitigation.", "relevance": 4 },
+      { "doc_id": "SCP5_7", "text": "Clinical consensus supports aspirin’s scope in preventing clot-based cerebral events.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "S06",
+    "query_id": "SCP6",
     "query_type": "scope_NOT",
-    "query_text": "Find clinical studies about insulin scope NOT regulating blood sugar",
+    "query_text": "Do corticosteroids scope NOT suppress immune function in moderate doses?",
     "documents": [
-      {
-        "doc_id": "S06_1",
-        "text": "Placeholder text for insulin and regulating blood sugar in context of scope_NOT (doc 1).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "S06_2",
-        "text": "Placeholder text for insulin and regulating blood sugar in context of scope_NOT (doc 2).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "S06_3",
-        "text": "Placeholder text for insulin and regulating blood sugar in context of scope_NOT (doc 3).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "S06_4",
-        "text": "Placeholder text for insulin and regulating blood sugar in context of scope_NOT (doc 4).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "S06_5",
-        "text": "Placeholder text for insulin and regulating blood sugar in context of scope_NOT (doc 5).",
-        "relevance": 1
-      },
-      {
-        "doc_id": "S06_6",
-        "text": "Placeholder text for insulin and regulating blood sugar in context of scope_NOT (doc 6).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "S06_7",
-        "text": "Placeholder text for insulin and regulating blood sugar in context of scope_NOT (doc 7).",
-        "relevance": 4
-      }
+      { "doc_id": "SCP6_1", "text": "Anecdotal cases show no apparent immune suppression in short-term corticosteroid users.", "relevance": 1 },
+      { "doc_id": "SCP6_2", "text": "Early-phase trials were inconclusive about moderate dose immune suppression.", "relevance": 2 },
+      { "doc_id": "SCP6_3", "text": "Controlled data highlight reduced immune markers over extended corticosteroid usage.", "relevance": 3 },
+      { "doc_id": "SCP6_4", "text": "Findings point to gradual T-cell suppression at sustained dosing.", "relevance": 3 },
+      { "doc_id": "SCP6_5", "text": "Immunophenotyping reveals weakened defenses with chronic moderate corticosteroid exposure.", "relevance": 4 },
+      { "doc_id": "SCP6_6", "text": "Robust longitudinal studies confirm notable immune suppression over time.", "relevance": 5 },
+      { "doc_id": "SCP6_7", "text": "Experts widely agree corticosteroids impact immune response with sufficient duration.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "S07",
+    "query_id": "SCP7",
     "query_type": "scope_NOT",
-    "query_text": "Find clinical studies about beta blockers scope NOT lowering blood pressure",
+    "query_text": "Are antihistamines scope NOT responsible for impairing cognitive function in elderly patients?",
     "documents": [
-      {
-        "doc_id": "S07_1",
-        "text": "Placeholder text for beta blockers and lowering blood pressure in context of scope_NOT (doc 1).",
-        "relevance": 1
-      },
-      {
-        "doc_id": "S07_2",
-        "text": "Placeholder text for beta blockers and lowering blood pressure in context of scope_NOT (doc 2).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "S07_3",
-        "text": "Placeholder text for beta blockers and lowering blood pressure in context of scope_NOT (doc 3).",
-        "relevance": 4
-      },
-      {
-        "doc_id": "S07_4",
-        "text": "Placeholder text for beta blockers and lowering blood pressure in context of scope_NOT (doc 4).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "S07_5",
-        "text": "Placeholder text for beta blockers and lowering blood pressure in context of scope_NOT (doc 5).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "S07_6",
-        "text": "Placeholder text for beta blockers and lowering blood pressure in context of scope_NOT (doc 6).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "S07_7",
-        "text": "Placeholder text for beta blockers and lowering blood pressure in context of scope_NOT (doc 7).",
-        "relevance": 5
-      }
+      { "doc_id": "SCP7_1", "text": "General awareness suggests minimal cognitive effects of antihistamines in older adults, but this is largely anecdotal.", "relevance": 1 },
+      { "doc_id": "SCP7_2", "text": "There are few trials showing no significant differences in cognitive scores between treated and untreated groups.", "relevance": 1 },
+      { "doc_id": "SCP7_3", "text": "A couple of studies hint at mild memory effects during long-term antihistamine use.", "relevance": 2 },
+      { "doc_id": "SCP7_4", "text": "Some observational analyses reported limited attention span variations among elderly antihistamine users.", "relevance": 3 },
+      { "doc_id": "SCP7_5", "text": "Meta-analyses are beginning to show more consistent cognitive degradation patterns tied to extended use.", "relevance": 3 },
+      { "doc_id": "SCP7_6", "text": "Randomized trials with cognitive baselines do report noticeable decline in some tasks.", "relevance": 4 },
+      { "doc_id": "SCP7_7", "text": "Recent consensus papers identify a statistically significant association between antihistamines and age-related cognitive impairment.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "S08",
+    "query_id": "SCP8",
     "query_type": "scope_NOT",
-    "query_text": "Find clinical studies about aspirin scope NOT preventing stroke",
+    "query_text": "Do SSRIs scope NOT contribute to sexual dysfunction in male users?",
     "documents": [
-      {
-        "doc_id": "S08_1",
-        "text": "Placeholder text for aspirin and preventing stroke in context of scope_NOT (doc 1).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "S08_2",
-        "text": "Placeholder text for aspirin and preventing stroke in context of scope_NOT (doc 2).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "S08_3",
-        "text": "Placeholder text for aspirin and preventing stroke in context of scope_NOT (doc 3).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "S08_4",
-        "text": "Placeholder text for aspirin and preventing stroke in context of scope_NOT (doc 4).",
-        "relevance": 4
-      },
-      {
-        "doc_id": "S08_5",
-        "text": "Placeholder text for aspirin and preventing stroke in context of scope_NOT (doc 5).",
-        "relevance": 1
-      },
-      {
-        "doc_id": "S08_6",
-        "text": "Placeholder text for aspirin and preventing stroke in context of scope_NOT (doc 6).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "S08_7",
-        "text": "Placeholder text for aspirin and preventing stroke in context of scope_NOT (doc 7).",
-        "relevance": 5
-      }
+      { "doc_id": "SCP8_1", "text": "Forum discussions downplay the sexual side effects of SSRIs, but are rarely based on controlled evidence.", "relevance": 1 },
+      { "doc_id": "SCP8_2", "text": "Reports from patient diaries show no major deviation in sexual performance during early treatment weeks.", "relevance": 1 },
+      { "doc_id": "SCP8_3", "text": "Pilot studies report mixed results on sexual dysfunction among SSRI groups.", "relevance": 2 },
+      { "doc_id": "SCP8_4", "text": "Some urological reviews suggest moderate disruption of sexual response curves due to SSRIs.", "relevance": 2 },
+      { "doc_id": "SCP8_5", "text": "Aggregated data shows a measurable increase in reported dysfunction after eight weeks of therapy.", "relevance": 3 },
+      { "doc_id": "SCP8_6", "text": "Clinical studies consistently confirm reduced libido and delayed ejaculation in male subjects on SSRIs.", "relevance": 4 },
+      { "doc_id": "SCP8_7", "text": "Large-scale RCTs find significant sexual side effects as a primary SSRI concern among male patients.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "S09",
+    "query_id": "SCP9",
     "query_type": "scope_NOT",
-    "query_text": "Find clinical studies about ACE inhibitors scope NOT affecting heart rate",
+    "query_text": "Is insulin therapy scope NOT linked to increased cancer incidence in long-term users?",
     "documents": [
-      {
-        "doc_id": "S09_1",
-        "text": "Placeholder text for ACE inhibitors and affecting heart rate in context of scope_NOT (doc 1).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "S09_2",
-        "text": "Placeholder text for ACE inhibitors and affecting heart rate in context of scope_NOT (doc 2).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "S09_3",
-        "text": "Placeholder text for ACE inhibitors and affecting heart rate in context of scope_NOT (doc 3).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "S09_4",
-        "text": "Placeholder text for ACE inhibitors and affecting heart rate in context of scope_NOT (doc 4).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "S09_5",
-        "text": "Placeholder text for ACE inhibitors and affecting heart rate in context of scope_NOT (doc 5).",
-        "relevance": 4
-      },
-      {
-        "doc_id": "S09_6",
-        "text": "Placeholder text for ACE inhibitors and affecting heart rate in context of scope_NOT (doc 6).",
-        "relevance": 1
-      },
-      {
-        "doc_id": "S09_7",
-        "text": "Placeholder text for ACE inhibitors and affecting heart rate in context of scope_NOT (doc 7).",
-        "relevance": 5
-      }
+      { "doc_id": "SCP9_1", "text": "Popular blog articles argue there is no basis for associating insulin with cancer.", "relevance": 1 },
+      { "doc_id": "SCP9_2", "text": "Narrative reviews fail to provide direct links between insulin and oncogenic processes.", "relevance": 2 },
+      { "doc_id": "SCP9_3", "text": "Cohort studies present slightly elevated cancer markers, though statistical significance is inconsistent.", "relevance": 3 },
+      { "doc_id": "SCP9_4", "text": "Review of registry data shows insulin use aligns with mild risk changes for breast and pancreatic cancers.", "relevance": 3 },
+      { "doc_id": "SCP9_5", "text": "Several observational studies confirm moderate but persistent cancer risk elevation among insulin users.", "relevance": 4 },
+      { "doc_id": "SCP9_6", "text": "Controlled studies isolate insulin analogues as potentially influencing tumor growth pathways.", "relevance": 4 },
+      { "doc_id": "SCP9_7", "text": "Longitudinal datasets affirm a clear correlation between prolonged insulin exposure and increased malignancy rates.", "relevance": 5 }
     ]
   },
   {
-    "query_id": "S10",
+    "query_id": "SCP10",
     "query_type": "scope_NOT",
-    "query_text": "Find clinical studies about metformin scope NOT regulating glucose levels",
+    "query_text": "Do calcium channel blockers scope NOT contribute to lower extremity swelling in elderly patients?",
     "documents": [
-      {
-        "doc_id": "S10_1",
-        "text": "Placeholder text for metformin and regulating glucose levels in context of scope_NOT (doc 1).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "S10_2",
-        "text": "Placeholder text for metformin and regulating glucose levels in context of scope_NOT (doc 2).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "S10_3",
-        "text": "Placeholder text for metformin and regulating glucose levels in context of scope_NOT (doc 3).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "S10_4",
-        "text": "Placeholder text for metformin and regulating glucose levels in context of scope_NOT (doc 4).",
-        "relevance": 4
-      },
-      {
-        "doc_id": "S10_5",
-        "text": "Placeholder text for metformin and regulating glucose levels in context of scope_NOT (doc 5).",
-        "relevance": 1
-      },
-      {
-        "doc_id": "S10_6",
-        "text": "Placeholder text for metformin and regulating glucose levels in context of scope_NOT (doc 6).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "S10_7",
-        "text": "Placeholder text for metformin and regulating glucose levels in context of scope_NOT (doc 7).",
-        "relevance": 3
-      }
-    ]
-  },
-  {
-    "query_id": "S11",
-    "query_type": "scope_NOT",
-    "query_text": "Find clinical studies about antacids scope NOT neutralizing stomach acid",
-    "documents": [
-      {
-        "doc_id": "S11_1",
-        "text": "Placeholder text for antacids and neutralizing stomach acid in context of scope_NOT (doc 1).",
-        "relevance": 3
-      },
-      {
-        "doc_id": "S11_2",
-        "text": "Placeholder text for antacids and neutralizing stomach acid in context of scope_NOT (doc 2).",
-        "relevance": 2
-      },
-      {
-        "doc_id": "S11_3",
-        "text": "Placeholder text for antacids and neutralizing stomach acid in context of scope_NOT (doc 3).",
-        "relevance": 4
-      },
-      {
-        "doc_id": "S11_4",
-        "text": "Placeholder text for antacids and neutralizing stomach acid in context of scope_NOT (doc 4).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "S11_5",
-        "text": "Placeholder text for antacids and neutralizing stomach acid in context of scope_NOT (doc 5).",
-        "relevance": 1
-      },
-      {
-        "doc_id": "S11_6",
-        "text": "Placeholder text for antacids and neutralizing stomach acid in context of scope_NOT (doc 6).",
-        "relevance": 5
-      },
-      {
-        "doc_id": "S11_7",
-        "text": "Placeholder text for antacids and neutralizing stomach acid in context of scope_NOT (doc 7).",
-        "relevance": 2
-      }
+      { "doc_id": "SCP10_1", "text": "Some elderly patients report no noticeable swelling while on calcium channel blockers.", "relevance": 1 },
+      { "doc_id": "SCP10_2", "text": "Minor observational notes show isolated cases of non-drug-related edema.", "relevance": 1 },
+      { "doc_id": "SCP10_3", "text": "Limited studies suggest low-level fluid retention unrelated to dose.", "relevance": 2 },
+      { "doc_id": "SCP10_4", "text": "Controlled studies reveal a higher likelihood of edema symptoms over time.", "relevance": 3 },
+      { "doc_id": "SCP10_5", "text": "Case-controlled evaluations show significant edema with certain calcium blockers compared to others.", "relevance": 3 },
+      { "doc_id": "SCP10_6", "text": "Clinical trials consistently report lower limb swelling as a common side effect.", "relevance": 4 },
+      { "doc_id": "SCP10_7", "text": "Meta-reviews highlight peripheral edema as a prevalent and dose-dependent issue among elderly users.", "relevance": 5 }
     ]
   }
+
+
 ]

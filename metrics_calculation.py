@@ -9,7 +9,7 @@ import os
 
 class MetricsCalculator:
     def __init__(self):
-        self.relevant_scores = {5, 4, 3}
+        self.relevant_scores = {5}  # <- updated to strict criteria
         self.start_time = time.time()
         
     def _print_progress(self, current, total, message=""):
@@ -59,6 +59,7 @@ class MetricsCalculator:
         top_k = ranked_list[:k]
         relevant = sum(1 for doc in top_k if relevance_labels[doc-1] in self.relevant_scores)
         return relevant / k
+
     
     def mean_reciprocal_rank(self, ranked_list: List[int], relevance_labels: List[int]) -> float:
         for i, doc in enumerate(ranked_list):

@@ -247,15 +247,24 @@ def analyze_data(data):
     return reports
 
 if __name__ == "__main__":
-    # Load evaluation data
-    with open('evaluation_results.json') as f:
-        evaluation_data = json.load(f)
-    
-    # Generate analysis reports
-    analysis_reports = analyze_data(evaluation_data)
-    
-    # Save single comprehensive report
-    with open('enhanced_query_type_analysis.json', 'w') as f:
-        json.dump(analysis_reports, f, indent=2, cls=NumpyEncoder)
-    
-    print("Analysis complete. Report saved to enhanced_query_type_analysis.json")
+    files = [
+        "evaluation_results_cross-encoder-nli-deberta-base.json",
+        "evaluation_results_facebook-bart-large-mnli.json",
+        "evaluation_results_microsoft-deberta-large-mnli.json",
+        "evaluation_results_prajjwal1-albert-base-v2-mnli.json",
+        "evaluation_results_pritamdeka-PubMedBERT-MNLI-MedNLI.json",
+        "evaluation_results_roberta-large-mnli.json",
+        "evaluation_results_typeform-distilbert-base-uncased-mnli.json"
+    ]
+
+    for file_path in files:
+        with open(file_path) as f:
+            evaluation_data = json.load(f)
+
+        analysis_reports = analyze_data(evaluation_data)
+
+        output_filename = file_path.replace("evaluation_results", "enhanced_query_type_analysis")
+        with open(output_filename, 'w') as f:
+            json.dump(analysis_reports, f, indent=2, cls=NumpyEncoder)
+
+        print(f"Analysis complete. Report saved to {output_filename}")

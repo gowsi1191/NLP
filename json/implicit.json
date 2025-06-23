@@ -1,227 +1,144 @@
-[
-  {
-    "query_id": "IM21",
-    "query_type": "implicit_NOT",
-    "query_text": "Can biologic treatments lead to increased liver enzyme levels?",
-    "documents": [
-      { "doc_id": "IM21_1", "text": "Safety alerts indicate elevated liver enzymes with biologic use.", "relevance": 1 },
-      { "doc_id": "IM21_2", "text": "No significant enzyme elevations were observed in biologic trials (p=0.81).", "relevance": 5 },
-      { "doc_id": "IM21_3", "text": "Biologics may affect liver metabolism, but evidence is inconclusive.", "relevance": 3 },
-      { "doc_id": "IM21_4", "text": "Case reports describe mild enzyme increases in biologic patients.", "relevance": 1 },
-      { "doc_id": "IM21_5", "text": "Some cohorts suggested transient liver enzyme rises post-treatment.", "relevance": 1 },
-      { "doc_id": "IM21_6", "text": "Enzyme levels remained comparable between treated and control groups.", "relevance": 4 },
-      { "doc_id": "IM21_7", "text": "Systematic reviews found no meaningful hepatic impact from biologics.", "relevance": 5 }
-    ]
-  },
-  {
-    "query_id": "IM22",
-    "query_type": "implicit_NOT",
-    "query_text": "Is there clinical evidence that PPIs contribute to magnesium deficiency?",
-    "documents": [
-      { "doc_id": "IM22_1", "text": "Safety notices warn about magnesium deficiency with PPI use.", "relevance": 1 },
-      { "doc_id": "IM22_2", "text": "No significant magnesium drop was reported in PPI trials (p=0.79).", "relevance": 5 },
-      { "doc_id": "IM22_3", "text": "PPIs may alter mineral absorption, but evidence is inconclusive.", "relevance": 3 },
-      { "doc_id": "IM22_4", "text": "Case series document mild deficiencies in PPI users.", "relevance": 1 },
-      { "doc_id": "IM22_5", "text": "Some studies suggested marginal magnesium changes post-therapy.", "relevance": 1 },
-      { "doc_id": "IM22_6", "text": "Magnesium levels remained steady across study arms.", "relevance": 4 },
-      { "doc_id": "IM22_7", "text": "Reviews found no consistent PPI-induced magnesium deficiency.", "relevance": 5 }
-    ]
-  },
-  {
-    "query_id": "IM23",
-    "query_type": "implicit_NOT",
-    "query_text": "Are antibiotics linked to increased risk of tendon rupture?",
-    "documents": [
-      { "doc_id": "IM23_1", "text": "Alerts warn about tendon injury risk with certain antibiotics.", "relevance": 1 },
-      { "doc_id": "IM23_2", "text": "No significant tendon rupture rates were seen in trials (p=0.84).", "relevance": 5 },
-      { "doc_id": "IM23_3", "text": "Antibiotics may affect connective tissue, but data remain inconclusive.", "relevance": 3 },
-      { "doc_id": "IM23_4", "text": "Case reports mention tendon issues in antibiotic users.", "relevance": 1 },
-      { "doc_id": "IM23_5", "text": "Some studies suggested possible tendon injury post-therapy.", "relevance": 1 },
-      { "doc_id": "IM23_6", "text": "Rupture rates stayed similar in treated and control groups.", "relevance": 4 },
-      { "doc_id": "IM23_7", "text": "Meta-analyses found no definitive antibiotic-tendon rupture link.", "relevance": 5 }
-    ]
-  },
-  {
-    "query_id": "IM24",
-    "query_type": "implicit_NOT",
-    "query_text": "What do trials show about beta-agonists and cardiovascular arrhythmias?",
-    "documents": [
-      { "doc_id": "IM24_1", "text": "Safety alerts mention arrhythmia risk with beta-agonist use.", "relevance": 1 },
-      { "doc_id": "IM24_2", "text": "No significant arrhythmia increase was noted in trials (p=0.82).", "relevance": 5 },
-      { "doc_id": "IM24_3", "text": "Beta‑agonists may alter cardiac conduction, but evidence is inconclusive.", "relevance": 3 },
-      { "doc_id": "IM24_4", "text": "Case studies report arrhythmic events in some patients.", "relevance": 1 },
-      { "doc_id": "IM24_5", "text": "Some cohorts suggested arrhythmia risk post-therapy.", "relevance": 1 },
-      { "doc_id": "IM24_6", "text": "Arrhythmia incidence remained similar across groups.", "relevance": 4 },
-      { "doc_id": "IM24_7", "text": "Systematic reviews found no causal link to arrhythmias.", "relevance": 5 }
-    ]
-  },
-  {
-    "query_id": "IM25",
-    "query_type": "implicit_NOT",
-    "query_text": "Do statin trials indicate any link to new-onset diabetes?",
-    "documents": [
-      { "doc_id": "IM25_1", "text": "Safety notes warn new-onset diabetes may occur with statins.", "relevance": 1 },
-      { "doc_id": "IM25_2", "text": "No significant diabetes incidence seen in trial data (p=0.83).", "relevance": 5 },
-      { "doc_id": "IM25_3", "text": "Statins may affect glucose metabolism, but evidence remains unclear.", "relevance": 3 },
-      { "doc_id": "IM25_4", "text": "Case reports note diabetes in rare post-statin cases.", "relevance": 1 },
-      { "doc_id": "IM25_5", "text": "Some studies suggested possible diabetes risk post-use.", "relevance": 1 },
-      { "doc_id": "IM25_6", "text": "Diabetes rates stayed consistent between arms.", "relevance": 4 },
-      { "doc_id": "IM25_7", "text": "Meta-analyses found no clear statin-diabetes link.", "relevance": 5 }
-    ]
-  },
-  {
-    "query_id": "IM26",
-    "query_type": "implicit_NOT",
-    "query_text": "Are sedative hypnotics associated with daytime drowsiness?",
-    "documents": [
-      { "doc_id": "IM26_1", "text": "Warnings mention daytime drowsiness with hypnotic use.", "relevance": 1 },
-      { "doc_id": "IM26_2", "text": "No significant drowsiness reported in trials (p=0.78).", "relevance": 5 },
-      { "doc_id": "IM26_3", "text": "Hypnotics may affect central alertness, but evidence unclear.", "relevance": 3 },
-      { "doc_id": "IM26_4", "text": "Case reports note daytime sleepiness in users.", "relevance": 1 },
-      { "doc_id": "IM26_5", "text": "Some studies suggested minimal drowsiness post-use.", "relevance": 1 },
-      { "doc_id": "IM26_6", "text": "Daytime alertness remained similar across trial arms.", "relevance": 4 },
-      { "doc_id": "IM26_7", "text": "Reviews found no definitive link to drowsiness.", "relevance": 5 }
-    ]
-  },
-  {
-    "query_id": "IM27",
-    "query_type": "implicit_NOT",
-    "query_text": "Could corticosteroids exacerbate hypertension?",
-    "documents": [
-      { "doc_id": "IM27_1", "text": "Alerts warn of hypertension risk with corticosteroid therapy.", "relevance": 1 },
-      { "doc_id": "IM27_2", "text": "No significant blood pressure increase was observed (p=0.84).", "relevance": 5 },
-      { "doc_id": "IM27_3", "text": "Corticosteroids may influence vascular tone, but evidence is inconclusive.", "relevance": 3 },
-      { "doc_id": "IM27_4", "text": "Case reports document hypertensive episodes.", "relevance": 1 },
-      { "doc_id": "IM27_5", "text": "Some cohorts suggested minor BP changes post-use.", "relevance": 1 },
-      { "doc_id": "IM27_6", "text": "BP remained steady between treated and control groups.", "relevance": 4 },
-      { "doc_id": "IM27_7", "text": "Meta-analyses found no meaningful corticosteroid-hypertension link.", "relevance": 5 }
-    ]
-  },
-  {
-    "query_id": "IM28",
-    "query_type": "implicit_NOT",
-    "query_text": "Have trials documented cognitive impairment from anticholinergics?",
-    "documents": [
-      { "doc_id": "IM28_1", "text": "Warnings mention potential cognitive decline with anticholinergic use.", "relevance": 1 },
-      { "doc_id": "IM28_2", "text": "No significant decline was observed in randomized trials (p=0.79).", "relevance": 5 },
-      { "doc_id": "IM28_3", "text": "Anticholinergics may affect cognition, but evidence remains unclear.", "relevance": 3 },
-      { "doc_id": "IM28_4", "text": "Case studies report memory issues in some users.", "relevance": 1 },
-      { "doc_id": "IM28_5", "text": "Some studies suggested risk of decline post-therapy.", "relevance": 1 },
-      { "doc_id": "IM28_6", "text": "Cognitive scores remained consistent across groups.", "relevance": 4 },
-      { "doc_id": "IM28_7", "text": "Review papers found no definitive cognitive harm.", "relevance": 5 }
-    ]
-  },
-  {
-    "query_id": "IM29",
-    "query_type": "implicit_NOT",
-    "query_text": "Are proton pump inhibitors linked to increased fracture rates?",
-    "documents": [
-      { "doc_id": "IM29_1", "text": "Alerts warn about bone fracture risk with long-term PPI use.", "relevance": 1 },
-      { "doc_id": "IM29_2", "text": "No significant fracture risk increase was seen in cohorts (p=0.85).", "relevance": 5 },
-      { "doc_id": "IM29_3", "text": "PPIs may affect calcium absorption, but evidence is unclear.", "relevance": 3 },
-      { "doc_id": "IM29_4", "text": "Case reports describe fractures in some patients.", "relevance": 1 },
-      { "doc_id": "IM29_5", "text": "Some studies suggested marginal fracture risk post-use.", "relevance": 1 },
-      { "doc_id": "IM29_6", "text": "Fracture incidence remained steady across groups.", "relevance": 4 },
-      { "doc_id": "IM29_7", "text": "Systematic reviews found no causal link to fractures.", "relevance": 5 }
-    ]
-  },
-  {
-    "query_id": "IM30",
-    "query_type": "implicit_NOT",
-    "query_text": "Is there evidence anticoagulants increase stroke risk?",
-    "documents": [
-      { "doc_id": "IM30_1", "text": "Safety alerts mention stroke risk with anticoagulant therapy.", "relevance": 1 },
-      { "doc_id": "IM30_2", "text": "No significant stroke increase was found in randomized trials (p=0.86).", "relevance": 5 },
-      { "doc_id": "IM30_3", "text": "Anticoagulants may affect clot dynamics, but evidence is inconclusive.", "relevance": 3 },
-      { "doc_id": "IM30_4", "text": "Case reports document stroke incidents in treated patients.", "relevance": 1 },
-      { "doc_id": "IM30_5", "text": "Some cohorts suggested minor stroke risk post-initiation.", "relevance": 1 },
-      { "doc_id": "IM30_6", "text": "Stroke rates remained stable between groups.", "relevance": 4 },
-      { "doc_id": "IM30_7", "text": "Meta-analyses found no strong evidence for stroke risk.", "relevance": 5 }
-    ]
-  },
-  {
-    "query_id": "IM31",
-    "query_type": "implicit_NOT",
-    "query_text": "Do antihistamines raise intraocular pressure in clinical studies?",
-    "documents": [
-      { "doc_id": "IM31_1", "text": "Alerts mention IOP increase with antihistamine use.", "relevance": 1 },
-      { "doc_id": "IM31_2", "text": "No significant IOP rise was observed in trials (p=0.80).", "relevance": 5 },
-      { "doc_id": "IM31_3", "text": "Antihistamines may affect ocular pressure, but evidence inconclusive.", "relevance": 3 },
-      { "doc_id": "IM31_4", "text": "Case studies report IOP spikes in some patients.", "relevance": 1 },
-      { "doc_id": "IM31_5", "text": "Some cohorts suggested IOP risk post-use.", "relevance": 1 },
-      { "doc_id": "IM31_6", "text": "IOP remained steady across treatment arms.", "relevance": 4 },
-      { "doc_id": "IM31_7", "text": "Reviews show no definitive antihistamine‑IOP link.", "relevance": 5 }
-    ]
-  },
-  {
-    "query_id": "IM32",
-    "query_type": "implicit_NOT",
-    "query_text": "Are herbal supplements linked to liver toxicity in trials?",
-    "documents": [
-      { "doc_id": "IM32_1", "text": "Alerts warn about hepatotoxicity with some herbal supplements.", "relevance": 1 },
-      { "doc_id": "IM32_2", "text": "No significant liver toxicity was observed in clinical studies (p=0.88).", "relevance": 5 },
-      { "doc_id": "IM32_3", "text": "Supplements may interact with liver enzymes, but evidence is unclear.", "relevance": 3 },
-      { "doc_id": "IM32_4", "text": "Case reports note liver issues in isolated supplement users.", "relevance": 1 },
-      { "doc_id": "IM32_5", "text": "Some studies suggested mild hepatotoxicity post-use.", "relevance": 1 },
-      { "doc_id": "IM32_6", "text": "Liver function remained normal across groups.", "relevance": 4 },
-      { "doc_id": "IM32_7", "text": "Reviews did not confirm any supplement‑induced liver toxicity.", "relevance": 5 }
-    ]
-  },
-  {
-    "query_id": "IM33",
-    "query_type": "implicit_NOT",
-    "query_text": "Could SSRIs worsen anxiety according to clinical trials?",
-    "documents": [
-      { "doc_id": "IM33_1", "text": "Warnings mention anxiety spikes with SSRIs in some patients.", "relevance": 1 },
-      { "doc_id": "IM33_2", "text": "No significant anxiety increase was noted in SSRI studies (p=0.85).", "relevance": 5 },
-      { "doc_id": "IM33_3", "text": "SSRIs may affect mood regulation, but data remain inconclusive.", "relevance": 3 },
-      { "doc_id": "IM33_4", "text": "Case reports describe anxiety incidents post-SSRI initiation.", "relevance": 1 },
-      { "doc_id": "IM33_5", "text": "Some cohorts suggested anxiety changes post-use.", "relevance": 1 },
-      { "doc_id": "IM33_6", "text": "Anxiety scores stayed stable across groups.", "relevance": 4 },
-      { "doc_id": "IM33_7", "text": "Meta-analyses found no definitive SSRI‑anxiety worsening link.", "relevance": 5 }
-    ]
-  },
-  {
-    "query_id": "IM34",
-    "query_type": "implicit_NOT",
-    "query_text": "Is there evidence NSAIDs increase risk of heart attacks?",
-    "documents": [
-      { "doc_id": "IM34_1", "text": "Safety alerts warn about cardiovascular risk with NSAIDs.", "relevance": 1 },
-      { "doc_id": "IM34_2", "text": "No significant heart attack increase seen in trial populations (p=0.82).", "relevance": 5 },
-      { "doc_id": "IM34_3", "text": "NSAIDs may affect prostaglandin pathways, but evidence is unclear.", "relevance": 3 }, 
+[{
+  "query_id": "IM101",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there evidence that corticosteroids lead to bone mineral density loss?",
+  "documents": [
+    { "doc_id": "IM101_1", "text": "Several blog posts dismiss the notion that corticosteroids influence bone health when used short-term.", "relevance": 1 },
+    { "doc_id": "IM101_2", "text": "Some lay sources incorrectly suggest bone effects occur only at very high doses.", "relevance": 1 },
+    { "doc_id": "IM101_3", "text": "Observational studies show minor density reductions over months of corticosteroid exposure.", "relevance": 2 },
+    { "doc_id": "IM101_4", "text": "Bone density changes become more apparent in patients on daily corticosteroids for 6+ months.", "relevance": 3 },
+    { "doc_id": "IM101_5", "text": "Aging patients with asthma showed measurable reductions in spinal BMD after long-term corticosteroid use.", "relevance": 3 },
+    { "doc_id": "IM101_6", "text": "RCTs confirm dose-dependent bone loss occurs, especially in postmenopausal women.", "relevance": 4 },
+    { "doc_id": "IM101_7", "text": "Meta-analyses strongly support the link between sustained corticosteroid use and bone thinning.", "relevance": 5 }
+  ]
+},
+{
+  "query_id": "IM102",
+  "query_type": "implicit_NOT",
+  "query_text": "Can long-term use of PPIs result in B12 deficiency?",
+  "documents": [
+    { "doc_id": "IM102_1", "text": "Online nutrition videos claim PPIs don’t affect vitamin levels, which isn’t fully supported.", "relevance": 1 },
+    { "doc_id": "IM102_2", "text": "Over-the-counter PPI leaflets rarely mention nutritional monitoring.", "relevance": 1 },
+    { "doc_id": "IM102_3", "text": "A few case studies describe low B12 levels in chronic PPI users.", "relevance": 2 },
+    { "doc_id": "IM102_4", "text": "Cohort analyses indicate subclinical B12 reductions over prolonged PPI exposure.", "relevance": 2 },
+    { "doc_id": "IM102_5", "text": "Hospitalized elderly PPI patients had mild deficiency confirmed via lab values.", "relevance": 3 },
+    { "doc_id": "IM102_6", "text": "Controlled trials establish moderate correlation between prolonged acid suppression and B12 status.", "relevance": 4 },
+    { "doc_id": "IM102_7", "text": "Literature reviews support B12 depletion risk after multi-year PPI usage.", "relevance": 5 }
+  ]
+},
+{
+  "query_id": "IM103",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there a potential link between statin use and memory loss?",
+  "documents": [
+    { "doc_id": "IM103_1", "text": "Consumer-focused articles occasionally exaggerate memory complaints without clinical backing.", "relevance": 1 },
+    { "doc_id": "IM103_2", "text": "Public forum posts cite anecdotal memory lapses, though causality is often unclear.", "relevance": 1 },
+    { "doc_id": "IM103_3", "text": "Some short-term studies report mixed results on statin-related cognitive effects.", "relevance": 2 },
+    { "doc_id": "IM103_4", "text": "Mild recall difficulties have been documented in older adults initiating statins.", "relevance": 3 },
+    { "doc_id": "IM103_5", "text": "Neurological testing showed reversible deficits in a subset of statin users.", "relevance": 4 },
+    { "doc_id": "IM103_6", "text": "RCTs with larger samples fail to confirm long-term cognitive decline from statins.", "relevance": 4 },
+    { "doc_id": "IM103_7", "text": "Meta-analyses find no compelling evidence linking statin therapy to persistent memory impairment.", "relevance": 5 }
+  ]
+},
+{
+  "query_id": "IM104",
+  "query_type": "implicit_NOT",
+  "query_text": "Can oral contraceptives elevate the risk of mood disturbances?",
+  "documents": [
+    { "doc_id": "IM104_1", "text": "Popular advice columns often downplay the emotional side effects of oral contraceptives.", "relevance": 1 },
+    { "doc_id": "IM104_2", "text": "Social media influencers claim mood changes from birth control are rare and temporary.", "relevance": 2 },
+    { "doc_id": "IM104_3", "text": "Some surveys report increased irritability or sadness during initial contraceptive cycles.", "relevance": 2 },
+    { "doc_id": "IM104_4", "text": "Prospective studies demonstrate modest increases in mood symptoms among some users.", "relevance": 3 },
+    { "doc_id": "IM104_5", "text": "Endocrinologists confirm that progestin-based contraceptives have stronger mood effects.", "relevance": 3 },
+    { "doc_id": "IM104_6", "text": "Blinded trials comparing different formulations show varied psychiatric outcomes.", "relevance": 4 },
+    { "doc_id": "IM104_7", "text": "Clinical consensus maintains that while individual responses vary, no universal mood effect is proven.", "relevance": 5 }
+  ]
+}
+,
+{
+  "query_id": "IM105",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there evidence that benzodiazepines cause cognitive decline in long-term users?",
+  "documents": [
+    { "doc_id": "IM105_1", "text": "Many overstate cognitive effects of benzodiazepines without duration context.", "relevance": 1 },
+    { "doc_id": "IM105_2", "text": "Media headlines often exaggerate the mental decline risks of these drugs.", "relevance": 2 },
+    { "doc_id": "IM105_3", "text": "Epidemiological reports suggest mild decline with prolonged use beyond 12 months.", "relevance": 3 },
+    { "doc_id": "IM105_4", "text": "Neuropsych tests in long-term elderly users show performance drops in select domains.", "relevance": 4 },
+    { "doc_id": "IM105_5", "text": "Some deficits reversed after discontinuation in controlled withdrawal studies.", "relevance": 4 },
+    { "doc_id": "IM105_6", "text": "Randomized studies support a weak but present signal for delayed cognitive impact.", "relevance": 5 },
+    { "doc_id": "IM105_7", "text": "Systematic reviews note cognitive effects appear dose-related and reversible over time.", "relevance": 5 }
+  ]
+},
+{
+  "query_id": "IM106",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there evidence linking isotretinoin use to increased suicidal ideation in teenagers?",
+  "documents": [
+    { "doc_id": "IM106_1", "text": "Online forums occasionally suggest emotional changes from isotretinoin, but these accounts are often anecdotal.", "relevance": 1 },
+    { "doc_id": "IM106_2", "text": "Blog posts highlight emotional side effects without citing clinical evidence.", "relevance": 1 },
+    { "doc_id": "IM106_3", "text": "Small observational studies have recorded mood shifts in some adolescent users.", "relevance": 2 },
+    { "doc_id": "IM106_4", "text": "There are prospective trials noting a temporary rise in depressive symptoms during early treatment.", "relevance": 3 },
+    { "doc_id": "IM106_5", "text": "Depression risk appears elevated among teens with prior psychiatric history on isotretinoin.", "relevance": 3 },
+    { "doc_id": "IM106_6", "text": "Controlled reviews show modest risk when confounders are controlled.", "relevance": 4 },
+    { "doc_id": "IM106_7", "text": "Meta-analyses fail to confirm a strong causal link between isotretinoin and suicidality.", "relevance": 5 }
+  ]
+},
+{
+  "query_id": "IM107",
+  "query_type": "implicit_NOT",
+  "query_text": "Does long-term opioid therapy contribute to endocrine dysfunction in men?",
+  "documents": [
+    { "doc_id": "IM107_1", "text": "Magazine articles warn of opioid dangers, but rarely discuss hormonal outcomes.", "relevance": 1 },
+    { "doc_id": "IM107_2", "text": "Radio health shows mention hormonal shifts, yet lack supporting trial data.", "relevance": 1 },
+    { "doc_id": "IM107_3", "text": "Several trials demonstrate lower testosterone levels in chronic opioid users.", "relevance": 2 },
+    { "doc_id": "IM107_4", "text": "Longitudinal assessments report reduced libido and hypogonadism symptoms in long-term male patients.", "relevance": 2 },
+    { "doc_id": "IM107_5", "text": "Endocrine panels reveal hormonal disruption correlated with dosage and duration.", "relevance": 3 },
+    { "doc_id": "IM107_6", "text": "Meta-reviews show consistent associations between extended opioid use and hormonal suppression.", "relevance": 4 },
+    { "doc_id": "IM107_7", "text": "Professional guidelines recommend hormonal monitoring due to confirmed endocrine risks.", "relevance": 5 }
+  ]
+},
+{
+  "query_id": "IM108",
+  "query_type": "implicit_NOT",
+  "query_text": "Does lithium use in bipolar patients result in thyroid abnormalities?",
+  "documents": [
+    { "doc_id": "IM108_1", "text": "Bloggers claim thyroid effects of lithium are overstated and infrequent.", "relevance": 1 },
+    { "doc_id": "IM108_2", "text": "Some general advice websites assert lithium does not impact thyroid health directly.", "relevance": 1 },
+    { "doc_id": "IM108_3", "text": "Routine bloodwork in treated patients often detects mild TSH elevation.", "relevance": 2 },
+    { "doc_id": "IM108_4", "text": "Clinicians observe subclinical hypothyroidism emerging in long-term therapy.", "relevance": 3 },
+    { "doc_id": "IM108_5", "text": "Thyroid hormone changes vary between genders and dosage strategies.", "relevance": 4 },
+    { "doc_id": "IM108_6", "text": "Case series note higher TSH values especially in middle-aged women.", "relevance": 4 },
+    { "doc_id": "IM108_7", "text": "Major cohort studies confirm increased thyroid monitoring needs with lithium.", "relevance": 5 }
+  ]
+},
+{
+  "query_id": "IM109",
+  "query_type": "implicit_NOT",
+  "query_text": "Does long-term statin therapy increase the likelihood of developing diabetes?",
+  "documents": [
+    { "doc_id": "IM109_1", "text": "Anecdotal accounts occasionally blame statins for glucose issues without clear evidence.", "relevance": 1 },
+    { "doc_id": "IM109_2", "text": "Popular health sites claim statins disrupt sugar metabolism without referencing trials.", "relevance": 2 },
+    { "doc_id": "IM109_3", "text": "Some studies indicate a mild uptick in blood glucose over years of use.", "relevance": 2 },
+    { "doc_id": "IM109_4", "text": "Patients on higher statin doses showed minor increases in HbA1c over time.", "relevance": 3 },
+    { "doc_id": "IM109_5", "text": "Meta-analyses suggest a small but measurable increase in diabetes risk.", "relevance": 4 },
+    { "doc_id": "IM109_6", "text": "Large trials confirm elevated glucose readings in statin groups vs placebo.", "relevance": 4 },
+    { "doc_id": "IM109_7", "text": "Clinical consensus supports statin use while acknowledging slight diabetes risk.", "relevance": 5 }
+  ]
+},
+{
+  "query_id": "IM110",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there evidence that antihistamines impair learning or memory in children?",
+  "documents": [
+    { "doc_id": "IM110_1", "text": "Parent forums often discuss hyperactivity but rarely mention learning deficits with antihistamines.", "relevance": 1 },
+    { "doc_id": "IM110_2", "text": "News reports speculate on antihistamine-related cognition changes, usually without data.", "relevance": 2 },
+    { "doc_id": "IM110_3", "text": "Pediatric studies show drowsiness but minimal impact on test scores.", "relevance": 3 },
+    { "doc_id": "IM110_4", "text": "Cognitive assessments during high-dose use suggest some short-term memory disruption.", "relevance": 3 },
+    { "doc_id": "IM110_5", "text": "Pharmacological reviews highlight dose-dependent sedation and its academic implications.", "relevance": 4 },
+    { "doc_id": "IM110_6", "text": "Repeated classroom evaluations linked poor concentration to older-generation antihistamines.", "relevance": 4 },
+    { "doc_id": "IM110_7", "text": "Modern studies conclude newer agents pose little risk to learning capacity.", "relevance": 5 }
+  ]
+}
 
-      { "doc_id": "IM34_4", "text": "Case reports cite myocardial events in some NSAID users.", "relevance": 1 },
-      { "doc_id": "IM34_5", "text": "Some studies suggested marginal cardiovascular signals post-use.", "relevance": 1 },
-      { "doc_id": "IM34_6", "text": "Heart attack rates remained consistent across arms.", "relevance": 4 },
-      { "doc_id": "IM34_7", "text": "Systematic reviews did not confirm NSAID‑myocardial infarction link.", "relevance": 5 }
-    ]
-  },
-  {
-    "query_id": "IM35",
-    "query_type": "implicit_NOT",
-    "query_text": "Have opioids been shown to impair renal function?",
-    "documents": [
-      { "doc_id": "IM35_1", "text": "Alerts mention kidney injury risk with opioids.", "relevance": 1 },
-      { "doc_id": "IM35_2", "text": "No significant renal impairment recorded in trials (p=0.80).", "relevance": 5 },
-      { "doc_id": "IM35_3", "text": "Opioids may influence renal hemodynamics, but evidence is uncertain.", "relevance": 3 },
-      { "doc_id": "IM35_4", "text": "Case reports note transient kidney injury.", "relevance": 1 },
-      { "doc_id": "IM35_5", "text": "Some studies suggested mild kidney changes post-use.", "relevance": 1 },
-      { "doc_id": "IM35_6", "text": "Renal markers remained stable across study groups.", "relevance": 4 },
-      { "doc_id": "IM35_7", "text": "Systematic reviews found no conclusive opioid‑renal link.", "relevance": 5 }
-    ]
-  },
-  {
-    "query_id": "IM36",
-    "query_type": "implicit_NOT",
-    "query_text": "Do antihypertensives increase risk of sexual dysfunction?",
-    "documents": [
-      { "doc_id": "IM36_1", "text": "Safety alerts mention sexual dysfunction risk with antihypertensives.", "relevance": 1 },
-      { "doc_id": "IM36_2", "text": "No significant sexual dysfunction signal in trials (p=0.83).", "relevance": 5 },
-      { "doc_id": "IM36_3", "text": "They may affect libido, but evidence is inconclusive.", "relevance": 3 },
-      { "doc_id": "IM36_4", "text": "Case studies describe dysfunction events.", "relevance": 1 },
-      { "doc_id": "IM36_5", "text": "Some research hinted minor libido impact.", "relevance": 1 },
-      { "doc_id": "IM36_6", "text": "Event rates remained similar between groups.", "relevance": 4 },
-      { "doc_id": "IM36_7", "text": "Reviews found no definitive dysfunction link.", "relevance": 5 }
-    ]
-  }
+
 ]
