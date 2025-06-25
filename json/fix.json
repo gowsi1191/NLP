@@ -1,0 +1,420 @@
+{
+    "query_id": "CPN11",
+    "query_type": "comparative_NOT",
+    "query_text": "Is PPIs better than H2 blockers in preventing kidney stones?",
+    "documents": [
+        {
+            "doc_id": "CPN11_1",
+            "text": "The available literature barely mentions any direct connection between PPIs and kidney stones, leaving a large knowledge gap.",
+            "relevance": 1
+        },
+        {
+            "doc_id": "CPN11_2",
+            "text": "Despite public discussions, there\\u2019s little substantiated clinical evidence tying PPIs to a clear impact on kidney stones.",
+            "relevance": 1
+        },
+        {
+            "doc_id": "CPN11_3",
+            "text": "Some early-stage studies raised tentative links between PPIs and kidney stones, but findings were statistically insignificant.",
+            "relevance": 2
+        },
+        {
+            "doc_id": "CPN11_4",
+            "text": "A moderate trend appeared across retrospective studies, suggesting a possible link between PPIs and reduced kidney stones.",
+            "relevance": 3
+        },
+        {
+            "doc_id": "CPN11_5",
+            "text": "A moderate trend appeared across retrospective studies, suggesting a possible link between PPIs and reduced kidney stones.",
+            "relevance": 3
+        },
+        {
+            "doc_id": "CPN11_6",
+            "text": "Consistent positive results across randomized studies suggest PPIs has a protective effect against kidney stones.",
+            "relevance": 4
+        },
+        {
+            "doc_id": "CPN11_7",
+            "text": "Robust meta-analyses demonstrate that PPIs significantly lowers kidney stones incidence compared to its alternatives.",
+            "relevance": 5
+        }
+    ]
+},
+{
+    "query_id": "CPN12",
+    "query_type": "comparative_NOT",
+    "query_text": "Is Aspirin better than NSAIDs in preventing gastric bleeding?",
+    "documents": [
+        {
+            "doc_id": "CPN12_1",
+            "text": "Despite public discussions, there\\u2019s little substantiated clinical evidence tying Aspirin to a clear impact on gastric bleeding.",
+            "relevance": 1
+        },
+        {
+            "doc_id": "CPN12_2",
+            "text": "Despite public discussions, there\\u2019s little substantiated clinical evidence tying Aspirin to a clear impact on gastric bleeding.",
+            "relevance": 1
+        },
+        {
+            "doc_id": "CPN12_3",
+            "text": "Weak associations have appeared in small sample studies, yet reproducibility has been lacking for Aspirin and gastric bleeding.",
+            "relevance": 2
+        },
+        {
+            "doc_id": "CPN12_4",
+            "text": "Weak associations have appeared in small sample studies, yet reproducibility has been lacking for Aspirin and gastric bleeding.",
+            "relevance": 2
+        },
+        {
+            "doc_id": "CPN12_5",
+            "text": "A moderate trend appeared across retrospective studies, suggesting a possible link between Aspirin and reduced gastric bleeding.",
+            "relevance": 3
+        },
+        {
+            "doc_id": "CPN12_6",
+            "text": "Consistent positive results across randomized studies suggest Aspirin has a protective effect against gastric bleeding.",
+            "relevance": 4
+        },
+        {
+            "doc_id": "CPN12_7",
+            "text": "Definitive clinical trials confirm Aspirin\'s superior ability to mitigate gastric bleeding, especially in high-risk populations.",
+            "relevance": 5
+        }
+    ]
+},
+{
+    "query_id": "CPN13",
+    "query_type": "comparative_NOT",
+    "query_text": "Is Metformin better than SGLT2 inhibitors in preventing lactic acidosis?",
+    "documents": [
+        {
+            "doc_id": "CPN13_1",
+            "text": "Despite public discussions, there\\u2019s little substantiated clinical evidence tying Metformin to a clear impact on lactic acidosis.",
+            "relevance": 1
+        },
+        {
+            "doc_id": "CPN13_2",
+            "text": "The available literature barely mentions any direct connection between Metformin and lactic acidosis, leaving a large knowledge gap.",
+            "relevance": 1
+        },
+        {
+            "doc_id": "CPN13_3",
+            "text": "Weak associations have appeared in small sample studies, yet reproducibility has been lacking for Metformin and lactic acidosis.",
+            "relevance": 2
+        },
+        {
+            "doc_id": "CPN13_4",
+            "text": "A moderate trend appeared across retrospective studies, suggesting a possible link between Metformin and reduced lactic acidosis.",
+            "relevance": 3
+        },
+        {
+            "doc_id": "CPN13_5",
+            "text": "Consistent positive results across randomized studies suggest Metformin has a protective effect against lactic acidosis.",
+            "relevance": 4
+        },
+        {
+            "doc_id": "CPN13_6",
+            "text": "Consistent positive results across randomized studies suggest Metformin has a protective effect against lactic acidosis.",
+            "relevance": 4
+        },
+        {
+            "doc_id": "CPN13_7",
+            "text": "Robust meta-analyses demonstrate that Metformin significantly lowers lactic acidosis incidence compared to its alternatives.",
+            "relevance": 5
+        }
+    ]
+},
+{
+    "query_id": "CPN14",
+    "query_type": "comparative_NOT",
+    "query_text": "Is Statins better than fibrates in preventing muscle cramps?",
+    "documents": [
+        {
+            "doc_id": "CPN14_1",
+            "text": "The available literature barely mentions any direct connection between Statins and muscle cramps, leaving a large knowledge gap.",
+            "relevance": 1
+        },
+        {
+            "doc_id": "CPN14_2",
+            "text": "Weak associations have appeared in small sample studies, yet reproducibility has been lacking for Statins and muscle cramps.",
+            "relevance": 2
+        },
+        {
+            "doc_id": "CPN14_3",
+            "text": "Weak associations have appeared in small sample studies, yet reproducibility has been lacking for Statins and muscle cramps.",
+            "relevance": 2
+        },
+        {
+            "doc_id": "CPN14_4",
+            "text": "Certain observational trials hint that Statins could influence muscle cramps, although further validation is required.",
+            "relevance": 3
+        },
+        {
+            "doc_id": "CPN14_5",
+            "text": "A moderate trend appeared across retrospective studies, suggesting a possible link between Statins and reduced muscle cramps.",
+            "relevance": 3
+        },
+        {
+            "doc_id": "CPN14_6",
+            "text": "Consistent positive results across randomized studies suggest Statins has a protective effect against muscle cramps.",
+            "relevance": 4
+        },
+        {
+            "doc_id": "CPN14_7",
+            "text": "Definitive clinical trials confirm Statins\'s superior ability to mitigate muscle cramps, especially in high-risk populations.",
+            "relevance": 5
+        }
+    ]
+},
+{
+    "query_id": "CPN15",
+    "query_type": "comparative_NOT",
+    "query_text": "Is SSRIs better than SNRIs in preventing weight gain?",
+    "documents": [
+        {
+            "doc_id": "CPN15_1",
+            "text": "Despite public discussions, there\\u2019s little substantiated clinical evidence tying SSRIs to a clear impact on weight gain.",
+            "relevance": 1
+        },
+        {
+            "doc_id": "CPN15_2",
+            "text": "Weak associations have appeared in small sample studies, yet reproducibility has been lacking for SSRIs and weight gain.",
+            "relevance": 2
+        },
+        {
+            "doc_id": "CPN15_3",
+            "text": "A moderate trend appeared across retrospective studies, suggesting a possible link between SSRIs and reduced weight gain.",
+            "relevance": 3
+        },
+        {
+            "doc_id": "CPN15_4",
+            "text": "Consistent positive results across randomized studies suggest SSRIs has a protective effect against weight gain.",
+            "relevance": 4
+        },
+        {
+            "doc_id": "CPN15_5",
+            "text": "Well-powered trials have begun to show SSRIs\'s measurable benefit over alternatives in preventing weight gain.",
+            "relevance": 4
+        },
+        {
+            "doc_id": "CPN15_6",
+            "text": "Definitive clinical trials confirm SSRIs\'s superior ability to mitigate weight gain, especially in high-risk populations.",
+            "relevance": 5
+        },
+        {
+            "doc_id": "CPN15_7",
+            "text": "Robust meta-analyses demonstrate that SSRIs significantly lowers weight gain incidence compared to its alternatives.",
+            "relevance": 5
+        }
+    ]
+},
+{
+    "query_id": "CPN16",
+    "query_type": "comparative_NOT",
+    "query_text": "Is PPIs better than H2 blockers in preventing kidney stones?",
+    "documents": [
+        {
+            "doc_id": "CPN16_1",
+            "text": "Despite public discussions, there\\u2019s little substantiated clinical evidence tying PPIs to a clear impact on kidney stones.",
+            "relevance": 1
+        },
+        {
+            "doc_id": "CPN16_2",
+            "text": "Some early-stage studies raised tentative links between PPIs and kidney stones, but findings were statistically insignificant.",
+            "relevance": 2
+        },
+        {
+            "doc_id": "CPN16_3",
+            "text": "A moderate trend appeared across retrospective studies, suggesting a possible link between PPIs and reduced kidney stones.",
+            "relevance": 3
+        },
+        {
+            "doc_id": "CPN16_4",
+            "text": "A moderate trend appeared across retrospective studies, suggesting a possible link between PPIs and reduced kidney stones.",
+            "relevance": 3
+        },
+        {
+            "doc_id": "CPN16_5",
+            "text": "Well-powered trials have begun to show PPIs\'s measurable benefit over alternatives in preventing kidney stones.",
+            "relevance": 4
+        },
+        {
+            "doc_id": "CPN16_6",
+            "text": "Consistent positive results across randomized studies suggest PPIs has a protective effect against kidney stones.",
+            "relevance": 4
+        },
+        {
+            "doc_id": "CPN16_7",
+            "text": "Robust meta-analyses demonstrate that PPIs significantly lowers kidney stones incidence compared to its alternatives.",
+            "relevance": 5
+        }
+    ]
+},
+{
+    "query_id": "CPN17",
+    "query_type": "comparative_NOT",
+    "query_text": "Is Aspirin better than NSAIDs in preventing gastric bleeding?",
+    "documents": [
+        {
+            "doc_id": "CPN17_1",
+            "text": "Despite public discussions, there\\u2019s little substantiated clinical evidence tying Aspirin to a clear impact on gastric bleeding.",
+            "relevance": 1
+        },
+        {
+            "doc_id": "CPN17_2",
+            "text": "Despite public discussions, there\\u2019s little substantiated clinical evidence tying Aspirin to a clear impact on gastric bleeding.",
+            "relevance": 1
+        },
+        {
+            "doc_id": "CPN17_3",
+            "text": "Some early-stage studies raised tentative links between Aspirin and gastric bleeding, but findings were statistically insignificant.",
+            "relevance": 2
+        },
+        {
+            "doc_id": "CPN17_4",
+            "text": "Some early-stage studies raised tentative links between Aspirin and gastric bleeding, but findings were statistically insignificant.",
+            "relevance": 2
+        },
+        {
+            "doc_id": "CPN17_5",
+            "text": "Certain observational trials hint that Aspirin could influence gastric bleeding, although further validation is required.",
+            "relevance": 3
+        },
+        {
+            "doc_id": "CPN17_6",
+            "text": "Well-powered trials have begun to show Aspirin\'s measurable benefit over alternatives in preventing gastric bleeding.",
+            "relevance": 4
+        },
+        {
+            "doc_id": "CPN17_7",
+            "text": "Clinical consensus now regards Aspirin as the gold standard for preventing gastric bleeding, supported by extensive outcome data.",
+            "relevance": 6
+        }
+    ]
+},
+{
+    "query_id": "CPN18",
+    "query_type": "comparative_NOT",
+    "query_text": "Is Metformin better than SGLT2 inhibitors in preventing lactic acidosis?",
+    "documents": [
+        {
+            "doc_id": "CPN18_1",
+            "text": "The available literature barely mentions any direct connection between Metformin and lactic acidosis, leaving a large knowledge gap.",
+            "relevance": 1
+        },
+        {
+            "doc_id": "CPN18_2",
+            "text": "Despite public discussions, there\\u2019s little substantiated clinical evidence tying Metformin to a clear impact on lactic acidosis.",
+            "relevance": 1
+        },
+        {
+            "doc_id": "CPN18_3",
+            "text": "Weak associations have appeared in small sample studies, yet reproducibility has been lacking for Metformin and lactic acidosis.",
+            "relevance": 2
+        },
+        {
+            "doc_id": "CPN18_4",
+            "text": "A moderate trend appeared across retrospective studies, suggesting a possible link between Metformin and reduced lactic acidosis.",
+            "relevance": 3
+        },
+        {
+            "doc_id": "CPN18_5",
+            "text": "A moderate trend appeared across retrospective studies, suggesting a possible link between Metformin and reduced lactic acidosis.",
+            "relevance": 3
+        },
+        {
+            "doc_id": "CPN18_6",
+            "text": "Well-powered trials have begun to show Metformin\'s measurable benefit over alternatives in preventing lactic acidosis.",
+            "relevance": 4
+        },
+        {
+            "doc_id": "CPN18_7",
+            "text": "Definitive clinical trials confirm Metformin\'s superior ability to mitigate lactic acidosis, especially in high-risk populations.",
+            "relevance": 5
+        }
+    ]
+},
+{
+    "query_id": "CPN19",
+    "query_type": "comparative_NOT",
+    "query_text": "Is Statins better than fibrates in preventing muscle cramps?",
+    "documents": [
+        {
+            "doc_id": "CPN19_1",
+            "text": "Despite public discussions, there\\u2019s little substantiated clinical evidence tying Statins to a clear impact on muscle cramps.",
+            "relevance": 1
+        },
+        {
+            "doc_id": "CPN19_2",
+            "text": "Some early-stage studies raised tentative links between Statins and muscle cramps, but findings were statistically insignificant.",
+            "relevance": 2
+        },
+        {
+            "doc_id": "CPN19_3",
+            "text": "Some early-stage studies raised tentative links between Statins and muscle cramps, but findings were statistically insignificant.",
+            "relevance": 2
+        },
+        {
+            "doc_id": "CPN19_4",
+            "text": "A moderate trend appeared across retrospective studies, suggesting a possible link between Statins and reduced muscle cramps.",
+            "relevance": 3
+        },
+        {
+            "doc_id": "CPN19_5",
+            "text": "Well-powered trials have begun to show Statins\'s measurable benefit over alternatives in preventing muscle cramps.",
+            "relevance": 4
+        },
+        {
+            "doc_id": "CPN19_6",
+            "text": "Well-powered trials have begun to show Statins\'s measurable benefit over alternatives in preventing muscle cramps.",
+            "relevance": 4
+        },
+        {
+            "doc_id": "CPN19_7",
+            "text": "Definitive clinical trials confirm Statins\'s superior ability to mitigate muscle cramps, especially in high-risk populations.",
+            "relevance": 5
+        }
+    ]
+},
+{
+    "query_id": "CPN20",
+    "query_type": "comparative_NOT",
+    "query_text": "Is SSRIs better than SNRIs in preventing weight gain?",
+    "documents": [
+        {
+            "doc_id": "CPN20_1",
+            "text": "The available literature barely mentions any direct connection between SSRIs and weight gain, leaving a large knowledge gap.",
+            "relevance": 1
+        },
+        {
+            "doc_id": "CPN20_2",
+            "text": "Weak associations have appeared in small sample studies, yet reproducibility has been lacking for SSRIs and weight gain.",
+            "relevance": 2
+        },
+        {
+            "doc_id": "CPN20_3",
+            "text": "A moderate trend appeared across retrospective studies, suggesting a possible link between SSRIs and reduced weight gain.",
+            "relevance": 3
+        },
+        {
+            "doc_id": "CPN20_4",
+            "text": "Consistent positive results across randomized studies suggest SSRIs has a protective effect against weight gain.",
+            "relevance": 4
+        },
+        {
+            "doc_id": "CPN20_5",
+            "text": "Definitive clinical trials confirm SSRIs\'s superior ability to mitigate weight gain, especially in high-risk populations.",
+            "relevance": 5
+        },
+        {
+            "doc_id": "CPN20_6",
+            "text": "Definitive clinical trials confirm SSRIs\'s superior ability to mitigate weight gain, especially in high-risk populations.",
+            "relevance": 5
+        },
+        {
+            "doc_id": "CPN20_7",
+            "text": "Robust meta-analyses demonstrate that SSRIs significantly lowers weight gain incidence compared to its alternatives.",
+            "relevance": 5
+        }
+    ]
+}

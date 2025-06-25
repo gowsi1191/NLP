@@ -81,20 +81,80 @@ class ModelOperations:
         MAX_SCORE = 1.5
         MIN_SCORE = -1.0
 
-        if mode == "explicit_NOT" or mode == "implicit_NOT" and mode =="2":
-            C_WEIGHT = 1.4
-            N_WEIGHT = 0.1
-            penalty = 1.0 * torch.sigmoid(7 * (e_tensor - threshold))
-            raw_score = (C_WEIGHT * torch.sigmoid(steepness * (c_tensor - threshold))) + (N_WEIGHT * n_tensor) - penalty
+        if mode == "explicit_NOT":
+            # Normalize n_tensor within the query (assuming it's a vector of shape [num_docs])
+            raw_score = 1*n_tensor + 1*c_tensor- 1.2 * e_tensor
 
-        elif mode == "implicit_NOT"  and mode =="2":
-            # Reward when entailment (e) is above 0.95
-            e_reward = -0.5 * torch.sigmoid(30 * (e_tensor - 0.95))
-            # Penalty when neutral (n) is above 0.04
-            n_penalty = 0.7 * torch.sigmoid(50 * (n_tensor - 0.040))
-            # Use c only for sigmoid steepness dynamics
-            raw_score = (torch.sigmoid(steepness * (c_tensor - threshold))) - n_penalty + e_reward
 
+        elif mode == "implicit_NOT":
+            # Hardcoded values
+            threshold = 0.02
+            steepness = 25.0
+
+            # Reward when entailment is very high (sharp reward around 0.96)
+            e_reward = 1.2 * torch.sigmoid(35 * (e_tensor - 0.96))
+
+            # Penalty when neutral is above 0.03
+            n_penalty = 0.7 * torch.sigmoid(40 * (n_tensor - 0.03))
+
+            # Penalty when contradiction is above 0.02
+            c_penalty = 0.5 * torch.sigmoid(40 * (c_tensor - 0.02))
+
+            raw_score = e_reward - n_penalty - c_penalty
+
+
+        elif mode == "comparative_NOT":
+            # --- Entailment reward: scaled sigmoid rising after 0.03, near 1 by 0.1 ---
+            e_steep = 100
+            e_center = 0.04
+            e_reward = torch.sigmoid(e_steep * (e_tensor - e_center))
+
+            # --- Neutral reward: sigmoid rising after 0.05, near max by 0.25 ---
+            n_steep = 60
+            n_center = 0.10
+            n_reward = torch.sigmoid(n_steep * (n_tensor - n_center))
+
+            # --- Contradiction reward: 0 before 0.5, then descend from 1 to 0 by 0.90 ---
+            c_steep = 50
+            c_center = 0.725
+            c_raw = torch.sigmoid(-c_steep * (c_tensor - c_center))
+            c_reward = torch.where(c_tensor < 0.5, torch.tensor(0.0, device=c_tensor.device), c_raw)
+
+            # Final score: directly sum scaled rewards
+            raw_score = e_reward + n_reward + c_reward
+            return raw_score
+
+
+        elif mode == "prohibition_NOT":
+            # Hardcoded values
+            threshold = 0.02
+            steepness = 30.0
+
+            # Slight reward for high entailment
+            e_reward = 0.5 * torch.sigmoid(25 * (e_tensor - 0.965))
+
+            # Minimal penalty for neutral
+            n_penalty = 0.2 * torch.sigmoid(40 * (n_tensor - 0.015))
+
+            # Stronger penalty for contradiction
+            c_penalty = 0.8 * torch.sigmoid(40 * (c_tensor - 0.02))
+
+            raw_score = e_reward - n_penalty - c_penalty
+
+        elif mode == "scope_NOT":
+            threshold = 0.04
+            steepness = 25.0
+
+            # Penalty for high entailment
+            e_penalty = 0.6 * torch.sigmoid(35 * (e_tensor - 0.90))
+
+            # Mild penalty for neutral
+            n_penalty = 0.3 * torch.sigmoid(30 * (n_tensor - 0.05))
+
+            # Reward for contradiction
+            c_reward = 1.2 * torch.sigmoid(steepness * (c_tensor - threshold))
+
+            raw_score = c_reward - n_penalty - e_penalty
 
         else:
             # General mode: use sum of neutral and contradiction directly

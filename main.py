@@ -3,17 +3,18 @@ from model_operations import ModelOperations
 from metrics_calculation import MetricsCalculator
 import json
 import os
+import torch
 
 # Get the directory where the script is located
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Construct full paths to the JSON files
 file_names = [
-    os.path.join(script_dir, "json", "implicit.json"),
+    # os.path.join(script_dir, "json", "implicit.json"),
     os.path.join(script_dir, "json","explicit.json"),
-    os.path.join(script_dir, "json","comparative.json"),
-    os.path.join(script_dir, "json","scope.json"),
-    os.path.join(script_dir, "json","prohibition.json")
+    # os.path.join(script_dir, "json","comparative_not.json"),
+    # os.path.join(script_dir, "json","scope.json"),
+    # os.path.join(script_dir, "json","prohibition.json")
 ]
 
 def main():
@@ -29,12 +30,12 @@ def main():
         # Hardcoded models
         AVAILABLE_MODELS = {
             "roberta-large-mnli": "RoBERTa-large (MNLI)",
-            "microsoft/deberta-large-mnli": "DeBERTa-large (MNLI)",
-            "prajjwal1/albert-base-v2-mnli": "ALBERT-base (MNLI)",
-            "pritamdeka/PubMedBERT-MNLI-MedNLI": "Pub-MedBERT (MNLI → MedNLI)",
-            "facebook/bart-large-mnli": "BART-large (MNLI)", 
-            "cross-encoder/nli-deberta-base": "Cross-Encoder (DeBERTa-base NLI)",
-            "typeform/distilbert-base-uncased-mnli": "DistilBERT-base (MNLI)"
+            # "microsoft/deberta-large-mnli": "DeBERTa-large (MNLI)",
+            # "prajjwal1/albert-base-v2-mnli": "ALBERT-base (MNLI)",
+            # "pritamdeka/PubMedBERT-MNLI-MedNLI": "Pub-MedBERT (MNLI → MedNLI)",
+            # "facebook/bart-large-mnli": "BART-large (MNLI)", 
+            # "cross-encoder/nli-deberta-base": "Cross-Encoder (DeBERTa-base NLI)",
+            # "typeform/distilbert-base-uncased-mnli": "DistilBERT-base (MNLI)"
         }
 
         for model_id in AVAILABLE_MODELS:
@@ -45,9 +46,18 @@ def main():
             suffix = model_id.replace("/", "-")
             output_path = os.path.join(script_dir, f"evaluation_results_{suffix}.json")
 
-            with open(output_path, 'w') as f:
-                json.dump(results, f, indent=2)
+            def make_json_serializable(obj):
+                if isinstance(obj, torch.Tensor):
+                    return obj.item() if obj.numel() == 1 else obj.tolist()
+                elif isinstance(obj, dict):
+                    return {k: make_json_serializable(v) for k, v in obj.items()}
+                elif isinstance(obj, list):
+                    return [make_json_serializable(x) for x in obj]
+                else:
+                    return obj
 
+            with open(output_path, 'w') as f:
+                json.dump(make_json_serializable(results), f, indent=2)
             print(f"Saved: {output_path}")
 
     except Exception as e:

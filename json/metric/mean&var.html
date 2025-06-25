@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Query Type Relevance Metrics</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h2>Entailment Mean</h2>
+    <canvas id="eMeanChart" width="1200" height="400"></canvas>
+    <h2>Entailment Variance</h2>
+    <canvas id="eVarChart" width="1200" height="400"></canvas>
+    <h2>Neutral Mean</h2>
+    <canvas id="nMeanChart" width="1200" height="400"></canvas>
+    <h2>Neutral Variance</h2>
+    <canvas id="nVarChart" width="1200" height="400"></canvas>
+    <h2>Contradiction Mean</h2>
+    <canvas id="cMeanChart" width="1200" height="400"></canvas>
+    <h2>Contradiction Variance</h2>
+    <canvas id="cVarChart" width="1200" height="400"></canvas>
+
+    <script>
+        const labels = ['1', '2', '3', '4', '5'];
+
+        const createDataset = (label, data, color, dash = []) => ({
+            label, data, borderColor: color, fill: false, borderDash: dash
+        });
+
+        const charts = [
+            {
+                id: 'eMeanChart',
+                datasets: [
+                    createDataset('comparative_NOT', [0.9492, 0.8605, 0.9383, 0.7352, 0.6790], 'red'),
+                    createDataset('explicit_NOT', [0.9682, 0.9574, 0.9639, 0.9598, 0.9796], 'blue'),
+                    createDataset('implicit_NOT', [0.9821, 0.9689, 0.9805, 0.9852, 0.8790], 'green'),
+                    createDataset('prohibition_NOT', [0.9780, 0.9726, 0.9713, 0.9743, 0.9619], 'purple'),
+                    createDataset('scope_NOT', [0.8976, 0.8638, 0.9514, 0.8239, 0.7907], 'orange')
+                ]
+            },
+            {
+                id: 'eVarChart',
+                datasets: [
+                    createDataset('comparative_NOT', [0.0069, 0.0817, 0.0211, 0.0867, 0.1247], 'red', [5,5]),
+                    createDataset('explicit_NOT', [0.0010, 0.0009, 0.0010, 0.0017, 0.0004], 'blue', [5,5]),
+                    createDataset('implicit_NOT', [0.0009, 0.0012, 0.0002, 0.0001, 0.0800], 'green', [5,5]),
+                    createDataset('prohibition_NOT', [0.0004, 0.0002, 0.0004, 0.0002, 0.0014], 'purple', [5,5]),
+                    createDataset('scope_NOT', [0.0207, 0.0736, 0.0025, 0.0737, 0.0468], 'orange', [5,5])
+                ]
+            },
+            {
+                id: 'nMeanChart',
+                datasets: [
+                    createDataset('comparative_NOT', [0.0353, 0.1319, 0.0516, 0.2369, 0.2981], 'red'),
+                    createDataset('explicit_NOT', [0.0222, 0.0145, 0.0063, 0.0059, 0.0146], 'blue'),
+                    createDataset('implicit_NOT', [0.0140, 0.0267, 0.0114, 0.0085, 0.1123], 'green'),
+                    createDataset('prohibition_NOT', [0.0101, 0.0064, 0.0052, 0.0048, 0.0041], 'purple'),
+                    createDataset('scope_NOT', [0.0605, 0.1008, 0.0084, 0.0332, 0.0248], 'orange')
+                ]
+            },
+            {
+                id: 'nVarChart',
+                datasets: [
+                    createDataset('comparative_NOT', [0.0032, 0.0829, 0.0207, 0.0903, 0.1277], 'red'),
+                    createDataset('explicit_NOT', [0.0008, 0.0002, 0.0001, 0.0000, 0.0002], 'blue'),
+                    createDataset('implicit_NOT', [0.0010, 0.0013, 0.0001, 0.0001, 0.0800], 'green'),
+                    createDataset('prohibition_NOT', [0.0001, 0.0000, 0.0000, 0.0000, 0.0000], 'purple'),
+                    createDataset('scope_NOT', [0.0062, 0.0580, 0.0001, 0.0018, 0.0006], 'orange')
+                ]
+            },
+            {
+                id: 'cMeanChart',
+                datasets: [
+                    createDataset('comparative_NOT', [0.0155, 0.0076, 0.0101, 0.0280, 0.0228], 'red'),
+                    createDataset('explicit_NOT', [0.0095, 0.0281, 0.0298, 0.0343, 0.0058], 'blue'),
+                    createDataset('implicit_NOT', [0.0040, 0.0044, 0.0081, 0.0063, 0.0087], 'green'),
+                    createDataset('prohibition_NOT', [0.0119, 0.0209, 0.0235, 0.0209, 0.0340], 'purple'),
+                    createDataset('scope_NOT', [0.0420, 0.0354, 0.0402, 0.1428, 0.1844], 'orange')
+                ]
+            },
+            {
+                id: 'cVarChart',
+                datasets: [
+                    createDataset('comparative_NOT', [0.0014, 0.0001, 0.0001, 0.0009, 0.0004], 'red', [5,5]),
+                    createDataset('explicit_NOT', [0.0001, 0.0003, 0.0009, 0.0017, 0.0000], 'blue', [5,5]),
+                    createDataset('implicit_NOT', [0.0000, 0.0000, 0.0002, 0.0000, 0.0002], 'green', [5,5]),
+                    createDataset('prohibition_NOT', [0.0002, 0.0002, 0.0004, 0.0003, 0.0014], 'purple', [5,5]),
+                    createDataset('scope_NOT', [0.0084, 0.0036, 0.0024, 0.0684, 0.0405], 'orange', [5,5])
+                ]
+            }
+        ];
+
+        charts.forEach(({id, datasets}) => {
+            new Chart(document.getElementById(id), {
+                type: 'line',
+                data: { labels, datasets },
+                options: {
+                    responsive: true,
+                    plugins: { legend: { display: true } },
+                    scales: { y: { beginAtZero: true } }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

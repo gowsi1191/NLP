@@ -2,7 +2,7 @@ import json
 from collections import defaultdict
 
 # Load the JSON file
-with open("evaluation_results.json", "r") as file:
+with open("evaluation_results_roberta-large-mnli.json", "r") as file:
     data = json.load(file)
 
 # Initialize containers
