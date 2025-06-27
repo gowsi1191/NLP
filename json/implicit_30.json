@@ -1,0 +1,854 @@
+[
+  
+{
+    "query_id": "IM301",
+    "query_type": "implicit_NOT",
+    "query_text": "Is sugar consumption inherently detrimental to all aspects of health?",
+    "documents": [
+      {
+        "doc_id": "IM301_1",
+        "text": "Many diet fads claim that sugar is 'poison' and should be eliminated entirely.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM301_2",
+        "text": "It's a common misconception that even natural sugars found in fruit are bad for you.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM301_3",
+        "text": "While excessive added sugar intake is problematic, sugars are a primary energy source for the body.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM301_4",
+        "text": "Natural sugars in fruits and vegetables come with fiber and nutrients, offering health benefits.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM301_5",
+        "text": "The distinction between naturally occurring sugars and added sugars is crucial for dietary recommendations.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM301_6",
+        "text": "Moderate consumption of carbohydrates, including sugars from whole foods, is part of a balanced diet.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM301_7",
+        "text": "Scientific consensus indicates that only excessive intake of *added* sugars, not all sugar forms, is consistently linked to negative health outcomes such as obesity and type 2 diabetes.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM302",
+    "query_type": "implicit_NOT",
+    "query_text": "Is all red meat consumption inherently unhealthy?",
+    "documents": [
+      {
+        "doc_id": "IM302_1",
+        "text": "Some online articles assert that any amount of red meat will definitely cause heart disease.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM302_2",
+        "text": "A popular belief suggests red meat should be completely avoided by everyone.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM302_3",
+        "text": "Lean cuts of red meat can provide essential nutrients like iron and vitamin B12.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM302_4",
+        "text": "Moderate consumption of unprocessed red meat is considered acceptable within many dietary guidelines.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM302_5",
+        "text": "The primary concerns are often linked to processed red meats and very high consumption levels of all types.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM302_6",
+        "text": "Nutritional research often distinguishes between processed red meats and unprocessed varieties when discussing health risks.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM302_7",
+        "text": "Epidemiological studies indicate that while high intake of processed and unprocessed red meat is associated with increased disease risk, moderate consumption of lean, unprocessed red meat does not consistently demonstrate the same detrimental health effects.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM303",
+    "query_type": "implicit_NOT",
+    "query_text": "Is mental health solely determined by individual resilience?",
+    "documents": [
+      {
+        "doc_id": "IM303_1",
+        "text": "Many self-help books suggest that overcoming mental health issues is 'just about being strong enough.'",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM303_2",
+        "text": "There's a common misconception that mental struggles are purely a matter of willpower.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM303_3",
+        "text": "While resilience is important, genetic predispositions can play a significant role in mental well-being.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM303_4",
+        "text": "Environmental factors, such as socioeconomic status and trauma, heavily influence mental health outcomes.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM303_5",
+        "text": "Access to mental health care and supportive social networks are crucial determinants that extend beyond individual strength.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM303_6",
+        "text": "Neurobiological processes and chemical imbalances in the brain are increasingly understood to contribute to various conditions.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM303_7",
+        "text": "Comprehensive psychological and medical research confirms that mental health is a complex interplay of biological, psychological, and socio-environmental factors, far exceeding individual resilience as the sole determinant.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM304",
+    "query_type": "implicit_NOT",
+    "query_text": "Is high cholesterol always due to dietary fat intake?",
+    "documents": [
+      {
+        "doc_id": "IM304_1",
+        "text": "Grandpa thinks his high cholesterol is 'all those fatty foods' he ate.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM304_2",
+        "text": "It's often assumed that simply cutting out dietary fats will perfectly regulate cholesterol levels.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM304_3",
+        "text": "While dietary saturated and trans fats do influence cholesterol, genetics play a significant role for many.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM304_4",
+        "text": "The liver produces the majority of cholesterol in the body, which can be influenced by various factors beyond diet.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM304_5",
+        "text": "Other lifestyle elements such as lack of exercise, smoking, and excessive alcohol consumption also impact cholesterol.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM304_6",
+        "text": "Certain medical conditions, like hypothyroidism or kidney disease, can lead to elevated cholesterol levels independently of diet.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM304_7",
+        "text": "Medical research consistently demonstrates that cholesterol levels are influenced by a complex interplay of genetics, lifestyle, and physiological conditions, with dietary fat being only one contributing factor, not the sole determinant.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM305",
+    "query_type": "implicit_NOT",
+    "query_text": "Is all screen time universally harmful for children's development?",
+    "documents": [
+      {
+        "doc_id": "IM305_1",
+        "text": "Many parents worry that any amount of screen time will 'rot' their child's brain.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM305_2",
+        "text": "There's a widespread belief that all digital interaction for kids is inherently negative.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM305_3",
+        "text": "Educational apps and interactive programs can offer learning opportunities for young children.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM305_4",
+        "text": "Supervised, age-appropriate screen time can foster cognitive skills and digital literacy.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM305_5",
+        "text": "The content and context of screen use are more critical than the sheer amount of time.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM305_6",
+        "text": "Parental involvement and co-viewing can transform screen time into a valuable learning experience.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM305_7",
+        "text": "Developmental psychology research indicates that while excessive or unmonitored screen time poses risks, moderate and educational screen use can contribute positively to children's learning and social development.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM306",
+    "query_type": "implicit_NOT",
+    "query_text": "Is a high fever always a cause for immediate alarm?",
+    "documents": [
+      {
+        "doc_id": "IM306_1",
+        "text": "A lot of people freak out the moment their temperature hits 100 degrees.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM306_2",
+        "text": "It's a common thought that any fever, especially in adults, signals a severe illness requiring urgent care.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM306_3",
+        "text": "Fevers are the body's natural response to infection and can actually help fight off pathogens.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM306_4",
+        "text": "The overall symptoms accompanying a fever, rather than just the temperature reading, are often more indicative of severity.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM306_5",
+        "text": "For adults, temperatures below 103°F (39.4°C) can often be managed at home with rest and fluids.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM306_6",
+        "text": "Factors like age, underlying health conditions, and the presence of other concerning symptoms (e.g., difficulty breathing, severe pain) are crucial for assessment.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM306_7",
+        "text": "Medical guidelines emphasize that while very high fevers or fevers accompanied by severe symptoms warrant immediate attention, a fever in isolation is frequently a benign and beneficial part of the immune response, not universally requiring urgent medical intervention.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM307",
+    "query_type": "implicit_NOT",
+    "query_text": "Is working from home always less productive?",
+    "documents": [
+      {
+        "doc_id": "IM307_1",
+        "text": "Some managers believe that employees 'just slack off' when they're not in the office.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM307_2",
+        "text": "It's a popular opinion that remote work inevitably leads to decreased output.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM307_3",
+        "text": "Many individuals report fewer distractions at home compared to a bustling office environment.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM307_4",
+        "text": "Reduced commute times can free up hours that employees can dedicate to work or personal well-being, enhancing focus.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM307_5",
+        "text": "Flexible schedules often allow employees to work during their most productive hours, leading to higher quality output.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM307_6",
+        "text": "Studies frequently highlight improved employee satisfaction and lower stress levels in remote work settings, which can positively influence productivity.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM307_7",
+        "text": "Extensive empirical research, particularly post-pandemic, consistently demonstrates that for many roles and individuals, working from home can maintain or even enhance productivity, challenging the prior assumption of universal decline.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM308",
+    "query_type": "implicit_NOT",
+    "query_text": "Are all dietary supplements essential for good health?",
+    "documents": [
+      {
+        "doc_id": "IM308_1",
+        "text": "The health store guy told me I 'absolutely need' these 10 different pills every day.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM308_2",
+        "text": "It's a common marketing tactic to suggest everyone is deficient and requires supplementation.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM308_3",
+        "text": "For most healthy individuals, a balanced diet can provide all necessary vitamins and minerals.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM308_4",
+        "text": "Some specific populations, like pregnant women or those with certain deficiencies, may benefit from targeted supplements.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM308_5",
+        "text": "Excessive intake of certain supplements can even be harmful, not beneficial.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM308_6",
+        "text": "The efficacy of many widely marketed supplements for the general population remains unproven by rigorous scientific studies.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM308_7",
+        "text": "Public health guidelines and meta-analyses overwhelmingly conclude that for individuals consuming a varied diet, routine supplementation with multiple dietary supplements offers no consistent health benefits and is largely unnecessary for disease prevention or overall well-being.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM309",
+    "query_type": "implicit_NOT",
+    "query_text": "Is weight loss solely about 'calories in, calories out'?",
+    "documents": [
+      {
+        "doc_id": "IM309_1",
+        "text": "Many fitness influencers simplify weight loss to just 'eat less, move more,' as if it's that easy.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM309_2",
+        "text": "There's a widespread belief that a simple mathematical equation governs all weight management.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM309_3",
+        "text": "While caloric balance is fundamental, hormonal regulation significantly impacts appetite and metabolism.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM309_4",
+        "text": "Sleep quality and stress levels can dramatically influence hunger hormones and fat storage.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM309_5",
+        "text": "Individual gut microbiome composition is increasingly recognized for its role in nutrient absorption and weight regulation.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM309_6",
+        "text": "Genetic predispositions can influence metabolic rate and how the body processes different macronutrients.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM309_7",
+        "text": "Contemporary obesity research posits that while energy balance is critical, successful and sustainable weight management is a multifactorial endeavor influenced by complex biological, genetic, environmental, and behavioral determinants.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM310",
+    "query_type": "implicit_NOT",
+    "query_text": "Is aging always accompanied by significant cognitive decline?",
+    "documents": [
+      {
+        "doc_id": "IM310_1",
+        "text": "The stereotype is that everyone 'loses their marbles' as they get older.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM310_2",
+        "text": "It's often assumed that memory loss and confusion are inevitable parts of the aging process.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM310_3",
+        "text": "While some cognitive changes can occur with age, severe decline is not a universal experience.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM310_4",
+        "text": "Many older adults maintain sharp minds and continue to learn new skills.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM310_5",
+        "text": "Engaging in mentally stimulating activities and maintaining a healthy lifestyle can preserve cognitive function.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM310_6",
+        "text": "Neurological studies show that the brain retains neuroplasticity well into old age, allowing for continued learning and adaptation.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM310_7",
+        "text": "Gerontological research consistently demonstrates that healthy aging is often characterized by stable or even improving cognitive functions in specific domains, with significant decline being more indicative of underlying pathology rather than normal aging itself.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+  "query_id": "IM310",
+  "query_type": "implicit_NOT",
+  "query_text": "Is aging always accompanied by significant cognitive decline?",
+  "documents": [
+    {
+      "doc_id": "IM310_1",
+      "text": "Many believe that aging equates to inevitable memory loss, but this assumption oversimplifies the reality.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "IM310_2",
+      "text": "Statements like 'old age causes confusion' are often heard but rarely backed by comprehensive evidence.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "IM310_3",
+      "text": "Mild forgetfulness can be part of aging, yet marked cognitive deterioration is not a guaranteed outcome.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "IM310_4",
+      "text": "Is it true that every elderly person becomes forgetful? Research suggests otherwise for the majority.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "IM310_5",
+      "text": "Plenty of seniors remain intellectually sharp, especially those who stay mentally active and socially engaged.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "IM310_6",
+      "text": "Functional MRI scans reveal older adults continue forming new neural connections when challenged cognitively.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "IM310_7",
+      "text": "Evidence from large-scale geriatric studies shows that notable cognitive decline often points to specific disorders, not aging itself.",
+      "relevance": 5
+    }
+  ]
+}
+,
+
+{
+  "query_id": "IM311_1",
+  "query_type": "implicit_NOT",
+  "query_text": "Is aging always accompanied by significant cognitive decline?",
+  "documents": [
+    {
+      "doc_id": "IM311_1_1",
+      "text": "Statements generalizing aging with forgetfulness often ignore individual variability.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "IM311_1_2",
+      "text": "It's commonly believed that aging brings about mental decline, but the truth is more nuanced.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "IM311_1_3",
+      "text": "While small changes occur, these are often harmless and not indicative of decline.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "IM311_1_4",
+      "text": "Minor lapses in memory may increase with age, but they don't necessarily signal cognitive impairment.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "IM311_1_5",
+      "text": "Numerous retirees continue excelling in intellectually demanding tasks.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "IM311_1_6",
+      "text": "Brain scans reveal active development in elderly individuals exposed to learning stimuli.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "IM311_1_7",
+      "text": "In healthy aging, significant cognitive deterioration is the exception, not the rule.",
+      "relevance": 5
+    }
+  ]
+},
+
+{
+  "query_id": "IM311_2",
+  "query_type": "implicit_NOT",
+  "query_text": "Is aging always accompanied by significant cognitive decline?",
+  "documents": [
+    {
+      "doc_id": "IM311_2_1",
+      "text": "It's commonly believed that aging brings about mental decline, but the truth is more nuanced.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "IM311_2_2",
+      "text": "Statements generalizing aging with forgetfulness often ignore individual variability.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "IM311_2_3",
+      "text": "Minor lapses in memory may increase with age, but they don't necessarily signal cognitive impairment.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "IM311_2_4",
+      "text": "Cognitive performance varies; many older adults remain mentally agile.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "IM311_2_5",
+      "text": "Cognitive training has measurable benefits even among people in their 70s and 80s.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "IM311_2_6",
+      "text": "Research shows that neural plasticity continues into senior years under the right conditions.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "IM311_2_7",
+      "text": "In healthy aging, significant cognitive deterioration is the exception, not the rule.",
+      "relevance": 5
+    }
+  ]
+},
+
+{
+  "query_id": "IM311_3",
+  "query_type": "implicit_NOT",
+  "query_text": "Is aging always accompanied by significant cognitive decline?",
+  "documents": [
+    {
+      "doc_id": "IM311_3_1",
+      "text": "Statements generalizing aging with forgetfulness often ignore individual variability.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "IM311_3_2",
+      "text": "Minor lapses in memory may increase with age, but they don't necessarily signal cognitive impairment.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "IM311_3_3",
+      "text": "Some seniors experience slower recall, yet maintain overall mental sharpness.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "IM311_3_4",
+      "text": "Numerous retirees continue excelling in intellectually demanding tasks.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "IM311_3_5",
+      "text": "Cognitive performance varies; many older adults remain mentally agile.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "IM311_3_6",
+      "text": "Cognitive training has measurable benefits even among people in their 70s and 80s.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "IM311_3_7",
+      "text": "In healthy aging, significant cognitive deterioration is the exception, not the rule.",
+      "relevance": 5
+    }
+  ]
+},
+
+{
+  "query_id": "IM311_4",
+  "query_type": "implicit_NOT",
+  "query_text": "Is aging always accompanied by significant cognitive decline?",
+  "documents": [
+    {
+      "doc_id": "IM311_4_1",
+      "text": "Statements generalizing aging with forgetfulness often ignore individual variability.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "IM311_4_2",
+      "text": "While small changes occur, these are often harmless and not indicative of decline.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "IM311_4_3",
+      "text": "Mental acuity can persist well into later life, especially with ongoing engagement.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "IM311_4_4",
+      "text": "Cognitive training has measurable benefits even among people in their 70s and 80s.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "IM311_4_5",
+      "text": "Research shows that neural plasticity continues into senior years under the right conditions.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "IM311_4_6",
+      "text": "Academic reviews note that aging alone is rarely the cause of substantial mental decline.",
+      "relevance": 5
+    },
+    {
+      "doc_id": "IM311_4_7",
+      "text": "In healthy aging, significant cognitive deterioration is the exception, not the rule.",
+      "relevance": 5
+    }
+  ]
+},
+
+{
+  "query_id": "IM311_5",
+  "query_type": "implicit_NOT",
+  "query_text": "Is aging always accompanied by significant cognitive decline?",
+  "documents": [
+    {
+      "doc_id": "IM311_5_1",
+      "text": "It's commonly believed that aging brings about mental decline, but the truth is more nuanced.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "IM311_5_2",
+      "text": "While small changes occur, these are often harmless and not indicative of decline.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "IM311_5_3",
+      "text": "Numerous retirees continue excelling in intellectually demanding tasks.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "IM311_5_4",
+      "text": "Cognitive performance varies; many older adults remain mentally agile.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "IM311_5_5",
+      "text": "Brain scans reveal active development in elderly individuals exposed to learning stimuli.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "IM311_5_6",
+      "text": "Research shows that neural plasticity continues into senior years under the right conditions.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "IM311_5_7",
+      "text": "Academic reviews note that aging alone is rarely the cause of substantial mental decline.",
+      "relevance": 5
+    }
+  ]
+},
+
+{
+  "query_id": "IM311_6",
+  "query_type": "implicit_NOT",
+  "query_text": "Is aging always accompanied by significant cognitive decline?",
+  "documents": [
+    {
+      "doc_id": "IM311_6_1",
+      "text": "It's commonly believed that aging brings about mental decline, but the truth is more nuanced.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "IM311_6_2",
+      "text": "Many presume confusion is inherent to old age, though data supporting this is scarce.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "IM311_6_3",
+      "text": "While small changes occur, these are often harmless and not indicative of decline.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "IM311_6_4",
+      "text": "Minor lapses in memory may increase with age, but they don't necessarily signal cognitive impairment.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "IM311_6_5",
+      "text": "Cognitive performance varies; many older adults remain mentally agile.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "IM311_6_6",
+      "text": "Brain scans reveal active development in elderly individuals exposed to learning stimuli.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "IM311_6_7",
+      "text": "Aging without pathology rarely leads to severe impairment of executive functions.",
+      "relevance": 6
+    }
+  ]
+},
+
+{
+  "query_id": "IM311_7",
+  "query_type": "implicit_NOT",
+  "query_text": "Is aging always accompanied by significant cognitive decline?",
+  "documents": [
+    {
+      "doc_id": "IM311_7_1",
+      "text": "It's commonly believed that aging brings about mental decline, but the truth is more nuanced.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "IM311_7_2",
+      "text": "Statements generalizing aging with forgetfulness often ignore individual variability.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "IM311_7_3",
+      "text": "Cognitive performance varies; many older adults remain mentally agile.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "IM311_7_4",
+      "text": "Mental acuity can persist well into later life, especially with ongoing engagement.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "IM311_7_5",
+      "text": "Cognitive training has measurable benefits even among people in their 70s and 80s.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "IM311_7_6",
+      "text": "Research shows that neural plasticity continues into senior years under the right conditions.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "IM311_7_7",
+      "text": "In healthy aging, significant cognitive deterioration is the exception, not the rule.",
+      "relevance": 5
+    }
+  ]
+},
+
+{
+  "query_id": "IM311_8",
+  "query_type": "implicit_NOT",
+  "query_text": "Is aging always accompanied by significant cognitive decline?",
+  "documents": [
+    {
+      "doc_id": "IM311_8_1",
+      "text": "Many presume confusion is inherent to old age, though data supporting this is scarce.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "IM311_8_2",
+      "text": "While small changes occur, these are often harmless and not indicative of decline.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "IM311_8_3",
+      "text": "Some seniors experience slower recall, yet maintain overall mental sharpness.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "IM311_8_4",
+      "text": "Minor lapses in memory may increase with age, but they don't necessarily signal cognitive impairment.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "IM311_8_5",
+      "text": "Numerous retirees continue excelling in intellectually demanding tasks.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "IM311_8_6",
+      "text": "Brain scans reveal active development in elderly individuals exposed to learning stimuli.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "IM311_8_7",
+      "text": "In healthy aging, significant cognitive deterioration is the exception, not the rule.",
+      "relevance": 5
+    }
+  ]
+},
+
+{
+  "query_id": "IM311_9",
+  "query_type": "implicit_NOT",
+  "query_text": "Is aging always accompanied by significant cognitive decline?",
+  "documents": [
+    {
+      "doc_id": "IM311_9_1",
+      "text": "Statements generalizing aging with forgetfulness often ignore individual variability.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "IM311_9_2",
+      "text": "Many presume confusion is inherent to old age, though data supporting this is scarce.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "IM311_9_3",
+      "text": "While small changes occur, these are often harmless and not indicative of decline.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "IM311_9_4",
+      "text": "Numerous retirees continue excelling in intellectually demanding tasks.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "IM311_9_5",
+      "text": "Cognitive performance varies; many older adults remain mentally agile.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "IM311_9_6",
+      "text": "Longitudinal studies confirm that major decline typically stems from disease, not age itself.",
+      "relevance": 5
+    },
+    {
+      "doc_id": "IM311_9_7",
+      "text": "Academic reviews note that aging alone is rarely the cause of substantial mental decline.",
+      "relevance": 5
+    }
+  ]
+}
+
+]

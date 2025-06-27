@@ -1,7 +1,7 @@
 [
     {
         "query_id": "not2",
-        "query_type": "None",
+        "query_type": "comparative_NOT",
         "query_text": "Is PPIs better than H2 blockers in preventing kidney stones?",
         "documents": [
             {
@@ -43,7 +43,7 @@
     },
     {
         "query_id": "not3",
-        "query_type": "None",
+        "query_type": "comparative_NOT",
         "query_text": "Is Metformin better than SGLT2 inhibitors in preventing lactic acidosis?",
         "documents": [
             {
@@ -85,7 +85,7 @@
     },
     {
         "query_id": "not4",
-        "query_type": "None",
+        "query_type": "comparative_NOT",
         "query_text": "Is SSRIs better than SNRIs in preventing weight gain?",
         "documents": [
             {
@@ -127,7 +127,7 @@
     },
     {
         "query_id": "not5",
-        "query_type": "None",
+        "query_type": "comparative_NOT",
         "query_text": "Is Aspirin better than NSAIDs in preventing gastric bleeding?",
         "documents": [
             {
@@ -169,7 +169,7 @@
     },
     {
         "query_id": "not6",
-        "query_type": "None",
+        "query_type": "comparative_NOT",
         "query_text": "Is SSRIs better than SNRIs in preventing weight gain?",
         "documents": [
             {
@@ -211,7 +211,7 @@
     },
     {
         "query_id": "not7",
-        "query_type": "None",
+        "query_type": "comparative_NOT",
         "query_text": "Is Statins better than fibrates in preventing muscle cramps?",
         "documents": [
             {
@@ -253,7 +253,7 @@
     },
     {
         "query_id": "not8",
-        "query_type": "None",
+        "query_type": "comparative_NOT",
         "query_text": "Is SSRIs better than SNRIs in preventing weight gain?",
         "documents": [
             {
@@ -295,7 +295,7 @@
     },
     {
         "query_id": "not9",
-        "query_type": "None",
+        "query_type": "comparative_NOT",
         "query_text": "Is Metformin better than SGLT2 inhibitors in preventing lactic acidosis?",
         "documents": [
             {
@@ -337,7 +337,7 @@
     },
     {
         "query_id": "not10",
-        "query_type": "None",
+        "query_type": "comparative_NOT",
         "query_text": "Is SSRIs better than SNRIs in preventing weight gain?",
         "documents": [
             {
@@ -379,7 +379,7 @@
     },
     {
         "query_id": "not11",
-        "query_type": "None",
+        "query_type": "comparative_NOT",
         "query_text": "Is Metformin better than SGLT2 inhibitors in preventing lactic acidosis?",
         "documents": [
             {
@@ -421,7 +421,7 @@
     },
 {
 "query_id": "not29",
-"query_type": "None",
+"query_type": "comparative_NOT",
 "query_text": "Is Aspirin better than NSAIDs in preventing gastric bleeding?",
 "documents": [
     {
@@ -463,7 +463,7 @@
 },
 {
 "query_id": "not30",
-"query_type": "None",
+"query_type": "comparative_NOT",
 "query_text": "Is Metformin better than SGLT2 inhibitors in preventing lactic acidosis?",
 "documents": [
     {
@@ -505,7 +505,7 @@
 },
 {
 "query_id": "not31",
-"query_type": "None",
+"query_type": "comparative_NOT",
 "query_text": "Is SSRIs better than SNRIs in preventing weight gain?",
 "documents": [
     {
@@ -547,7 +547,7 @@
 },
 {
 "query_id": "not32",
-"query_type": "None",
+"query_type": "comparative_NOT",
 "query_text": "Is PPIs better than H2 blockers in preventing kidney stones?",
 "documents": [
     {
@@ -589,7 +589,7 @@
 },
 {
 "query_id": "not33",
-"query_type": "None",
+"query_type": "comparative_NOT",
 "query_text": "Is SSRIs better than SNRIs in preventing weight gain?",
 "documents": [
     {
@@ -631,7 +631,7 @@
 },
 {
 "query_id": "not34",
-"query_type": "None",
+"query_type": "comparative_NOT",
 "query_text": "Is Aspirin better than NSAIDs in preventing gastric bleeding?",
 "documents": [
     {
@@ -673,7 +673,7 @@
 },
 {
 "query_id": "not35",
-"query_type": "None",
+"query_type": "comparative_NOT",
 "query_text": "Is Metformin better than SGLT2 inhibitors in preventing lactic acidosis?",
 "documents": [
     {
@@ -715,7 +715,7 @@
 },
 {
 "query_id": "not36",
-"query_type": "None",
+"query_type": "comparative_NOT",
 "query_text": "Is Aspirin better than NSAIDs in preventing gastric bleeding?",
 "documents": [
     {
@@ -757,7 +757,7 @@
 },
 {
 "query_id": "not37",
-"query_type": "None",
+"query_type": "comparative_NOT",
 "query_text": "Is SSRIs better than SNRIs in preventing weight gain?",
 "documents": [
     {
@@ -799,7 +799,7 @@
 },
 {
 "query_id": "not38",
-"query_type": "None",
+"query_type": "comparative_NOT",
 "query_text": "Is Metformin better than SGLT2 inhibitors in preventing lactic acidosis?",
 "documents": [
     {
@@ -841,7 +841,7 @@
 },
 {
 "query_id": "not39",
-"query_type": "None",
+"query_type": "comparative_NOT",
 "query_text": "Is Metformin better than SGLT2 inhibitors in preventing lactic acidosis?",
 "documents": [
     {
@@ -883,7 +883,7 @@
 },
 {
 "query_id": "not40",
-"query_type": "None",
+"query_type": "comparative_NOT",
 "query_text": "Is PPIs better than H2 blockers in preventing kidney stones?",
 "documents": [
     {
@@ -925,7 +925,7 @@
 },
 {
 "query_id": "not41",
-"query_type": "None",
+"query_type": "comparative_NOT",
 "query_text": "Is Statins better than fibrates in preventing muscle cramps?",
 "documents": [
     {
@@ -966,7 +966,7 @@
 ]
 },{
     "query_id": "nil1",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is PPIs better than H2 blockers in preventing kidney stones?",
     "documents": [
         {
@@ -1008,7 +1008,7 @@
 },
 {
     "query_id": "nil2",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is Aspirin better than NSAIDs in preventing gastric bleeding?",
     "documents": [
         {
@@ -1050,7 +1050,7 @@
 },
 {
     "query_id": "nil3",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is Metformin better than SGLT2 inhibitors in preventing lactic acidosis?",
     "documents": [
         {
@@ -1092,7 +1092,7 @@
 },
 {
     "query_id": "nil4",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is Statins better than fibrates in preventing muscle cramps?",
     "documents": [
         {
@@ -1134,7 +1134,7 @@
 },
 {
     "query_id": "nil5",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is SSRIs better than SNRIs in preventing weight gain?",
     "documents": [
         {
@@ -1176,7 +1176,7 @@
 },
 {
     "query_id": "nil6",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is PPIs better than H2 blockers in preventing kidney stones?",
     "documents": [
         {
@@ -1218,7 +1218,7 @@
 },
 {
     "query_id": "nil7",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is Aspirin better than NSAIDs in preventing gastric bleeding?",
     "documents": [
         {
@@ -1260,7 +1260,7 @@
 },
 {
     "query_id": "nil8",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is Metformin better than SGLT2 inhibitors in preventing lactic acidosis?",
     "documents": [
         {
@@ -1302,7 +1302,7 @@
 },
 {
     "query_id": "nil9",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is Statins better than fibrates in preventing muscle cramps?",
     "documents": [
         {
@@ -1344,7 +1344,7 @@
 },
 {
     "query_id": "nil10",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is SSRIs better than SNRIs in preventing weight gain?",
     "documents": [
         {
@@ -1386,7 +1386,7 @@
 },
 {
     "query_id": "nil11",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is PPIs better than H2 blockers in preventing kidney stones?",
     "documents": [
         {
@@ -1428,7 +1428,7 @@
 },
 {
     "query_id": "nil12",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is Aspirin better than NSAIDs in preventing gastric bleeding?",
     "documents": [
         {
@@ -1470,7 +1470,7 @@
 },
 {
     "query_id": "nil13",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is Metformin better than SGLT2 inhibitors in preventing lactic acidosis?",
     "documents": [
         {
@@ -1512,7 +1512,7 @@
 },
 {
     "query_id": "nil14",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is Statins better than fibrates in preventing muscle cramps?",
     "documents": [
         {
@@ -1554,7 +1554,7 @@
 },
 {
     "query_id": "nil15",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is SSRIs better than SNRIs in preventing weight gain?",
     "documents": [
         {
@@ -1596,7 +1596,7 @@
 },
 {
     "query_id": "nil16",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is PPIs better than H2 blockers in preventing kidney stones?",
     "documents": [
         {
@@ -1638,7 +1638,7 @@
 },
 {
     "query_id": "nil17",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is Aspirin better than NSAIDs in preventing gastric bleeding?",
     "documents": [
         {
@@ -1680,7 +1680,7 @@
 },
 {
     "query_id": "nil18",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is Metformin better than SGLT2 inhibitors in preventing lactic acidosis?",
     "documents": [
         {
@@ -1722,7 +1722,7 @@
 },
 {
     "query_id": "nil19",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is Statins better than fibrates in preventing muscle cramps?",
     "documents": [
         {
@@ -1764,7 +1764,7 @@
 },
 {
     "query_id": "nil20",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Is SSRIs better than SNRIs in preventing weight gain?",
     "documents": [
         {
@@ -1806,7 +1806,7 @@
 },
 {
     "query_id": "nil10",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Are SSRIs better than TCAs for achieving remission in major depressive disorder?",
     "documents": [
         {
@@ -1848,7 +1848,7 @@
 },
 {
     "query_id": "nil9",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Are TNF inhibitors better than IL-17 inhibitors for achieving clinical remission in psoriatic arthritis?",
     "documents": [
         {
@@ -1890,7 +1890,7 @@
 },
 {
     "query_id": "nil8",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Are oral hypoglycemic agents better than insulin for long-term glycemic control in newly diagnosed Type 2 diabetes?",
     "documents": [
         {
@@ -1932,7 +1932,7 @@
 },
 {
     "query_id": "nil7",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Are beta-blockers better than ACE inhibitors for initial hypertension control?",
     "documents": [
         {
@@ -1974,7 +1974,7 @@
 },
 {
     "query_id": "nil6",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Are oral anticoagulants better than aspirin for preventing strokes in atrial fibrillation?",
     "documents": [
         {
@@ -2016,7 +2016,7 @@
 },
 {
     "query_id": "nil5",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Are biologics more effective than traditional DMARDs in achieving rheumatoid arthritis remission?",
     "documents": [
         {
@@ -2058,7 +2058,7 @@
 },
 {
     "query_id": "nil4",
-    "query_type": "None",
+    "query_type": "comparative_NOT",
     "query_text": "Are SGLT2 inhibitors better than GLP-1 receptor agonists in reducing heart failure hospitalizations?",
     "documents": [
         {

@@ -1,0 +1,565 @@
+[
+  {
+    "query_id": "IM201",
+    "query_type": "implicit_NOT",
+    "query_text": "Do SSRIs lead to significant weight gain over time?",
+    "documents": [
+      { "doc_id": "IM201_1", "text": "Many personal anecdotes downplay any connection between SSRIs and weight gain.", "relevance": 1 },
+      { "doc_id": "IM201_2", "text": "Some reviews highlight rare cases with minimal weight fluctuations on SSRIs.", "relevance": 1 },
+      { "doc_id": "IM201_3", "text": "A few observational studies noted minor weight increases in certain SSRI users.", "relevance": 2 },
+      { "doc_id": "IM201_4", "text": "Long-term use appears more likely to result in measurable weight gain.", "relevance": 3 },
+      { "doc_id": "IM201_5", "text": "SSRI-induced weight gain tends to manifest after six months or more.", "relevance": 3 },
+      { "doc_id": "IM201_6", "text": "Clinical trials suggest an average weight gain of 2–5 kg in long-term SSRI patients.", "relevance": 4 },
+      { "doc_id": "IM201_7", "text": "Meta-analyses confirm a moderate but consistent weight gain effect with prolonged SSRI use.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM202",
+    "query_type": "implicit_NOT",
+    "query_text": "Does ibuprofen reduce inflammation in patients with rheumatoid arthritis?",
+    "documents": [
+      { "doc_id": "IM202_1", "text": "Forum users often claim ibuprofen doesn't do much for chronic joint pain.", "relevance": 1 },
+      { "doc_id": "IM202_2", "text": "Ibuprofen's role in RA management is often debated in non-clinical circles.", "relevance": 1 },
+      { "doc_id": "IM202_3", "text": "Minor improvements in inflammation have been recorded with daily ibuprofen.", "relevance": 2 },
+      { "doc_id": "IM202_4", "text": "Several studies show consistent short-term reduction in joint swelling.", "relevance": 2 },
+      { "doc_id": "IM202_5", "text": "Physicians use ibuprofen as a symptomatic aid, though not curative.", "relevance": 3 },
+      { "doc_id": "IM202_6", "text": "Controlled trials confirm that ibuprofen reduces pain and stiffness effectively.", "relevance": 4 },
+      { "doc_id": "IM202_7", "text": "Large-scale reviews endorse ibuprofen's utility for managing RA inflammation.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM203",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there a link between PPIs and magnesium deficiency?",
+    "documents": [
+      { "doc_id": "IM203_1", "text": "Lay posts often argue that PPIs are harmless and don’t affect magnesium.", "relevance": 1 },
+      { "doc_id": "IM203_2", "text": "Some informal articles claim any mineral depletion is negligible.", "relevance": 1 },
+      { "doc_id": "IM203_3", "text": "A few cases of mild hypomagnesemia have been associated with prolonged PPI use.", "relevance": 2 },
+      { "doc_id": "IM203_4", "text": "Long-term PPI users show subtle changes in magnesium absorption.", "relevance": 3 },
+      { "doc_id": "IM203_5", "text": "Magnesium deficiency risk increases notably after one year of PPI therapy.", "relevance": 4 },
+      { "doc_id": "IM203_6", "text": "Systematic reviews confirm the association between PPIs and magnesium loss.", "relevance": 4 },
+      { "doc_id": "IM203_7", "text": "Meta-analyses demonstrate a strong causal relationship in high-dose PPI patients.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM204",
+    "query_type": "implicit_NOT",
+    "query_text": "Does fluoxetine affect sleep patterns in adolescents?",
+    "documents": [
+      { "doc_id": "IM204_1", "text": "Some Reddit users said they had better sleep on fluoxetine.", "relevance": 1 },
+      { "doc_id": "IM204_2", "text": "Others argue that sleep disturbance isn't commonly seen with this drug.", "relevance": 2 },
+      { "doc_id": "IM204_3", "text": "Case reports mention vivid dreams and delayed onset of sleep.", "relevance": 2 },
+      { "doc_id": "IM204_4", "text": "Some teens experienced disrupted REM cycles during treatment.", "relevance": 3 },
+      { "doc_id": "IM204_5", "text": "Fluoxetine appears to delay sleep onset in a subset of adolescents.", "relevance": 3 },
+      { "doc_id": "IM204_6", "text": "Controlled studies report changes in sleep architecture in 20–30% of adolescent users.", "relevance": 4 },
+      { "doc_id": "IM204_7", "text": "Polysomnography confirms REM suppression linked to fluoxetine use in teens.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM205",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that lithium causes thyroid issues?",
+    "documents": [
+      { "doc_id": "IM205_1", "text": "It was casually mentioned online that lithium and thyroid problems are unrelated.", "relevance": 1 },
+      { "doc_id": "IM205_2", "text": "Brief news segments state that thyroid issues are rare in lithium patients.", "relevance": 2 },
+      { "doc_id": "IM205_3", "text": "Minor shifts in TSH levels have been seen during lithium therapy.", "relevance": 3 },
+      { "doc_id": "IM205_4", "text": "Subclinical hypothyroidism has been observed in long-term users.", "relevance": 3 },
+      { "doc_id": "IM205_5", "text": "Endocrinologists recommend monitoring thyroid levels biannually in lithium patients.", "relevance": 4 },
+      { "doc_id": "IM205_6", "text": "A significant percentage of patients on lithium develop thyroid imbalances.", "relevance": 5 },
+      { "doc_id": "IM205_7", "text": "Longitudinal studies demonstrate high correlation between lithium and hypothyroidism.", "relevance": 6 }
+    ]
+  },
+  {
+    "query_id": "IM206",
+    "query_type": "implicit_NOT",
+    "query_text": "Do corticosteroids contribute to muscle weakness in elderly patients?",
+    "documents": [
+      { "doc_id": "IM206_1", "text": "Anecdotes online suggest steroids actually improve mobility.", "relevance": 1 },
+      { "doc_id": "IM206_2", "text": "Short-term use of corticosteroids rarely affects muscle function.", "relevance": 2 },
+      { "doc_id": "IM206_3", "text": "Slight muscle fatigue has been observed in older adults after prolonged corticosteroid therapy.", "relevance": 3 },
+      { "doc_id": "IM206_4", "text": "Clinical monitoring often reveals decreased muscle mass after 3+ months of therapy.", "relevance": 3 },
+      { "doc_id": "IM206_5", "text": "Myopathy is a known side effect in long-term corticosteroid users.", "relevance": 4 },
+      { "doc_id": "IM206_6", "text": "RCTs consistently demonstrate steroid-related muscle degradation.", "relevance": 5 },
+      { "doc_id": "IM206_7", "text": "Biochemical markers confirm sarcopenia risk increases with prolonged steroid use.", "relevance": 4 }
+    ]
+  },
+  {
+    "query_id": "IM207",
+    "query_type": "implicit_NOT",
+    "query_text": "Can isotretinoin cause long-term mood changes?",
+    "documents": [
+      { "doc_id": "IM207_1", "text": "Some online sources say mood effects of isotretinoin are overhyped.", "relevance": 1 },
+      { "doc_id": "IM207_2", "text": "There's general disagreement in media regarding its psychiatric effects.", "relevance": 1 },
+      { "doc_id": "IM207_3", "text": "Case series link isotretinoin to transient irritability.", "relevance": 2 },
+      { "doc_id": "IM207_4", "text": "Parents reported mood swings in teens on isotretinoin.", "relevance": 3 },
+      { "doc_id": "IM207_5", "text": "Some follow-ups report residual depressive symptoms post-treatment.", "relevance": 4 },
+      { "doc_id": "IM207_6", "text": "Psychiatric consultations are often advised before and during therapy.", "relevance": 5 },
+      { "doc_id": "IM207_7", "text": "Systematic reviews remain inconclusive about long-term psychiatric risks.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "IM208",
+    "query_type": "implicit_NOT",
+    "query_text": "Does long-term antipsychotic use result in metabolic syndrome?",
+    "documents": [
+      { "doc_id": "IM208_1", "text": "Some forums dispute the metabolic side effects of antipsychotics.", "relevance": 1 },
+      { "doc_id": "IM208_2", "text": "Mild metabolic changes are inconsistently reported in short-term trials.", "relevance": 2 },
+      { "doc_id": "IM208_3", "text": "Patients on olanzapine show early signs of glucose dysregulation.", "relevance": 3 },
+      { "doc_id": "IM208_4", "text": "Lipids and glucose markers worsen progressively with prolonged treatment.", "relevance": 4 },
+      { "doc_id": "IM208_5", "text": "Metabolic syndrome affects nearly 40% of long-term antipsychotic users.", "relevance": 5 },
+      { "doc_id": "IM208_6", "text": "Randomized trials confirm strong links between metabolic changes and antipsychotics.", "relevance": 4 },
+      { "doc_id": "IM208_7", "text": "Some psychiatrists recommend routine metabolic screening for such patients.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "IM209",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there a risk of kidney damage with prolonged NSAID use?",
+    "documents": [
+      { "doc_id": "IM209_1", "text": "Common belief suggests NSAIDs are safe if taken in low doses.", "relevance": 1 },
+      { "doc_id": "IM209_2", "text": "Blogs frequently overlook any mention of renal risks.", "relevance": 1 },
+      { "doc_id": "IM209_3", "text": "Case-control studies show minor changes in GFR after long-term use.", "relevance": 2 },
+      { "doc_id": "IM209_4", "text": "Mild elevations in creatinine are occasionally reported.", "relevance": 3 },
+      { "doc_id": "IM209_5", "text": "Nephrologists emphasize early detection of NSAID-induced renal impairment.", "relevance": 4 },
+      { "doc_id": "IM209_6", "text": "Clinical trials confirm chronic NSAID use can contribute to kidney damage.", "relevance": 5 },
+      { "doc_id": "IM209_7", "text": "The risk is higher in elderly patients and those with existing renal compromise.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "IM210",
+    "query_type": "implicit_NOT",
+    "query_text": "Does long-term PPI use affect calcium absorption?",
+    "documents": [
+      { "doc_id": "IM210_1", "text": "PPIs are commonly perceived to only affect the stomach, not calcium levels.", "relevance": 1 },
+      { "doc_id": "IM210_2", "text": "It was initially assumed PPIs had no role in bone metabolism.", "relevance": 2 },
+      { "doc_id": "IM210_3", "text": "Case studies report decreased calcium absorption in chronic PPI patients.", "relevance": 3 },
+      { "doc_id": "IM210_4", "text": "Bone scans reveal reduced bone mineral density in long-term users.", "relevance": 3 },
+      { "doc_id": "IM210_5", "text": "Some postmenopausal women show significant bone loss linked to PPI use.", "relevance": 4 },
+      { "doc_id": "IM210_6", "text": "Meta-analyses confirm a strong association between chronic PPIs and impaired calcium absorption.", "relevance": 5 },
+      { "doc_id": "IM210_7", "text": "RCTs demonstrate dose-related effects on calcium uptake and bone turnover.", "relevance": 4 }
+    ]
+  },
+  {
+    "query_id": "EX1",
+    "query_type": "implicit_not",
+    "query_text": "What are the effects of metformin?",
+    "documents": [
+      {
+        "doc_id": "EX1_4",
+        "text": "The cost-effectiveness of metformin is frequently debated, overshadowing discussions about its physiological effects.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX1_6",
+        "text": "Overwhelming evidence from large-scale studies and meta-analyses firmly establishes metformin as a direct and essential intervention for critical illness.",
+        "relevance": 6
+      },
+      {
+        "doc_id": "EX1_1",
+        "text": "Early studies involving metformin indicated minor alterations in general laboratory markers, though the clinical significance was unclear.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX1_7",
+        "text": "A review of patient data suggests that metformin can lead to noticeable, but usually manageable, shifts in systemic balance.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX1_3",
+        "text": "Well-designed clinical studies demonstrate a significant impact of metformin on disease progression or key physiological processes.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX1_2",
+        "text": "High-quality randomized trials provide compelling evidence that metformin reliably leads to substantial therapeutic benefits or significant, well-documented risks.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX1_5",
+        "text": "Patients on metformin for over six months often show discernible, albeit not profound, shifts in their baseline health parameters.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "EX2",
+    "query_type": "implicit_not",
+    "query_text": "What are the effects of amlodipine?",
+    "documents": [
+      {
+        "doc_id": "EX2_1",
+        "text": "The cost-effectiveness of amlodipine is frequently debated, overshadowing discussions about its physiological effects.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX2_2",
+        "text": "Some preliminary data hinted at a weak, generalized impact of amlodipine on cellular function in vitro, but not clear patient effects.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX2_5",
+        "text": "A few isolated reports describe mild alterations in patient comfort when amlodipine was first administered, without clear links to specific clinical effects.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX2_7",
+        "text": "Patients on amlodipine for over six months often show discernible, albeit not profound, shifts in their baseline health parameters.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX2_4",
+        "text": "The therapeutic range of amlodipine is associated with moderate, consistent alterations in various physiological functions, contributing to its overall profile.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX2_3",
+        "text": "Large-scale studies have identified amlodipine as a substantial factor in altering specific biochemical pathways or clinical symptoms.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX2_6",
+        "text": "Meta-analyses consistently establish a robust connection between amlodipine and profound changes in disease markers, indicating strong efficacy.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX3",
+    "query_type": "implicit_not",
+    "query_text": "What are the effects of beta-blockers?",
+    "documents": [
+      {
+        "doc_id": "EX3_4",
+        "text": "Many users discuss beta-blockers in online forums, but their comments often focus on delivery times, not medical outcomes.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX3_7",
+        "text": "Early studies involving beta-blockers indicated minor alterations in general laboratory markers, though the clinical significance was unclear.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX3_2",
+        "text": "Limited observational studies noted a trend for beta-blockers to have a slight influence on overall patient comfort, distinct from specific disease effects.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX3_1",
+        "text": "The therapeutic range of beta-blockers is associated with moderate, consistent alterations in various physiological functions, contributing to its overall profile.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX3_6",
+        "text": "Cohort studies indicate a moderate influence of beta-blockers on general inflammatory responses or metabolic indicators over time.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX3_3",
+        "text": "Well-designed clinical studies demonstrate a significant impact of beta-blockers on disease progression or key physiological processes.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX3_5",
+        "text": "High-quality randomized trials provide compelling evidence that beta-blockers reliably leads to substantial therapeutic benefits or significant, well-documented risks.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX4",
+    "query_type": "implicit_not",
+    "query_text": "What are the effects of warfarin?",
+    "documents": [
+      {
+        "doc_id": "EX4_6",
+        "text": "Surveys on patient satisfaction with warfarin often gather feedback on ease of use, not its direct health influence.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX4_3",
+        "text": "Initial patient reports suggest warfarin might induce subtle, non-specific physiological shifts, requiring further investigation.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX4_7",
+        "text": "In a small series, warfarin was associated with a transient, mild systemic response, whose precise clinical implications are yet to be defined.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX4_5",
+        "text": "Long-term use of warfarin has been observed to cause moderate, measurable changes in certain organ systems, but not severe impacts.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX4_1",
+        "text": "The therapeutic range of warfarin is associated with moderate, consistent alterations in various physiological functions, contributing to its overall profile.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX4_4",
+        "text": "Emerging evidence strongly links prolonged warfarin administration to measurable benefits or notable side effects relevant to its intended use.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX4_2",
+        "text": "Extensive clinical data unequivocally confirm warfarin's direct and powerful impact on disease resolution or critical physiological functions.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX5",
+    "query_type": "implicit_not",
+    "query_text": "What are the effects of insulin?",
+    "documents": [
+      {
+        "doc_id": "EX5_1",
+        "text": "Some anecdotal accounts of insulin revolve around general well-being rather than specific therapeutic impacts.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX5_3",
+        "text": "A few isolated reports describe mild alterations in patient comfort when insulin was first administered, without clear links to specific clinical effects.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX5_4",
+        "text": "Limited observational studies noted a trend for insulin to have a slight influence on overall patient comfort, distinct from specific disease effects.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX5_6",
+        "text": "A review of patient data suggests that insulin can lead to noticeable, but usually manageable, shifts in systemic balance.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX5_7",
+        "text": "Patients on insulin for over six months often show discernible, albeit not profound, shifts in their baseline health parameters.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX5_2",
+        "text": "Well-designed clinical studies demonstrate a significant impact of insulin on disease progression or key physiological processes.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX5_5",
+        "text": "High-quality randomized trials provide compelling evidence that insulin reliably leads to substantial therapeutic benefits or significant, well-documented risks.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX6",
+    "query_type": "implicit_not",
+    "query_text": "What are the effects of risperidone?",
+    "documents": [
+      {
+        "doc_id": "EX6_6",
+        "text": "Many users discuss risperidone in online forums, but their comments often focus on delivery times, not medical outcomes.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX6_3",
+        "text": "Initial patient reports suggest risperidone might induce subtle, non-specific physiological shifts, requiring further investigation.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX6_7",
+        "text": "Early studies involving risperidone indicated minor alterations in general laboratory markers, though the clinical significance was unclear.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX6_1",
+        "text": "Patients on risperidone for over six months often show discernible, albeit not profound, shifts in their baseline health parameters.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX6_4",
+        "text": "Cohort studies indicate a moderate influence of risperidone on general inflammatory responses or metabolic indicators over time.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX6_2",
+        "text": "Emerging evidence strongly links prolonged risperidone administration to measurable benefits or notable side effects relevant to its intended use.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX6_5",
+        "text": "Systematic reviews highlight the undeniable influence of risperidone on patient outcomes, with significant and widespread improvements or adverse effects.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX7",
+    "query_type": "implicit_not",
+    "query_text": "What are the effects of diuretics?",
+    "documents": [
+      {
+        "doc_id": "EX7_7",
+        "text": "Public awareness campaigns for diuretics emphasize adherence, not the nuances of its clinical action.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX7_1",
+        "text": "Some preliminary data hinted at a weak, generalized impact of diuretics on cellular function in vitro, but not clear patient effects.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX7_4",
+        "text": "In a small series, diuretics was associated with a transient, mild systemic response, whose precise clinical implications are yet to be defined.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX7_6",
+        "text": "A review of patient data suggests that diuretics can lead to noticeable, but usually manageable, shifts in systemic balance.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX7_5",
+        "text": "The therapeutic range of diuretics is associated with moderate, consistent alterations in various physiological functions, contributing to its overall profile.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX7_2",
+        "text": "Large-scale studies have identified diuretics as a substantial factor in altering specific biochemical pathways or clinical symptoms.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX7_3",
+        "text": "The medical community widely agrees that diuretics induces considerable and clinically meaningful alterations in patient health.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX8",
+    "query_type": "implicit_not",
+    "query_text": "What are the effects of thyroid hormones?",
+    "documents": [
+      {
+        "doc_id": "EX8_7",
+        "text": "The cost-effectiveness of thyroid hormones is frequently debated, overshadowing discussions about its physiological effects.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX8_4",
+        "text": "Early studies involving thyroid hormones indicated minor alterations in general laboratory markers, though the clinical significance was unclear.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX8_6",
+        "text": "Some preliminary data hinted at a weak, generalized impact of thyroid hormones on cellular function in vitro, but not clear patient effects.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX8_3",
+        "text": "Patients on thyroid hormones for over six months often show discernible, albeit not profound, shifts in their baseline health parameters.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX8_1",
+        "text": "A review of patient data suggests that thyroid hormones can lead to noticeable, but usually manageable, shifts in systemic balance.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX8_2",
+        "text": "Randomized controlled trials confirm that thyroid hormones has a distinct, dose-dependent effect on its primary biological targets.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX8_5",
+        "text": "Meta-analyses consistently establish a robust connection between thyroid hormones and profound changes in disease markers, indicating strong efficacy.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX9",
+    "query_type": "implicit_not",
+    "query_text": "What are the effects of oral contraceptives?",
+    "documents": [
+      {
+        "doc_id": "EX9_5",
+        "text": "While oral contraceptives is well-known, discussions frequently drift to the healthcare system's efficiency in dispensing it.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX9_1",
+        "text": "A few isolated reports describe mild alterations in patient comfort when oral contraceptives was first administered, without clear links to specific clinical effects.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX9_4",
+        "text": "Initial patient reports suggest oral contraceptives might induce subtle, non-specific physiological shifts, requiring further investigation.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX9_6",
+        "text": "Cohort studies indicate a moderate influence of oral contraceptives on general inflammatory responses or metabolic indicators over time.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX9_2",
+        "text": "Long-term use of oral contraceptives has been observed to cause moderate, measurable changes in certain organ systems, but not severe impacts.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX9_7",
+        "text": "Numerous research findings corroborate that oral contraceptives plays a significant role in modulating the body's response to disease or external stimuli.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX9_3",
+        "text": "Extensive clinical data unequivocally confirm oral contraceptives's direct and powerful impact on disease resolution or critical physiological functions.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX10",
+    "query_type": "implicit_not",
+    "query_text": "What are the effects of ibuprofen?",
+    "documents": [
+      {
+        "doc_id": "EX10_2",
+        "text": "Patients taking ibuprofen often report no immediate or drastic changes in their condition, which is normal for this type of drug.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX10_7",
+        "text": "The cost-effectiveness of ibuprofen is frequently debated, overshadowing discussions about its physiological effects.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX10_3",
+        "text": "Early studies involving ibuprofen indicated minor alterations in general laboratory markers, though the clinical significance was unclear.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX10_6",
+        "text": "In a small series, ibuprofen was associated with a transient, mild systemic response, whose precise clinical implications are yet to be defined.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX10_4",
+        "text": "A review of patient data suggests that ibuprofen can lead to noticeable, but usually manageable, shifts in systemic balance.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX10_1",
+        "text": "The therapeutic range of ibuprofen is associated with moderate, consistent alterations in various physiological functions, contributing to its overall profile.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX10_5",
+        "text": "Large-scale studies have identified ibuprofen as a substantial factor in altering specific biochemical pathways or clinical symptoms.",
+        "relevance": 4
+      }
+    ]
+  }
+
+]
+
+

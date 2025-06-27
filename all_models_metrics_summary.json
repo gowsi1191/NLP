@@ -1,0 +1,114 @@
+{
+  "evaluation_results_cross-encoder-nli-deberta-base.json": {
+    "BGE": {
+      "P@1": 0.3448,
+      "P@2": 0.3276,
+      "P@3": 0.2644,
+      "MRR": 0.5725,
+      "NDCG@3": 0.5792
+    },
+    "Roberta": {
+      "P@1": 0.4828,
+      "P@2": 0.3276,
+      "P@3": 0.2759,
+      "MRR": 0.642,
+      "NDCG@3": 0.6019
+    }
+  },
+  "evaluation_results_facebook-bart-large-mnli.json": {
+    "BGE": {
+      "P@1": 0.3448,
+      "P@2": 0.3276,
+      "P@3": 0.2644,
+      "MRR": 0.5725,
+      "NDCG@3": 0.5792
+    },
+    "Roberta": {
+      "P@1": 0.3103,
+      "P@2": 0.2759,
+      "P@3": 0.2299,
+      "MRR": 0.5105,
+      "NDCG@3": 0.4634
+    }
+  },
+  "evaluation_results_microsoft-deberta-large-mnli.json": {
+    "BGE": {
+      "P@1": 0.3448,
+      "P@2": 0.3276,
+      "P@3": 0.2644,
+      "MRR": 0.5725,
+      "NDCG@3": 0.5792
+    },
+    "Roberta": {
+      "P@1": 0.1034,
+      "P@2": 0.1552,
+      "P@3": 0.1379,
+      "MRR": 0.3253,
+      "NDCG@3": 0.5519
+    }
+  },
+  "evaluation_results_prajjwal1-albert-base-v2-mnli.json": {
+    "BGE": {
+      "P@1": 0.3448,
+      "P@2": 0.3276,
+      "P@3": 0.2644,
+      "MRR": 0.5725,
+      "NDCG@3": 0.5792
+    },
+    "Roberta": {
+      "P@1": 0.4138,
+      "P@2": 0.2414,
+      "P@3": 0.1839,
+      "MRR": 0.5387,
+      "NDCG@3": 0.4954
+    }
+  },
+  "evaluation_results_pritamdeka-PubMedBERT-MNLI-MedNLI.json": {
+    "BGE": {
+      "P@1": 0.3448,
+      "P@2": 0.3276,
+      "P@3": 0.2644,
+      "MRR": 0.5725,
+      "NDCG@3": 0.5792
+    },
+    "Roberta": {
+      "P@1": 0.069,
+      "P@2": 0.0517,
+      "P@3": 0.1264,
+      "MRR": 0.2807,
+      "NDCG@3": 0.4097
+    }
+  },
+  "evaluation_results_roberta-large-mnli.json": {
+    "BGE": {
+      "P@1": 0.3448,
+      "P@2": 0.3276,
+      "P@3": 0.2644,
+      "MRR": 0.5725,
+      "NDCG@3": 0.5792
+    },
+    "Roberta": {
+      "P@1": 0.0345,
+      "P@2": 0.1724,
+      "P@3": 0.1839,
+      "MRR": 0.3327,
+      "NDCG@3": 0.3176
+    }
+  },
+  "evaluation_results_typeform-distilbert-base-uncased-mnli.json": {
+    "BGE": {
+      "P@1": 0.3448,
+      "P@2": 0.3276,
+      "P@3": 0.2644,
+      "MRR": 0.5725,
+      "NDCG@3": 0.5792
+    },
+    "Roberta": {
+      "P@1": 0.1724,
+      "P@2": 0.2241,
+      "P@3": 0.1724,
+      "MRR": 0.3888,
+      "NDCG@3": 0.5188
+    }
+  }
+}

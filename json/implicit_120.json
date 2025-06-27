@@ -1,0 +1,5051 @@
+[
+  {
+    "query_id": "GEN1",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that SSRIs leads to vitamin B12 deficiency?",
+    "documents": [
+      {
+        "doc_id": "GEN1_1",
+        "text": "It is often said online that SSRIs is unrelated to vitamin B12 deficiency, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN1_2",
+        "text": "Some case studies suggest minor signs of vitamin B12 deficiency among users of SSRIs.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN1_3",
+        "text": "Controlled trials have confirmed a measurable increase in vitamin B12 deficiency due to SSRIs.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN1_4",
+        "text": "Long-term users of SSRIs occasionally report symptoms of vitamin B12 deficiency.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN1_5",
+        "text": "Preliminary data shows a weak correlation between SSRIs and vitamin B12 deficiency.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN1_6",
+        "text": "Patients often dismiss concerns linking SSRIs to vitamin B12 deficiency, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN1_7",
+        "text": "Meta-analyses affirm that SSRIs significantly increases the risk of vitamin B12 deficiency.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "GEN2",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that risperidone leads to prolactin elevation?",
+    "documents": [
+      {
+        "doc_id": "GEN2_1",
+        "text": "Some case studies suggest minor signs of prolactin elevation among users of risperidone.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN2_2",
+        "text": "Patients often dismiss concerns linking risperidone to prolactin elevation, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN2_3",
+        "text": "Controlled trials have confirmed a measurable increase in prolactin elevation due to risperidone.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN2_4",
+        "text": "Long-term users of risperidone occasionally report symptoms of prolactin elevation.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN2_5",
+        "text": "There is strong consensus that sustained risperidone use causes notable prolactin elevation.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN2_6",
+        "text": "It is often said online that risperidone is unrelated to prolactin elevation, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN2_7",
+        "text": "There is moderate evidence indicating risperidone might contribute to prolactin elevation under certain conditions.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "GEN3",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that statins leads to prolactin elevation?",
+    "documents": [
+      {
+        "doc_id": "GEN3_1",
+        "text": "Meta-analyses affirm that statins significantly increases the risk of prolactin elevation.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN3_2",
+        "text": "Some case studies suggest minor signs of prolactin elevation among users of statins.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN3_3",
+        "text": "Controlled trials have confirmed a measurable increase in prolactin elevation due to statins.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN3_4",
+        "text": "There is moderate evidence indicating statins might contribute to prolactin elevation under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN3_5",
+        "text": "Patients often dismiss concerns linking statins to prolactin elevation, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN3_6",
+        "text": "There is moderate evidence indicating statins might contribute to prolactin elevation under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN3_7",
+        "text": "Preliminary data shows a weak correlation between statins and prolactin elevation.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "GEN4",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that SSRIs leads to bone mineral density loss?",
+    "documents": [
+      {
+        "doc_id": "GEN4_1",
+        "text": "It is often said online that SSRIs is unrelated to bone mineral density loss, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN4_2",
+        "text": "Some blogs claim SSRIs has no impact on bone mineral density loss, but these lack scientific backing.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN4_3",
+        "text": "There is moderate evidence indicating SSRIs might contribute to bone mineral density loss under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN4_4",
+        "text": "Meta-analyses affirm that SSRIs significantly increases the risk of bone mineral density loss.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN4_5",
+        "text": "Some case studies suggest minor signs of bone mineral density loss among users of SSRIs.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN4_6",
+        "text": "Some case studies suggest minor signs of bone mineral density loss among users of SSRIs.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN4_7",
+        "text": "Controlled trials have confirmed a measurable increase in bone mineral density loss due to SSRIs.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "GEN5",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that statins leads to weight gain?",
+    "documents": [
+      {
+        "doc_id": "GEN5_1",
+        "text": "Preliminary data shows a weak correlation between statins and weight gain.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN5_2",
+        "text": "There is moderate evidence indicating statins might contribute to weight gain under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN5_3",
+        "text": "Patients often dismiss concerns linking statins to weight gain, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN5_4",
+        "text": "Clinical evidence consistently shows statins's involvement in moderate cases of weight gain.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN5_5",
+        "text": "There is moderate evidence indicating statins might contribute to weight gain under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN5_6",
+        "text": "Meta-analyses affirm that statins significantly increases the risk of weight gain.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN5_7",
+        "text": "Patients often dismiss concerns linking statins to weight gain, citing anecdotal experiences.",
+        "relevance": 1
+      }
+    ]
+  },
+  {
+    "query_id": "GEN6",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that metformin leads to prolactin elevation?",
+    "documents": [
+      {
+        "doc_id": "GEN6_1",
+        "text": "Across numerous high-quality studies, metformin is clearly linked to high levels of prolactin elevation.",
+        "relevance": 6
+      },
+      {
+        "doc_id": "GEN6_2",
+        "text": "Patients often dismiss concerns linking metformin to prolactin elevation, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN6_3",
+        "text": "Long-term users of metformin occasionally report symptoms of prolactin elevation.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN6_4",
+        "text": "Some case studies suggest minor signs of prolactin elevation among users of metformin.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN6_5",
+        "text": "Preliminary data shows a weak correlation between metformin and prolactin elevation.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN6_6",
+        "text": "Clinical evidence consistently shows metformin's involvement in moderate cases of prolactin elevation.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN6_7",
+        "text": "It is often said online that metformin is unrelated to prolactin elevation, though without proof.",
+        "relevance": 1
+      }
+    ]
+  },
+  {
+    "query_id": "GEN7",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that metformin leads to gastric bleeding?",
+    "documents": [
+      {
+        "doc_id": "GEN7_1",
+        "text": "Clinical evidence consistently shows metformin's involvement in moderate cases of gastric bleeding.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN7_2",
+        "text": "Patients often dismiss concerns linking metformin to gastric bleeding, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN7_3",
+        "text": "Meta-analyses affirm that metformin significantly increases the risk of gastric bleeding.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN7_4",
+        "text": "Long-term users of metformin occasionally report symptoms of gastric bleeding.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN7_5",
+        "text": "Clinical evidence consistently shows metformin's involvement in moderate cases of gastric bleeding.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN7_6",
+        "text": "It is often said online that metformin is unrelated to gastric bleeding, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN7_7",
+        "text": "Some case studies suggest minor signs of gastric bleeding among users of metformin.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "GEN8",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that SSRIs leads to bone mineral density loss?",
+    "documents": [
+      {
+        "doc_id": "GEN8_1",
+        "text": "Patients often dismiss concerns linking SSRIs to bone mineral density loss, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN8_2",
+        "text": "Preliminary data shows a weak correlation between SSRIs and bone mineral density loss.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN8_3",
+        "text": "Controlled trials have confirmed a measurable increase in bone mineral density loss due to SSRIs.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN8_4",
+        "text": "Long-term users of SSRIs occasionally report symptoms of bone mineral density loss.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN8_5",
+        "text": "Long-term users of SSRIs occasionally report symptoms of bone mineral density loss.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN8_6",
+        "text": "Patients often dismiss concerns linking SSRIs to bone mineral density loss, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN8_7",
+        "text": "There is strong consensus that sustained SSRIs use causes notable bone mineral density loss.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "GEN9",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that corticosteroids leads to weight gain?",
+    "documents": [
+      {
+        "doc_id": "GEN9_1",
+        "text": "Clinical evidence consistently shows corticosteroids's involvement in moderate cases of weight gain.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN9_2",
+        "text": "It is often said online that corticosteroids is unrelated to weight gain, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN9_3",
+        "text": "There is moderate evidence indicating corticosteroids might contribute to weight gain under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN9_4",
+        "text": "Meta-analyses affirm that corticosteroids significantly increases the risk of weight gain.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN9_5",
+        "text": "It is often said online that corticosteroids is unrelated to weight gain, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN9_6",
+        "text": "Some case studies suggest minor signs of weight gain among users of corticosteroids.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN9_7",
+        "text": "Preliminary data shows a weak correlation between corticosteroids and weight gain.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "GEN10",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that metformin leads to prolactin elevation?",
+    "documents": [
+      {
+        "doc_id": "GEN10_1",
+        "text": "Some case studies suggest minor signs of prolactin elevation among users of metformin.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN10_2",
+        "text": "Clinical evidence consistently shows metformin's involvement in moderate cases of prolactin elevation.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN10_3",
+        "text": "It is often said online that metformin is unrelated to prolactin elevation, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN10_4",
+        "text": "There is moderate evidence indicating metformin might contribute to prolactin elevation under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN10_5",
+        "text": "There is moderate evidence indicating metformin might contribute to prolactin elevation under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN10_6",
+        "text": "Meta-analyses affirm that metformin significantly increases the risk of prolactin elevation.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN10_7",
+        "text": "Some case studies suggest minor signs of prolactin elevation among users of metformin.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "GEN11",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that metformin leads to weight gain?",
+    "documents": [
+      {
+        "doc_id": "GEN11_1",
+        "text": "Long-term users of metformin occasionally report symptoms of weight gain.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN11_2",
+        "text": "Controlled trials have confirmed a measurable increase in weight gain due to metformin.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN11_3",
+        "text": "There is moderate evidence indicating metformin might contribute to weight gain under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN11_4",
+        "text": "There is strong consensus that sustained metformin use causes notable weight gain.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN11_5",
+        "text": "Preliminary data shows a weak correlation between metformin and weight gain.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN11_6",
+        "text": "It is often said online that metformin is unrelated to weight gain, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN11_7",
+        "text": "Preliminary data shows a weak correlation between metformin and weight gain.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "GEN12",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that SSRIs leads to weight gain?",
+    "documents": [
+      {
+        "doc_id": "GEN12_1",
+        "text": "Patients often dismiss concerns linking SSRIs to weight gain, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN12_2",
+        "text": "Some case studies suggest minor signs of weight gain among users of SSRIs.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN12_3",
+        "text": "Meta-analyses affirm that SSRIs significantly increases the risk of weight gain.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN12_4",
+        "text": "Controlled trials have confirmed a measurable increase in weight gain due to SSRIs.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN12_5",
+        "text": "There is moderate evidence indicating SSRIs might contribute to weight gain under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN12_6",
+        "text": "Clinical evidence consistently shows SSRIs's involvement in moderate cases of weight gain.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN12_7",
+        "text": "Long-term users of SSRIs occasionally report symptoms of weight gain.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "GEN13",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that PPIs leads to bone mineral density loss?",
+    "documents": [
+      {
+        "doc_id": "GEN13_1",
+        "text": "Some blogs claim PPIs has no impact on bone mineral density loss, but these lack scientific backing.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN13_2",
+        "text": "There is moderate evidence indicating PPIs might contribute to bone mineral density loss under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN13_3",
+        "text": "Some case studies suggest minor signs of bone mineral density loss among users of PPIs.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN13_4",
+        "text": "Long-term users of PPIs occasionally report symptoms of bone mineral density loss.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN13_5",
+        "text": "Controlled trials have confirmed a measurable increase in bone mineral density loss due to PPIs.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN13_6",
+        "text": "It is often said online that PPIs is unrelated to bone mineral density loss, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN13_7",
+        "text": "There is strong consensus that sustained PPIs use causes notable bone mineral density loss.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "GEN14",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that risperidone leads to gastric bleeding?",
+    "documents": [
+      {
+        "doc_id": "GEN14_1",
+        "text": "Meta-analyses affirm that risperidone significantly increases the risk of gastric bleeding.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN14_2",
+        "text": "Long-term users of risperidone occasionally report symptoms of gastric bleeding.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN14_3",
+        "text": "It is often said online that risperidone is unrelated to gastric bleeding, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN14_4",
+        "text": "It is often said online that risperidone is unrelated to gastric bleeding, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN14_5",
+        "text": "Some case studies suggest minor signs of gastric bleeding among users of risperidone.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN14_6",
+        "text": "Clinical evidence consistently shows risperidone's involvement in moderate cases of gastric bleeding.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN14_7",
+        "text": "There is moderate evidence indicating risperidone might contribute to gastric bleeding under certain conditions.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "GEN15",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that corticosteroids leads to prolactin elevation?",
+    "documents": [
+      {
+        "doc_id": "GEN15_1",
+        "text": "It is often said online that corticosteroids is unrelated to prolactin elevation, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN15_2",
+        "text": "Some case studies suggest minor signs of prolactin elevation among users of corticosteroids.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN15_3",
+        "text": "Across numerous high-quality studies, corticosteroids is clearly linked to high levels of prolactin elevation.",
+        "relevance": 6
+      },
+      {
+        "doc_id": "GEN15_4",
+        "text": "Clinical evidence consistently shows corticosteroids's involvement in moderate cases of prolactin elevation.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN15_5",
+        "text": "Some case studies suggest minor signs of prolactin elevation among users of corticosteroids.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN15_6",
+        "text": "There is moderate evidence indicating corticosteroids might contribute to prolactin elevation under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN15_7",
+        "text": "Some blogs claim corticosteroids has no impact on prolactin elevation, but these lack scientific backing.",
+        "relevance": 1
+      }
+    ]
+  },
+  {
+    "query_id": "GEN16",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that PPIs leads to mood stabilization?",
+    "documents": [
+      {
+        "doc_id": "GEN16_1",
+        "text": "Controlled trials have confirmed a measurable increase in mood stabilization due to PPIs.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN16_2",
+        "text": "There is moderate evidence indicating PPIs might contribute to mood stabilization under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN16_3",
+        "text": "Long-term users of PPIs occasionally report symptoms of mood stabilization.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN16_4",
+        "text": "Preliminary data shows a weak correlation between PPIs and mood stabilization.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN16_5",
+        "text": "Patients often dismiss concerns linking PPIs to mood stabilization, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN16_6",
+        "text": "Meta-analyses affirm that PPIs significantly increases the risk of mood stabilization.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN16_7",
+        "text": "Some case studies suggest minor signs of mood stabilization among users of PPIs.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "GEN17",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that statins leads to vitamin B12 deficiency?",
+    "documents": [
+      {
+        "doc_id": "GEN17_1",
+        "text": "It is often said online that statins is unrelated to vitamin B12 deficiency, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN17_2",
+        "text": "Some case studies suggest minor signs of vitamin B12 deficiency among users of statins.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN17_3",
+        "text": "Across numerous high-quality studies, statins is clearly linked to high levels of vitamin B12 deficiency.",
+        "relevance": 6
+      },
+      {
+        "doc_id": "GEN17_4",
+        "text": "Preliminary data shows a weak correlation between statins and vitamin B12 deficiency.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN17_5",
+        "text": "Some blogs claim statins has no impact on vitamin B12 deficiency, but these lack scientific backing.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN17_6",
+        "text": "There is moderate evidence indicating statins might contribute to vitamin B12 deficiency under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN17_7",
+        "text": "Clinical evidence consistently shows statins's involvement in moderate cases of vitamin B12 deficiency.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "GEN18",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that PPIs leads to bone mineral density loss?",
+    "documents": [
+      {
+        "doc_id": "GEN18_1",
+        "text": "Preliminary data shows a weak correlation between PPIs and bone mineral density loss.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN18_2",
+        "text": "It is often said online that PPIs is unrelated to bone mineral density loss, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN18_3",
+        "text": "Clinical evidence consistently shows PPIs's involvement in moderate cases of bone mineral density loss.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN18_4",
+        "text": "Long-term users of PPIs occasionally report symptoms of bone mineral density loss.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN18_5",
+        "text": "Across numerous high-quality studies, PPIs is clearly linked to high levels of bone mineral density loss.",
+        "relevance": 6
+      },
+      {
+        "doc_id": "GEN18_6",
+        "text": "Preliminary data shows a weak correlation between PPIs and bone mineral density loss.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN18_7",
+        "text": "Some blogs claim PPIs has no impact on bone mineral density loss, but these lack scientific backing.",
+        "relevance": 1
+      }
+    ]
+  },
+  {
+    "query_id": "GEN19",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that SSRIs leads to mood stabilization?",
+    "documents": [
+      {
+        "doc_id": "GEN19_1",
+        "text": "It is often said online that SSRIs is unrelated to mood stabilization, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN19_2",
+        "text": "There is strong consensus that sustained SSRIs use causes notable mood stabilization.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN19_3",
+        "text": "Long-term users of SSRIs occasionally report symptoms of mood stabilization.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN19_4",
+        "text": "Some case studies suggest minor signs of mood stabilization among users of SSRIs.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN19_5",
+        "text": "Clinical evidence consistently shows SSRIs's involvement in moderate cases of mood stabilization.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN19_6",
+        "text": "It is often said online that SSRIs is unrelated to mood stabilization, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN19_7",
+        "text": "Clinical evidence consistently shows SSRIs's involvement in moderate cases of mood stabilization.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "GEN20",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that risperidone leads to mood stabilization?",
+    "documents": [
+      {
+        "doc_id": "GEN20_1",
+        "text": "There is moderate evidence indicating risperidone might contribute to mood stabilization under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN20_2",
+        "text": "Patients often dismiss concerns linking risperidone to mood stabilization, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN20_3",
+        "text": "Meta-analyses affirm that risperidone significantly increases the risk of mood stabilization.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN20_4",
+        "text": "Clinical evidence consistently shows risperidone's involvement in moderate cases of mood stabilization.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN20_5",
+        "text": "Long-term users of risperidone occasionally report symptoms of mood stabilization.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN20_6",
+        "text": "Some blogs claim risperidone has no impact on mood stabilization, but these lack scientific backing.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN20_7",
+        "text": "Preliminary data shows a weak correlation between risperidone and mood stabilization.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "GEN21",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that NSAIDs leads to bone mineral density loss?",
+    "documents": [
+      {
+        "doc_id": "GEN21_1",
+        "text": "Clinical evidence consistently shows NSAIDs's involvement in moderate cases of bone mineral density loss.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN21_2",
+        "text": "There is moderate evidence indicating NSAIDs might contribute to bone mineral density loss under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN21_3",
+        "text": "Meta-analyses affirm that NSAIDs significantly increases the risk of bone mineral density loss.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN21_4",
+        "text": "Long-term users of NSAIDs occasionally report symptoms of bone mineral density loss.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN21_5",
+        "text": "Preliminary data shows a weak correlation between NSAIDs and bone mineral density loss.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN21_6",
+        "text": "Preliminary data shows a weak correlation between NSAIDs and bone mineral density loss.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN21_7",
+        "text": "Some blogs claim NSAIDs has no impact on bone mineral density loss, but these lack scientific backing.",
+        "relevance": 1
+      }
+    ]
+  },
+  {
+    "query_id": "GEN22",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that NSAIDs leads to gastric bleeding?",
+    "documents": [
+      {
+        "doc_id": "GEN22_1",
+        "text": "Clinical evidence consistently shows NSAIDs's involvement in moderate cases of gastric bleeding.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN22_2",
+        "text": "Meta-analyses affirm that NSAIDs significantly increases the risk of gastric bleeding.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN22_3",
+        "text": "Clinical evidence consistently shows NSAIDs's involvement in moderate cases of gastric bleeding.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN22_4",
+        "text": "There is moderate evidence indicating NSAIDs might contribute to gastric bleeding under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN22_5",
+        "text": "It is often said online that NSAIDs is unrelated to gastric bleeding, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN22_6",
+        "text": "Some case studies suggest minor signs of gastric bleeding among users of NSAIDs.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN22_7",
+        "text": "It is often said online that NSAIDs is unrelated to gastric bleeding, though without proof.",
+        "relevance": 1
+      }
+    ]
+  },
+  {
+    "query_id": "GEN23",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that corticosteroids leads to mood stabilization?",
+    "documents": [
+      {
+        "doc_id": "GEN23_1",
+        "text": "Patients often dismiss concerns linking corticosteroids to mood stabilization, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN23_2",
+        "text": "Clinical evidence consistently shows corticosteroids's involvement in moderate cases of mood stabilization.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN23_3",
+        "text": "Some case studies suggest minor signs of mood stabilization among users of corticosteroids.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN23_4",
+        "text": "There is strong consensus that sustained corticosteroids use causes notable mood stabilization.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN23_5",
+        "text": "Controlled trials have confirmed a measurable increase in mood stabilization due to corticosteroids.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN23_6",
+        "text": "Patients often dismiss concerns linking corticosteroids to mood stabilization, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN23_7",
+        "text": "There is moderate evidence indicating corticosteroids might contribute to mood stabilization under certain conditions.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "GEN24",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that statins leads to bone mineral density loss?",
+    "documents": [
+      {
+        "doc_id": "GEN24_1",
+        "text": "Preliminary data shows a weak correlation between statins and bone mineral density loss.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN24_2",
+        "text": "Long-term users of statins occasionally report symptoms of bone mineral density loss.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN24_3",
+        "text": "Clinical evidence consistently shows statins's involvement in moderate cases of bone mineral density loss.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN24_4",
+        "text": "Clinical evidence consistently shows statins's involvement in moderate cases of bone mineral density loss.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN24_5",
+        "text": "Meta-analyses affirm that statins significantly increases the risk of bone mineral density loss.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN24_6",
+        "text": "It is often said online that statins is unrelated to bone mineral density loss, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN24_7",
+        "text": "Long-term users of statins occasionally report symptoms of bone mineral density loss.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "GEN25",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that PPIs leads to vitamin B12 deficiency?",
+    "documents": [
+      {
+        "doc_id": "GEN25_1",
+        "text": "There is strong consensus that sustained PPIs use causes notable vitamin B12 deficiency.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN25_2",
+        "text": "Long-term users of PPIs occasionally report symptoms of vitamin B12 deficiency.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN25_3",
+        "text": "Patients often dismiss concerns linking PPIs to vitamin B12 deficiency, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN25_4",
+        "text": "There is moderate evidence indicating PPIs might contribute to vitamin B12 deficiency under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN25_5",
+        "text": "Preliminary data shows a weak correlation between PPIs and vitamin B12 deficiency.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN25_6",
+        "text": "Preliminary data shows a weak correlation between PPIs and vitamin B12 deficiency.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN25_7",
+        "text": "Clinical evidence consistently shows PPIs's involvement in moderate cases of vitamin B12 deficiency.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "GEN26",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that PPIs leads to vitamin B12 deficiency?",
+    "documents": [
+      {
+        "doc_id": "GEN26_1",
+        "text": "Meta-analyses affirm that PPIs significantly increases the risk of vitamin B12 deficiency.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN26_2",
+        "text": "Controlled trials have confirmed a measurable increase in vitamin B12 deficiency due to PPIs.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN26_3",
+        "text": "Clinical evidence consistently shows PPIs's involvement in moderate cases of vitamin B12 deficiency.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN26_4",
+        "text": "Preliminary data shows a weak correlation between PPIs and vitamin B12 deficiency.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN26_5",
+        "text": "There is moderate evidence indicating PPIs might contribute to vitamin B12 deficiency under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN26_6",
+        "text": "Patients often dismiss concerns linking PPIs to vitamin B12 deficiency, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN26_7",
+        "text": "Patients often dismiss concerns linking PPIs to vitamin B12 deficiency, citing anecdotal experiences.",
+        "relevance": 1
+      }
+    ]
+  },
+  {
+    "query_id": "GEN27",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that corticosteroids leads to prolactin elevation?",
+    "documents": [
+      {
+        "doc_id": "GEN27_1",
+        "text": "Controlled trials have confirmed a measurable increase in prolactin elevation due to corticosteroids.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN27_2",
+        "text": "There is moderate evidence indicating corticosteroids might contribute to prolactin elevation under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN27_3",
+        "text": "It is often said online that corticosteroids is unrelated to prolactin elevation, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN27_4",
+        "text": "Some case studies suggest minor signs of prolactin elevation among users of corticosteroids.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN27_5",
+        "text": "There is moderate evidence indicating corticosteroids might contribute to prolactin elevation under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN27_6",
+        "text": "Clinical evidence consistently shows corticosteroids's involvement in moderate cases of prolactin elevation.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN27_7",
+        "text": "Meta-analyses affirm that corticosteroids significantly increases the risk of prolactin elevation.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "GEN28",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that SSRIs leads to liver enzyme increase?",
+    "documents": [
+      {
+        "doc_id": "GEN28_1",
+        "text": "Preliminary data shows a weak correlation between SSRIs and liver enzyme increase.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN28_2",
+        "text": "Some blogs claim SSRIs has no impact on liver enzyme increase, but these lack scientific backing.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN28_3",
+        "text": "There is moderate evidence indicating SSRIs might contribute to liver enzyme increase under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN28_4",
+        "text": "Patients often dismiss concerns linking SSRIs to liver enzyme increase, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN28_5",
+        "text": "Across numerous high-quality studies, SSRIs is clearly linked to high levels of liver enzyme increase.",
+        "relevance": 6
+      },
+      {
+        "doc_id": "GEN28_6",
+        "text": "Controlled trials have confirmed a measurable increase in liver enzyme increase due to SSRIs.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN28_7",
+        "text": "Preliminary data shows a weak correlation between SSRIs and liver enzyme increase.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "GEN29",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that SSRIs leads to prolactin elevation?",
+    "documents": [
+      {
+        "doc_id": "GEN29_1",
+        "text": "Patients often dismiss concerns linking SSRIs to prolactin elevation, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN29_2",
+        "text": "Clinical evidence consistently shows SSRIs's involvement in moderate cases of prolactin elevation.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN29_3",
+        "text": "There is strong consensus that sustained SSRIs use causes notable prolactin elevation.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN29_4",
+        "text": "Preliminary data shows a weak correlation between SSRIs and prolactin elevation.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN29_5",
+        "text": "Long-term users of SSRIs occasionally report symptoms of prolactin elevation.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN29_6",
+        "text": "There is moderate evidence indicating SSRIs might contribute to prolactin elevation under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN29_7",
+        "text": "It is often said online that SSRIs is unrelated to prolactin elevation, though without proof.",
+        "relevance": 1
+      }
+    ]
+  },
+  {
+    "query_id": "GEN30",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that statins leads to weight gain?",
+    "documents": [
+      {
+        "doc_id": "GEN30_1",
+        "text": "There is strong consensus that sustained statins use causes notable weight gain.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN30_2",
+        "text": "Some blogs claim statins has no impact on weight gain, but these lack scientific backing.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN30_3",
+        "text": "Clinical evidence consistently shows statins's involvement in moderate cases of weight gain.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN30_4",
+        "text": "It is often said online that statins is unrelated to weight gain, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN30_5",
+        "text": "Preliminary data shows a weak correlation between statins and weight gain.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN30_6",
+        "text": "There is moderate evidence indicating statins might contribute to weight gain under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN30_7",
+        "text": "Some case studies suggest minor signs of weight gain among users of statins.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "GEN31",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that corticosteroids leads to liver enzyme increase?",
+    "documents": [
+      {
+        "doc_id": "GEN31_1",
+        "text": "Clinical evidence consistently shows corticosteroids's involvement in moderate cases of liver enzyme increase.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN31_2",
+        "text": "Clinical evidence consistently shows corticosteroids's involvement in moderate cases of liver enzyme increase.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN31_3",
+        "text": "Some blogs claim corticosteroids has no impact on liver enzyme increase, but these lack scientific backing.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN31_4",
+        "text": "Long-term users of corticosteroids occasionally report symptoms of liver enzyme increase.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN31_5",
+        "text": "Meta-analyses affirm that corticosteroids significantly increases the risk of liver enzyme increase.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN31_6",
+        "text": "Long-term users of corticosteroids occasionally report symptoms of liver enzyme increase.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN31_7",
+        "text": "Some case studies suggest minor signs of liver enzyme increase among users of corticosteroids.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "GEN32",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that SSRIs leads to prolactin elevation?",
+    "documents": [
+      {
+        "doc_id": "GEN32_1",
+        "text": "It is often said online that SSRIs is unrelated to prolactin elevation, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN32_2",
+        "text": "Controlled trials have confirmed a measurable increase in prolactin elevation due to SSRIs.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN32_3",
+        "text": "There is strong consensus that sustained SSRIs use causes notable prolactin elevation.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN32_4",
+        "text": "Preliminary data shows a weak correlation between SSRIs and prolactin elevation.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN32_5",
+        "text": "There is strong consensus that sustained SSRIs use causes notable prolactin elevation.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN32_6",
+        "text": "Clinical evidence consistently shows SSRIs's involvement in moderate cases of prolactin elevation.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN32_7",
+        "text": "There is moderate evidence indicating SSRIs might contribute to prolactin elevation under certain conditions.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "GEN33",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that NSAIDs leads to liver enzyme increase?",
+    "documents": [
+      {
+        "doc_id": "GEN33_1",
+        "text": "There is strong consensus that sustained NSAIDs use causes notable liver enzyme increase.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN33_2",
+        "text": "Controlled trials have confirmed a measurable increase in liver enzyme increase due to NSAIDs.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN33_3",
+        "text": "It is often said online that NSAIDs is unrelated to liver enzyme increase, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN33_4",
+        "text": "Preliminary data shows a weak correlation between NSAIDs and liver enzyme increase.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN33_5",
+        "text": "Clinical evidence consistently shows NSAIDs's involvement in moderate cases of liver enzyme increase.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN33_6",
+        "text": "Long-term users of NSAIDs occasionally report symptoms of liver enzyme increase.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN33_7",
+        "text": "Meta-analyses affirm that NSAIDs significantly increases the risk of liver enzyme increase.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "GEN34",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that PPIs leads to weight gain?",
+    "documents": [
+      {
+        "doc_id": "GEN34_1",
+        "text": "Patients often dismiss concerns linking PPIs to weight gain, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN34_2",
+        "text": "Some blogs claim PPIs has no impact on weight gain, but these lack scientific backing.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN34_3",
+        "text": "Clinical evidence consistently shows PPIs's involvement in moderate cases of weight gain.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN34_4",
+        "text": "There is strong consensus that sustained PPIs use causes notable weight gain.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN34_5",
+        "text": "There is moderate evidence indicating PPIs might contribute to weight gain under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN34_6",
+        "text": "Some case studies suggest minor signs of weight gain among users of PPIs.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN34_7",
+        "text": "Some case studies suggest minor signs of weight gain among users of PPIs.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "GEN35",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that PPIs leads to vitamin B12 deficiency?",
+    "documents": [
+      {
+        "doc_id": "GEN35_1",
+        "text": "It is often said online that PPIs is unrelated to vitamin B12 deficiency, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN35_2",
+        "text": "Clinical evidence consistently shows PPIs's involvement in moderate cases of vitamin B12 deficiency.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN35_3",
+        "text": "There is moderate evidence indicating PPIs might contribute to vitamin B12 deficiency under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN35_4",
+        "text": "Some blogs claim PPIs has no impact on vitamin B12 deficiency, but these lack scientific backing.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN35_5",
+        "text": "There is strong consensus that sustained PPIs use causes notable vitamin B12 deficiency.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN35_6",
+        "text": "Preliminary data shows a weak correlation between PPIs and vitamin B12 deficiency.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN35_7",
+        "text": "Clinical evidence consistently shows PPIs's involvement in moderate cases of vitamin B12 deficiency.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "GEN36",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that SSRIs leads to mood stabilization?",
+    "documents": [
+      {
+        "doc_id": "GEN36_1",
+        "text": "It is often said online that SSRIs is unrelated to mood stabilization, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN36_2",
+        "text": "Meta-analyses affirm that SSRIs significantly increases the risk of mood stabilization.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN36_3",
+        "text": "Long-term users of SSRIs occasionally report symptoms of mood stabilization.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN36_4",
+        "text": "Patients often dismiss concerns linking SSRIs to mood stabilization, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN36_5",
+        "text": "Controlled trials have confirmed a measurable increase in mood stabilization due to SSRIs.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN36_6",
+        "text": "Long-term users of SSRIs occasionally report symptoms of mood stabilization.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN36_7",
+        "text": "Preliminary data shows a weak correlation between SSRIs and mood stabilization.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "GEN37",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that risperidone leads to mood stabilization?",
+    "documents": [
+      {
+        "doc_id": "GEN37_1",
+        "text": "Preliminary data shows a weak correlation between risperidone and mood stabilization.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN37_2",
+        "text": "Some case studies suggest minor signs of mood stabilization among users of risperidone.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN37_3",
+        "text": "Patients often dismiss concerns linking risperidone to mood stabilization, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN37_4",
+        "text": "Clinical evidence consistently shows risperidone's involvement in moderate cases of mood stabilization.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN37_5",
+        "text": "There is strong consensus that sustained risperidone use causes notable mood stabilization.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN37_6",
+        "text": "Some blogs claim risperidone has no impact on mood stabilization, but these lack scientific backing.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN37_7",
+        "text": "There is moderate evidence indicating risperidone might contribute to mood stabilization under certain conditions.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "GEN38",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that statins leads to liver enzyme increase?",
+    "documents": [
+      {
+        "doc_id": "GEN38_1",
+        "text": "Clinical evidence consistently shows statins's involvement in moderate cases of liver enzyme increase.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN38_2",
+        "text": "Clinical evidence consistently shows statins's involvement in moderate cases of liver enzyme increase.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN38_3",
+        "text": "Some case studies suggest minor signs of liver enzyme increase among users of statins.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN38_4",
+        "text": "Some blogs claim statins has no impact on liver enzyme increase, but these lack scientific backing.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN38_5",
+        "text": "There is moderate evidence indicating statins might contribute to liver enzyme increase under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN38_6",
+        "text": "Patients often dismiss concerns linking statins to liver enzyme increase, citing anecdotal experiences.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN38_7",
+        "text": "There is strong consensus that sustained statins use causes notable liver enzyme increase.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "GEN39",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that NSAIDs leads to bone mineral density loss?",
+    "documents": [
+      {
+        "doc_id": "GEN39_1",
+        "text": "Meta-analyses affirm that NSAIDs significantly increases the risk of bone mineral density loss.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN39_2",
+        "text": "Controlled trials have confirmed a measurable increase in bone mineral density loss due to NSAIDs.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN39_3",
+        "text": "Preliminary data shows a weak correlation between NSAIDs and bone mineral density loss.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN39_4",
+        "text": "There is moderate evidence indicating NSAIDs might contribute to bone mineral density loss under certain conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "GEN39_5",
+        "text": "There is strong consensus that sustained NSAIDs use causes notable bone mineral density loss.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN39_6",
+        "text": "It is often said online that NSAIDs is unrelated to bone mineral density loss, though without proof.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN39_7",
+        "text": "Controlled trials have confirmed a measurable increase in bone mineral density loss due to NSAIDs.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "GEN40",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that PPIs leads to vitamin B12 deficiency?",
+    "documents": [
+      {
+        "doc_id": "GEN40_1",
+        "text": "There is strong consensus that sustained PPIs use causes notable vitamin B12 deficiency.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN40_2",
+        "text": "Clinical evidence consistently shows PPIs's involvement in moderate cases of vitamin B12 deficiency.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN40_3",
+        "text": "Some blogs claim PPIs has no impact on vitamin B12 deficiency, but these lack scientific backing.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "GEN40_4",
+        "text": "Meta-analyses affirm that PPIs significantly increases the risk of vitamin B12 deficiency.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "GEN40_5",
+        "text": "Controlled trials have confirmed a measurable increase in vitamin B12 deficiency due to PPIs.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "GEN40_6",
+        "text": "Some case studies suggest minor signs of vitamin B12 deficiency among users of PPIs.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "GEN40_7",
+        "text": "Long-term users of PPIs occasionally report symptoms of vitamin B12 deficiency.",
+        "relevance": 3
+      }
+    ]
+  },
+
+  {
+  "query_id": "GEN41",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there evidence that corticosteroids affect mood regulation?",
+  "documents": [
+    {
+      "doc_id": "GEN41_1",
+      "text": "Anecdotal user reports suggest no major mood alterations from short-term corticosteroid use, but these lack scientific rigor.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "GEN41_2",
+      "text": "Although the short-term impact appears limited, low-dose corticosteroids have occasionally been associated with emotional fluctuation.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "GEN41_3",
+      "text": "Some clinicians observe mild mood instability in patients under prolonged corticosteroid therapy.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN41_4",
+      "text": "A longitudinal study found mood swings to be more common in patients using corticosteroids for autoimmune conditions.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN41_5",
+      "text": "Randomized trials show a statistically significant correlation between chronic corticosteroid use and mood disruption.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN41_6",
+      "text": "Multiple meta-analyses suggest a dose-dependent risk of psychiatric symptoms, particularly mania and depression.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN41_7",
+      "text": "Psychiatric literature firmly establishes that chronic corticosteroid exposure contributes to altered mood regulation.",
+      "relevance": 5
+    }
+  ]
+},
+{
+  "query_id": "GEN42",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there evidence that metformin impacts cognitive decline?",
+  "documents": [
+    {
+      "doc_id": "GEN42_1",
+      "text": "Many patient forums claim metformin enhances memory, but these are largely unsupported by empirical research.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "GEN42_2",
+      "text": "Preliminary observational data show no meaningful effect of metformin on short-term cognition.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "GEN42_3",
+      "text": "Clinical trials have hinted at modest cognitive protection in diabetic patients taking metformin.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN42_4",
+      "text": "Neurological assessments reveal some delay in cognitive decline among long-term metformin users.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN42_5",
+      "text": "Some studies suggest that metformin’s anti-inflammatory properties may indirectly support brain health.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN42_6",
+      "text": "Meta-analytic reviews show statistically significant cognitive benefits among elderly diabetic populations on metformin.",
+      "relevance": 5
+    },
+    {
+      "doc_id": "GEN42_7",
+      "text": "Advanced imaging studies confirm neuroprotective effects from long-term metformin usage in Alzheimer’s risk groups.",
+      "relevance": 5
+    }
+  ]
+},
+{
+  "query_id": "GEN43",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there evidence that SSRIs impact vitamin D levels?",
+  "documents": [
+    {
+      "doc_id": "GEN43_1",
+      "text": "Some wellness blogs claim SSRIs reduce vitamin D, but this lacks validation from peer-reviewed studies.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "GEN43_2",
+      "text": "Clinical data generally do not show consistent effects of SSRIs on vitamin D metabolism.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "GEN43_3",
+      "text": "Several cohort studies indicate weak associations between SSRI usage and lower vitamin D in older adults.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN43_4",
+      "text": "Vitamin D levels were modestly decreased in patients treated with SSRIs for over six months.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN43_5",
+      "text": "Subgroup analysis reveals that postmenopausal women on SSRIs may show greater vitamin D depletion.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN43_6",
+      "text": "A few RCTs have documented mild but statistically significant reductions in serum vitamin D following SSRI therapy.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN43_7",
+      "text": "Meta-analyses incorporating both European and Asian data sets link long-term SSRI use to lowered vitamin D status.",
+      "relevance": 5
+    }
+  ]
+},
+{
+  "query_id": "GEN44",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there evidence that statins contribute to memory loss?",
+  "documents": [
+    {
+      "doc_id": "GEN44_1",
+      "text": "Patient anecdotes blaming statins for memory issues are common but unverified in scientific literature.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "GEN44_2",
+      "text": "Regulatory bodies like the FDA have acknowledged reports but found no causal evidence linking statins to memory loss.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "GEN44_3",
+      "text": "Some observational studies suggest mild cognitive complaints in a subset of statin users.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN44_4",
+      "text": "Neuropsychological assessments have shown inconsistent results when testing statin users' memory performance.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN44_5",
+      "text": "Longitudinal data from elderly populations hint at possible transient cognitive changes with high-dose statins.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN44_6",
+      "text": "Controlled trials evaluating cognitive endpoints show slight but reversible memory impairment in a small subset.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN44_7",
+      "text": "Recent meta-analyses conclude that while most users are unaffected, statins may trigger reversible memory lapses in sensitive individuals.",
+      "relevance": 5
+    }
+  ]
+},
+{
+  "query_id": "GEN45",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there evidence that antipsychotics cause prolactin elevation?",
+  "documents": [
+    {
+      "doc_id": "GEN45_1",
+      "text": "Popular discussion boards frequently mention hormone changes but offer little substantiated information.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "GEN45_2",
+      "text": "Antipsychotic-induced prolactin changes are debated, with studies showing varied degrees of effect.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "GEN45_3",
+      "text": "Low-dose regimens show limited prolactin impact, especially in atypical antipsychotics.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN45_4",
+      "text": "Clinicians often monitor prolactin levels due to common side effects seen in typical antipsychotic use.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN45_5",
+      "text": "Double-blinded RCTs indicate clear dose-dependent prolactin increases, especially with risperidone and haloperidol.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN45_6",
+      "text": "Hormonal lab panels often reveal hyperprolactinemia after extended antipsychotic treatment.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN45_7",
+      "text": "Meta-analyses firmly link conventional antipsychotic use with sustained prolactin elevation, particularly in younger patients.",
+      "relevance": 5
+    }
+  ]
+},
+
+{
+  "query_id": "GEN46",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there evidence that PPIs contribute to kidney damage?",
+  "documents": [
+    {
+      "doc_id": "GEN46_1",
+      "text": "User forums occasionally mention kidney issues with PPIs, but these are mostly anecdotal and unverified.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "GEN46_2",
+      "text": "Cross-sectional surveys show inconsistent reports of renal effects tied to long-term PPI use.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "GEN46_3",
+      "text": "Initial cohort studies suggest a mild correlation between chronic PPI exposure and reduced eGFR.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN46_4",
+      "text": "Population-based data reveal increased CKD incidence among long-term PPI users, especially in elderly populations.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN46_5",
+      "text": "Multiple RCTs and observational trials have shown a consistent link between prolonged PPI use and interstitial nephritis.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN46_6",
+      "text": "Meta-analyses across several countries confirm a statistically significant association between PPIs and chronic kidney disease.",
+      "relevance": 5
+    },
+    {
+      "doc_id": "GEN46_7",
+      "text": "Pathological studies validate renal structural changes in chronic PPI users with biopsy-proven nephropathy.",
+      "relevance": 5
+    }
+  ]
+},
+{
+  "query_id": "GEN47",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there evidence that SGLT2 inhibitors cause dehydration?",
+  "documents": [
+    {
+      "doc_id": "GEN47_1",
+      "text": "There are rumors online linking SGLT2 inhibitors to dehydration, but clinical proof is lacking.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "GEN47_2",
+      "text": "Minor electrolyte shifts have been seen in a few patients using SGLT2s, though not always dehydration.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "GEN47_3",
+      "text": "Clinical reports suggest a mild diuretic effect from SGLT2 inhibitors, occasionally leading to volume loss.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN47_4",
+      "text": "Post-marketing data indicate moderate dehydration events, particularly in elderly diabetic populations.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN47_5",
+      "text": "Physiological studies confirm fluid depletion as a pharmacodynamic outcome of SGLT2 inhibition.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN47_6",
+      "text": "Hospital admissions linked to SGLT2-related dehydration have been recorded in large retrospective studies.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN47_7",
+      "text": "Randomized clinical trials demonstrate increased risk of dehydration with SGLT2 inhibitors, particularly when combined with loop diuretics.",
+      "relevance": 5
+    }
+  ]
+},
+{
+  "query_id": "GEN48",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there evidence that NSAIDs worsen gastric bleeding risk?",
+  "documents": [
+    {
+      "doc_id": "GEN48_1",
+      "text": "Online discussion boards often mention stomach issues from NSAIDs, though not always bleeding-specific.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "GEN48_2",
+      "text": "Gastrointestinal upset is common with NSAIDs, but direct bleeding evidence varies by dose and duration.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "GEN48_3",
+      "text": "Older adults using NSAIDs for osteoarthritis often report symptoms consistent with minor gastric irritation.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN48_4",
+      "text": "Case-control studies confirm NSAID use doubles the risk of upper GI bleeding, especially without PPI protection.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN48_5",
+      "text": "RCTs consistently demonstrate that NSAID-induced inhibition of prostaglandins impairs gastric mucosal defense.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN48_6",
+      "text": "Meta-analyses highlight a significantly elevated bleeding risk with NSAIDs, especially in concurrent anticoagulant users.",
+      "relevance": 5
+    },
+    {
+      "doc_id": "GEN48_7",
+      "text": "Clinical guidelines strongly advise PPI co-prescription to mitigate bleeding in long-term NSAID regimens.",
+      "relevance": 5
+    }
+  ]
+},
+{
+  "query_id": "GEN49",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there evidence that beta-blockers cause depression?",
+  "documents": [
+    {
+      "doc_id": "GEN49_1",
+      "text": "Some non-clinical sources report mood changes with beta-blockers, but no clear consensus exists.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "GEN49_2",
+      "text": "Older trials show inconsistent results regarding depressive symptoms with beta-blocker use.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "GEN49_3",
+      "text": "Retrospective chart reviews show mild depression in a small subset of beta-blocker users.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN49_4",
+      "text": "Beta-blockers with high lipophilicity appear more likely to cross the blood-brain barrier and influence mood.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN49_5",
+      "text": "Meta-reviews of trials show a modest increase in depressive symptoms, particularly in those with psychiatric history.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN49_6",
+      "text": "Systematic reviews report statistically significant mood alterations with lipophilic beta-blockers like propranolol.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN49_7",
+      "text": "Recent longitudinal studies indicate a small but real risk of depression with beta-blockers in vulnerable individuals.",
+      "relevance": 5
+    }
+  ]
+},
+{
+  "query_id": "GEN50",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there evidence that antibiotics cause gut microbiome disruption?",
+  "documents": [
+    {
+      "doc_id": "GEN50_1",
+      "text": "General online content often oversimplifies the microbiome changes caused by antibiotics.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "GEN50_2",
+      "text": "Some sources misattribute temporary digestion issues to permanent microbiome damage post-antibiotic use.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "GEN50_3",
+      "text": "Time-series fecal sampling shows partial microbiome recovery within weeks after antibiotic cessation.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN50_4",
+      "text": "Recent studies document class-specific effects, with broad-spectrum antibiotics producing more pronounced microbiome loss.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN50_5",
+      "text": "Microbiome sequencing reveals substantial taxonomic shifts following a 7-day antibiotic course.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN50_6",
+      "text": "Multiple trials link antibiotic-induced dysbiosis to later metabolic and immune disturbances.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN50_7",
+      "text": "Meta-analyses confirm consistent disruption of gut flora from antibiotic regimens, often persisting months after therapy.",
+      "relevance": 5
+    }
+  ]
+},
+
+{
+  "query_id": "GEN46",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there evidence that PPIs contribute to kidney damage?",
+  "documents": [
+    {
+      "doc_id": "GEN46_1",
+      "text": "User forums occasionally mention kidney issues with PPIs, but these are mostly anecdotal and unverified.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "GEN46_2",
+      "text": "Cross-sectional surveys show inconsistent reports of renal effects tied to long-term PPI use.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "GEN46_3",
+      "text": "Initial cohort studies suggest a mild correlation between chronic PPI exposure and reduced eGFR.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN46_4",
+      "text": "Population-based data reveal increased CKD incidence among long-term PPI users, especially in elderly populations.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN46_5",
+      "text": "Multiple RCTs and observational trials have shown a consistent link between prolonged PPI use and interstitial nephritis.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN46_6",
+      "text": "Meta-analyses across several countries confirm a statistically significant association between PPIs and chronic kidney disease.",
+      "relevance": 5
+    },
+    {
+      "doc_id": "GEN46_7",
+      "text": "Pathological studies validate renal structural changes in chronic PPI users with biopsy-proven nephropathy.",
+      "relevance": 5
+    }
+  ]
+},
+{
+  "query_id": "GEN47",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there evidence that SGLT2 inhibitors cause dehydration?",
+  "documents": [
+    {
+      "doc_id": "GEN47_1",
+      "text": "There are rumors online linking SGLT2 inhibitors to dehydration, but clinical proof is lacking.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "GEN47_2",
+      "text": "Minor electrolyte shifts have been seen in a few patients using SGLT2s, though not always dehydration.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "GEN47_3",
+      "text": "Clinical reports suggest a mild diuretic effect from SGLT2 inhibitors, occasionally leading to volume loss.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN47_4",
+      "text": "Post-marketing data indicate moderate dehydration events, particularly in elderly diabetic populations.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN47_5",
+      "text": "Physiological studies confirm fluid depletion as a pharmacodynamic outcome of SGLT2 inhibition.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN47_6",
+      "text": "Hospital admissions linked to SGLT2-related dehydration have been recorded in large retrospective studies.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN47_7",
+      "text": "Randomized clinical trials demonstrate increased risk of dehydration with SGLT2 inhibitors, particularly when combined with loop diuretics.",
+      "relevance": 5
+    }
+  ]
+},
+{
+  "query_id": "GEN48",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there evidence that NSAIDs worsen gastric bleeding risk?",
+  "documents": [
+    {
+      "doc_id": "GEN48_1",
+      "text": "Online discussion boards often mention stomach issues from NSAIDs, though not always bleeding-specific.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "GEN48_2",
+      "text": "Gastrointestinal upset is common with NSAIDs, but direct bleeding evidence varies by dose and duration.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "GEN48_3",
+      "text": "Older adults using NSAIDs for osteoarthritis often report symptoms consistent with minor gastric irritation.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN48_4",
+      "text": "Case-control studies confirm NSAID use doubles the risk of upper GI bleeding, especially without PPI protection.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN48_5",
+      "text": "RCTs consistently demonstrate that NSAID-induced inhibition of prostaglandins impairs gastric mucosal defense.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN48_6",
+      "text": "Meta-analyses highlight a significantly elevated bleeding risk with NSAIDs, especially in concurrent anticoagulant users.",
+      "relevance": 5
+    },
+    {
+      "doc_id": "GEN48_7",
+      "text": "Clinical guidelines strongly advise PPI co-prescription to mitigate bleeding in long-term NSAID regimens.",
+      "relevance": 5
+    }
+  ]
+},
+{
+  "query_id": "GEN49",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there evidence that beta-blockers cause depression?",
+  "documents": [
+    {
+      "doc_id": "GEN49_1",
+      "text": "Some non-clinical sources report mood changes with beta-blockers, but no clear consensus exists.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "GEN49_2",
+      "text": "Older trials show inconsistent results regarding depressive symptoms with beta-blocker use.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "GEN49_3",
+      "text": "Retrospective chart reviews show mild depression in a small subset of beta-blocker users.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN49_4",
+      "text": "Beta-blockers with high lipophilicity appear more likely to cross the blood-brain barrier and influence mood.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN49_5",
+      "text": "Meta-reviews of trials show a modest increase in depressive symptoms, particularly in those with psychiatric history.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN49_6",
+      "text": "Systematic reviews report statistically significant mood alterations with lipophilic beta-blockers like propranolol.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN49_7",
+      "text": "Recent longitudinal studies indicate a small but real risk of depression with beta-blockers in vulnerable individuals.",
+      "relevance": 5
+    }
+  ]
+},
+{
+  "query_id": "GEN50",
+  "query_type": "implicit_NOT",
+  "query_text": "Is there evidence that antibiotics cause gut microbiome disruption?",
+  "documents": [
+    {
+      "doc_id": "GEN50_1",
+      "text": "General online content often oversimplifies the microbiome changes caused by antibiotics.",
+      "relevance": 1
+    },
+    {
+      "doc_id": "GEN50_2",
+      "text": "Some sources misattribute temporary digestion issues to permanent microbiome damage post-antibiotic use.",
+      "relevance": 2
+    },
+    {
+      "doc_id": "GEN50_3",
+      "text": "Time-series fecal sampling shows partial microbiome recovery within weeks after antibiotic cessation.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN50_4",
+      "text": "Recent studies document class-specific effects, with broad-spectrum antibiotics producing more pronounced microbiome loss.",
+      "relevance": 3
+    },
+    {
+      "doc_id": "GEN50_5",
+      "text": "Microbiome sequencing reveals substantial taxonomic shifts following a 7-day antibiotic course.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN50_6",
+      "text": "Multiple trials link antibiotic-induced dysbiosis to later metabolic and immune disturbances.",
+      "relevance": 4
+    },
+    {
+      "doc_id": "GEN50_7",
+      "text": "Meta-analyses confirm consistent disruption of gut flora from antibiotic regimens, often persisting months after therapy.",
+      "relevance": 5
+    }
+  ]
+},
+
+  {
+    "query_id": "IM201",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that beta-blockers leads to changes in glucose metabolism?",
+    "documents": [
+      {
+        "doc_id": "IM201_4",
+        "text": "It was observed that beta-blockers may impact glucose metabolism only under specific conditions.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM201_5",
+        "text": "Meta-analyses suggest a significant association between beta-blockers and altered glucose metabolism.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM201_2",
+        "text": "Case reports show mixed findings regarding beta-blockers's influence on glucose metabolism.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM201_3",
+        "text": "RCTs demonstrate moderate changes in glucose metabolism with prolonged beta-blockers usage.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM201_6",
+        "text": "Randomized trials indicate statistically relevant shifts in glucose metabolism caused by beta-blockers.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM201_7",
+        "text": "Experts warn against dismissing the glucose metabolism-related consequences of long-term beta-blockers treatment.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM201_1",
+        "text": "Some users on forums claim that beta-blockers doesn’t affect glucose metabolism, though evidence is lacking.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM202",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that statins leads to changes in mood stabilization?",
+    "documents": [
+      {
+        "doc_id": "IM202_3",
+        "text": "RCTs demonstrate moderate changes in mood stabilization with prolonged statins usage.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM202_1",
+        "text": "Some users on forums claim that statins doesn’t affect mood stabilization, though evidence is lacking.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM202_4",
+        "text": "It was observed that statins may impact mood stabilization only under specific conditions.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM202_7",
+        "text": "Experts warn against dismissing the mood stabilization-related consequences of long-term statins treatment.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM202_6",
+        "text": "Randomized trials indicate statistically relevant shifts in mood stabilization caused by statins.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM202_2",
+        "text": "Case reports show mixed findings regarding statins's influence on mood stabilization.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM202_5",
+        "text": "Meta-analyses suggest a significant association between statins and altered mood stabilization.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM203",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that aspirin leads to changes in cardiac rhythm?",
+    "documents": [
+      {
+        "doc_id": "IM203_5",
+        "text": "Meta-analyses suggest a significant association between aspirin and altered cardiac rhythm.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM203_6",
+        "text": "Randomized trials indicate statistically relevant shifts in cardiac rhythm caused by aspirin.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM203_2",
+        "text": "Case reports show mixed findings regarding aspirin's influence on cardiac rhythm.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM203_7",
+        "text": "Experts warn against dismissing the cardiac rhythm-related consequences of long-term aspirin treatment.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM203_1",
+        "text": "Some users on forums claim that aspirin doesn’t affect cardiac rhythm, though evidence is lacking.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM203_4",
+        "text": "It was observed that aspirin may impact cardiac rhythm only under specific conditions.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM203_3",
+        "text": "RCTs demonstrate moderate changes in cardiac rhythm with prolonged aspirin usage.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM204",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that corticosteroids leads to changes in renal function?",
+    "documents": [
+      {
+        "doc_id": "IM204_7",
+        "text": "Experts warn against dismissing the renal function-related consequences of long-term corticosteroids treatment.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM204_4",
+        "text": "It was observed that corticosteroids may impact renal function only under specific conditions.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM204_6",
+        "text": "Randomized trials indicate statistically relevant shifts in renal function caused by corticosteroids.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM204_1",
+        "text": "Some users on forums claim that corticosteroids doesn’t affect renal function, though evidence is lacking.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM204_2",
+        "text": "Case reports show mixed findings regarding corticosteroids's influence on renal function.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM204_3",
+        "text": "RCTs demonstrate moderate changes in renal function with prolonged corticosteroids usage.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM204_5",
+        "text": "Meta-analyses suggest a significant association between corticosteroids and altered renal function.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM205",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that NSAIDs leads to changes in prolactin levels?",
+    "documents": [
+      {
+        "doc_id": "IM205_5",
+        "text": "Meta-analyses suggest a significant association between NSAIDs and altered prolactin levels.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM205_4",
+        "text": "It was observed that NSAIDs may impact prolactin levels only under specific conditions.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM205_2",
+        "text": "Case reports show mixed findings regarding NSAIDs's influence on prolactin levels.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM205_3",
+        "text": "RCTs demonstrate moderate changes in prolactin levels with prolonged NSAIDs usage.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM205_1",
+        "text": "Some users on forums claim that NSAIDs doesn’t affect prolactin levels, though evidence is lacking.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM205_6",
+        "text": "Randomized trials indicate statistically relevant shifts in prolactin levels caused by NSAIDs.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM205_7",
+        "text": "Experts warn against dismissing the prolactin levels-related consequences of long-term NSAIDs treatment.",
+        "relevance": 5
+      }
+    ]
+  },
+
+
+
+  {
+    "query_id": "IM101",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that corticosteroids lead to bone mineral density loss?",
+    "documents": [
+      {
+        "doc_id": "IM101_1",
+        "text": "Several blog posts dismiss the notion that corticosteroids influence bone health when used short-term.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM101_2",
+        "text": "Some lay sources incorrectly suggest bone effects occur only at very high doses.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM101_3",
+        "text": "Observational studies show minor density reductions over months of corticosteroid exposure.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM101_4",
+        "text": "Bone density changes become more apparent in patients on daily corticosteroids for 6+ months.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM101_5",
+        "text": "Aging patients with asthma showed measurable reductions in spinal BMD after long-term corticosteroid use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM101_6",
+        "text": "RCTs confirm dose-dependent bone loss occurs, especially in postmenopausal women.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM101_7",
+        "text": "Meta-analyses strongly support the link between sustained corticosteroid use and bone thinning.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM102",
+    "query_type": "implicit_NOT",
+    "query_text": "Does metformin therapy cause significant weight gain?",
+    "documents": [
+      {
+        "doc_id": "IM102_1",
+        "text": "Some online forums mistakenly claim metformin invariably leads to substantial weight increase.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM102_2",
+        "text": "Anecdotal reports of weight gain are often confounded by dietary habits.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM102_3",
+        "text": "Initial studies noted modest weight changes in some patients starting metformin.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM102_4",
+        "text": "Many patients experience weight stabilization or even slight loss with long-term metformin use.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM102_5",
+        "text": "Pooled analyses suggest metformin is weight-neutral or associated with minor weight reduction.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM102_6",
+        "text": "Systematic reviews indicate metformin generally promotes modest weight loss, not gain.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM102_7",
+        "text": "Large-scale clinical trials consistently show metformin can lead to small, clinically significant weight loss.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM103",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that PPIs (Proton Pump Inhibitors) cause dementia?",
+    "documents": [
+      {
+        "doc_id": "IM103_1",
+        "text": "Social media posts frequently propagate unverified claims about PPIs and cognitive decline.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM103_2",
+        "text": "Some alternative health websites suggest a direct causal link without scientific backing.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM103_3",
+        "text": "Early observational studies presented conflicting data on PPI use and dementia risk.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM103_4",
+        "text": "It was observed that patients on PPIs might have other comorbidities linked to cognitive issues.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM103_5",
+        "text": "Prospective cohort studies have not consistently identified a strong association between PPIs and increased dementia risk.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM103_6",
+        "text": "Recent large-scale analyses indicate no clear causal relationship between long-term PPI use and dementia.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM103_7",
+        "text": "Multiple meta-analyses of well-designed studies largely refute the notion that PPIs directly cause dementia.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM104",
+    "query_type": "implicit_NOT",
+    "query_text": "Does risperidone invariably lead to severe mood swings?",
+    "documents": [
+      {
+        "doc_id": "IM104_1",
+        "text": "Some patients incorrectly report severe mood instability as a universal side effect of risperidone.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM104_2",
+        "text": "Online forums sometimes exaggerate the frequency and intensity of emotional side effects.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM104_3",
+        "text": "It was observed that individual responses to risperidone vary significantly regarding mood.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM104_4",
+        "text": "Clinical trials show some patients may experience mild mood fluctuations, but not typically severe swings.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM104_5",
+        "text": "Risperidone is primarily used for mood stabilization in conditions like bipolar disorder.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM104_6",
+        "text": "Studies indicate that severe mood swings are an uncommon side effect, often linked to misdiagnosis or concurrent conditions.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM104_7",
+        "text": "Evidence suggests risperidone generally helps stabilize mood rather than causing severe swings, particularly in target populations.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM105",
+    "query_type": "implicit_NOT",
+    "query_text": "Can statins cause severe liver damage in most patients?",
+    "documents": [
+      {
+        "doc_id": "IM105_1",
+        "text": "There are widespread myths circulating about statins and their supposed immediate destruction of the liver.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM105_2",
+        "text": "Some news articles have sensationalized rare adverse events, creating undue alarm.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM105_3",
+        "text": "Minor, transient elevations in liver enzymes can occur, but these are usually not clinically significant.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM105_4",
+        "text": "The incidence of severe statin-induced liver damage is exceedingly low.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM105_5",
+        "text": "Routine liver enzyme monitoring is recommended, but significant damage is rare.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM105_6",
+        "text": "Extensive safety data from trials and post-marketing surveillance show no widespread liver damage.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "IM105_7",
+        "text": "Major reviews confirm that severe hepatotoxicity from statins is an extremely rare idiosyncratic reaction, not a common occurrence.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM106",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that all vaccines cause autism?",
+    "documents": [
+      {
+        "doc_id": "IM106_1",
+        "text": "A discredited study from the late 90s erroneously linked the MMR vaccine to autism.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM106_2",
+        "text": "Anti-vaccine groups frequently spread misinformation about vaccine safety and autism.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM106_3",
+        "text": "Numerous scientific investigations have found no evidence supporting a link between vaccines and autism.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM106_4",
+        "text": "It has been repeatedly confirmed that vaccine ingredients do not cause autism.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM106_5",
+        "text": "Large epidemiological studies consistently refute any causal relationship between vaccines and autism spectrum disorder.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM106_6",
+        "text": "Major medical organizations worldwide affirm vaccine safety and the absence of an autism link.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM106_7",
+        "text": "Comprehensive meta-analyses overwhelmingly demonstrate no correlation or causation between vaccination and autism.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM107",
+    "query_type": "implicit_NOT",
+    "query_text": "Does penicillin always cause severe allergic reactions?",
+    "documents": [
+      {
+        "doc_id": "IM107_1",
+        "text": "Some individuals online wrongly believe that any exposure to penicillin will trigger anaphylaxis.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM107_2",
+        "text": "Family anecdotes about past reactions can sometimes overstate the current risk.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM107_3",
+        "text": "While penicillin allergies are common, most reactions are mild, like rashes.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM107_4",
+        "text": "Severe allergic reactions to penicillin, such as anaphylaxis, are relatively rare.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM107_5",
+        "text": "Many reported penicillin allergies are not confirmed by testing, or patients outgrow them.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM107_6",
+        "text": "Studies show that less than 10% of patients who believe they are allergic truly are, and severe reactions are rarer still.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM107_7",
+        "text": "The vast majority of patients receiving penicillin tolerate it without any significant adverse allergic events.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM108",
+    "query_type": "implicit_NOT",
+    "query_text": "Do all antidepressants lead to permanent sexual dysfunction?",
+    "documents": [
+      {
+        "doc_id": "IM108_1",
+        "text": "Bloggers often highlight extreme cases, leading to a skewed perception of antidepressant side effects.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM108_2",
+        "text": "Misinformation suggests that sexual side effects are universal and irreversible for all antidepressants.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM108_3",
+        "text": "Some antidepressants are indeed associated with sexual side effects, but not all patients experience them.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM108_4",
+        "text": "The severity and persistence of sexual dysfunction vary significantly among different antidepressant classes.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM108_5",
+        "text": "For many, sexual side effects are transient or can be managed by dose adjustment or switching medications.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM108_6",
+        "text": "Persistent post-SSRI sexual dysfunction (PSSD) is a recognized but rare phenomenon, not affecting most users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM108_7",
+        "text": "The majority of individuals discontinuing antidepressants see resolution of sexual side effects within weeks or months.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM109",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that NSAIDs always cause stomach bleeding?",
+    "documents": [
+      {
+        "doc_id": "IM109_1",
+        "text": "Some internet sources dramatically overstate the risk of gastrointestinal bleeding with NSAID use.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM109_2",
+        "text": "People often assume any stomach discomfort means serious bleeding is occurring.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM109_3",
+        "text": "While a known risk, most people using NSAIDs for short periods do not experience gastric bleeding.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM109_4",
+        "text": "The risk of stomach bleeding increases with prolonged high-dose NSAID use and in susceptible individuals.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM109_5",
+        "text": "Co-prescription with PPIs can significantly reduce the gastrointestinal bleeding risk.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM109_6",
+        "text": "Severe gastrointestinal bleeding is a rare but serious adverse event, not a universal outcome.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM109_7",
+        "text": "Clinical guidelines emphasize that while precautions are necessary, most NSAID users do not develop significant gastrointestinal complications.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM110",
+    "query_type": "implicit_NOT",
+    "query_text": "Do all types of chemotherapy lead to hair loss?",
+    "documents": [
+      {
+        "doc_id": "IM110_1",
+        "text": "Many people mistakenly believe that all cancer treatments inevitably result in total baldness.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM110_2",
+        "text": "Popular media often portrays chemotherapy exclusively as a hair-loss inducing treatment.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM110_3",
+        "text": "While common, hair loss depends on the specific chemotherapy drug and dosage.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM110_4",
+        "text": "Some newer chemotherapy agents or targeted therapies cause minimal to no hair thinning.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM110_5",
+        "text": "It was observed that patients on certain regimens retain most of their hair.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM110_6",
+        "text": "Oncologists can often predict the likelihood of hair loss based on the prescribed regimen.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM110_7",
+        "text": "Not all chemotherapy drugs target rapidly dividing cells in a way that affects hair follicles significantly.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM111",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that vitamin D supplementation prevents all types of cancer?",
+    "documents": [
+      {
+        "doc_id": "IM111_1",
+        "text": "Some alternative health practitioners make broad, unsubstantiated claims about vitamin D's cancer-preventative powers.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM111_2",
+        "text": "Internet articles often sensationalize preliminary research findings.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM111_3",
+        "text": "While vitamin D plays a role in cell growth, its direct impact on overall cancer prevention is debated.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM111_4",
+        "text": "Observational studies show associations, but these do not prove causation for cancer prevention.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM111_5",
+        "text": "Research suggests a potential link to reduced risk for certain cancers, but not all types.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM111_6",
+        "text": "Large randomized controlled trials have not definitively shown that vitamin D supplementation prevents cancer universally.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM111_7",
+        "text": "Current evidence indicates vitamin D may have a modest protective effect for some cancers, but it is not a panacea for all cancer prevention.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM112",
+    "query_type": "implicit_NOT",
+    "query_text": "Does consuming artificial sweeteners inevitably lead to diabetes?",
+    "documents": [
+      {
+        "doc_id": "IM112_1",
+        "text": "Many social media posts incorrectly state that artificial sweeteners are a direct cause of diabetes.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM112_2",
+        "text": "Some popular health gurus claim they disrupt metabolism entirely.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM112_3",
+        "text": "Observational studies have shown some associations, but these do not establish a causal link.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM112_4",
+        "text": "It was observed that people consuming artificial sweeteners may also have other risk factors for diabetes.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM112_5",
+        "text": "While gut microbiome changes have been hypothesized, direct causation of diabetes is not proven.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM112_6",
+        "text": "Randomized controlled trials generally show no direct impact of artificial sweeteners on glucose control in humans.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM112_7",
+        "text": "Expert consensus indicates that, in moderation, artificial sweeteners do not directly cause diabetes in healthy individuals.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM113",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that vaccines contain microchips for tracking?",
+    "documents": [
+      {
+        "doc_id": "IM113_1",
+        "text": "Conspiracy theories widely circulate online claiming vaccines are a covert method for population surveillance.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM113_2",
+        "text": "Unfounded claims suggest Bill Gates is behind a plot to implant tracking devices via vaccines.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM113_3",
+        "text": "The physical size of microchips makes their inclusion in standard vaccine needles impractical.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM113_4",
+        "text": "There is no known technology that would allow microchips to be administered undetected within a vaccine dose.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM113_5",
+        "text": "Regulatory bodies worldwide verify vaccine contents, which do not include electronic components.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM113_6",
+        "text": "All scientific and medical organizations unequivocally state that vaccines do not contain microchips.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM113_7",
+        "text": "This assertion is a demonstrably false conspiracy theory with no basis in scientific reality.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM114",
+    "query_type": "implicit_NOT",
+    "query_text": "Does ibuprofen cause kidney failure in everyone?",
+    "documents": [
+      {
+        "doc_id": "IM114_1",
+        "text": "Online health forums sometimes overstate the commonality of severe kidney problems from ibuprofen.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM114_2",
+        "text": "It's often incorrectly assumed that any dose of ibuprofen can immediately damage kidneys.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM114_3",
+        "text": "While renal side effects are possible, they are generally rare with short-term, recommended doses.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM114_4",
+        "text": "The risk of kidney issues increases in individuals with pre-existing renal conditions or prolonged high-dose use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM114_5",
+        "text": "Hydration is important when taking ibuprofen to minimize kidney strain.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM114_6",
+        "text": "Acute kidney injury is a known but infrequent complication, largely reversible upon discontinuation.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM114_7",
+        "text": "The vast majority of people use ibuprofen safely without developing kidney failure.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM115",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that all antibiotics cause Clostridium difficile infection?",
+    "documents": [
+      {
+        "doc_id": "IM115_1",
+        "text": "Some individuals believe that taking any antibiotic guarantees a C. difficile infection.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM115_2",
+        "text": "Misinformation suggests C. diff is an unavoidable consequence of antibiotic treatment.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM115_3",
+        "text": "While antibiotics can disrupt gut flora, leading to C. diff overgrowth, this is not a universal outcome.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM115_4",
+        "text": "The risk varies significantly depending on the specific antibiotic, duration of use, and patient factors.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM115_5",
+        "text": "Some antibiotics, like clindamycin, have a higher association with C. diff than others.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM115_6",
+        "text": "Preventative measures and careful antibiotic stewardship reduce the risk of C. diff infection.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM115_7",
+        "text": "Only a fraction of antibiotic users develop C. difficile infection; it is a serious but not inevitable complication.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM116",
+    "query_type": "implicit_NOT",
+    "query_text": "Do all surgical procedures guarantee a complete cure?",
+    "documents": [
+      {
+        "doc_id": "IM116_1",
+        "text": "Patients sometimes hold an unrealistic expectation that surgery is a definitive solution for all ailments.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM116_2",
+        "text": "Popular medical dramas often portray immediate and perfect surgical outcomes.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM116_3",
+        "text": "While many surgeries are highly effective, success rates vary depending on the condition and procedure.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM116_4",
+        "text": "Some surgical interventions aim for symptom management or quality of life improvement, not a full cure.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM116_5",
+        "text": "Recurrence of disease after surgery is possible for certain conditions, like some cancers.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM116_6",
+        "text": "A 'cure' depends on the specific pathology; for chronic conditions, surgery might offer only temporary relief.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM116_7",
+        "text": "Surgeons always discuss potential outcomes, including the possibility of incomplete resolution or recurrence, before the procedure.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM117",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that all psychiatric medications are highly addictive?",
+    "documents": [
+      {
+        "doc_id": "IM117_1",
+        "text": "Misleading online posts often lump all psychotropic drugs together as equally habit-forming.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM117_2",
+        "text": "Some people conflate physical dependence (withdrawal symptoms) with addiction.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM117_3",
+        "text": "While some psychiatric medications, like benzodiazepines, carry addiction risk, many do not.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM117_4",
+        "text": "Antidepressants and antipsychotics typically do not lead to addiction, although discontinuation effects can occur.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM117_5",
+        "text": "Prescribing guidelines focus on minimizing risk and tapering medication when appropriate.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM117_6",
+        "text": "The majority of psychiatric medications are not considered addictive in the traditional sense.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM117_7",
+        "text": "Professional medical bodies confirm that most modern psychiatric drugs are designed for long-term management without inducing addiction.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM118",
+    "query_type": "implicit_NOT",
+    "query_text": "Does a gluten-free diet cure all autoimmune diseases?",
+    "documents": [
+      {
+        "doc_id": "IM118_1",
+        "text": "Many health fads promote a gluten-free diet as a universal panacea for all chronic illnesses.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM118_2",
+        "text": "Some individuals assume gluten is inherently toxic to everyone with an autoimmune condition.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM118_3",
+        "text": "For celiac disease, a strict gluten-free diet is essential for management.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM118_4",
+        "text": "Some evidence suggests a gluten-free diet may benefit certain other autoimmune conditions in specific cases.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM118_5",
+        "text": "It was observed that dietary changes can impact symptoms, but not necessarily cure the underlying disease.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM118_6",
+        "text": "The scientific consensus is that a gluten-free diet is not a universal cure for all autoimmune diseases.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM118_7",
+        "text": "While beneficial for specific conditions, a blanket recommendation for all autoimmune patients lacks robust scientific support.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM119",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that all headaches indicate a brain tumor?",
+    "documents": [
+      {
+        "doc_id": "IM119_1",
+        "text": "Fear-mongering articles often suggest that any persistent headache is a sign of a severe neurological condition.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM119_2",
+        "text": "Many people immediately jump to the worst-case scenario when experiencing head pain.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM119_3",
+        "text": "Headaches are extremely common and are usually caused by benign factors like stress or dehydration.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM119_4",
+        "text": "Migraines and tension headaches account for the vast majority of recurrent head pain.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM119_5",
+        "text": "While a brain tumor can cause headaches, they are often accompanied by other specific neurological symptoms.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM119_6",
+        "text": "Only a tiny fraction of headaches are indicative of a brain tumor or other serious underlying pathology.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM119_7",
+        "text": "Medical professionals assess headache characteristics and associated symptoms to differentiate between common and concerning causes.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM120",
+    "query_type": "implicit_NOT",
+    "query_text": "Does cannabis use always lead to psychosis?",
+    "documents": [
+      {
+        "doc_id": "IM120_1",
+        "text": "Some anti-drug campaigns make blanket statements about cannabis and its psychological dangers.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM120_2",
+        "text": "Anecdotal stories sometimes exaggerate the risk of developing severe mental health issues.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM120_3",
+        "text": "Research indicates a correlation between heavy cannabis use, especially in adolescence, and psychosis risk.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM120_4",
+        "text": "The risk is heightened in individuals with a genetic predisposition to psychotic disorders.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM120_5",
+        "text": "Most cannabis users do not develop psychotic disorders.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM120_6",
+        "text": "The link is complex and not a simple cause-and-effect for the general population.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM120_7",
+        "text": "While it increases risk, cannabis use does not inevitably lead to psychosis in all individuals.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM121",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that all heart murmurs are dangerous?",
+    "documents": [
+      {
+        "doc_id": "IM121_1",
+        "text": "A common misconception is that any heart murmur automatically indicates severe cardiac disease.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM121_2",
+        "text": "Online search results sometimes overly dramatize the implications of a murmur diagnosis.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM121_3",
+        "text": "Many heart murmurs are 'innocent' or 'physiologic,' especially in children and young adults.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM121_4",
+        "text": "These benign murmurs do not represent structural heart problems and are harmless.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM121_5",
+        "text": "Pathological murmurs, while indicative of underlying issues, are often manageable.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM121_6",
+        "text": "Doctors differentiate between benign and abnormal murmurs through physical examination and further tests.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM121_7",
+        "text": "The majority of heart murmurs detected are not clinically significant or life-threatening.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM122",
+    "query_type": "implicit_NOT",
+    "query_text": "Do all cholesterol medications cause muscle pain?",
+    "documents": [
+      {
+        "doc_id": "IM122_1",
+        "text": "Some patients refuse statins based on exaggerated online reports of widespread muscle pain.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM122_2",
+        "text": "It's often assumed that any ache while on a statin is directly attributable to the medication.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM122_3",
+        "text": "Muscle pain (myalgia) is a recognized side effect of statins, but its incidence varies.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM122_4",
+        "text": "Many patients tolerate statins without experiencing significant muscle discomfort.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM122_5",
+        "text": "The risk of severe muscle breakdown (rhabdomyolysis) is extremely rare.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM122_6",
+        "text": "Adjusting the statin type or dose can often mitigate muscle-related side effects.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM122_7",
+        "text": "While myalgia is a possible side effect, it does not affect all users and is often manageable.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM123",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that alternative therapies can cure all cancers?",
+    "documents": [
+      {
+        "doc_id": "IM123_1",
+        "text": "Unscrupulous practitioners often make false promises about 'natural cures' for cancer.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM123_2",
+        "text": "Websites promoting unproven remedies frequently mislead desperate patients.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM123_3",
+        "text": "While some alternative therapies may help manage symptoms or improve quality of life, they are not cures.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM123_4",
+        "text": "Rigorous scientific evidence does not support claims of alternative therapies curing cancer.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM123_5",
+        "text": "Relying solely on unproven alternative therapies can delay effective, evidence-based treatment.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM123_6",
+        "text": "Major medical and oncology organizations warn against foregoing conventional cancer treatment for unproven methods.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM123_7",
+        "text": "There is no scientific evidence that any alternative therapy can cure all types of cancer.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM124",
+    "query_type": "implicit_NOT",
+    "query_text": "Does all exercise lead to joint damage?",
+    "documents": [
+      {
+        "doc_id": "IM124_1",
+        "text": "Some individuals avoid exercise due to fear of inevitable joint degradation.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM124_2",
+        "text": "Misinformation suggests that 'wear and tear' always results in irreparable joint harm.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM124_3",
+        "text": "High-impact activities or improper form can contribute to joint strain over time.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM124_4",
+        "text": "Moderate, low-impact exercise often strengthens joints and surrounding muscles.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM124_5",
+        "text": "Weight-bearing exercise is crucial for bone health and can support joint integrity.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM124_6",
+        "text": "Regular physical activity is generally beneficial for joint health and function.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM124_7",
+        "text": "Properly performed exercise, tailored to individual needs, helps maintain healthy joints, rather than damaging them.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM125",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that all fevers require immediate hospitalization?",
+    "documents": [
+      {
+        "doc_id": "IM125_1",
+        "text": "Some parents panic and believe any fever, regardless of severity, necessitates emergency care.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM125_2",
+        "text": "Online advice sometimes suggests extreme measures for even mild temperature elevations.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM125_3",
+        "text": "Fevers are a natural response to infection and often resolve with supportive care at home.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM125_4",
+        "text": "The need for hospitalization depends on the fever's height, duration, and associated symptoms, especially in infants.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM125_5",
+        "text": "Most fevers in otherwise healthy individuals are self-limiting and manageable.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM125_6",
+        "text": "Physicians advise seeking medical attention for specific concerning symptoms accompanying a fever.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM125_7",
+        "text": "The vast majority of fevers do not require hospitalization and can be safely managed at home with over-the-counter medication.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM126",
+    "query_type": "implicit_NOT",
+    "query_text": "Do all types of plastic cause cancer?",
+    "documents": [
+      {
+        "doc_id": "IM126_1",
+        "text": "Conspiracy theories often claim that all plastic products leach harmful, carcinogenic chemicals.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM126_2",
+        "text": "Sensational headlines in popular media create undue fear about everyday plastic items.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM126_3",
+        "text": "While some chemicals in certain plastics are concerning, they are not universally carcinogenic.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM126_4",
+        "text": "BPA (Bisphenol A) is a well-known concern in some plastics, but its link to human cancer is debated.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM126_5",
+        "text": "Many plastics used in food packaging are regulated and considered safe for intended use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM126_6",
+        "text": "The scientific community continues to research the long-term effects of various plastic compounds.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM126_7",
+        "text": "No definitive evidence proves that all types of plastic, as commonly used, directly cause cancer in humans.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM127",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that homeopathy can cure all chronic diseases?",
+    "documents": [
+      {
+        "doc_id": "IM127_1",
+        "text": "Websites promoting homeopathy often claim it can miraculously resolve complex chronic conditions.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM127_2",
+        "text": "Anecdotal success stories are frequently misrepresented as scientific proof of efficacy.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM127_3",
+        "text": "The principle of homeopathy involves highly diluted substances, often beyond detectable levels.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM127_4",
+        "text": "Many studies show that the effects of homeopathic remedies are no different from placebo.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM127_5",
+        "text": "While it might offer symptomatic relief for some, it does not address the underlying pathology of chronic diseases.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM127_6",
+        "text": "Major health organizations advise against relying on homeopathy for serious medical conditions.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM127_7",
+        "text": "Extensive scientific reviews conclude that there is no credible evidence that homeopathy is an effective treatment for chronic diseases.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM128",
+    "query_type": "implicit_NOT",
+    "query_text": "Do all vaccines cause fever in children?",
+    "documents": [
+      {
+        "doc_id": "IM128_1",
+        "text": "Some parents anticipate fever as an inevitable post-vaccination reaction for every shot.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM128_2",
+        "text": "Misinformation can lead to exaggerated concerns about vaccine-induced fevers.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM128_3",
+        "text": "Fever is a common and normal immune response to some vaccines, but not all.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM128_4",
+        "text": "Many vaccines, especially newer ones, have a low incidence of febrile reactions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM128_5",
+        "text": "When fever occurs, it's typically mild and short-lived.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM128_6",
+        "text": "The majority of children do not develop a fever after every vaccination.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM128_7",
+        "text": "Vaccine information sheets detail expected side effects, and fever is not always listed as common.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM129",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that low-fat diets are always best for weight loss?",
+    "documents": [
+      {
+        "doc_id": "IM129_1",
+        "text": "Outdated dietary advice often pushed low-fat as the singular path to weight reduction.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM129_2",
+        "text": "Some food companies marketed 'low-fat' products that were high in sugar, misleading consumers.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM129_3",
+        "text": "While calorie reduction is key, focusing solely on fat content can be counterproductive.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM129_4",
+        "text": "High-protein, lower-carb diets have also shown effectiveness for weight loss.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM129_5",
+        "text": "The type of fat matters; healthy fats are crucial for satiety and overall health.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM129_6",
+        "text": "Personalized dietary approaches are generally more effective than a one-size-fits-all low-fat recommendation.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM129_7",
+        "text": "Modern nutritional science emphasizes balanced macronutrient intake and whole foods over simply restricting fat for weight loss.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM130",
+    "query_type": "implicit_NOT",
+    "query_text": "Do all types of pain require opioid medication?",
+    "documents": [
+      {
+        "doc_id": "IM130_1",
+        "text": "Some patients incorrectly believe that severe pain can only be managed with strong opioids.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM130_2",
+        "text": "Misconceptions from past prescribing habits sometimes linger, suggesting opioids are the default.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM130_3",
+        "text": "Many types of acute and chronic pain respond well to non-opioid analgesics and other therapies.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM130_4",
+        "text": "Physical therapy, exercise, and psychological interventions are effective for chronic pain management.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM130_5",
+        "text": "Over-the-counter pain relievers are sufficient for mild to moderate pain.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM130_6",
+        "text": "Opioids are reserved for specific severe pain conditions and are used cautiously due to addiction risks.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM130_7",
+        "text": "Comprehensive pain management strategies prioritize non-opioid options for most pain types.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM131",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that all red meat causes heart disease?",
+    "documents": [
+      {
+        "doc_id": "IM131_1",
+        "text": "Sensationalized headlines often paint red meat as an absolute dietary villain.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM131_2",
+        "text": "Some dietary fads advocate for complete avoidance of all animal products.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM131_3",
+        "text": "While excessive consumption of processed red meat is linked to higher risk, lean red meat can be part of a healthy diet.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM131_4",
+        "text": "The overall dietary pattern, not just one food, is a key determinant of cardiovascular health.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM131_5",
+        "text": "Saturated fat content and preparation methods play a larger role than red meat itself.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM131_6",
+        "text": "Moderate consumption of unprocessed red meat does not equate to inevitable heart disease.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM131_7",
+        "text": "Dietary guidelines suggest limiting processed meats and enjoying lean red meat in moderation as part of a balanced diet.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM132",
+    "query_type": "implicit_NOT",
+    "query_text": "Does radiation therapy cause infertility in all patients?",
+    "documents": [
+      {
+        "doc_id": "IM132_1",
+        "text": "Some patients undergoing radiation express fears of universal and permanent infertility.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM132_2",
+        "text": "Misinformation might suggest that all forms of radiation treatment sterilize patients.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM132_3",
+        "text": "The risk of infertility depends heavily on the radiation site and dosage, especially near gonads.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM132_4",
+        "text": "Pelvic radiation carries a higher risk than radiation to other body areas.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM132_5",
+        "text": "Fertility preservation options are often discussed with patients prior to treatment.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM132_6",
+        "text": "Modern radiation techniques aim to minimize exposure to reproductive organs.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM132_7",
+        "text": "While a risk exists, radiation therapy does not cause infertility in all patients, and the outcome is highly site-specific.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM133",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that all genetic diseases are untreatable?",
+    "documents": [
+      {
+        "doc_id": "IM133_1",
+        "text": "A common misconception is that a genetic diagnosis means there are absolutely no therapeutic options.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM133_2",
+        "text": "Some historical perspectives incorrectly painted genetic conditions as always fatal or debilitating.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM133_3",
+        "text": "While many genetic conditions are chronic, various treatments can manage symptoms and improve quality of life.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM133_4",
+        "text": "Advances in gene therapy and personalized medicine offer new hope for specific genetic disorders.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM133_5",
+        "text": "Dietary interventions are crucial for metabolic genetic disorders like PKU.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM133_6",
+        "text": "For an increasing number of genetic diseases, effective treatments are now available or under development.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM133_7",
+        "text": "Many genetic conditions can be successfully managed, and some even cured, thanks to ongoing medical research.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM134",
+    "query_type": "implicit_NOT",
+    "query_text": "Do all types of cancer always cause severe pain?",
+    "documents": [
+      {
+        "doc_id": "IM134_1",
+        "text": "Many individuals assume that a cancer diagnosis automatically means constant, excruciating pain.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM134_2",
+        "text": "Media portrayals of cancer patients often emphasize suffering, contributing to this misconception.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM134_3",
+        "text": "Pain is a common symptom in some cancers, but its severity and presence vary greatly.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM134_4",
+        "text": "Many cancers, especially in early stages, are entirely painless.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM134_5",
+        "text": "Effective pain management strategies are available for cancer-related pain when it does occur.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM134_6",
+        "text": "The type of cancer, its stage, and location are major determinants of whether pain is experienced.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM134_7",
+        "text": "A significant number of cancer patients, particularly with early detection, never experience severe pain.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM135",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that all dietary supplements are effective and safe?",
+    "documents": [
+      {
+        "doc_id": "IM135_1",
+        "text": "Many advertisements promote supplements as miraculous cures for various health issues.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM135_2",
+        "text": "The general public often assumes supplements undergo the same rigorous testing as pharmaceuticals.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM135_3",
+        "text": "The efficacy and safety of dietary supplements vary widely; some have little to no scientific backing.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM135_4",
+        "text": "Many supplements are not regulated by the FDA in the same way as drugs, leading to quality concerns.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM135_5",
+        "text": "Some supplements can interact with medications or cause adverse effects.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM135_6",
+        "text": "Evidence-based research is crucial for determining the true benefits and risks of specific supplements.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM135_7",
+        "text": "While some supplements can be beneficial for specific deficiencies, they are not universally effective or without risk.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM136",
+    "query_type": "implicit_NOT",
+    "query_text": "Does a negative COVID-19 test mean you are not infected at all?",
+    "documents": [
+      {
+        "doc_id": "IM136_1",
+        "text": "Some individuals incorrectly assume a single negative test guarantees complete absence of the virus.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM136_2",
+        "text": "Online discussions sometimes suggest a negative result means one can immediately resume all normal activities.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM136_3",
+        "text": "Test accuracy varies by type and timing relative to exposure and symptom onset.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM136_4",
+        "text": "False negatives can occur, especially early in the infection or with improper sample collection.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM136_5",
+        "text": "A negative result simply indicates no detectable virus at the time of testing.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM136_6",
+        "text": "Public health guidance advises caution and sometimes re-testing, especially with symptoms.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM136_7",
+        "text": "A negative test reduces the likelihood of infection but does not completely rule it out, particularly if symptoms are present or recent exposure occurred.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM137",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that all chronic fatigue is psychological?",
+    "documents": [
+      {
+        "doc_id": "IM137_1",
+        "text": "Historically, chronic fatigue was often dismissed as purely a mental health issue or malingering.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM137_2",
+        "text": "Some public perceptions still reduce complex fatigue to 'just needing more sleep.'",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM137_3",
+        "text": "While psychological factors can play a role, chronic fatigue syndrome (CFS/ME) is a recognized physical illness.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM137_4",
+        "text": "Research points to biological abnormalities in patients with CFS/ME.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM137_5",
+        "text": "Many other medical conditions can cause chronic fatigue, requiring thorough physical evaluation.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM137_6",
+        "text": "The scientific consensus supports the biological basis of true chronic fatigue syndrome, not just psychological origins.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM137_7",
+        "text": "A definitive diagnosis of chronic fatigue syndrome involves ruling out psychological and other medical causes, recognizing its distinct physical pathology.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM138",
+    "query_type": "implicit_NOT",
+    "query_text": "Does insulin always cause weight gain in diabetes patients?",
+    "documents": [
+      {
+        "doc_id": "IM138_1",
+        "text": "Many patients with diabetes fear insulin therapy due to concerns about inevitable weight gain.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM138_2",
+        "text": "Online discussions sometimes oversimplify the relationship between insulin and body weight.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM138_3",
+        "text": "Insulin can lead to weight gain, especially when blood glucose control improves and less glucose is excreted.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM138_4",
+        "text": "However, diet and lifestyle choices play a significant role in managing weight on insulin.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM138_5",
+        "text": "Newer insulin analogues and treatment strategies aim to minimize weight gain.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM138_6",
+        "text": "While potential for gain exists, it is not a universal outcome and can often be mitigated.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM138_7",
+        "text": "Effective glycemic control with insulin, combined with dietary management, can limit or prevent significant weight increase.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM139",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that all moles are cancerous?",
+    "documents": [
+      {
+        "doc_id": "IM139_1",
+        "text": "Some individuals panic about every new or existing mole, assuming it signifies skin cancer.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM139_2",
+        "text": "Sensationalist articles might cause undue alarm about benign skin growths.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM139_3",
+        "text": "Most moles are benign (non-cancerous) and remain so throughout a person's life.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM139_4",
+        "text": "Only a small percentage of moles ever become malignant (melanoma).",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM139_5",
+        "text": "Dermatologists use criteria like the ABCDEs to assess suspicious moles.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM139_6",
+        "text": "Regular skin self-exams and professional checks help in early detection of concerning changes.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM139_7",
+        "text": "While vigilance is important, the vast majority of moles are harmless and do not lead to skin cancer.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM140",
+    "query_type": "implicit_NOT",
+    "query_text": "Do all types of surgery involve a long recovery period?",
+    "documents": [
+      {
+        "doc_id": "IM140_1",
+        "text": "Patients often fear lengthy hospital stays and debilitating recovery after any surgical procedure.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM140_2",
+        "text": "Traditional portrayals of surgery often focus on complex, invasive procedures.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM140_3",
+        "text": "Recovery time varies greatly depending on the invasiveness of the surgery and patient health.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM140_4",
+        "text": "Many minor procedures and outpatient surgeries have very short recovery periods.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM140_5",
+        "text": "Minimally invasive techniques like laparoscopy often reduce recovery time significantly.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM140_6",
+        "text": "Enhanced recovery after surgery (ERAS) protocols are designed to expedite patient recovery.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM140_7",
+        "text": "While major surgeries require extended recovery, a large number of surgical interventions allow for rapid return to normal activities.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM141",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that all antibiotics should be taken with food?",
+    "documents": [
+      {
+        "doc_id": "IM141_1",
+        "text": "A common misconception is that all medications, including antibiotics, are always better absorbed with food.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM141_2",
+        "text": "Some patients incorrectly assume food protects against all antibiotic-related stomach upset.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM141_3",
+        "text": "While some antibiotics are best taken with food to reduce nausea, others are absorbed better on an empty stomach.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM141_4",
+        "text": "For example, penicillin and tetracycline absorption can be reduced by dairy products or certain foods.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM141_5",
+        "text": "Specific instructions are provided by pharmacists and on medication labels for optimal absorption.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM141_6",
+        "text": "Adhering to precise dosing instructions regarding food is crucial for antibiotic effectiveness.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM141_7",
+        "text": "Taking antibiotics correctly, whether with or without food, is essential for successful treatment and minimizing side effects.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM142",
+    "query_type": "implicit_NOT",
+    "query_text": "Does all memory loss indicate Alzheimer's disease?",
+    "documents": [
+      {
+        "doc_id": "IM142_1",
+        "text": "Many people immediately assume any forgetfulness means they are developing Alzheimer's.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM142_2",
+        "text": "Sensationalized media stories sometimes imply memory loss is always a dire sign.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM142_3",
+        "text": "Memory lapses are a normal part of aging, and stress or lack of sleep can also impact recall.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM142_4",
+        "text": "Other conditions like vitamin deficiencies, thyroid issues, or medication side effects can cause memory problems.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM142_5",
+        "text": "Mild Cognitive Impairment (MCI) can be a precursor but does not always progress to Alzheimer's.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM142_6",
+        "text": "Doctors assess the type, severity, and progression of memory loss to distinguish between normal aging and cognitive disorders.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM142_7",
+        "text": "While a concern, not all memory loss signifies Alzheimer's disease; many reversible or manageable causes exist.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM143",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that all pain is a sign of tissue damage?",
+    "documents": [
+      {
+        "doc_id": "IM143_1",
+        "text": "A common belief is that the intensity of pain directly correlates with the extent of physical injury.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM143_2",
+        "text": "Some patients assume no pain means no problem, and vice-versa, which is not always true.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM143_3",
+        "text": "Pain is a complex experience influenced by psychological, emotional, and social factors.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM143_4",
+        "text": "Chronic pain, in particular, often persists long after initial tissue healing, reflecting nervous system changes.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM143_5",
+        "text": "Neuropathic pain, for instance, results from nerve damage and doesn't necessarily indicate ongoing tissue injury.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM143_6",
+        "text": "The brain's interpretation of signals can create pain even without significant tissue damage.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM143_7",
+        "text": "While pain is a protective mechanism, it is not always a direct indicator of current tissue damage.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM144",
+    "query_type": "implicit_NOT",
+    "query_text": "Do all patients with depression require medication?",
+    "documents": [
+      {
+        "doc_id": "IM144_1",
+        "text": "Some public discussions imply that pharmacotherapy is the only effective treatment for depression.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM144_2",
+        "text": "Misinformation can suggest that medication is a 'quick fix' for all forms of depression.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM144_3",
+        "text": "For mild depression, psychotherapy (talk therapy) and lifestyle changes can be highly effective.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM144_4",
+        "text": "Cognitive Behavioral Therapy (CBT) and Interpersonal Therapy (IPT) are well-established non-pharmacological treatments.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM144_5",
+        "text": "Exercise, mindfulness, and social support also play a significant role in managing depressive symptoms.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM144_6",
+        "text": "Medication is often recommended for moderate to severe depression or when other treatments are insufficient.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM144_7",
+        "text": "Treatment for depression is individualized, and many patients achieve remission without medication.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM145",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that herbal remedies are always safe because they are natural?",
+    "documents": [
+      {
+        "doc_id": "IM145_1",
+        "text": "A common fallacy is that anything derived from nature is inherently harmless.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM145_2",
+        "text": "Some proponents of natural medicine disregard the potential for toxicity or adverse reactions.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM145_3",
+        "text": "Many herbal remedies contain potent compounds that can interact with medications or cause side effects.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM145_4",
+        "text": "Lack of standardization in herbal products can lead to variable dosages and contaminants.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM145_5",
+        "text": "For example, St. John's Wort can severely interact with antidepressants and birth control.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM145_6",
+        "text": "Healthcare professionals advise caution and disclosure of herbal use due to potential risks.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM145_7",
+        "text": "While some herbal remedies are safe and beneficial, their 'natural' origin does not guarantee safety or efficacy for all.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM146",
+    "query_type": "implicit_NOT",
+    "query_text": "Does breast milk always provide 100% immunity to all diseases?",
+    "documents": [
+      {
+        "doc_id": "IM146_1",
+        "text": "Some parents mistakenly believe breastfeeding completely eliminates the risk of childhood illnesses.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM146_2",
+        "text": "Hyperbolic claims about breast milk's protective qualities can be found in various online parenting groups.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM146_3",
+        "text": "Breast milk provides antibodies and immune factors, offering significant protection against many infections.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM146_4",
+        "text": "However, it does not confer absolute immunity and infants can still get sick.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM146_5",
+        "text": "Vaccinations remain crucial for protecting infants against serious vaccine-preventable diseases.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM146_6",
+        "text": "While highly beneficial, breast milk's protective effects are not a substitute for standard immunizations.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM146_7",
+        "text": "Breastfeeding offers robust immunological benefits but does not provide complete immunity against all pathogens.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM147",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that brain training games can cure dementia?",
+    "documents": [
+      {
+        "doc_id": "IM147_1",
+        "text": "Aggressive marketing for 'brain games' often implies they can reverse or prevent cognitive decline.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM147_2",
+        "text": "Some media reports overstate the findings of small-scale cognitive training studies.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM147_3",
+        "text": "While cognitive stimulation is important, games typically improve performance only on specific trained tasks.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM147_4",
+        "text": "There is no definitive scientific evidence that brain training games can cure or prevent dementia.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM147_5",
+        "text": "Comprehensive lifestyle interventions, including diet and exercise, show more promise for brain health.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM147_6",
+        "text": "Experts advise that social engagement and learning new skills are more beneficial than isolated computer games.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM147_7",
+        "text": "Despite popular claims, brain training games do not cure dementia; their benefits for general cognitive function are limited.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM148",
+    "query_type": "implicit_NOT",
+    "query_text": "Does a vegan diet always lead to nutrient deficiencies?",
+    "documents": [
+      {
+        "doc_id": "IM148_1",
+        "text": "A common myth suggests that it's impossible to get all necessary nutrients on a vegan diet.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM148_2",
+        "text": "Some critics of veganism exaggerate the risks of nutrient deficiencies.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM148_3",
+        "text": "While certain nutrients (like B12, iron, omega-3s) require careful planning, they can be obtained through fortification or supplements.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM148_4",
+        "text": "A well-planned vegan diet can be nutritionally adequate for all life stages.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM148_5",
+        "text": "Many plant-based foods are rich in vitamins, minerals, and fiber.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM148_6",
+        "text": "Dietary associations worldwide recognize well-planned vegan diets as healthy.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM148_7",
+        "text": "With proper planning and attention to specific nutrients, a vegan diet does not inherently lead to deficiencies.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM149",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that all hospitals are unsafe due to superbugs?",
+    "documents": [
+      {
+        "doc_id": "IM149_1",
+        "text": "Sensational media reports often create an impression that all hospitals are breeding grounds for untreatable infections.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM149_2",
+        "text": "Some individuals avoid necessary medical care due to exaggerated fears of hospital-acquired infections.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM149_3",
+        "text": "Hospital-acquired infections, including those from antibiotic-resistant bacteria, are a concern but are actively combated.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM149_4",
+        "text": "Hospitals employ stringent infection control measures, including hand hygiene and sterilization protocols.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM149_5",
+        "text": "Rates of such infections vary between facilities, and many have excellent safety records.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM149_6",
+        "text": "While risks exist, they are continuously being addressed through advanced practices and surveillance.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM149_7",
+        "text": "Hospitals are generally safe environments, and major efforts are undertaken to minimize infection risks for patients.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM150",
+    "query_type": "implicit_NOT",
+    "query_text": "Do all vaccines contain mercury?",
+    "documents": [
+      {
+        "doc_id": "IM150_1",
+        "text": "Anti-vaccine activists frequently claim that all vaccines contain dangerous levels of mercury.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM150_2",
+        "text": "The controversy around thimerosal, a mercury-containing preservative, has led to widespread misunderstanding.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM150_3",
+        "text": "Thimerosal has been removed from most childhood vaccines in the U.S. and Europe since 2001.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM150_4",
+        "text": "Some multi-dose flu vaccine vials may still contain thimerosal as a preservative.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM150_5",
+        "text": "The type of mercury in thimerosal, ethylmercury, is processed differently by the body than toxic methylmercury.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM150_6",
+        "text": "The CDC and WHO confirm the safety of thimerosal at levels historically used in vaccines.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM150_7",
+        "text": "The vast majority of currently administered vaccines, particularly for children, are thimerosal-free.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM151",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that fasting diets always lead to sustainable weight loss?",
+    "documents": [
+      {
+        "doc_id": "IM151_1",
+        "text": "Some social media trends present intermittent fasting as a guaranteed, effortless solution for shedding pounds.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM151_2",
+        "text": "Claims of rapid, permanent weight loss often accompany fasting protocols online.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM151_3",
+        "text": "While initial weight loss can occur, long-term sustainability depends on adherence and overall dietary habits.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM151_4",
+        "text": "Not all individuals find fasting sustainable or suitable for their lifestyle and health conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM151_5",
+        "text": "The quality of food consumed during eating windows significantly impacts results.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM151_6",
+        "text": "Research on the long-term efficacy of fasting diets for sustained weight loss is still evolving.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM151_7",
+        "text": "Fasting can be a tool for weight management, but it doesn't automatically guarantee sustainable weight loss for everyone; overall caloric balance remains key.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM152",
+    "query_type": "implicit_NOT",
+    "query_text": "Does all cholesterol medication have severe side effects?",
+    "documents": [
+      {
+        "doc_id": "IM152_1",
+        "text": "Online patient communities sometimes amplify rare, severe side effects of cholesterol drugs.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM152_2",
+        "text": "The media occasionally focuses on adverse events, leading to a skewed perception of risk.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM152_3",
+        "text": "While statins can cause muscle pain or elevated liver enzymes, these are often mild and manageable.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM152_4",
+        "text": "Many patients take cholesterol medications for years without significant side effects.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM152_5",
+        "text": "Newer non-statin therapies often have different and sometimes fewer side effect profiles.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM152_6",
+        "text": "Doctors carefully monitor patients for side effects and adjust treatment as needed.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM152_7",
+        "text": "The majority of individuals tolerate cholesterol-lowering medications well, and severe side effects are uncommon.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM153",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that all heart attacks present with chest pain?",
+    "documents": [
+      {
+        "doc_id": "IM153_1",
+        "text": "Popular culture often depicts heart attacks as always involving crushing chest pain and arm numbness.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM153_2",
+        "text": "Some people delay seeking help because their symptoms don't match the 'classic' heart attack picture.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM153_3",
+        "text": "While chest pain is common, heart attack symptoms can be subtle and varied.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM153_4",
+        "text": "Symptoms can include shortness of breath, fatigue, nausea, or discomfort in the jaw, neck, or back.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM153_5",
+        "text": "Women, diabetics, and the elderly are more likely to experience atypical heart attack symptoms.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM153_6",
+        "text": "Silent heart attacks, with no noticeable symptoms, can also occur.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM153_7",
+        "text": "Not all heart attacks present with chest pain; recognizing diverse symptoms is crucial for timely intervention.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM154",
+    "query_type": "implicit_NOT",
+    "query_text": "Does daily consumption of multivitamins guarantee perfect health?",
+    "documents": [
+      {
+        "doc_id": "IM154_1",
+        "text": "Multivitamin manufacturers often imply their products are a shortcut to optimal well-being.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM154_2",
+        "text": "Many people mistakenly believe popping a pill can compensate for an unhealthy diet.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM154_3",
+        "text": "While multivitamins can fill nutrient gaps, they cannot replace a balanced diet.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM154_4",
+        "text": "For individuals without specific deficiencies, the benefits of routine multivitamin use are often minimal.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM154_5",
+        "text": "Excessive intake of some vitamins can even be harmful.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM154_6",
+        "text": "A healthy lifestyle, including diet and exercise, contributes far more to overall health than multivitamins alone.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM154_7",
+        "text": "Daily multivitamin consumption does not guarantee perfect health and is not a substitute for a comprehensive healthy lifestyle.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM155",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that organic food is always more nutritious than conventional food?",
+    "documents": [
+      {
+        "doc_id": "IM155_1",
+        "text": "Marketers frequently promote organic products with claims of superior health benefits.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM155_2",
+        "text": "Some consumers assume that 'organic' automatically means a significantly higher nutrient content.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM155_3",
+        "text": "Studies comparing the nutritional content of organic versus conventional foods yield mixed results.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM155_4",
+        "text": "Any nutritional differences found are often small and not clinically significant.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM155_5",
+        "text": "The primary benefits of organic farming relate to pesticide residue reduction and environmental impact.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM155_6",
+        "text": "Eating a variety of fruits and vegetables, regardless of organic status, is more important for nutrition.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM155_7",
+        "text": "While organic foods offer other benefits, they are not universally more nutritious than their conventionally grown counterparts.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM156",
+    "query_type": "implicit_NOT",
+    "query_text": "Does undergoing an MRI scan expose you to harmful radiation?",
+    "documents": [
+      {
+        "doc_id": "IM156_1",
+        "text": "Some patients confuse MRI with X-rays or CT scans, fearing radiation exposure.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM156_2",
+        "text": "Online discussions sometimes incorrectly group all medical imaging techniques as radiation-based.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM156_3",
+        "text": "MRI (Magnetic Resonance Imaging) uses strong magnetic fields and radio waves, not ionizing radiation.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM156_4",
+        "text": "Unlike X-rays or CT scans, there is no risk of radiation exposure with an MRI.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM156_5",
+        "text": "Safety concerns primarily relate to metallic implants or claustrophobia, not radiation.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM156_6",
+        "text": "Radiologists routinely explain the absence of radiation in MRI procedures.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM156_7",
+        "text": "MRI scans do not involve harmful radiation, making them a safe imaging modality for many conditions.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM157",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that all skin rashes are contagious?",
+    "documents": [
+      {
+        "doc_id": "IM157_1",
+        "text": "Many people incorrectly assume that any visible skin condition can be transmitted through contact.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM157_2",
+        "text": "Fear of contagion sometimes leads to unnecessary social isolation for individuals with non-contagious rashes.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM157_3",
+        "text": "While some rashes are infectious (e.g., ringworm, impetigo), many are not.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM157_4",
+        "text": "Common non-contagious rashes include eczema, psoriasis, and allergic contact dermatitis.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM157_5",
+        "text": "Drug reactions or heat rash are also examples of non-transmissible skin conditions.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM157_6",
+        "text": "Dermatologists diagnose the underlying cause of a rash to determine if it is contagious.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM157_7",
+        "text": "The vast majority of skin rashes are not contagious and do not pose a risk of transmission to others.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM158",
+    "query_type": "implicit_NOT",
+    "query_text": "Do all vaccines cause immediate severe side effects?",
+    "documents": [
+      {
+        "doc_id": "IM158_1",
+        "text": "Anti-vaccine narratives often highlight extremely rare adverse events as commonplace.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM158_2",
+        "text": "Some parents expect their child to become gravely ill immediately after vaccination.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM158_3",
+        "text": "Most vaccine side effects are mild and transient, such as soreness at the injection site or low-grade fever.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM158_4",
+        "text": "Serious allergic reactions (anaphylaxis) are extremely rare and treatable.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM158_5",
+        "text": "Vaccine safety monitoring systems continually track and investigate any reported adverse events.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM158_6",
+        "text": "The benefits of vaccination far outweigh the minimal risks of severe side effects.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM158_7",
+        "text": "The vast majority of individuals experience only minor or no side effects from vaccines, and severe immediate reactions are exceptionally rare.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM159",
+    "query_type": "implicit_NOT",
+    "query_text": "Is it true that all medications can be split or crushed for easier consumption?",
+    "documents": [
+      {
+        "doc_id": "IM159_1",
+        "text": "Patients sometimes assume all pills are interchangeable in how they can be administered.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM159_2",
+        "text": "A common mistake is altering medication without checking with a pharmacist or doctor.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM159_3",
+        "text": "Many medications have specific coatings or release mechanisms that are compromised by splitting or crushing.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM159_4",
+        "text": "Enteric-coated pills or extended-release capsules, for example, lose their intended effect if altered.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM159_5",
+        "text": "Some medications have a very narrow therapeutic window, where altering them could lead to toxicity or ineffectiveness.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM159_6",
+        "text": "Pharmacists are the best resource for determining if a specific medication can be safely modified.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM159_7",
+        "text": "Not all medications can be split or crushed; doing so without professional advice can dangerously alter drug delivery and efficacy.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM160",
+    "query_type": "implicit_NOT",
+    "query_text": "Does regular dental flossing guarantee no cavities?",
+    "documents": [
+      {
+        "doc_id": "IM160_1",
+        "text": "Some individuals believe that flossing alone makes them immune to tooth decay.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM160_2",
+        "text": "Online dental hacks sometimes imply flossing is the only preventative measure needed.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM160_3",
+        "text": "While flossing effectively removes plaque and food particles between teeth, it's one part of oral hygiene.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM160_4",
+        "text": "Regular brushing with fluoride toothpaste is equally crucial for cavity prevention.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM160_5",
+        "text": "Dietary habits, particularly sugar intake, significantly influence cavity risk.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM160_6",
+        "text": "Dental check-ups and professional cleanings are essential for comprehensive oral health.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM160_7",
+        "text": "Regular dental flossing is vital but does not guarantee immunity from cavities; a holistic approach to oral hygiene is necessary.",
+        "relevance": 5
+      }
+    ]
+  }
+
+
+]

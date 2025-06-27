@@ -1,41 +1,60 @@
 import json
+import os
 from collections import defaultdict
 
-# Load the JSON file
-with open("evaluation_results_roberta-large-mnli.json", "r") as file:
-    data = json.load(file)
+# List of evaluation files
+files = [
+    "evaluation_results_cross-encoder-nli-deberta-base.json",
+    "evaluation_results_facebook-bart-large-mnli.json",
+    "evaluation_results_microsoft-deberta-large-mnli.json",
+    "evaluation_results_prajjwal1-albert-base-v2-mnli.json",
+    "evaluation_results_pritamdeka-PubMedBERT-MNLI-MedNLI.json",
+    "evaluation_results_roberta-large-mnli.json",
+    "evaluation_results_typeform-distilbert-base-uncased-mnli.json"
+]
 
-# Initialize containers
-metrics_summary = {
-    "BGE": defaultdict(list),
-    "Roberta": defaultdict(list)
-}
+# All metrics stored here
+overall_summary = {}
 
-# Collect metrics
-for doc_id, configs in data.items():
-    for config_key, config_val in configs.items():
-        for model in ["BGE", "Roberta"]:
-            if model in config_val:
-                metrics = config_val[model].get("metrics", {})
-                for metric, value in metrics.items():
-                    if isinstance(value, (int, float)):
-                        metrics_summary[model][metric].append(value)
+# Loop through each file
+for file_name in files:
+    if not os.path.exists(file_name):
+        print(f"File not found: {file_name}")
+        continue
 
-# Compute mean
-metrics_mean = {
-    model: {
-        metric: round(sum(values) / len(values), 4) if values else 0.0
-        for metric, values in metric_set.items()
+    with open(file_name, "r") as file:
+        data = json.load(file)
+
+    metrics_summary = defaultdict(lambda: defaultdict(list))
+
+    # Extract metrics
+    for _, configs in data.items():
+        for _, config_val in configs.items():
+            for model in config_val:
+                if "metrics" in config_val[model]:
+                    for metric, value in config_val[model]["metrics"].items():
+                        if isinstance(value, (int, float)):
+                            metrics_summary[model][metric].append(value)
+
+    # Compute means
+    metrics_mean = {
+        model: {
+            metric: round(sum(values) / len(values), 4) if values else 0.0
+            for metric, values in metric_set.items()
+        }
+        for model, metric_set in metrics_summary.items()
     }
-    for model, metric_set in metrics_summary.items()
-}
 
-# Display output
-for model, metrics in metrics_mean.items():
-    print(f"\n{model} Metrics Mean:")
-    for metric, mean in metrics.items():
-        print(f"  {metric}: {mean}")
+    # Store in overall summary
+    overall_summary[file_name] = metrics_mean
 
-# Save to file
-with open("metrics.json", "w") as outfile:
-    json.dump(metrics_mean, outfile, indent=2)
+    # Print summary
+    print(f"\n📄 File: {file_name}")
+    for model, metrics in metrics_mean.items():
+        print(f"  🔹 Model: {model}")
+        for metric, mean in metrics.items():
+            print(f"    {metric}: {mean}")
+
+# Save summary to file
+with open("all_models_metrics_summary.json", "w") as outfile:
+    json.dump(overall_summary, outfile, indent=2)

@@ -1,0 +1,3366 @@
+[
+  {
+    "query_id": "CP001",
+    "query_type": "comparative_NOT",
+    "query_text": "Are SSRIs more effective than SNRIs in treating generalized anxiety disorder?",
+    "documents": [
+      { "doc_id": "CP001_1", "text": "Anecdotal reports from patients favor SSRIs, but formal trials show mixed results.", "relevance": 1 },
+      { "doc_id": "CP001_2", "text": "Some outdated reviews understate the benefits of SNRIs compared to SSRIs.", "relevance": 2 },
+      { "doc_id": "CP001_3", "text": "A 2021 study noted minor differences in response rates between SSRIs and SNRIs.", "relevance": 3 },
+      { "doc_id": "CP001_4", "text": "Randomized trials have shown SSRIs and SNRIs perform similarly on anxiety scales.", "relevance": 3 },
+      { "doc_id": "CP001_5", "text": "Meta-analysis suggests SSRIs slightly outperform SNRIs in long-term anxiety reduction.", "relevance": 4 },
+      { "doc_id": "CP001_6", "text": "SSRI use is consistently associated with better tolerability and lower dropout rates.", "relevance": 4 },
+      { "doc_id": "CP001_7", "text": "Several head-to-head trials confirm SSRIs' superiority over SNRIs in managing anxiety symptoms.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP002",
+    "query_type": "comparative_NOT",
+    "query_text": "Do H2 blockers offer better renal protection than PPIs?",
+    "documents": [
+      { "doc_id": "CP002_1", "text": "Online forums often suggest H2 blockers are 'safer', but there's no clinical consensus.", "relevance": 1 },
+      { "doc_id": "CP002_2", "text": "A few physicians argue that long-term PPI use may pose higher renal risk.", "relevance": 2 },
+      { "doc_id": "CP002_3", "text": "Retrospective data hints at slightly increased renal events among PPI users.", "relevance": 2 },
+      { "doc_id": "CP002_4", "text": "Direct comparisons reveal a modest difference in renal markers between H2 blockers and PPIs.", "relevance": 3 },
+      { "doc_id": "CP002_5", "text": "H2 blockers are occasionally preferred in patients with declining renal function.", "relevance": 4 },
+      { "doc_id": "CP002_6", "text": "Studies have confirmed that switching from PPIs to H2 blockers reduces creatinine spikes.", "relevance": 5 },
+      { "doc_id": "CP002_7", "text": "RCTs support that H2 blockers are less likely to induce interstitial nephritis.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP003",
+    "query_type": "comparative_NOT",
+    "query_text": "Is metformin better tolerated than sulfonylureas in type 2 diabetes management?",
+    "documents": [
+      { "doc_id": "CP003_1", "text": "Anecdotal feedback on social media often downplays sulfonylurea side effects.", "relevance": 1 },
+      { "doc_id": "CP003_2", "text": "Older clinical summaries group both drugs without discussing tolerability.", "relevance": 2 },
+      { "doc_id": "CP003_3", "text": "Sulfonylureas tend to cause more hypoglycemic episodes than metformin.", "relevance": 3 },
+      { "doc_id": "CP003_4", "text": "Large trials confirm metformin has a more favorable side effect profile.", "relevance": 4 },
+      { "doc_id": "CP003_5", "text": "Metformin rarely causes hypoglycemia, unlike sulfonylureas.", "relevance": 4 },
+      { "doc_id": "CP003_6", "text": "Longitudinal studies show higher patient adherence to metformin therapy.", "relevance": 5 },
+      { "doc_id": "CP003_7", "text": "Meta-reviews conclude metformin is significantly better tolerated in long-term use.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP004",
+    "query_type": "comparative_NOT",
+    "query_text": "Are newer anticoagulants safer than warfarin for stroke prevention?",
+    "documents": [
+      { "doc_id": "CP004_1", "text": "Some blogs suggest there's no major difference between warfarin and NOACs.", "relevance": 1 },
+      { "doc_id": "CP004_2", "text": "Patient groups often favor warfarin due to cost but ignore safety data.", "relevance": 1 },
+      { "doc_id": "CP004_3", "text": "NOACs have fewer food interactions but cost more.", "relevance": 2 },
+      { "doc_id": "CP004_4", "text": "Real-world data points to reduced intracranial bleeding with NOACs.", "relevance": 3 },
+      { "doc_id": "CP004_5", "text": "RCTs highlight superior bleeding profiles for NOACs over warfarin.", "relevance": 4 },
+      { "doc_id": "CP004_6", "text": "Major trials consistently favor NOACs for safety and ease of use.", "relevance": 5 },
+      { "doc_id": "CP004_7", "text": "Systematic reviews validate lower adverse event rates with NOACs.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP005",
+    "query_type": "comparative_NOT",
+    "query_text": "Are atypical antipsychotics less likely than typical antipsychotics to cause extrapyramidal symptoms?",
+    "documents": [
+      { "doc_id": "CP005_1", "text": "Some outdated textbooks suggest both drug types have similar risks.", "relevance": 1 },
+      { "doc_id": "CP005_2", "text": "Patient reviews occasionally report side effects from atypicals.", "relevance": 2 },
+      { "doc_id": "CP005_3", "text": "Comparative analysis shows typicals have higher EPS incidence.", "relevance": 3 },
+      { "doc_id": "CP005_4", "text": "Recent RCTs indicate significantly reduced EPS with atypical agents.", "relevance": 4 },
+      { "doc_id": "CP005_5", "text": "Atypicals like risperidone are linked with fewer movement disorders.", "relevance": 4 },
+      { "doc_id": "CP005_6", "text": "Clinical guidelines prefer atypicals to minimize EPS risk.", "relevance": 5 },
+      { "doc_id": "CP005_7", "text": "Multiple head-to-head studies affirm the lower EPS burden of atypical antipsychotics.", "relevance": 5 }
+    ]
+  },
+
+  {
+    "query_id": "CP011",
+    "query_type": "comparative_NOT",
+    "query_text": "Are SSRIs more effective than tricyclics for long-term depression relapse prevention?",
+    "documents": [
+      { "doc_id": "CP011_1", "text": "Opinion pieces often favor SSRIs over tricyclics, though without robust data.", "relevance": 1 },
+      { "doc_id": "CP011_2", "text": "Some psychiatrists suggest tricyclics might still be effective for certain patients.", "relevance": 1 },
+      { "doc_id": "CP011_3", "text": "Real-world studies find modestly better outcomes with SSRIs compared to tricyclics.", "relevance": 2 },
+      { "doc_id": "CP011_4", "text": "A six-month observational study revealed fewer relapses in SSRI-treated groups.", "relevance": 3 },
+      { "doc_id": "CP011_5", "text": "Tricyclics were linked to higher dropout rates in long-term use.", "relevance": 3 },
+      { "doc_id": "CP011_6", "text": "Meta-analyses report that SSRIs reduce relapse rates more consistently than tricyclics.", "relevance": 4 },
+      { "doc_id": "CP011_7", "text": "Clinical guidelines now prefer SSRIs over tricyclics for preventing depressive relapse.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP012",
+    "query_type": "comparative_NOT",
+    "query_text": "Is metformin better than insulin for managing gestational diabetes?",
+    "documents": [
+      { "doc_id": "CP012_1", "text": "Some health forums state that insulin is outdated compared to newer drugs like metformin.", "relevance": 1 },
+      { "doc_id": "CP012_2", "text": "Patient anecdotes online often promote metformin due to convenience.", "relevance": 1 },
+      { "doc_id": "CP012_3", "text": "A small clinical trial showed comparable outcomes between insulin and metformin.", "relevance": 2 },
+      { "doc_id": "CP012_4", "text": "Several reviews noted metformin is associated with fewer maternal weight issues.", "relevance": 2 },
+      { "doc_id": "CP012_5", "text": "RCTs reveal metformin may reduce the risk of neonatal hypoglycemia.", "relevance": 3 },
+      { "doc_id": "CP012_6", "text": "Insulin continues to be the recommended choice in cases of poor glycemic control.", "relevance": 4 },
+      { "doc_id": "CP012_7", "text": "Major trials conclude that while both are effective, metformin shows more favorable patient outcomes overall.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP013",
+    "query_type": "comparative_NOT",
+    "query_text": "Are newer antipsychotics safer than older ones regarding metabolic side effects?",
+    "documents": [
+      { "doc_id": "CP013_1", "text": "Anecdotal reports sometimes suggest no real difference in safety.", "relevance": 1 },
+      { "doc_id": "CP013_2", "text": "Some blog posts incorrectly claim all antipsychotics have identical side effects.", "relevance": 1 },
+      { "doc_id": "CP013_3", "text": "Preliminary studies note newer antipsychotics may cause slightly less weight gain.", "relevance": 2 },
+      { "doc_id": "CP013_4", "text": "Older drugs like haloperidol are linked to higher glucose intolerance in some trials.", "relevance": 3 },
+      { "doc_id": "CP013_5", "text": "Comparative trials suggest risperidone and olanzapine pose differing metabolic risks.", "relevance": 4 },
+      { "doc_id": "CP013_6", "text": "Systematic reviews point to a slightly better metabolic profile with newer antipsychotics.", "relevance": 4 },
+      { "doc_id": "CP013_7", "text": "Clinical guidance encourages using newer antipsychotics in patients with metabolic risk factors.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP014",
+    "query_type": "comparative_NOT",
+    "query_text": "Do statins reduce cardiovascular risk better than PCSK9 inhibitors in high-risk populations?",
+    "documents": [
+      { "doc_id": "CP014_1", "text": "Some online commentary claims PCSK9s are only useful for rare genetic cases.", "relevance": 1 },
+      { "doc_id": "CP014_2", "text": "A few outdated reviews suggested statins should remain first-line therapy.", "relevance": 2 },
+      { "doc_id": "CP014_3", "text": "Trials indicate both statins and PCSK9s reduce LDL significantly, but statins are more affordable.", "relevance": 3 },
+      { "doc_id": "CP014_4", "text": "PCSK9 inhibitors lower LDL more dramatically in statin-intolerant patients.", "relevance": 3 },
+      { "doc_id": "CP014_5", "text": "Large trials confirm PCSK9s reduce major cardiovascular events in high-risk patients.", "relevance": 4 },
+      { "doc_id": "CP014_6", "text": "Recent meta-analyses show PCSK9s have superior effect on LDL-C reduction vs. statins.", "relevance": 5 },
+      { "doc_id": "CP014_7", "text": "Despite cost concerns, PCSK9s offer a viable statin alternative for cardiovascular risk management.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP015",
+    "query_type": "comparative_NOT",
+    "query_text": "Is risperidone more effective than olanzapine in managing acute psychosis?",
+    "documents": [
+      { "doc_id": "CP015_1", "text": "Some patients on forums report similar experiences with both drugs.", "relevance": 1 },
+      { "doc_id": "CP015_2", "text": "Older reviews lack consistent conclusions about drug superiority.", "relevance": 2 },
+      { "doc_id": "CP015_3", "text": "One study showed olanzapine acted faster in calming agitation.", "relevance": 3 },
+      { "doc_id": "CP015_4", "text": "Meta-analyses highlight slightly better symptom resolution with risperidone at standard doses.", "relevance": 4 },
+      { "doc_id": "CP015_5", "text": "RCTs comparing both drugs indicate risperidone achieves better remission rates over 6 weeks.", "relevance": 5 },
+      { "doc_id": "CP015_6", "text": "Risperidone was linked to fewer sedative effects compared to olanzapine.", "relevance": 3 },
+      { "doc_id": "CP015_7", "text": "Expert reviews suggest risperidone should be considered first-line for acute psychosis episodes.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP016",
+    "query_type": "comparative_NOT",
+    "query_text": "Does yoga outperform pharmacotherapy in reducing anxiety symptoms?",
+    "documents": [
+      { "doc_id": "CP016_1", "text": "Some blogs promote yoga as a cure-all, but without medical evidence.", "relevance": 1 },
+      { "doc_id": "CP016_2", "text": "Anecdotal feedback often favors yoga due to fewer side effects.", "relevance": 1 },
+      { "doc_id": "CP016_3", "text": "Small-scale studies find that yoga reduces anxiety but not as quickly as medications.", "relevance": 2 },
+      { "doc_id": "CP016_4", "text": "Comparative trials suggest yoga may be a useful adjunct but not superior.", "relevance": 3 },
+      { "doc_id": "CP016_5", "text": "Yoga reduced GAD symptoms moderately in a randomized pilot study.", "relevance": 4 },
+      { "doc_id": "CP016_6", "text": "Medications such as SSRIs continue to show stronger and faster symptom reduction.", "relevance": 4 },
+      { "doc_id": "CP016_7", "text": "Evidence shows pharmacotherapy remains the more effective treatment in severe anxiety cases.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP017",
+    "query_type": "comparative_NOT",
+    "query_text": "Are newer generation antihistamines more effective than first-generation ones for seasonal allergies?",
+    "documents": [
+      { "doc_id": "CP017_1", "text": "Some websites claim all antihistamines work the same, which lacks nuance.", "relevance": 1 },
+      { "doc_id": "CP017_2", "text": "Users on forums suggest first-generation drugs make them too drowsy.", "relevance": 2 },
+      { "doc_id": "CP017_3", "text": "Newer antihistamines show better tolerability in placebo-controlled trials.", "relevance": 3 },
+      { "doc_id": "CP017_4", "text": "RCTs consistently report better symptom control and fewer sedative effects with second-generation drugs.", "relevance": 4 },
+      { "doc_id": "CP017_5", "text": "Meta-analyses favor loratadine and cetirizine over diphenhydramine for daytime use.", "relevance": 5 },
+      { "doc_id": "CP017_6", "text": "Guidelines recommend second-generation antihistamines as first-line therapy.", "relevance": 5 },
+      { "doc_id": "CP017_7", "text": "Diphenhydramine still used widely, though newer options have better efficacy-to-safety balance.", "relevance": 4 }
+    ]
+  },
+  {
+    "query_id": "CP018",
+    "query_type": "comparative_NOT",
+    "query_text": "Do GLP-1 agonists outperform SGLT2 inhibitors in reducing A1C levels?",
+    "documents": [
+      { "doc_id": "CP018_1", "text": "Some fitness blogs exaggerate GLP-1 benefits over all other options.", "relevance": 1 },
+      { "doc_id": "CP018_2", "text": "Early studies found both drug classes effective in lowering A1C.", "relevance": 2 },
+      { "doc_id": "CP018_3", "text": "Recent trials suggest GLP-1s achieve greater A1C reduction, particularly in obese patients.", "relevance": 3 },
+      { "doc_id": "CP018_4", "text": "Meta-analyses show GLP-1s reduce A1C by 1.1% on average, vs 0.8% for SGLT2s.", "relevance": 4 },
+      { "doc_id": "CP018_5", "text": "In head-to-head trials, semaglutide outperformed empagliflozin in glycemic control.", "relevance": 5 },
+      { "doc_id": "CP018_6", "text": "SGLT2s offer more benefits in terms of heart failure and renal protection.", "relevance": 4 },
+      { "doc_id": "CP018_7", "text": "Choice often depends on comorbidities rather than A1C efficacy alone.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP019",
+    "query_type": "comparative_NOT",
+    "query_text": "Is aspirin more effective than clopidogrel for secondary stroke prevention?",
+    "documents": [
+      { "doc_id": "CP019_1", "text": "Some forums claim aspirin is enough for everyone, which oversimplifies the issue.", "relevance": 1 },
+      { "doc_id": "CP019_2", "text": "Older trials showed aspirin had modest effects in preventing recurrent strokes.", "relevance": 2 },
+      { "doc_id": "CP019_3", "text": "Newer data suggests clopidogrel reduces composite CV events more effectively.", "relevance": 3 },
+      { "doc_id": "CP019_4", "text": "MATCH trial showed clopidogrel provided better outcomes in high-risk patients.", "relevance": 4 },
+      { "doc_id": "CP019_5", "text": "Aspirin remains widely prescribed due to availability and cost.", "relevance": 4 },
+      { "doc_id": "CP019_6", "text": "Dual therapy with both agents showed increased bleeding risk.", "relevance": 3 },
+      { "doc_id": "CP019_7", "text": "Clopidogrel is now favored by several guidelines for secondary stroke prevention.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP020",
+    "query_type": "comparative_NOT",
+    "query_text": "Is amlodipine more effective than losartan in reducing blood pressure variability?",
+    "documents": [
+      { "doc_id": "CP020_1", "text": "Social media often praises amlodipine as a 'superior' BP drug without data.", "relevance": 1 },
+      { "doc_id": "CP020_2", "text": "A few uncontrolled studies suggest both drugs stabilize BP well.", "relevance": 2 },
+      { "doc_id": "CP020_3", "text": "Amlodipine shows more consistent BP control in hypertensive cohorts.", "relevance": 3 },
+      { "doc_id": "CP020_4", "text": "RCTs report greater reduction in BP variability with amlodipine compared to ARBs.", "relevance": 4 },
+      { "doc_id": "CP020_5", "text": "Losartan may offer better renal protection despite less consistent BP variability control.", "relevance": 4 },
+      { "doc_id": "CP020_6", "text": "Meta-reviews endorse amlodipine as a top choice for managing BP fluctuations.", "relevance": 5 },
+      { "doc_id": "CP020_7", "text": "Doctors may choose based on comorbidity profiles rather than BP variability alone.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP021",
+    "query_type": "comparative_NOT",
+    "query_text": "Is duloxetine more effective than gabapentin for managing diabetic neuropathy?",
+    "documents": [
+      { "doc_id": "CP021_1", "text": "Online reviews vary widely, with some patients favoring gabapentin over duloxetine.", "relevance": 1 },
+      { "doc_id": "CP021_2", "text": "Some early case reports showed benefit from gabapentin in mild neuropathy.", "relevance": 2 },
+      { "doc_id": "CP021_3", "text": "Clinical trials consistently show duloxetine reduces pain scores more than gabapentin.", "relevance": 3 },
+      { "doc_id": "CP021_4", "text": "Meta-analyses favor duloxetine for pain intensity and function improvement.", "relevance": 4 },
+      { "doc_id": "CP021_5", "text": "RCTs confirm duloxetine provides superior symptom relief in diabetic neuropathy.", "relevance": 5 },
+      { "doc_id": "CP021_6", "text": "Gabapentin remains a valid option, particularly when duloxetine causes GI issues.", "relevance": 3 },
+      { "doc_id": "CP021_7", "text": "Both drugs have differing side effect profiles, impacting tolerability more than efficacy.", "relevance": 2 }
+    ]
+  },
+  {
+    "query_id": "CP022",
+    "query_type": "comparative_NOT",
+    "query_text": "Are calcium channel blockers more effective than beta blockers for managing Raynaud's phenomenon?",
+    "documents": [
+      { "doc_id": "CP022_1", "text": "Online posts often recommend warm gloves before considering any medication.", "relevance": 1 },
+      { "doc_id": "CP022_2", "text": "Some older studies suggested beta blockers might worsen Raynaud's symptoms.", "relevance": 2 },
+      { "doc_id": "CP022_3", "text": "Calcium channel blockers, particularly nifedipine, are shown to reduce attack frequency.", "relevance": 3 },
+      { "doc_id": "CP022_4", "text": "RCTs indicate calcium channel blockers provide greater symptomatic relief than beta blockers.", "relevance": 4 },
+      { "doc_id": "CP022_5", "text": "Systematic reviews support calcium channel blockers as first-line agents for Raynaud’s.", "relevance": 5 },
+      { "doc_id": "CP022_6", "text": "Beta blockers are occasionally used in coexisting hypertension despite potential worsening of symptoms.", "relevance": 3 },
+      { "doc_id": "CP022_7", "text": "Some comparative studies note that vasodilatory properties make calcium channel blockers preferable.", "relevance": 4 }
+    ]
+  },
+  {
+    "query_id": "CP023",
+    "query_type": "comparative_NOT",
+    "query_text": "Is omeprazole better than ranitidine for preventing NSAID-induced gastric ulcers?",
+    "documents": [
+      { "doc_id": "CP023_1", "text": "There are anecdotal claims suggesting all antacids work equally for ulcers.", "relevance": 1 },
+      { "doc_id": "CP023_2", "text": "Some over-the-counter guides used to favor ranitidine until recent withdrawals.", "relevance": 2 },
+      { "doc_id": "CP023_3", "text": "RCTs suggest omeprazole offers greater gastric protection in NSAID users.", "relevance": 3 },
+      { "doc_id": "CP023_4", "text": "Longitudinal studies find omeprazole reduces GI bleeding risk more than H2 blockers.", "relevance": 4 },
+      { "doc_id": "CP023_5", "text": "Meta-analyses confirm omeprazole is more effective in ulcer prevention than ranitidine.", "relevance": 5 },
+      { "doc_id": "CP023_6", "text": "Ranitidine was once widely used, but regulatory concerns have shifted preferences.", "relevance": 3 },
+      { "doc_id": "CP023_7", "text": "Omeprazole’s acid suppression is more potent and sustained across dosing intervals.", "relevance": 4 }
+    ]
+  },
+  {
+    "query_id": "CP024",
+    "query_type": "comparative_NOT",
+    "query_text": "Are low-carb diets more effective than low-fat diets in achieving weight loss?",
+    "documents": [
+      { "doc_id": "CP024_1", "text": "Some influencers claim carbs are always bad, which lacks context.", "relevance": 1 },
+      { "doc_id": "CP024_2", "text": "Multiple observational studies find initial rapid weight loss with low-carb diets.", "relevance": 2 },
+      { "doc_id": "CP024_3", "text": "RCTs suggest both low-fat and low-carb diets can be effective when calorie-restricted.", "relevance": 3 },
+      { "doc_id": "CP024_4", "text": "Meta-analyses show low-carb diets may lead to slightly more weight loss at 6 months.", "relevance": 4 },
+      { "doc_id": "CP024_5", "text": "Clinical reviews favor low-carb diets in insulin-resistant individuals.", "relevance": 5 },
+      { "doc_id": "CP024_6", "text": "Weight regain tends to occur in both diet groups after 1 year.", "relevance": 3 },
+      { "doc_id": "CP024_7", "text": "Long-term adherence plays a bigger role than macronutrient ratio.", "relevance": 2 }
+    ]
+  },
+  {
+    "query_id": "CP025",
+    "query_type": "comparative_NOT",
+    "query_text": "Are intranasal corticosteroids more effective than antihistamines for allergic rhinitis?",
+    "documents": [
+      { "doc_id": "CP025_1", "text": "User forums often debate sprays versus pills without citing studies.", "relevance": 1 },
+      { "doc_id": "CP025_2", "text": "Some early reviews suggested comparable relief between the two classes.", "relevance": 2 },
+      { "doc_id": "CP025_3", "text": "RCTs show corticosteroids significantly reduce nasal congestion more than antihistamines.", "relevance": 3 },
+      { "doc_id": "CP025_4", "text": "Meta-analyses conclude intranasal corticosteroids are more effective across multiple symptoms.", "relevance": 4 },
+      { "doc_id": "CP025_5", "text": "Clinical guidelines recommend corticosteroids as first-line therapy for allergic rhinitis.", "relevance": 5 },
+      { "doc_id": "CP025_6", "text": "Antihistamines are still preferred for immediate symptom control and convenience.", "relevance": 4 },
+      { "doc_id": "CP025_7", "text": "Experts emphasize combination therapy in moderate to severe cases.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP026",
+    "query_type": "comparative_NOT",
+    "query_text": "Is physical therapy more effective than surgery for treating lumbar disc herniation?",
+    "documents": [
+      { "doc_id": "CP026_1", "text": "Some blogs favor surgery prematurely without exploring conservative options.", "relevance": 1 },
+      { "doc_id": "CP026_2", "text": "Several observational studies indicate improvement with structured physical therapy.", "relevance": 2 },
+      { "doc_id": "CP026_3", "text": "RCTs show surgery provides faster relief but similar long-term outcomes to therapy.", "relevance": 3 },
+      { "doc_id": "CP026_4", "text": "Meta-analyses confirm both approaches are valid depending on severity.", "relevance": 4 },
+      { "doc_id": "CP026_5", "text": "Clinical guidelines recommend physical therapy as first-line for mild to moderate cases.", "relevance": 5 },
+      { "doc_id": "CP026_6", "text": "Surgical intervention remains important in cases with progressive neurological deficits.", "relevance": 4 },
+      { "doc_id": "CP026_7", "text": "Patient preference and symptom duration guide the treatment choice.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP027",
+    "query_type": "comparative_NOT",
+    "query_text": "Are oral antifungals more effective than topical treatments for onychomycosis?",
+    "documents": [
+      { "doc_id": "CP027_1", "text": "Many people first try home remedies or OTC creams without success.", "relevance": 1 },
+      { "doc_id": "CP027_2", "text": "Topical treatments show limited efficacy in severe nail infections.", "relevance": 2 },
+      { "doc_id": "CP027_3", "text": "RCTs reveal oral antifungals have higher cure rates than topicals.", "relevance": 3 },
+      { "doc_id": "CP027_4", "text": "Itraconazole and terbinafine outperform ciclopirox in long-term fungal eradication.", "relevance": 4 },
+      { "doc_id": "CP027_5", "text": "Meta-analyses support oral therapy as the gold standard for onychomycosis.", "relevance": 5 },
+      { "doc_id": "CP027_6", "text": "Topical agents remain useful for mild or superficial infections.", "relevance": 3 },
+      { "doc_id": "CP027_7", "text": "Combination therapy may offer additional benefit in resistant cases.", "relevance": 4 }
+    ]
+  },
+  {
+    "query_id": "CP028",
+    "query_type": "comparative_NOT",
+    "query_text": "Is acetaminophen more effective than NSAIDs for osteoarthritis pain relief?",
+    "documents": [
+      { "doc_id": "CP028_1", "text": "Some advertisements claim acetaminophen is gentler on the stomach.", "relevance": 1 },
+      { "doc_id": "CP028_2", "text": "NSAIDs show superior anti-inflammatory action in head-to-head trials.", "relevance": 3 },
+      { "doc_id": "CP028_3", "text": "Acetaminophen offers modest relief, mainly in patients with mild symptoms.", "relevance": 2 },
+      { "doc_id": "CP028_4", "text": "Systematic reviews consistently rank NSAIDs higher for functional improvement.", "relevance": 4 },
+      { "doc_id": "CP028_5", "text": "RCTs find ibuprofen and naproxen outperform acetaminophen in pain reduction.", "relevance": 5 },
+      { "doc_id": "CP028_6", "text": "Acetaminophen remains an option for patients with GI or renal risks.", "relevance": 4 },
+      { "doc_id": "CP028_7", "text": "Combination strategies or alternating regimens are occasionally considered.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP029",
+    "query_type": "comparative_NOT",
+    "query_text": "Is bupropion better than SSRIs for smoking cessation support?",
+    "documents": [
+      { "doc_id": "CP029_1", "text": "Some smokers report success using only willpower or nicotine patches.", "relevance": 1 },
+      { "doc_id": "CP029_2", "text": "SSRIs have not consistently shown smoking cessation benefits in trials.", "relevance": 2 },
+      { "doc_id": "CP029_3", "text": "Bupropion is FDA-approved for smoking cessation and shows high quit rates.", "relevance": 3 },
+      { "doc_id": "CP029_4", "text": "Meta-analyses confirm bupropion’s superiority over SSRIs for this use case.", "relevance": 5 },
+      { "doc_id": "CP029_5", "text": "Combined behavioral and pharmacologic therapy enhances outcomes further.", "relevance": 4 },
+      { "doc_id": "CP029_6", "text": "Relapse remains common regardless of agent, requiring long-term support.", "relevance": 3 },
+      { "doc_id": "CP029_7", "text": "Bupropion may also aid in reducing post-quit weight gain.", "relevance": 4 }
+    ]
+  },
+  {
+    "query_id": "CP030",
+    "query_type": "comparative_NOT",
+    "query_text": "Are inhaled corticosteroids more effective than leukotriene modifiers for asthma control?",
+    "documents": [
+      { "doc_id": "CP030_1", "text": "Leukotriene modifiers are often viewed as weaker agents for monotherapy.", "relevance": 2 },
+      { "doc_id": "CP030_2", "text": "Patient blogs sometimes overstate leukotriene benefits in mild asthma.", "relevance": 1 },
+      { "doc_id": "CP030_3", "text": "RCTs support inhaled corticosteroids as more effective for airway inflammation control.", "relevance": 3 },
+      { "doc_id": "CP030_4", "text": "Meta-analyses confirm ICS reduce exacerbations more than leukotriene antagonists.", "relevance": 4 },
+      { "doc_id": "CP030_5", "text": "Guidelines recommend ICS as first-line therapy for persistent asthma.", "relevance": 5 },
+      { "doc_id": "CP030_6", "text": "Leukotriene modifiers may be added for specific phenotypes such as aspirin-exacerbated asthma.", "relevance": 4 },
+      { "doc_id": "CP030_7", "text": "ICS adherence remains key to long-term asthma control effectiveness.", "relevance": 3 }
+    ]
+  },
+
+  {
+    "query_id": "CP031",
+    "query_type": "comparative_NOT",
+    "query_text": "Is cognitive behavioral therapy more effective than medication for treating adolescent depression?",
+    "documents": [
+      { "doc_id": "CP031_1", "text": "Some parenting blogs claim therapy alone can’t help teenagers.", "relevance": 1 },
+      { "doc_id": "CP031_2", "text": "SSRIs are commonly prescribed, though their efficacy varies in adolescents.", "relevance": 2 },
+      { "doc_id": "CP031_3", "text": "RCTs suggest CBT leads to significant improvements in moderate depression.", "relevance": 3 },
+      { "doc_id": "CP031_4", "text": "Studies show therapy combined with medication offers optimal results.", "relevance": 4 },
+      { "doc_id": "CP031_5", "text": "Systematic reviews highlight CBT as a strong standalone treatment for teens.", "relevance": 5 },
+      { "doc_id": "CP031_6", "text": "Therapeutic rapport and duration greatly influence outcomes.", "relevance": 3 },
+      { "doc_id": "CP031_7", "text": "Medication alone may help with acute symptoms but not root causes.", "relevance": 2 }
+    ]
+  },
+  {
+    "query_id": "CP032",
+    "query_type": "comparative_NOT",
+    "query_text": "Are probiotics more effective than antibiotics for treating mild bacterial vaginosis?",
+    "documents": [
+      { "doc_id": "CP032_1", "text": "Some forums claim yogurt alone clears infections, but this lacks evidence.", "relevance": 1 },
+      { "doc_id": "CP032_2", "text": "Early studies show probiotics slightly reduce recurrence rates.", "relevance": 2 },
+      { "doc_id": "CP032_3", "text": "RCTs support antibiotics as the standard care with higher initial cure rates.", "relevance": 3 },
+      { "doc_id": "CP032_4", "text": "Probiotics show promise in maintaining vaginal flora after antibiotic use.", "relevance": 4 },
+      { "doc_id": "CP032_5", "text": "Meta-analyses conclude that probiotics are not superior to antibiotics.", "relevance": 5 },
+      { "doc_id": "CP032_6", "text": "Patient preference often leans toward natural remedies despite limited data.", "relevance": 3 },
+      { "doc_id": "CP032_7", "text": "Combination therapy is under investigation in recurrent cases.", "relevance": 4 }
+    ]
+  },
+  {
+    "query_id": "CP033",
+    "query_type": "comparative_NOT",
+    "query_text": "Is acetaminophen safer than NSAIDs for managing osteoarthritis pain in elderly patients?",
+    "documents": [
+      { "doc_id": "CP033_1", "text": "Some elderly patients avoid medication altogether due to side effect fears.", "relevance": 1 },
+      { "doc_id": "CP033_2", "text": "NSAIDs carry higher GI and renal risk in the elderly, according to reviews.", "relevance": 2 },
+      { "doc_id": "CP033_3", "text": "Acetaminophen is generally recommended as a first-line agent due to safety.", "relevance": 3 },
+      { "doc_id": "CP033_4", "text": "Clinical trials confirm lower adverse event rates with acetaminophen.", "relevance": 4 },
+      { "doc_id": "CP033_5", "text": "Guidelines prioritize acetaminophen in elderly with comorbidities.", "relevance": 5 },
+      { "doc_id": "CP033_6", "text": "NSAIDs may still be appropriate short-term when monitored closely.", "relevance": 4 },
+      { "doc_id": "CP033_7", "text": "Efficacy varies depending on pain severity and individual tolerance.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP034",
+    "query_type": "comparative_NOT",
+    "query_text": "Are loop diuretics more effective than thiazide diuretics for heart failure management?",
+    "documents": [
+      { "doc_id": "CP034_1", "text": "Some articles promote dietary changes alone for heart failure.", "relevance": 1 },
+      { "doc_id": "CP034_2", "text": "Thiazides are effective in mild fluid overload but not in decompensated cases.", "relevance": 2 },
+      { "doc_id": "CP034_3", "text": "Loop diuretics rapidly reduce pulmonary congestion in acute heart failure.", "relevance": 3 },
+      { "doc_id": "CP034_4", "text": "Meta-analyses favor loop agents for symptomatic relief and fluid control.", "relevance": 4 },
+      { "doc_id": "CP034_5", "text": "Clinical trials establish loop diuretics as standard care for fluid overload.", "relevance": 5 },
+      { "doc_id": "CP034_6", "text": "Thiazides are sometimes added for synergistic effects in resistant cases.", "relevance": 4 },
+      { "doc_id": "CP034_7", "text": "Electrolyte imbalances require careful monitoring with both drug classes.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP035",
+    "query_type": "comparative_NOT",
+    "query_text": "Is metformin more effective than sulfonylureas for preventing diabetes complications?",
+    "documents": [
+      { "doc_id": "CP035_1", "text": "Some forums suggest any drug that lowers sugar is equally good.", "relevance": 1 },
+      { "doc_id": "CP035_2", "text": "Sulfonylureas have been associated with higher hypoglycemia risk.", "relevance": 2 },
+      { "doc_id": "CP035_3", "text": "RCTs show metformin reduces cardiovascular events more consistently.", "relevance": 3 },
+      { "doc_id": "CP035_4", "text": "Long-term studies favor metformin in preventing microvascular complications.", "relevance": 4 },
+      { "doc_id": "CP035_5", "text": "Guidelines list metformin as the first-line therapy for type 2 diabetes.", "relevance": 5 },
+      { "doc_id": "CP035_6", "text": "Sulfonylureas are still used when metformin is not tolerated.", "relevance": 4 },
+      { "doc_id": "CP035_7", "text": "Both drugs lower glucose but differ in long-term outcomes.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP036",
+    "query_type": "comparative_NOT",
+    "query_text": "Are SGLT2 inhibitors more effective than GLP-1 agonists for weight loss in diabetics?",
+    "documents": [
+      { "doc_id": "CP036_1", "text": "Some blogs say weight loss is similar regardless of medication choice.", "relevance": 1 },
+      { "doc_id": "CP036_2", "text": "GLP-1 agonists often reduce appetite more than SGLT2 inhibitors.", "relevance": 3 },
+      { "doc_id": "CP036_3", "text": "SGLT2 inhibitors promote modest weight loss through glucose excretion.", "relevance": 2 },
+      { "doc_id": "CP036_4", "text": "Meta-analyses indicate greater weight loss with GLP-1 agonists.", "relevance": 4 },
+      { "doc_id": "CP036_5", "text": "RCTs show semaglutide leads to superior weight reduction among all antidiabetics.", "relevance": 5 },
+      { "doc_id": "CP036_6", "text": "SGLT2s provide other benefits, including cardiovascular risk reduction.", "relevance": 4 },
+      { "doc_id": "CP036_7", "text": "GLP-1 agents can cause GI side effects limiting adherence.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP037",
+    "query_type": "comparative_NOT",
+    "query_text": "Are low-intensity statins less effective than high-intensity statins for secondary prevention?",
+    "documents": [
+      { "doc_id": "CP037_1", "text": "Many believe any statin is sufficient, but dose matters.", "relevance": 1 },
+      { "doc_id": "CP037_2", "text": "Low-dose statins modestly lower LDL but may not suffice post-MI.", "relevance": 2 },
+      { "doc_id": "CP037_3", "text": "RCTs consistently support high-intensity statins for cardiovascular prevention.", "relevance": 3 },
+      { "doc_id": "CP037_4", "text": "Clinical guidelines prioritize high-intensity therapy post-acute coronary syndrome.", "relevance": 5 },
+      { "doc_id": "CP037_5", "text": "Meta-analyses confirm greater plaque regression with higher doses.", "relevance": 4 },
+      { "doc_id": "CP037_6", "text": "Some patients experience myalgia on high-intensity statins, requiring dose adjustment.", "relevance": 3 },
+      { "doc_id": "CP037_7", "text": "LDL reduction correlates with event reduction more robustly in high-dose arms.", "relevance": 4 }
+    ]
+  },
+  {
+    "query_id": "CP038",
+    "query_type": "comparative_NOT",
+    "query_text": "Are inhaled bronchodilators more effective than oxygen therapy for COPD exacerbation management?",
+    "documents": [
+      { "doc_id": "CP038_1", "text": "Oxygen is sometimes overused in COPD and may lead to CO2 retention.", "relevance": 1 },
+      { "doc_id": "CP038_2", "text": "Short-acting bronchodilators provide rapid symptom relief in acute COPD.", "relevance": 2 },
+      { "doc_id": "CP038_3", "text": "Oxygen therapy addresses hypoxia but doesn’t reverse bronchospasm.", "relevance": 3 },
+      { "doc_id": "CP038_4", "text": "RCTs support combination of inhaled bronchodilators with controlled oxygen.", "relevance": 4 },
+      { "doc_id": "CP038_5", "text": "Clinical protocols emphasize bronchodilators as first-line in acute COPD management.", "relevance": 5 },
+      { "doc_id": "CP038_6", "text": "Oxygen remains crucial when saturation drops below 88%.", "relevance": 4 },
+      { "doc_id": "CP038_7", "text": "Careful titration of both therapies ensures optimal outcomes.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP039",
+    "query_type": "comparative_NOT",
+    "query_text": "Is insulin more effective than oral medications in controlling gestational diabetes?",
+    "documents": [
+      { "doc_id": "CP039_1", "text": "Some women prefer natural remedies, though these lack clinical validation.", "relevance": 1 },
+      { "doc_id": "CP039_2", "text": "Oral agents like metformin are increasingly used, especially when insulin isn’t tolerated.", "relevance": 2 },
+      { "doc_id": "CP039_3", "text": "RCTs show insulin offers tight glucose control with established fetal safety.", "relevance": 3 },
+      { "doc_id": "CP039_4", "text": "Clinical guidelines continue to endorse insulin as first-line in GDM.", "relevance": 5 },
+      { "doc_id": "CP039_5", "text": "Oral therapies show comparable outcomes in mild gestational diabetes.", "relevance": 3 },
+      { "doc_id": "CP039_6", "text": "Meta-analyses indicate no major differences in neonatal complications.", "relevance": 4 },
+      { "doc_id": "CP039_7", "text": "Patient-centered care and adherence play major roles in therapy success.", "relevance": 4 }
+    ]
+  },
+  {
+    "query_id": "CP040",
+    "query_type": "comparative_NOT",
+    "query_text": "Is aspirin better than clopidogrel for stroke prevention in patients with prior TIA?",
+    "documents": [
+      { "doc_id": "CP040_1", "text": "Over-the-counter use of aspirin is common, but not always effective.", "relevance": 1 },
+      { "doc_id": "CP040_2", "text": "Some patients tolerate aspirin better due to cost and familiarity.", "relevance": 2 },
+      { "doc_id": "CP040_3", "text": "RCTs show clopidogrel slightly reduces stroke recurrence more than aspirin.", "relevance": 3 },
+      { "doc_id": "CP040_4", "text": "Meta-analyses support clopidogrel for secondary prevention in high-risk groups.", "relevance": 4 },
+      { "doc_id": "CP040_5", "text": "Clinical guidelines recommend clopidogrel in aspirin-intolerant or recurrent TIA cases.", "relevance": 5 },
+      { "doc_id": "CP040_6", "text": "Dual antiplatelet therapy is sometimes used short-term post-TIA.", "relevance": 4 },
+      { "doc_id": "CP040_7", "text": "Aspirin remains the mainstay in primary prevention despite lower efficacy.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP041",
+    "query_type": "comparative_NOT",
+    "query_text": "Is duloxetine more effective than amitriptyline for treating diabetic neuropathy?",
+    "documents": [
+      { "doc_id": "CP041_1", "text": "Some patient forums suggest both drugs feel the same after a few weeks.", "relevance": 1 },
+      { "doc_id": "CP041_2", "text": "Amitriptyline has long been used off-label but may cause drowsiness.", "relevance": 2 },
+      { "doc_id": "CP041_3", "text": "RCTs show duloxetine significantly improves pain scores in diabetic neuropathy.", "relevance": 3 },
+      { "doc_id": "CP041_4", "text": "Meta-analyses favor duloxetine over older tricyclics in tolerability and efficacy.", "relevance": 4 },
+      { "doc_id": "CP041_5", "text": "Guidelines recommend duloxetine as a preferred first-line agent.", "relevance": 5 },
+      { "doc_id": "CP041_6", "text": "Patients on duloxetine report fewer anticholinergic side effects.", "relevance": 3 },
+      { "doc_id": "CP041_7", "text": "Amitriptyline remains cost-effective and is useful when duloxetine is not tolerated.", "relevance": 2 }
+    ]
+  },
+  {
+    "query_id": "CP042",
+    "query_type": "comparative_NOT",
+    "query_text": "Are antipsychotics better than mood stabilizers in managing acute mania?",
+    "documents": [
+      { "doc_id": "CP042_1", "text": "Many websites exaggerate the speed of antipsychotics in mania control.", "relevance": 1 },
+      { "doc_id": "CP042_2", "text": "Mood stabilizers like lithium have been the cornerstone in long-term control.", "relevance": 2 },
+      { "doc_id": "CP042_3", "text": "Second-generation antipsychotics rapidly reduce manic symptoms per clinical trials.", "relevance": 3 },
+      { "doc_id": "CP042_4", "text": "Some guidelines advocate combination therapy for faster stabilization.", "relevance": 4 },
+      { "doc_id": "CP042_5", "text": "Meta-analyses confirm antipsychotics provide quicker symptom relief than mood stabilizers alone.", "relevance": 5 },
+      { "doc_id": "CP042_6", "text": "Antipsychotics may be preferred when aggression is prominent.", "relevance": 4 },
+      { "doc_id": "CP042_7", "text": "Mood stabilizers remain vital in preventing future episodes.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP043",
+    "query_type": "comparative_NOT",
+    "query_text": "Is spironolactone more effective than oral contraceptives in treating acne in women?",
+    "documents": [
+      { "doc_id": "CP043_1", "text": "Beauty forums often claim diet changes outperform medication for acne.", "relevance": 1 },
+      { "doc_id": "CP043_2", "text": "Oral contraceptives help regulate hormones and improve acne in some cases.", "relevance": 2 },
+      { "doc_id": "CP043_3", "text": "Spironolactone blocks androgen receptors and reduces sebum production.", "relevance": 3 },
+      { "doc_id": "CP043_4", "text": "Meta-analyses show spironolactone is superior in adult female acne.", "relevance": 4 },
+      { "doc_id": "CP043_5", "text": "Dermatology guidelines list spironolactone as a preferred non-antibiotic therapy.", "relevance": 5 },
+      { "doc_id": "CP043_6", "text": "Both treatments have unique hormonal effects and side profiles.", "relevance": 4 },
+      { "doc_id": "CP043_7", "text": "In PCOS-related acne, spironolactone may offer additional benefits.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP044",
+    "query_type": "comparative_NOT",
+    "query_text": "Are biologics more effective than methotrexate for long-term rheumatoid arthritis control?",
+    "documents": [
+      { "doc_id": "CP044_1", "text": "Social media often promotes natural herbs over any pharmaceutical options.", "relevance": 1 },
+      { "doc_id": "CP044_2", "text": "Methotrexate remains a mainstay but shows diminishing returns over time in some.", "relevance": 2 },
+      { "doc_id": "CP044_3", "text": "Biologics target specific cytokines and halt joint damage progression.", "relevance": 3 },
+      { "doc_id": "CP044_4", "text": "Studies suggest biologics offer superior symptom control and remission rates.", "relevance": 4 },
+      { "doc_id": "CP044_5", "text": "Combination therapy with methotrexate and biologics shows best outcomes in trials.", "relevance": 5 },
+      { "doc_id": "CP044_6", "text": "High cost and infection risk limit routine use of biologics as first-line.", "relevance": 3 },
+      { "doc_id": "CP044_7", "text": "Patient-reported outcomes tend to favor biologics in quality-of-life metrics.", "relevance": 4 }
+    ]
+  },
+  {
+    "query_id": "CP045",
+    "query_type": "comparative_NOT",
+    "query_text": "Is intermittent fasting more effective than calorie restriction for weight loss?",
+    "documents": [
+      { "doc_id": "CP045_1", "text": "Online influencers often hype fasting while ignoring long-term data.", "relevance": 1 },
+      { "doc_id": "CP045_2", "text": "Calorie restriction remains a clinically validated method for gradual weight loss.", "relevance": 2 },
+      { "doc_id": "CP045_3", "text": "Trials show intermittent fasting leads to similar weight loss as calorie control.", "relevance": 3 },
+      { "doc_id": "CP045_4", "text": "Some meta-analyses suggest fasting improves metabolic markers independent of weight.", "relevance": 4 },
+      { "doc_id": "CP045_5", "text": "Head-to-head studies show no consistent superiority of one over the other.", "relevance": 5 },
+      { "doc_id": "CP045_6", "text": "Adherence and sustainability often drive real-world success more than method.", "relevance": 4 },
+      { "doc_id": "CP045_7", "text": "Individual variation in insulin response may influence success with either strategy.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP046",
+    "query_type": "comparative_NOT",
+    "query_text": "Are SSRIs more effective than benzodiazepines for managing generalized anxiety disorder?",
+    "documents": [
+      { "doc_id": "CP046_1", "text": "Some blogs claim deep breathing outperforms meds, which isn’t evidence-based.", "relevance": 1 },
+      { "doc_id": "CP046_2", "text": "Benzodiazepines provide immediate relief but are not suitable for long-term use.", "relevance": 2 },
+      { "doc_id": "CP046_3", "text": "SSRIs reduce anxiety symptoms over weeks and carry less dependency risk.", "relevance": 3 },
+      { "doc_id": "CP046_4", "text": "Meta-analyses confirm SSRIs as first-line therapy per international guidelines.", "relevance": 4 },
+      { "doc_id": "CP046_5", "text": "Guidelines advise against long-term benzodiazepine use due to tolerance issues.", "relevance": 5 },
+      { "doc_id": "CP046_6", "text": "SSRIs may take longer to act but offer sustained symptom control.", "relevance": 4 },
+      { "doc_id": "CP046_7", "text": "Benzodiazepines remain useful for acute exacerbations or bridging.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP047",
+    "query_type": "comparative_NOT",
+    "query_text": "Is laparoscopic surgery safer than open surgery for appendicitis in children?",
+    "documents": [
+      { "doc_id": "CP047_1", "text": "Some parents report faster recovery with open surgery, but anecdotes vary.", "relevance": 1 },
+      { "doc_id": "CP047_2", "text": "Open appendectomy remains widely practiced and effective in emergencies.", "relevance": 2 },
+      { "doc_id": "CP047_3", "text": "Studies show fewer wound infections in laparoscopic groups.", "relevance": 3 },
+      { "doc_id": "CP047_4", "text": "Meta-analyses confirm laparoscopic procedures reduce hospital stays.", "relevance": 4 },
+      { "doc_id": "CP047_5", "text": "Pediatric surgical societies increasingly favor laparoscopy for safety and speed.", "relevance": 5 },
+      { "doc_id": "CP047_6", "text": "Laparoscopy may carry higher intra-abdominal abscess risk if perforated.", "relevance": 4 },
+      { "doc_id": "CP047_7", "text": "Choice often depends on surgeon skill and institutional preference.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP048",
+    "query_type": "comparative_NOT",
+    "query_text": "Is tamoxifen better than aromatase inhibitors for reducing breast cancer recurrence?",
+    "documents": [
+      { "doc_id": "CP048_1", "text": "Some survivor blogs prefer tamoxifen due to familiarity.", "relevance": 1 },
+      { "doc_id": "CP048_2", "text": "Tamoxifen is effective in premenopausal women but less so postmenopause.", "relevance": 2 },
+      { "doc_id": "CP048_3", "text": "AIs reduce estrogen production and are superior in postmenopausal cases.", "relevance": 3 },
+      { "doc_id": "CP048_4", "text": "Meta-analyses favor AIs in reducing recurrence and contralateral tumors.", "relevance": 4 },
+      { "doc_id": "CP048_5", "text": "Clinical trials show AIs reduce recurrence more effectively than tamoxifen.", "relevance": 5 },
+      { "doc_id": "CP048_6", "text": "Bone health concerns with AIs may affect long-term adherence.", "relevance": 3 },
+      { "doc_id": "CP048_7", "text": "Hormonal status guides optimal agent selection.", "relevance": 4 }
+    ]
+  },
+  {
+    "query_id": "CP049",
+    "query_type": "comparative_NOT",
+    "query_text": "Are e-cigarettes more effective than nicotine patches for smoking cessation?",
+    "documents": [
+      { "doc_id": "CP049_1", "text": "Some people on forums say quitting cold turkey works best, no data backs this.", "relevance": 1 },
+      { "doc_id": "CP049_2", "text": "Nicotine patches provide steady nicotine levels without behavioral reinforcement.", "relevance": 2 },
+      { "doc_id": "CP049_3", "text": "E-cigarettes mimic the act of smoking, which may help behavioral adherence.", "relevance": 3 },
+      { "doc_id": "CP049_4", "text": "RCTs show e-cigarettes lead to higher quit rates than NRT patches.", "relevance": 4 },
+      { "doc_id": "CP049_5", "text": "Some meta-analyses suggest e-cigs are more effective, though long-term safety is unclear.", "relevance": 5 },
+      { "doc_id": "CP049_6", "text": "Public health agencies remain cautious about e-cigarettes due to youth use.", "relevance": 4 },
+      { "doc_id": "CP049_7", "text": "NRT remains the first-line due to extensive safety data.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP050",
+    "query_type": "comparative_NOT",
+    "query_text": "Is hydroxychloroquine better than colchicine for treating pericarditis?",
+    "documents": [
+      { "doc_id": "CP050_1", "text": "Some online posts confuse pericarditis with arthritis therapies.", "relevance": 1 },
+      { "doc_id": "CP050_2", "text": "Colchicine is supported by evidence in reducing recurrence of pericarditis.", "relevance": 2 },
+      { "doc_id": "CP050_3", "text": "Hydroxychloroquine is used in autoimmune causes but lacks strong pericarditis data.", "relevance": 3 },
+      { "doc_id": "CP050_4", "text": "RCTs favor colchicine over placebo and HCQ in idiopathic pericarditis.", "relevance": 4 },
+      { "doc_id": "CP050_5", "text": "Guidelines recommend colchicine as first-line in acute and recurrent pericarditis.", "relevance": 5 },
+      { "doc_id": "CP050_6", "text": "Some patients may receive HCQ if underlying SLE is present.", "relevance": 4 },
+      { "doc_id": "CP050_7", "text": "Anti-inflammatory response varies depending on etiology.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP051",
+    "query_type": "comparative_NOT",
+    "query_text": "Is inhaled corticosteroid therapy more effective than leukotriene receptor antagonists for mild asthma?",
+    "documents": [
+      { "doc_id": "CP051_1", "text": "Natural remedies for asthma are popular but not proven for airway inflammation.", "relevance": 1 },
+      { "doc_id": "CP051_2", "text": "Leukotriene receptor antagonists provide modest symptom control in mild cases.", "relevance": 2 },
+      { "doc_id": "CP051_3", "text": "Inhaled corticosteroids (ICS) remain the gold standard for long-term asthma control.", "relevance": 3 },
+      { "doc_id": "CP051_4", "text": "Clinical guidelines recommend ICS over montelukast for better inflammation suppression.", "relevance": 4 },
+      { "doc_id": "CP051_5", "text": "Multiple trials have demonstrated ICS as superior to leukotriene antagonists in reducing exacerbations.", "relevance": 5 },
+      { "doc_id": "CP051_6", "text": "ICS are more effective in reducing eosinophilic inflammation per biomarker analysis.", "relevance": 4 },
+      { "doc_id": "CP051_7", "text": "Leukotriene receptor blockers may still be useful for exercise-induced asthma or aspirin-sensitive patients.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP052",
+    "query_type": "comparative_NOT",
+    "query_text": "Do SGLT2 inhibitors outperform sulfonylureas in controlling type 2 diabetes?",
+    "documents": [
+      { "doc_id": "CP052_1", "text": "Some influencers still claim cinnamon can lower blood sugar, but no strong data exists.", "relevance": 1 },
+      { "doc_id": "CP052_2", "text": "Sulfonylureas are effective in short-term glycemic control but pose risk of hypoglycemia.", "relevance": 2 },
+      { "doc_id": "CP052_3", "text": "SGLT2 inhibitors promote glucose excretion and modest weight loss.", "relevance": 3 },
+      { "doc_id": "CP052_4", "text": "Head-to-head trials show better cardiovascular outcomes with SGLT2 inhibitors.", "relevance": 4 },
+      { "doc_id": "CP052_5", "text": "Meta-analyses support SGLT2 inhibitors for glycemic control and organ protection.", "relevance": 5 },
+      { "doc_id": "CP052_6", "text": "SGLT2 inhibitors also offer renal benefits independent of glycemic control.", "relevance": 4 },
+      { "doc_id": "CP052_7", "text": "Sulfonylureas remain cheaper and widely used in resource-limited settings.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP053",
+    "query_type": "comparative_NOT",
+    "query_text": "Is early physical therapy more beneficial than corticosteroid injections for chronic shoulder pain?",
+    "documents": [
+      { "doc_id": "CP053_1", "text": "Reddit threads often exaggerate the benefits of ice packs for shoulder pain.", "relevance": 1 },
+      { "doc_id": "CP053_2", "text": "Steroid injections provide short-term pain relief but risk tendon weakening.", "relevance": 2 },
+      { "doc_id": "CP053_3", "text": "Early physical therapy improves range of motion and reduces chronicity.", "relevance": 3 },
+      { "doc_id": "CP053_4", "text": "RCTs favor structured physical therapy over repeated injections.", "relevance": 4 },
+      { "doc_id": "CP053_5", "text": "Long-term outcomes improve with consistent physiotherapy over steroid use alone.", "relevance": 5 },
+      { "doc_id": "CP053_6", "text": "Some patients may benefit from a combination of therapy and injections.", "relevance": 4 },
+      { "doc_id": "CP053_7", "text": "Therapy may not be feasible in patients with acute severe inflammation.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP054",
+    "query_type": "comparative_NOT",
+    "query_text": "Are ACE inhibitors more effective than beta blockers in managing hypertension in diabetics?",
+    "documents": [
+      { "doc_id": "CP054_1", "text": "Some believe yoga alone controls blood pressure, but evidence is limited.", "relevance": 1 },
+      { "doc_id": "CP054_2", "text": "Beta blockers reduce heart rate but may worsen glycemic control.", "relevance": 2 },
+      { "doc_id": "CP054_3", "text": "ACE inhibitors offer renal protection and effective blood pressure control in diabetics.", "relevance": 3 },
+      { "doc_id": "CP054_4", "text": "Current guidelines recommend ACE inhibitors as first-line in hypertensive diabetics.", "relevance": 4 },
+      { "doc_id": "CP054_5", "text": "Meta-analyses show ACE inhibitors significantly lower cardiovascular risk in diabetics.", "relevance": 5 },
+      { "doc_id": "CP054_6", "text": "Beta blockers are preferred post-MI but not as initial therapy for diabetic hypertension.", "relevance": 4 },
+      { "doc_id": "CP054_7", "text": "Both classes may be used depending on comorbid conditions.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP055",
+    "query_type": "comparative_NOT",
+    "query_text": "Are statins more effective than fibrates in reducing cardiovascular events in hyperlipidemia?",
+    "documents": [
+      { "doc_id": "CP055_1", "text": "Natural supplements like red yeast rice are often promoted without clear efficacy.", "relevance": 1 },
+      { "doc_id": "CP055_2", "text": "Fibrates help reduce triglycerides but have limited impact on LDL.", "relevance": 2 },
+      { "doc_id": "CP055_3", "text": "Statins are proven to reduce cardiovascular events across populations.", "relevance": 3 },
+      { "doc_id": "CP055_4", "text": "RCTs consistently favor statins over fibrates in primary prevention.", "relevance": 4 },
+      { "doc_id": "CP055_5", "text": "Statins are the cornerstone of dyslipidemia therapy per guidelines.", "relevance": 5 },
+      { "doc_id": "CP055_6", "text": "Fibrates may still be used in diabetic dyslipidemia when triglycerides are high.", "relevance": 4 },
+      { "doc_id": "CP055_7", "text": "Statins show additional anti-inflammatory and plaque-stabilizing effects.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP056",
+    "query_type": "comparative_NOT",
+    "query_text": "Are GLP-1 receptor agonists more effective than insulin in managing type 2 diabetes?",
+    "documents": [
+      { "doc_id": "CP056_1", "text": "A few websites still push alkaline diets for reversing diabetes, unsupported by trials.", "relevance": 1 },
+      { "doc_id": "CP056_2", "text": "Insulin is effective for glucose lowering but often leads to weight gain.", "relevance": 2 },
+      { "doc_id": "CP056_3", "text": "GLP-1 RAs offer glycemic control with added weight loss benefits.", "relevance": 3 },
+      { "doc_id": "CP056_4", "text": "RCTs show GLP-1 agonists reduce major cardiovascular events in diabetics.", "relevance": 4 },
+      { "doc_id": "CP056_5", "text": "Guidelines increasingly prefer GLP-1 RAs before insulin initiation.", "relevance": 5 },
+      { "doc_id": "CP056_6", "text": "GLP-1 RAs carry lower risk of hypoglycemia compared to insulin.", "relevance": 4 },
+      { "doc_id": "CP056_7", "text": "Some patients with high HbA1c may still require insulin.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP057",
+    "query_type": "comparative_NOT",
+    "query_text": "Is apixaban better than warfarin in preventing stroke in atrial fibrillation?",
+    "documents": [
+      { "doc_id": "CP057_1", "text": "Several forums claim ginger tea helps thin blood, but no clinical trials support this.", "relevance": 1 },
+      { "doc_id": "CP057_2", "text": "Warfarin requires regular INR monitoring and dietary restrictions.", "relevance": 2 },
+      { "doc_id": "CP057_3", "text": "Apixaban provides stable anticoagulation without INR checks.", "relevance": 3 },
+      { "doc_id": "CP057_4", "text": "RCTs show apixaban has lower stroke and bleeding risks than warfarin.", "relevance": 4 },
+      { "doc_id": "CP057_5", "text": "Apixaban is now recommended as first-line anticoagulant in many guidelines.", "relevance": 5 },
+      { "doc_id": "CP057_6", "text": "Apixaban has better adherence rates due to fixed dosing.", "relevance": 4 },
+      { "doc_id": "CP057_7", "text": "Warfarin remains relevant when cost or renal function is a concern.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP058",
+    "query_type": "comparative_NOT",
+    "query_text": "Is bupropion more effective than nicotine gum for smoking cessation?",
+    "documents": [
+      { "doc_id": "CP058_1", "text": "Social media tips like drinking water before cravings have limited scientific basis.", "relevance": 1 },
+      { "doc_id": "CP058_2", "text": "Nicotine gum delivers low-dose nicotine but can be misused.", "relevance": 2 },
+      { "doc_id": "CP058_3", "text": "Bupropion influences dopamine and norepinephrine, reducing cravings.", "relevance": 3 },
+      { "doc_id": "CP058_4", "text": "Studies suggest bupropion increases quit rates compared to nicotine gum alone.", "relevance": 4 },
+      { "doc_id": "CP058_5", "text": "Guidelines include bupropion as a first-line pharmacologic option for smoking cessation.", "relevance": 5 },
+      { "doc_id": "CP058_6", "text": "Bupropion may be particularly helpful in smokers with depressive symptoms.", "relevance": 4 },
+      { "doc_id": "CP058_7", "text": "Nicotine gum remains useful for breakthrough cravings during quitting.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP059",
+    "query_type": "comparative_NOT",
+    "query_text": "Is low-dose aspirin better than clopidogrel in preventing secondary stroke?",
+    "documents": [
+      { "doc_id": "CP059_1", "text": "Online health gurus often suggest turmeric instead of antiplatelets, without evidence.", "relevance": 1 },
+      { "doc_id": "CP059_2", "text": "Aspirin is widely used but may be less effective in certain populations.", "relevance": 2 },
+      { "doc_id": "CP059_3", "text": "Clopidogrel works by inhibiting ADP receptors on platelets.", "relevance": 3 },
+      { "doc_id": "CP059_4", "text": "Clinical trials show clopidogrel reduces stroke recurrence better than aspirin alone.", "relevance": 4 },
+      { "doc_id": "CP059_5", "text": "Dual antiplatelet therapy is effective early post-stroke but increases bleeding risk.", "relevance": 5 },
+      { "doc_id": "CP059_6", "text": "Some genetic variants may reduce clopidogrel efficacy in certain populations.", "relevance": 4 },
+      { "doc_id": "CP059_7", "text": "Long-term monotherapy choice depends on individual bleeding risk.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP060",
+    "query_type": "comparative_NOT",
+    "query_text": "Are probiotics more effective than antibiotics in managing recurrent UTIs in women?",
+    "documents": [
+      { "doc_id": "CP060_1", "text": "Influencers often promote cranberry juice, though evidence is inconsistent.", "relevance": 1 },
+      { "doc_id": "CP060_2", "text": "Antibiotics remain standard but contribute to resistance with frequent use.", "relevance": 2 },
+      { "doc_id": "CP060_3", "text": "Probiotics aim to restore vaginal flora and reduce pathogenic colonization.", "relevance": 3 },
+      { "doc_id": "CP060_4", "text": "Trials show select probiotic strains may prevent recurrence but data is evolving.", "relevance": 4 },
+      { "doc_id": "CP060_5", "text": "Antibiotics are more effective in acute episodes but raise long-term concerns.", "relevance": 5 },
+      { "doc_id": "CP060_6", "text": "Probiotics offer non-antibiotic alternatives with minimal side effects.", "relevance": 4 },
+      { "doc_id": "CP060_7", "text": "Experts advise probiotics as adjuncts, not standalone therapies.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP071",
+    "query_type": "comparative_NOT",
+    "query_text": "Is aerobic exercise more effective than resistance training for managing mild hypertension?",
+    "documents": [
+      { "doc_id": "CP071_1", "text": "Some YouTube influencers claim that hydration alone controls blood pressure, which lacks scientific basis.", "relevance": 1 },
+      { "doc_id": "CP071_2", "text": "Resistance training improves vascular function and insulin sensitivity but may transiently increase blood pressure.", "relevance": 2 },
+      { "doc_id": "CP071_3", "text": "Aerobic activities like walking and cycling are well-known for reducing systolic and diastolic pressure.", "relevance": 3 },
+      { "doc_id": "CP071_4", "text": "Meta-analyses favor aerobic training for lowering blood pressure in prehypertensive patients.", "relevance": 4 },
+      { "doc_id": "CP071_5", "text": "RCTs show that sustained aerobic exercise reduces hypertension risk more significantly than resistance routines.", "relevance": 5 },
+      { "doc_id": "CP071_6", "text": "Some trials suggest combining both exercise types may provide broader cardiovascular benefits.", "relevance": 4 },
+      { "doc_id": "CP071_7", "text": "Adherence to either training program plays a key role in long-term blood pressure control.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP072",
+    "query_type": "comparative_NOT",
+    "query_text": "Do atypical antipsychotics reduce relapse better than typical ones in schizophrenia treatment?",
+    "documents": [
+      { "doc_id": "CP072_1", "text": "A few social forums recommend homeopathy for schizophrenia, but there's no clinical support.", "relevance": 1 },
+      { "doc_id": "CP072_2", "text": "Typical antipsychotics like haloperidol are effective but often cause extrapyramidal side effects.", "relevance": 2 },
+      { "doc_id": "CP072_3", "text": "Atypical antipsychotics target both dopamine and serotonin receptors, improving symptom control.", "relevance": 3 },
+      { "doc_id": "CP072_4", "text": "Studies show atypicals lead to fewer relapses compared to typicals in long-term trials.", "relevance": 4 },
+      { "doc_id": "CP072_5", "text": "Systematic reviews confirm superior relapse prevention with atypical agents like olanzapine and risperidone.", "relevance": 5 },
+      { "doc_id": "CP072_6", "text": "Clozapine, an atypical antipsychotic, is reserved for treatment-resistant schizophrenia due to monitoring needs.", "relevance": 4 },
+      { "doc_id": "CP072_7", "text": "Patient tolerability varies, and some still respond better to older typicals despite side effects.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP073",
+    "query_type": "comparative_NOT",
+    "query_text": "Is early skin-to-skin contact more effective than incubator care for neonatal thermoregulation?",
+    "documents": [
+      { "doc_id": "CP073_1", "text": "Some parenting blogs incorrectly suggest warming the room is enough to stabilize a newborn's temperature.", "relevance": 1 },
+      { "doc_id": "CP073_2", "text": "Incubator care offers controlled temperature but may reduce parent-infant bonding opportunities.", "relevance": 2 },
+      { "doc_id": "CP073_3", "text": "Skin-to-skin contact improves thermoregulation, stabilizes heart rate, and supports breastfeeding initiation.", "relevance": 3 },
+      { "doc_id": "CP073_4", "text": "WHO recommends skin-to-skin as the preferred method for stable neonates post-birth.", "relevance": 4 },
+      { "doc_id": "CP073_5", "text": "Multiple trials show that early skin-to-skin leads to faster temperature normalization than incubator placement.", "relevance": 5 },
+      { "doc_id": "CP073_6", "text": "Skin-to-skin also reduces infant stress markers and promotes early immune development.", "relevance": 4 },
+      { "doc_id": "CP073_7", "text": "However, for unstable or premature neonates, incubator support remains critical.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP074",
+    "query_type": "comparative_NOT",
+    "query_text": "Does intermittent fasting improve insulin sensitivity more than calorie restriction?",
+    "documents": [
+      { "doc_id": "CP074_1", "text": "Unverified diet plans on TikTok often confuse fasting with starvation.", "relevance": 1 },
+      { "doc_id": "CP074_2", "text": "Calorie restriction improves glycemic control and may prevent progression to type 2 diabetes.", "relevance": 2 },
+      { "doc_id": "CP074_3", "text": "Intermittent fasting (IF) enhances insulin sensitivity and may reduce fasting glucose levels.", "relevance": 3 },
+      { "doc_id": "CP074_4", "text": "Several RCTs report greater insulin sensitivity gains in IF groups versus continuous restriction.", "relevance": 4 },
+      { "doc_id": "CP074_5", "text": "Meta-analyses support IF as a viable alternative to traditional calorie restriction for metabolic improvements.", "relevance": 5 },
+      { "doc_id": "CP074_6", "text": "Some studies suggest that adherence plays a bigger role than method of restriction.", "relevance": 4 },
+      { "doc_id": "CP074_7", "text": "Benefits may vary by fasting protocol, such as 16:8 vs. alternate-day fasting.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "CP075",
+    "query_type": "comparative_NOT",
+    "query_text": "Is rivaroxaban better than warfarin for stroke prevention in non-valvular atrial fibrillation?",
+    "documents": [
+      { "doc_id": "CP075_1", "text": "Some wellness sites incorrectly claim turmeric can replace anticoagulants like warfarin.", "relevance": 1 },
+      { "doc_id": "CP075_2", "text": "Warfarin is effective but requires regular INR monitoring and dietary restrictions.", "relevance": 2 },
+      { "doc_id": "CP075_3", "text": "Rivaroxaban offers fixed dosing without the need for routine coagulation checks.", "relevance": 3 },
+      { "doc_id": "CP075_4", "text": "RCTs suggest rivaroxaban is at least as effective as warfarin in preventing stroke.", "relevance": 4 },
+      { "doc_id": "CP075_5", "text": "Meta-analyses show rivaroxaban reduces major bleeding risk while maintaining efficacy.", "relevance": 5 },
+      { "doc_id": "CP075_6", "text": "Rivaroxaban's higher cost may limit its accessibility in low-resource settings.", "relevance": 4 },
+      { "doc_id": "CP075_7", "text": "Both drugs remain viable depending on patient compliance and renal function.", "relevance": 3 }
+    ]
+  },
+  {
+    "query_id": "EX1",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that PPIs (Proton Pump Inhibitors) leads to blood glucose control?",
+    "documents": [
+      {
+        "doc_id": "EX1_7",
+        "text": "A friend of mine said PPIs (Proton Pump Inhibitors) is completely safe and has no impact on blood glucose control.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX1_2",
+        "text": "The body of research now largely indicates a strong association between PPIs (Proton Pump Inhibitors) and measurable effects on blood glucose control.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX1_5",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in blood glucose control after initial exposure to PPIs (Proton Pump Inhibitors).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX1_1",
+        "text": "There is overwhelming evidence from multiple large-scale studies and meta-analyses confirming PPIs (Proton Pump Inhibitors) as a direct cause of blood glucose control impairment.",
+        "relevance": 6
+      },
+      {
+        "doc_id": "EX1_3",
+        "text": "The impact on blood glucose control seems to be dose-dependent with PPIs (Proton Pump Inhibitors), showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX1_6",
+        "text": "Some smaller, uncontrolled studies have hinted at a weak association between PPIs (Proton Pump Inhibitors) use and blood glucose control, though more research is needed.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX1_4",
+        "text": "Clinical guidelines unequivocally recommend caution with long-term PPIs (Proton Pump Inhibitors) use due to its confirmed, dose-dependent negative impact on blood glucose control.",
+        "relevance": 6
+      }
+    ]
+  },
+  {
+    "query_id": "EX2",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that sertraline leads to kidney function?",
+    "documents": [
+      {
+        "doc_id": "EX2_5",
+        "text": "Online forums frequently discuss sertraline, but rarely mention anything about kidney function.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX2_1",
+        "text": "Significant findings from multiple studies point to sertraline's role in contributing to changes in kidney function.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX2_6",
+        "text": "Controlled clinical studies have demonstrated a notable impact of sertraline on kidney function over a defined treatment period.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX2_2",
+        "text": "The causal relationship between sertraline and severe kidney function is firmly established in medical literature and reflected in prescribing warnings.",
+        "relevance": 6
+      },
+      {
+        "doc_id": "EX2_3",
+        "text": "Irreversible kidney function damage has been observed in a statistically significant proportion of patients on long-term sertraline, leading to strict prescribing protocols.",
+        "relevance": 6
+      },
+      {
+        "doc_id": "EX2_7",
+        "text": "Early animal studies suggested a potential, but not conclusive, link between high-dose sertraline and minor changes in kidney function.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX2_4",
+        "text": "A few isolated reports describe mild alterations in kidney function when patients began treatment with sertraline.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "EX3",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that beta-blockers leads to cardiovascular risk?",
+    "documents": [
+      {
+        "doc_id": "EX3_2",
+        "text": "A recent large-scale study identified beta-blockers as a substantial factor influencing cardiovascular risk in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX3_4",
+        "text": "Mandatory black box warnings on beta-blockers highlight the severe, well-documented risk of cardiovascular risk impairment.",
+        "relevance": 6
+      },
+      {
+        "doc_id": "EX3_1",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in cardiovascular risk after initial exposure to beta-blockers.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX3_6",
+        "text": "The causal relationship between beta-blockers and severe cardiovascular risk is firmly established in medical literature and reflected in prescribing warnings.",
+        "relevance": 6
+      },
+      {
+        "doc_id": "EX3_7",
+        "text": "Early animal studies suggested a potential, but not conclusive, link between high-dose beta-blockers and minor changes in cardiovascular risk.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX3_3",
+        "text": "While beta-blockers is widely used, public discussions rarely highlight any link to cardiovascular risk.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX3_5",
+        "text": "Randomized controlled trials (RCTs) confirm dose-dependent cardiovascular risk occurs, especially in specific patient populations.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "EX4",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that oral contraceptives leads to liver enzyme elevation?",
+    "documents": [
+      {
+        "doc_id": "EX4_6",
+        "text": "Anecdotal reports suggest no correlation between oral contraceptives and liver enzyme elevation in typical use.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX4_2",
+        "text": "Irreversible liver enzyme elevation damage has been observed in a statistically significant proportion of patients on long-term oral contraceptives, leading to strict prescribing protocols.",
+        "relevance": 6
+      },
+      {
+        "doc_id": "EX4_1",
+        "text": "The consensus among specialists is that oral contraceptives can lead to considerable liver enzyme elevation alterations, especially with chronic administration.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX4_7",
+        "text": "Some smaller, uncontrolled studies have hinted at a weak association between oral contraceptives use and liver enzyme elevation, though more research is needed.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX4_4",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in liver enzyme elevation after initial exposure to oral contraceptives.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX4_3",
+        "text": "Controlled clinical studies have demonstrated a notable impact of oral contraceptives on liver enzyme elevation over a defined treatment period.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX4_5",
+        "text": "A review of patient charts indicated that individuals consistently taking oral contraceptives demonstrated a moderate trend towards liver enzyme elevation changes.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "EX5",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that insulin leads to mental health?",
+    "documents": [
+      {
+        "doc_id": "EX5_2",
+        "text": "A friend of mine said insulin is completely safe and has no impact on mental health.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX5_7",
+        "text": "For some subsets of patients, insulin therapy has been associated with a noticeable, albeit not severe, shift in mental health.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX5_3",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in mental health after initial exposure to insulin.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX5_6",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in mental health after long-term insulin use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX5_4",
+        "text": "Numerous high-quality randomized trials have unequivocally established insulin's detrimental effect on mental health in a statistically significant manner.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX5_5",
+        "text": "Expert panels have concluded that insulin reliably contributes to adverse mental health changes under typical treatment conditions.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX5_1",
+        "text": "Some smaller, uncontrolled studies have hinted at a weak association between insulin use and mental health, though more research is needed.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "EX6",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that statins leads to electrolyte imbalance?",
+    "documents": [
+      {
+        "doc_id": "EX6_5",
+        "text": "Anecdotal reports suggest no correlation between statins and electrolyte imbalance in typical use.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX6_6",
+        "text": "A few isolated reports describe mild alterations in electrolyte imbalance when patients began treatment with statins.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX6_1",
+        "text": "Emerging evidence from well-designed cohort studies supports a significant link between prolonged statins use and adverse electrolyte imbalance.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX6_3",
+        "text": "The body of research now largely indicates a strong association between statins and measurable effects on electrolyte imbalance.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX6_7",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in electrolyte imbalance after long-term statins use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX6_2",
+        "text": "The consensus among specialists is that statins can lead to considerable electrolyte imbalance alterations, especially with chronic administration.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX6_4",
+        "text": "A recent large-scale study identified statins as a substantial factor influencing electrolyte imbalance in long-term users.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "EX7",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that ibuprofen leads to blood pressure?",
+    "documents": [
+      {
+        "doc_id": "EX7_1",
+        "text": "Many users report no side effects concerning blood pressure when taking ibuprofen as prescribed.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX7_6",
+        "text": "The body of research now largely indicates a strong association between ibuprofen and measurable effects on blood pressure.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX7_4",
+        "text": "A recent large-scale study identified ibuprofen as a substantial factor influencing blood pressure in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX7_5",
+        "text": "A few isolated reports describe mild alterations in blood pressure when patients began treatment with ibuprofen.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX7_7",
+        "text": "Observational studies show minor blood pressure reductions/increases over months of ibuprofen exposure.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX7_3",
+        "text": "Emerging evidence from well-designed cohort studies supports a significant link between prolonged ibuprofen use and adverse blood pressure.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX7_2",
+        "text": "The impact on blood pressure seems to be dose-dependent with ibuprofen, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "EX8",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that sertraline leads to weight changes?",
+    "documents": [
+      {
+        "doc_id": "EX8_4",
+        "text": "Observational studies show minor weight changes reductions/increases over months of sertraline exposure.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX8_2",
+        "text": "A review of patient charts indicated that individuals consistently taking sertraline demonstrated a moderate trend towards weight changes changes.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX8_7",
+        "text": "The impact on weight changes seems to be dose-dependent with sertraline, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX8_3",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in weight changes after long-term sertraline use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX8_6",
+        "text": "Online forums frequently discuss sertraline, but rarely mention anything about weight changes.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX8_1",
+        "text": "Changes in weight changes become more apparent in patients on daily sertraline for 6+ months.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX8_5",
+        "text": "A friend of mine said sertraline is completely safe and has no impact on weight changes.",
+        "relevance": 1
+      }
+    ]
+  },
+  {
+    "query_id": "EX9",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that PPIs (Proton Pump Inhibitors) leads to blood pressure?",
+    "documents": [
+      {
+        "doc_id": "EX9_4",
+        "text": "The body of research now largely indicates a strong association between PPIs (Proton Pump Inhibitors) and measurable effects on blood pressure.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX9_6",
+        "text": "Many users report no side effects concerning blood pressure when taking PPIs (Proton Pump Inhibitors) as prescribed.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX9_1",
+        "text": "Initial findings from a pilot study suggested a possible, though not statistically significant, trend for blood pressure with PPIs (Proton Pump Inhibitors).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX9_5",
+        "text": "Controlled clinical studies have demonstrated a notable impact of PPIs (Proton Pump Inhibitors) on blood pressure over a defined treatment period.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX9_7",
+        "text": "A few isolated reports describe mild alterations in blood pressure when patients began treatment with PPIs (Proton Pump Inhibitors).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX9_3",
+        "text": "Systematic reviews consistently show a robust association between PPIs (Proton Pump Inhibitors) and adverse blood pressure outcomes across various studies.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX9_2",
+        "text": "Expert panels have concluded that PPIs (Proton Pump Inhibitors) reliably contributes to adverse blood pressure changes under typical treatment conditions.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX10",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that thyroid hormones leads to cholesterol levels?",
+    "documents": [
+      {
+        "doc_id": "EX10_5",
+        "text": "Many users report no side effects concerning cholesterol levels when taking thyroid hormones as prescribed.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX10_2",
+        "text": "A few isolated reports describe mild alterations in cholesterol levels when patients began treatment with thyroid hormones.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX10_3",
+        "text": "The impact on cholesterol levels seems to be dose-dependent with thyroid hormones, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX10_6",
+        "text": "A recent large-scale study identified thyroid hormones as a substantial factor influencing cholesterol levels in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX10_4",
+        "text": "Clinical data from extensive trials definitively link thyroid hormones to a pronounced impact on cholesterol levels.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX10_7",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in cholesterol levels after long-term thyroid hormones use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX10_1",
+        "text": "Online forums frequently discuss thyroid hormones, but rarely mention anything about cholesterol levels.",
+        "relevance": 1
+      }
+    ]
+  },
+  {
+    "query_id": "EX11",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that beta-blockers leads to kidney function?",
+    "documents": [
+      {
+        "doc_id": "EX11_1",
+        "text": "A friend of mine said beta-blockers is completely safe and has no impact on kidney function.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX11_3",
+        "text": "Early animal studies suggested a potential, but not conclusive, link between high-dose beta-blockers and minor changes in kidney function.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX11_4",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in kidney function after long-term beta-blockers use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX11_6",
+        "text": "Moderate evidence from cohort studies suggests beta-blockers can influence kidney function in a discernible way over time.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX11_2",
+        "text": "The body of research now largely indicates a strong association between beta-blockers and measurable effects on kidney function.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX11_7",
+        "text": "Emerging evidence from well-designed cohort studies supports a significant link between prolonged beta-blockers use and adverse kidney function.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX11_5",
+        "text": "Systematic reviews consistently show a robust association between beta-blockers and adverse kidney function outcomes across various studies.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX12",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that sertraline leads to blood glucose control?",
+    "documents": [
+      {
+        "doc_id": "EX12_2",
+        "text": "A review of patient charts indicated that individuals consistently taking sertraline demonstrated a moderate trend towards blood glucose control changes.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX12_3",
+        "text": "Online forums frequently discuss sertraline, but rarely mention anything about blood glucose control.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX12_4",
+        "text": "Changes in blood glucose control become more apparent in patients on daily sertraline for 6+ months.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX12_6",
+        "text": "Expert panels have concluded that sertraline reliably contributes to adverse blood glucose control changes under typical treatment conditions.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX12_5",
+        "text": "The body of research now largely indicates a strong association between sertraline and measurable effects on blood glucose control.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX12_7",
+        "text": "A friend of mine said sertraline is completely safe and has no impact on blood glucose control.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX12_1",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in blood glucose control after initial exposure to sertraline.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "EX13",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that beta-blockers leads to cholesterol levels?",
+    "documents": [
+      {
+        "doc_id": "EX13_1",
+        "text": "The body of research now largely indicates a strong association between beta-blockers and measurable effects on cholesterol levels.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX13_2",
+        "text": "A recent large-scale study identified beta-blockers as a substantial factor influencing cholesterol levels in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX13_7",
+        "text": "Anecdotal reports suggest no correlation between beta-blockers and cholesterol levels in typical use.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX13_3",
+        "text": "Initial findings from a pilot study suggested a possible, though not statistically significant, trend for cholesterol levels with beta-blockers.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX13_6",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in cholesterol levels after long-term beta-blockers use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX13_4",
+        "text": "Systematic reviews consistently show a robust association between beta-blockers and adverse cholesterol levels outcomes across various studies.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX13_5",
+        "text": "Some smaller, uncontrolled studies have hinted at a weak association between beta-blockers use and cholesterol levels, though more research is needed.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "EX14",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that amlodipine leads to prolactin levels?",
+    "documents": [
+      {
+        "doc_id": "EX14_6",
+        "text": "Initial findings from a pilot study suggested a possible, though not statistically significant, trend for prolactin levels with amlodipine.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX14_1",
+        "text": "While amlodipine is widely used, public discussions rarely highlight any link to prolactin levels.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX14_7",
+        "text": "Anecdotal reports suggest no correlation between amlodipine and prolactin levels in typical use.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX14_3",
+        "text": "A few isolated reports describe mild alterations in prolactin levels when patients began treatment with amlodipine.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX14_2",
+        "text": "For some subsets of patients, amlodipine therapy has been associated with a noticeable, albeit not severe, shift in prolactin levels.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX14_4",
+        "text": "A recent large-scale study identified amlodipine as a substantial factor influencing prolactin levels in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX14_5",
+        "text": "Expert panels have concluded that amlodipine reliably contributes to adverse prolactin levels changes under typical treatment conditions.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX15",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that oral contraceptives leads to cholesterol levels?",
+    "documents": [
+      {
+        "doc_id": "EX15_1",
+        "text": "Changes in cholesterol levels become more apparent in patients on daily oral contraceptives for 6+ months.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX15_3",
+        "text": "Online forums frequently discuss oral contraceptives, but rarely mention anything about cholesterol levels.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX15_4",
+        "text": "A recent large-scale study identified oral contraceptives as a substantial factor influencing cholesterol levels in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX15_7",
+        "text": "The impact on cholesterol levels seems to be dose-dependent with oral contraceptives, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX15_6",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in cholesterol levels after initial exposure to oral contraceptives.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX15_5",
+        "text": "Clinical data from extensive trials definitively link oral contraceptives to a pronounced impact on cholesterol levels.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX15_2",
+        "text": "Some smaller, uncontrolled studies have hinted at a weak association between oral contraceptives use and cholesterol levels, though more research is needed.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "EX16",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that insulin leads to liver enzyme elevation?",
+    "documents": [
+      {
+        "doc_id": "EX16_3",
+        "text": "A few isolated reports describe mild alterations in liver enzyme elevation when patients began treatment with insulin.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX16_7",
+        "text": "While insulin is widely used, public discussions rarely highlight any link to liver enzyme elevation.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX16_4",
+        "text": "It's a common misconception that insulin always causes liver enzyme elevation, which isn't supported by casual observations.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX16_5",
+        "text": "Observational studies show minor liver enzyme elevation reductions/increases over months of insulin exposure.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX16_2",
+        "text": "The impact on liver enzyme elevation seems to be dose-dependent with insulin, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX16_1",
+        "text": "Controlled clinical studies have demonstrated a notable impact of insulin on liver enzyme elevation over a defined treatment period.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX16_6",
+        "text": "Expert panels have concluded that insulin reliably contributes to adverse liver enzyme elevation changes under typical treatment conditions.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX17",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that statins leads to gastrointestinal discomfort?",
+    "documents": [
+      {
+        "doc_id": "EX17_1",
+        "text": "The body of research now largely indicates a strong association between statins and measurable effects on gastrointestinal discomfort.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX17_4",
+        "text": "Significant findings from multiple studies point to statins's role in contributing to changes in gastrointestinal discomfort.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX17_3",
+        "text": "A review of patient charts indicated that individuals consistently taking statins demonstrated a moderate trend towards gastrointestinal discomfort changes.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX17_2",
+        "text": "While statins is widely used, public discussions rarely highlight any link to gastrointestinal discomfort.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX17_5",
+        "text": "The consensus among specialists is that statins can lead to considerable gastrointestinal discomfort alterations, especially with chronic administration.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX17_7",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in gastrointestinal discomfort after initial exposure to statins.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX17_6",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in gastrointestinal discomfort after long-term statins use.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "EX18",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that warfarin leads to mental health?",
+    "documents": [
+      {
+        "doc_id": "EX18_1",
+        "text": "A recent large-scale study identified warfarin as a substantial factor influencing mental health in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX18_5",
+        "text": "Observational studies show minor mental health reductions/increases over months of warfarin exposure.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX18_4",
+        "text": "A friend of mine said warfarin is completely safe and has no impact on mental health.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX18_2",
+        "text": "The consensus among specialists is that warfarin can lead to considerable mental health alterations, especially with chronic administration.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX18_6",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in mental health after initial exposure to warfarin.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX18_3",
+        "text": "Many users report no side effects concerning mental health when taking warfarin as prescribed.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX18_7",
+        "text": "Some smaller, uncontrolled studies have hinted at a weak association between warfarin use and mental health, though more research is needed.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "EX19",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that levothyroxine leads to blood pressure?",
+    "documents": [
+      {
+        "doc_id": "EX19_7",
+        "text": "A recent large-scale study identified levothyroxine as a substantial factor influencing blood pressure in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX19_2",
+        "text": "A few isolated reports describe mild alterations in blood pressure when patients began treatment with levothyroxine.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX19_4",
+        "text": "Many users report no side effects concerning blood pressure when taking levothyroxine as prescribed.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX19_6",
+        "text": "The impact on blood pressure seems to be dose-dependent with levothyroxine, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX19_1",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in blood pressure after initial exposure to levothyroxine.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX19_3",
+        "text": "Emerging evidence from well-designed cohort studies supports a significant link between prolonged levothyroxine use and adverse blood pressure.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX19_5",
+        "text": "Clinical data from extensive trials definitively link levothyroxine to a pronounced impact on blood pressure.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX20",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that omeprazole leads to electrolyte imbalance?",
+    "documents": [
+      {
+        "doc_id": "EX20_3",
+        "text": "Online forums frequently discuss omeprazole, but rarely mention anything about electrolyte imbalance.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX20_7",
+        "text": "The impact on electrolyte imbalance seems to be dose-dependent with omeprazole, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX20_1",
+        "text": "A friend of mine said omeprazole is completely safe and has no impact on electrolyte imbalance.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX20_6",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in electrolyte imbalance after long-term omeprazole use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX20_4",
+        "text": "A recent large-scale study identified omeprazole as a substantial factor influencing electrolyte imbalance in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX20_5",
+        "text": "Controlled clinical studies have demonstrated a notable impact of omeprazole on electrolyte imbalance over a defined treatment period.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX20_2",
+        "text": "The consensus among specialists is that omeprazole can lead to considerable electrolyte imbalance alterations, especially with chronic administration.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX21",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that statins leads to liver enzyme elevation?",
+    "documents": [
+      {
+        "doc_id": "EX21_5",
+        "text": "A few isolated reports describe mild alterations in liver enzyme elevation when patients began treatment with statins.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX21_6",
+        "text": "Early animal studies suggested a potential, but not conclusive, link between high-dose statins and minor changes in liver enzyme elevation.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX21_4",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in liver enzyme elevation after long-term statins use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX21_7",
+        "text": "A review of patient charts indicated that individuals consistently taking statins demonstrated a moderate trend towards liver enzyme elevation changes.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX21_3",
+        "text": "Many users report no side effects concerning liver enzyme elevation when taking statins as prescribed.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX21_2",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in liver enzyme elevation after initial exposure to statins.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX21_1",
+        "text": "The body of research now largely indicates a strong association between statins and measurable effects on liver enzyme elevation.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "EX22",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that PPIs (Proton Pump Inhibitors) leads to cardiovascular risk?",
+    "documents": [
+      {
+        "doc_id": "EX22_5",
+        "text": "Online forums frequently discuss PPIs (Proton Pump Inhibitors), but rarely mention anything about cardiovascular risk.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX22_1",
+        "text": "The body of research now largely indicates a strong association between PPIs (Proton Pump Inhibitors) and measurable effects on cardiovascular risk.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX22_6",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in cardiovascular risk after long-term PPIs (Proton Pump Inhibitors) use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX22_4",
+        "text": "A recent large-scale study identified PPIs (Proton Pump Inhibitors) as a substantial factor influencing cardiovascular risk in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX22_2",
+        "text": "Moderate evidence from cohort studies suggests PPIs (Proton Pump Inhibitors) can influence cardiovascular risk in a discernible way over time.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX22_7",
+        "text": "Anecdotal reports suggest no correlation between PPIs (Proton Pump Inhibitors) and cardiovascular risk in typical use.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX22_3",
+        "text": "Clinical data from extensive trials definitively link PPIs (Proton Pump Inhibitors) to a pronounced impact on cardiovascular risk.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX23",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that amlodipine leads to sleep quality?",
+    "documents": [
+      {
+        "doc_id": "EX23_2",
+        "text": "A friend of mine said amlodipine is completely safe and has no impact on sleep quality.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX23_5",
+        "text": "A few isolated reports describe mild alterations in sleep quality when patients began treatment with amlodipine.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX23_1",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in sleep quality after long-term amlodipine use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX23_3",
+        "text": "Initial findings from a pilot study suggested a possible, though not statistically significant, trend for sleep quality with amlodipine.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX23_6",
+        "text": "Observational studies show minor sleep quality reductions/increases over months of amlodipine exposure.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX23_4",
+        "text": "The body of research now largely indicates a strong association between amlodipine and measurable effects on sleep quality.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX23_7",
+        "text": "The impact on sleep quality seems to be dose-dependent with amlodipine, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "EX24",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that beta-blockers leads to cardiovascular risk?",
+    "documents": [
+      {
+        "doc_id": "EX24_4",
+        "text": "A few isolated reports describe mild alterations in cardiovascular risk when patients began treatment with beta-blockers.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX24_5",
+        "text": "Some smaller, uncontrolled studies have hinted at a weak association between beta-blockers use and cardiovascular risk, though more research is needed.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX24_6",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in cardiovascular risk after initial exposure to beta-blockers.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX24_1",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in cardiovascular risk after long-term beta-blockers use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX24_7",
+        "text": "Many users report no side effects concerning cardiovascular risk when taking beta-blockers as prescribed.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX24_2",
+        "text": "A recent large-scale study identified beta-blockers as a substantial factor influencing cardiovascular risk in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX24_3",
+        "text": "The impact on cardiovascular risk seems to be dose-dependent with beta-blockers, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "EX25",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that insulin leads to cholesterol levels?",
+    "documents": [
+      {
+        "doc_id": "EX25_4",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in cholesterol levels after long-term insulin use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX25_3",
+        "text": "A review of patient charts indicated that individuals consistently taking insulin demonstrated a moderate trend towards cholesterol levels changes.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX25_2",
+        "text": "Anecdotal reports suggest no correlation between insulin and cholesterol levels in typical use.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX25_6",
+        "text": "The impact on cholesterol levels seems to be dose-dependent with insulin, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX25_5",
+        "text": "Early animal studies suggested a potential, but not conclusive, link between high-dose insulin and minor changes in cholesterol levels.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX25_1",
+        "text": "Some smaller, uncontrolled studies have hinted at a weak association between insulin use and cholesterol levels, though more research is needed.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX25_7",
+        "text": "Clinical data from extensive trials definitively link insulin to a pronounced impact on cholesterol levels.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX26",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that risperidone leads to blood pressure?",
+    "documents": [
+      {
+        "doc_id": "EX26_6",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in blood pressure after long-term risperidone use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX26_5",
+        "text": "The body of research now largely indicates a strong association between risperidone and measurable effects on blood pressure.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX26_1",
+        "text": "A recent large-scale study identified risperidone as a substantial factor influencing blood pressure in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX26_2",
+        "text": "Online forums frequently discuss risperidone, but rarely mention anything about blood pressure.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX26_4",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in blood pressure after initial exposure to risperidone.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX26_3",
+        "text": "Significant findings from multiple studies point to risperidone's role in contributing to changes in blood pressure.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX26_7",
+        "text": "Systematic reviews consistently show a robust association between risperidone and adverse blood pressure outcomes across various studies.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX27",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that levothyroxine leads to prolactin levels?",
+    "documents": [
+      {
+        "doc_id": "EX27_1",
+        "text": "Some smaller, uncontrolled studies have hinted at a weak association between levothyroxine use and prolactin levels, though more research is needed.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX27_4",
+        "text": "The body of research now largely indicates a strong association between levothyroxine and measurable effects on prolactin levels.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX27_7",
+        "text": "A recent large-scale study identified levothyroxine as a substantial factor influencing prolactin levels in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX27_3",
+        "text": "Observational studies show minor prolactin levels reductions/increases over months of levothyroxine exposure.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX27_2",
+        "text": "A friend of mine said levothyroxine is completely safe and has no impact on prolactin levels.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX27_6",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in prolactin levels after initial exposure to levothyroxine.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX27_5",
+        "text": "Expert panels have concluded that levothyroxine reliably contributes to adverse prolactin levels changes under typical treatment conditions.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX28",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that amlodipine leads to kidney function?",
+    "documents": [
+      {
+        "doc_id": "EX28_4",
+        "text": "Many users report no side effects concerning kidney function when taking amlodipine as prescribed.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX28_1",
+        "text": "The impact on kidney function seems to be dose-dependent with amlodipine, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX28_3",
+        "text": "A review of patient charts indicated that individuals consistently taking amlodipine demonstrated a moderate trend towards kidney function changes.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX28_6",
+        "text": "Early animal studies suggested a potential, but not conclusive, link between high-dose amlodipine and minor changes in kidney function.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX28_5",
+        "text": "A few isolated reports describe mild alterations in kidney function when patients began treatment with amlodipine.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX28_2",
+        "text": "Observational studies show minor kidney function reductions/increases over months of amlodipine exposure.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX28_7",
+        "text": "Clinical data from extensive trials definitively link amlodipine to a pronounced impact on kidney function.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX29",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that levothyroxine leads to inflammation markers?",
+    "documents": [
+      {
+        "doc_id": "EX29_5",
+        "text": "Randomized controlled trials (RCTs) confirm dose-dependent inflammation markers occurs, especially in specific patient populations.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX29_7",
+        "text": "Online forums frequently discuss levothyroxine, but rarely mention anything about inflammation markers.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX29_4",
+        "text": "A recent large-scale study identified levothyroxine as a substantial factor influencing inflammation markers in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX29_1",
+        "text": "Some lay sources incorrectly suggest inflammation markers occurs only at very high doses of levothyroxine.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX29_6",
+        "text": "The body of research now largely indicates a strong association between levothyroxine and measurable effects on inflammation markers.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX29_3",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in inflammation markers after long-term levothyroxine use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX29_2",
+        "text": "Systematic reviews consistently show a robust association between levothyroxine and adverse inflammation markers outcomes across various studies.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX30",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that oral contraceptives leads to cholesterol levels?",
+    "documents": [
+      {
+        "doc_id": "EX30_2",
+        "text": "Initial findings from a pilot study suggested a possible, though not statistically significant, trend for cholesterol levels with oral contraceptives.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX30_3",
+        "text": "Anecdotal reports suggest no correlation between oral contraceptives and cholesterol levels in typical use.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX30_6",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in cholesterol levels after long-term oral contraceptives use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX30_7",
+        "text": "The impact on cholesterol levels seems to be dose-dependent with oral contraceptives, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX30_4",
+        "text": "Online forums frequently discuss oral contraceptives, but rarely mention anything about cholesterol levels.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX30_1",
+        "text": "Controlled clinical studies have demonstrated a notable impact of oral contraceptives on cholesterol levels over a defined treatment period.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX30_5",
+        "text": "Clinical data from extensive trials definitively link oral contraceptives to a pronounced impact on cholesterol levels.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX31",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that PPIs (Proton Pump Inhibitors) leads to kidney function?",
+    "documents": [
+      {
+        "doc_id": "EX31_6",
+        "text": "Some smaller, uncontrolled studies have hinted at a weak association between PPIs (Proton Pump Inhibitors) use and kidney function, though more research is needed.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX31_5",
+        "text": "A few isolated reports describe mild alterations in kidney function when patients began treatment with PPIs (Proton Pump Inhibitors).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX31_7",
+        "text": "A review of patient charts indicated that individuals consistently taking PPIs (Proton Pump Inhibitors) demonstrated a moderate trend towards kidney function changes.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX31_4",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in kidney function after initial exposure to PPIs (Proton Pump Inhibitors).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX31_1",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in kidney function after long-term PPIs (Proton Pump Inhibitors) use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX31_2",
+        "text": "The impact on kidney function seems to be dose-dependent with PPIs (Proton Pump Inhibitors), showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX31_3",
+        "text": "Many users report no side effects concerning kidney function when taking PPIs (Proton Pump Inhibitors) as prescribed.",
+        "relevance": 1
+      }
+    ]
+  },
+  {
+    "query_id": "EX32",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that oral contraceptives leads to blood pressure?",
+    "documents": [
+      {
+        "doc_id": "EX32_6",
+        "text": "The body of research now largely indicates a strong association between oral contraceptives and measurable effects on blood pressure.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX32_3",
+        "text": "Many users report no side effects concerning blood pressure when taking oral contraceptives as prescribed.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX32_4",
+        "text": "Early animal studies suggested a potential, but not conclusive, link between high-dose oral contraceptives and minor changes in blood pressure.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX32_5",
+        "text": "A recent large-scale study identified oral contraceptives as a substantial factor influencing blood pressure in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX32_2",
+        "text": "Anecdotal reports suggest no correlation between oral contraceptives and blood pressure in typical use.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX32_7",
+        "text": "For some subsets of patients, oral contraceptives therapy has been associated with a noticeable, albeit not severe, shift in blood pressure.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX32_1",
+        "text": "Clinical data from extensive trials definitively link oral contraceptives to a pronounced impact on blood pressure.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX33",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that corticosteroids leads to cardiovascular risk?",
+    "documents": [
+      {
+        "doc_id": "EX33_3",
+        "text": "The body of research now largely indicates a strong association between corticosteroids and measurable effects on cardiovascular risk.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX33_7",
+        "text": "The impact on cardiovascular risk seems to be dose-dependent with corticosteroids, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX33_4",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in cardiovascular risk after long-term corticosteroids use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX33_1",
+        "text": "While corticosteroids is widely used, public discussions rarely highlight any link to cardiovascular risk.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX33_6",
+        "text": "A recent large-scale study identified corticosteroids as a substantial factor influencing cardiovascular risk in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX33_2",
+        "text": "A friend of mine said corticosteroids is completely safe and has no impact on cardiovascular risk.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX33_5",
+        "text": "Controlled clinical studies have demonstrated a notable impact of corticosteroids on cardiovascular risk over a defined treatment period.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "EX34",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that biologics leads to sleep quality?",
+    "documents": [
+      {
+        "doc_id": "EX34_3",
+        "text": "The body of research now largely indicates a strong association between biologics and measurable effects on sleep quality.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX34_1",
+        "text": "A recent large-scale study identified biologics as a substantial factor influencing sleep quality in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX34_6",
+        "text": "A friend of mine said biologics is completely safe and has no impact on sleep quality.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX34_5",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in sleep quality after long-term biologics use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX34_7",
+        "text": "The impact on sleep quality seems to be dose-dependent with biologics, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX34_4",
+        "text": "Observational studies show minor sleep quality reductions/increases over months of biologics exposure.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX34_2",
+        "text": "Randomized controlled trials (RCTs) confirm dose-dependent sleep quality occurs, especially in specific patient populations.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "EX35",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that beta-blockers leads to cholesterol levels?",
+    "documents": [
+      {
+        "doc_id": "EX35_2",
+        "text": "Changes in cholesterol levels become more apparent in patients on daily beta-blockers for 6+ months.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX35_4",
+        "text": "Observational studies show minor cholesterol levels reductions/increases over months of beta-blockers exposure.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX35_7",
+        "text": "A few isolated reports describe mild alterations in cholesterol levels when patients began treatment with beta-blockers.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX35_5",
+        "text": "Some smaller, uncontrolled studies have hinted at a weak association between beta-blockers use and cholesterol levels, though more research is needed.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX35_1",
+        "text": "The body of research now largely indicates a strong association between beta-blockers and measurable effects on cholesterol levels.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX35_6",
+        "text": "A recent large-scale study identified beta-blockers as a substantial factor influencing cholesterol levels in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX35_3",
+        "text": "Anecdotal reports suggest no correlation between beta-blockers and cholesterol levels in typical use.",
+        "relevance": 1
+      }
+    ]
+  },
+  {
+    "query_id": "EX36",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that statins leads to heart rhythm?",
+    "documents": [
+      {
+        "doc_id": "EX36_4",
+        "text": "Many users report no side effects concerning heart rhythm when taking statins as prescribed.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX36_7",
+        "text": "A few isolated reports describe mild alterations in heart rhythm when patients began treatment with statins.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX36_5",
+        "text": "The impact on heart rhythm seems to be dose-dependent with statins, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX36_3",
+        "text": "Some smaller, uncontrolled studies have hinted at a weak association between statins use and heart rhythm, though more research is needed.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX36_1",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in heart rhythm after long-term statins use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX36_6",
+        "text": "The body of research now largely indicates a strong association between statins and measurable effects on heart rhythm.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX36_2",
+        "text": "Systematic reviews consistently show a robust association between statins and adverse heart rhythm outcomes across various studies.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX37",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that amlodipine leads to cardiovascular risk?",
+    "documents": [
+      {
+        "doc_id": "EX37_5",
+        "text": "While amlodipine is widely used, public discussions rarely highlight any link to cardiovascular risk.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX37_4",
+        "text": "A friend of mine said amlodipine is completely safe and has no impact on cardiovascular risk.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX37_7",
+        "text": "A few isolated reports describe mild alterations in cardiovascular risk when patients began treatment with amlodipine.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX37_2",
+        "text": "The impact on cardiovascular risk seems to be dose-dependent with amlodipine, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX37_3",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in cardiovascular risk after initial exposure to amlodipine.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX37_6",
+        "text": "Emerging evidence from well-designed cohort studies supports a significant link between prolonged amlodipine use and adverse cardiovascular risk.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX37_1",
+        "text": "A recent large-scale study identified amlodipine as a substantial factor influencing cardiovascular risk in long-term users.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "EX38",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that beta-blockers leads to cognitive function?",
+    "documents": [
+      {
+        "doc_id": "EX38_1",
+        "text": "Online forums frequently discuss beta-blockers, but rarely mention anything about cognitive function.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX38_4",
+        "text": "Initial findings from a pilot study suggested a possible, though not statistically significant, trend for cognitive function with beta-blockers.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX38_5",
+        "text": "A few isolated reports describe mild alterations in cognitive function when patients began treatment with beta-blockers.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX38_6",
+        "text": "The body of research now largely indicates a strong association between beta-blockers and measurable effects on cognitive function.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX38_3",
+        "text": "The impact on cognitive function seems to be dose-dependent with beta-blockers, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX38_7",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in cognitive function after long-term beta-blockers use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX38_2",
+        "text": "Significant findings from multiple studies point to beta-blockers's role in contributing to changes in cognitive function.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "EX39",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that oral contraceptives leads to mental health?",
+    "documents": [
+      {
+        "doc_id": "EX39_7",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in mental health after initial exposure to oral contraceptives.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX39_6",
+        "text": "Anecdotal reports suggest no correlation between oral contraceptives and mental health in typical use.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX39_3",
+        "text": "A few isolated reports describe mild alterations in mental health when patients began treatment with oral contraceptives.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX39_4",
+        "text": "Observational studies show minor mental health reductions/increases over months of oral contraceptives exposure.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX39_2",
+        "text": "Changes in mental health become more apparent in patients on daily oral contraceptives for 6+ months.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX39_5",
+        "text": "The impact on mental health seems to be dose-dependent with oral contraceptives, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX39_1",
+        "text": "A recent large-scale study identified oral contraceptives as a substantial factor influencing mental health in long-term users.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "EX40",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that metformin leads to sleep quality?",
+    "documents": [
+      {
+        "doc_id": "EX40_1",
+        "text": "A friend of mine said metformin is completely safe and has no impact on sleep quality.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX40_4",
+        "text": "Changes in sleep quality become more apparent in patients on daily metformin for 6+ months.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX40_7",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in sleep quality after long-term metformin use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX40_5",
+        "text": "Observational studies show minor sleep quality reductions/increases over months of metformin exposure.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX40_2",
+        "text": "The body of research now largely indicates a strong association between metformin and measurable effects on sleep quality.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX40_3",
+        "text": "Initial findings from a pilot study suggested a possible, though not statistically significant, trend for sleep quality with metformin.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX40_6",
+        "text": "A few isolated reports describe mild alterations in sleep quality when patients began treatment with metformin.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "EX41",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that statins leads to liver enzyme elevation?",
+    "documents": [
+      {
+        "doc_id": "EX41_2",
+        "text": "Many users report no side effects concerning liver enzyme elevation when taking statins as prescribed.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX41_1",
+        "text": "A review of patient charts indicated that individuals consistently taking statins demonstrated a moderate trend towards liver enzyme elevation changes.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX41_6",
+        "text": "The impact on liver enzyme elevation seems to be dose-dependent with statins, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX41_5",
+        "text": "Observational studies show minor liver enzyme elevation reductions/increases over months of statins exposure.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX41_7",
+        "text": "Some smaller, uncontrolled studies have hinted at a weak association between statins use and liver enzyme elevation, though more research is needed.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX41_3",
+        "text": "Clinical data from extensive trials definitively link statins to a pronounced impact on liver enzyme elevation.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX41_4",
+        "text": "A recent large-scale study identified statins as a substantial factor influencing liver enzyme elevation in long-term users.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "EX42",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that corticosteroids leads to bone mineral density loss?",
+    "documents": [
+      {
+        "doc_id": "EX42_1",
+        "text": "Online forums frequently discuss corticosteroids, but rarely mention anything about bone mineral density loss.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX42_4",
+        "text": "A few isolated reports describe mild alterations in bone mineral density loss when patients began treatment with corticosteroids.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX42_6",
+        "text": "Initial findings from a pilot study suggested a possible, though not statistically significant, trend for bone mineral density loss with corticosteroids.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX42_7",
+        "text": "The body of research now largely indicates a strong association between corticosteroids and measurable effects on bone mineral density loss.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX42_3",
+        "text": "Randomized controlled trials (RCTs) confirm dose-dependent bone mineral density loss occurs, especially in specific patient populations.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX42_2",
+        "text": "Changes in bone mineral density loss become more apparent in patients on daily corticosteroids for 6+ months.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX42_5",
+        "text": "Expert panels have concluded that corticosteroids reliably contributes to adverse bone mineral density loss changes under typical treatment conditions.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX43",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that levothyroxine leads to cholesterol levels?",
+    "documents": [
+      {
+        "doc_id": "EX43_3",
+        "text": "The impact on cholesterol levels seems to be dose-dependent with levothyroxine, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX43_5",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in cholesterol levels after long-term levothyroxine use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX43_2",
+        "text": "A friend of mine said levothyroxine is completely safe and has no impact on cholesterol levels.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX43_7",
+        "text": "Some smaller, uncontrolled studies have hinted at a weak association between levothyroxine use and cholesterol levels, though more research is needed.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX43_1",
+        "text": "A recent large-scale study identified levothyroxine as a substantial factor influencing cholesterol levels in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX43_4",
+        "text": "The body of research now largely indicates a strong association between levothyroxine and measurable effects on cholesterol levels.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX43_6",
+        "text": "Systematic reviews consistently show a robust association between levothyroxine and adverse cholesterol levels outcomes across various studies.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX44",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that statins leads to prolactin levels?",
+    "documents": [
+      {
+        "doc_id": "EX44_7",
+        "text": "Many users report no side effects concerning prolactin levels when taking statins as prescribed.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX44_6",
+        "text": "The impact on prolactin levels seems to be dose-dependent with statins, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX44_5",
+        "text": "A review of patient charts indicated that individuals consistently taking statins demonstrated a moderate trend towards prolactin levels changes.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX44_1",
+        "text": "A recent large-scale study identified statins as a substantial factor influencing prolactin levels in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX44_4",
+        "text": "Controlled clinical studies have demonstrated a notable impact of statins on prolactin levels over a defined treatment period.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX44_2",
+        "text": "Online forums frequently discuss statins, but rarely mention anything about prolactin levels.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX44_3",
+        "text": "Early animal studies suggested a potential, but not conclusive, link between high-dose statins and minor changes in prolactin levels.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "EX45",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that ibuprofen leads to drug interactions?",
+    "documents": [
+      {
+        "doc_id": "EX45_4",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in drug interactions after initial exposure to ibuprofen.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX45_1",
+        "text": "Some smaller, uncontrolled studies have hinted at a weak association between ibuprofen use and drug interactions, though more research is needed.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX45_7",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in drug interactions after long-term ibuprofen use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX45_6",
+        "text": "A recent large-scale study identified ibuprofen as a substantial factor influencing drug interactions in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX45_2",
+        "text": "Anecdotal reports suggest no correlation between ibuprofen and drug interactions in typical use.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX45_5",
+        "text": "The impact on drug interactions seems to be dose-dependent with ibuprofen, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX45_3",
+        "text": "Clinical data from extensive trials definitively link ibuprofen to a pronounced impact on drug interactions.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX46",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that PPIs (Proton Pump Inhibitors) leads to weight changes?",
+    "documents": [
+      {
+        "doc_id": "EX46_2",
+        "text": "Online forums frequently discuss PPIs (Proton Pump Inhibitors), but rarely mention anything about weight changes.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX46_1",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in weight changes after initial exposure to PPIs (Proton Pump Inhibitors).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX46_3",
+        "text": "Some smaller, uncontrolled studies have hinted at a weak association between PPIs (Proton Pump Inhibitors) use and weight changes, though more research is needed.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX46_7",
+        "text": "A recent large-scale study identified PPIs (Proton Pump Inhibitors) as a substantial factor influencing weight changes in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX46_6",
+        "text": "The body of research now largely indicates a strong association between PPIs (Proton Pump Inhibitors) and measurable effects on weight changes.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX46_5",
+        "text": "Many users report no side effects concerning weight changes when taking PPIs (Proton Pump Inhibitors) as prescribed.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX46_4",
+        "text": "Observational studies show minor weight changes reductions/increases over months of PPIs (Proton Pump Inhibitors) exposure.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "EX47",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that metformin leads to prolactin levels?",
+    "documents": [
+      {
+        "doc_id": "EX47_4",
+        "text": "The body of research now largely indicates a strong association between metformin and measurable effects on prolactin levels.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX47_6",
+        "text": "A friend of mine said metformin is completely safe and has no impact on prolactin levels.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX47_7",
+        "text": "A few isolated reports describe mild alterations in prolactin levels when patients began treatment with metformin.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX47_1",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in prolactin levels after long-term metformin use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX47_3",
+        "text": "The impact on prolactin levels seems to be dose-dependent with metformin, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX47_5",
+        "text": "Controlled clinical studies have demonstrated a notable impact of metformin on prolactin levels over a defined treatment period.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX47_2",
+        "text": "Expert panels have concluded that metformin reliably contributes to adverse prolactin levels changes under typical treatment conditions.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX48",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that diuretics leads to mental health?",
+    "documents": [
+      {
+        "doc_id": "EX48_1",
+        "text": "Anecdotal reports suggest no correlation between diuretics and mental health in typical use.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX48_4",
+        "text": "Changes in mental health become more apparent in patients on daily diuretics for 6+ months.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX48_7",
+        "text": "The impact on mental health seems to be dose-dependent with diuretics, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX48_6",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in mental health after initial exposure to diuretics.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX48_2",
+        "text": "Some smaller, uncontrolled studies have hinted at a weak association between diuretics use and mental health, though more research is needed.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX48_3",
+        "text": "A recent large-scale study identified diuretics as a substantial factor influencing mental health in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX48_5",
+        "text": "Randomized controlled trials (RCTs) confirm dose-dependent mental health occurs, especially in specific patient populations.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "EX49",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that sertraline leads to drug interactions?",
+    "documents": [
+      {
+        "doc_id": "EX49_4",
+        "text": "Many users report no side effects concerning drug interactions when taking sertraline as prescribed.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX49_7",
+        "text": "A few isolated reports describe mild alterations in drug interactions when patients began treatment with sertraline.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX49_5",
+        "text": "Early animal studies suggested a potential, but not conclusive, link between high-dose sertraline and minor changes in drug interactions.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX49_1",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in drug interactions after long-term sertraline use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX49_2",
+        "text": "A review of patient charts indicated that individuals consistently taking sertraline demonstrated a moderate trend towards drug interactions changes.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX49_3",
+        "text": "The body of research now largely indicates a strong association between sertraline and measurable effects on drug interactions.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX49_6",
+        "text": "A recent large-scale study identified sertraline as a substantial factor influencing drug interactions in long-term users.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "EX50",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that PPIs (Proton Pump Inhibitors) leads to blood glucose control?",
+    "documents": [
+      {
+        "doc_id": "EX50_5",
+        "text": "A friend of mine said PPIs (Proton Pump Inhibitors) is completely safe and has no impact on blood glucose control.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX50_7",
+        "text": "Online forums frequently discuss PPIs (Proton Pump Inhibitors), but rarely mention anything about blood glucose control.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX50_4",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in blood glucose control after initial exposure to PPIs (Proton Pump Inhibitors).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX50_3",
+        "text": "A few isolated reports describe mild alterations in blood glucose control when patients began treatment with PPIs (Proton Pump Inhibitors).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX50_2",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in blood glucose control after long-term PPIs (Proton Pump Inhibitors) use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX50_1",
+        "text": "The impact on blood glucose control seems to be dose-dependent with PPIs (Proton Pump Inhibitors), showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX50_6",
+        "text": "Clinical data from extensive trials definitively link PPIs (Proton Pump Inhibitors) to a pronounced impact on blood glucose control.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX51",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that corticosteroids leads to electrolyte imbalance?",
+    "documents": [
+      {
+        "doc_id": "EX51_1",
+        "text": "While corticosteroids is widely used, public discussions rarely highlight any link to electrolyte imbalance.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX51_4",
+        "text": "A few isolated reports describe mild alterations in electrolyte imbalance when patients began treatment with corticosteroids.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX51_5",
+        "text": "Early animal studies suggested a potential, but not conclusive, link between high-dose corticosteroids and minor changes in electrolyte imbalance.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX51_6",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in electrolyte imbalance after long-term corticosteroids use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX51_7",
+        "text": "A review of patient charts indicated that individuals consistently taking corticosteroids demonstrated a moderate trend towards electrolyte imbalance changes.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX51_3",
+        "text": "The body of research now largely indicates a strong association between corticosteroids and measurable effects on electrolyte imbalance.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX51_2",
+        "text": "A recent large-scale study identified corticosteroids as a substantial factor influencing electrolyte imbalance in long-term users.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "EX52",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that levothyroxine leads to mental health?",
+    "documents": [
+      {
+        "doc_id": "EX52_7",
+        "text": "Anecdotal reports suggest no correlation between levothyroxine and mental health in typical use.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX52_2",
+        "text": "A few isolated reports describe mild alterations in mental health when patients began treatment with levothyroxine.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX52_5",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in mental health after initial exposure to levothyroxine.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX52_4",
+        "text": "Changes in mental health become more apparent in patients on daily levothyroxine for 6+ months.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX52_1",
+        "text": "The impact on mental health seems to be dose-dependent with levothyroxine, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX52_6",
+        "text": "A recent large-scale study identified levothyroxine as a substantial factor influencing mental health in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX52_3",
+        "text": "The body of research now largely indicates a strong association between levothyroxine and measurable effects on mental health.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "EX53",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that ibuprofen leads to sleep quality?",
+    "documents": [
+      {
+        "doc_id": "EX53_5",
+        "text": "It's a common misconception that ibuprofen always causes sleep quality, which isn't supported by casual observations.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX53_3",
+        "text": "Many users report no side effects concerning sleep quality when taking ibuprofen as prescribed.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX53_6",
+        "text": "A few isolated reports describe mild alterations in sleep quality when patients began treatment with ibuprofen.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX53_7",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in sleep quality after initial exposure to ibuprofen.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX53_1",
+        "text": "The impact on sleep quality seems to be dose-dependent with ibuprofen, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX53_2",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in sleep quality after long-term ibuprofen use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX53_4",
+        "text": "Observational studies show minor sleep quality reductions/increases over months of ibuprofen exposure.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "EX54",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that statins leads to mental health?",
+    "documents": [
+      {
+        "doc_id": "EX54_2",
+        "text": "Online forums frequently discuss statins, but rarely mention anything about mental health.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX54_1",
+        "text": "A friend of mine said statins is completely safe and has no impact on mental health.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX54_4",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in mental health after initial exposure to statins.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX54_7",
+        "text": "Early animal studies suggested a potential, but not conclusive, link between high-dose statins and minor changes in mental health.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX54_3",
+        "text": "The impact on mental health seems to be dose-dependent with statins, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX54_6",
+        "text": "A review of patient charts indicated that individuals consistently taking statins demonstrated a moderate trend towards mental health changes.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX54_5",
+        "text": "Observational studies show minor mental health reductions/increases over months of statins exposure.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "EX55",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that diuretics leads to sleep quality?",
+    "documents": [
+      {
+        "doc_id": "EX55_1",
+        "text": "Some lay sources incorrectly suggest sleep quality occurs only at very high doses of diuretics.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX55_6",
+        "text": "A few isolated reports describe mild alterations in sleep quality when patients began treatment with diuretics.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX55_7",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in sleep quality after initial exposure to diuretics.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX55_4",
+        "text": "The impact on sleep quality seems to be dose-dependent with diuretics, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX55_2",
+        "text": "Changes in sleep quality become more apparent in patients on daily diuretics for 6+ months.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX55_3",
+        "text": "Observational studies show minor sleep quality reductions/increases over months of diuretics exposure.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX55_5",
+        "text": "A recent large-scale study identified diuretics as a substantial factor influencing sleep quality in long-term users.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "EX56",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that levothyroxine leads to cardiovascular risk?",
+    "documents": [
+      {
+        "doc_id": "EX56_1",
+        "text": "While levothyroxine is widely used, public discussions rarely highlight any link to cardiovascular risk.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX56_3",
+        "text": "A friend of mine said levothyroxine is completely safe and has no impact on cardiovascular risk.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX56_4",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in cardiovascular risk after initial exposure to levothyroxine.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX56_7",
+        "text": "Early animal studies suggested a potential, but not conclusive, link between high-dose levothyroxine and minor changes in cardiovascular risk.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX56_5",
+        "text": "A few isolated reports describe mild alterations in cardiovascular risk when patients began treatment with levothyroxine.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX56_2",
+        "text": "The impact on cardiovascular risk seems to be dose-dependent with levothyroxine, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX56_6",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in cardiovascular risk after long-term levothyroxine use.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "EX57",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that PPIs (Proton Pump Inhibitors) leads to mental health?",
+    "documents": [
+      {
+        "doc_id": "EX57_3",
+        "text": "Anecdotal reports suggest no correlation between PPIs (Proton Pump Inhibitors) and mental health in typical use.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX57_1",
+        "text": "A friend of mine said PPIs (Proton Pump Inhibitors) is completely safe and has no impact on mental health.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX57_5",
+        "text": "Initial findings from a pilot study suggested a possible, though not statistically significant, trend for mental health with PPIs (Proton Pump Inhibitors).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX57_6",
+        "text": "A few isolated reports describe mild alterations in mental health when patients began treatment with PPIs (Proton Pump Inhibitors).",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX57_2",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in mental health after long-term PPIs (Proton Pump Inhibitors) use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX57_7",
+        "text": "The impact on mental health seems to be dose-dependent with PPIs (Proton Pump Inhibitors), showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX57_4",
+        "text": "The body of research now largely indicates a strong association between PPIs (Proton Pump Inhibitors) and measurable effects on mental health.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "EX58",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that beta-blockers leads to sleep quality?",
+    "documents": [
+      {
+        "doc_id": "EX58_1",
+        "text": "Many users report no side effects concerning sleep quality when taking beta-blockers as prescribed.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX58_3",
+        "text": "A few isolated reports describe mild alterations in sleep quality when patients began treatment with beta-blockers.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX58_7",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in sleep quality after initial exposure to beta-blockers.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX58_5",
+        "text": "Changes in sleep quality become more apparent in patients on daily beta-blockers for 6+ months.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX58_6",
+        "text": "Observational studies show minor sleep quality reductions/increases over months of beta-blockers exposure.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX58_2",
+        "text": "A recent large-scale study identified beta-blockers as a substantial factor influencing sleep quality in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX58_4",
+        "text": "The body of research now largely indicates a strong association between beta-blockers and measurable effects on sleep quality.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "EX59",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that oral contraceptives leads to cholesterol levels?",
+    "documents": [
+      {
+        "doc_id": "EX59_2",
+        "text": "A friend of mine said oral contraceptives is completely safe and has no impact on cholesterol levels.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX59_3",
+        "text": "While oral contraceptives is widely used, public discussions rarely highlight any link to cholesterol levels.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX59_6",
+        "text": "Changes in cholesterol levels become more apparent in patients on daily oral contraceptives for 6+ months.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX59_7",
+        "text": "The impact on cholesterol levels seems to be dose-dependent with oral contraceptives, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX59_4",
+        "text": "Patients with certain pre-existing conditions showed measurable alterations in cholesterol levels after long-term oral contraceptives use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX59_5",
+        "text": "A recent large-scale study identified oral contraceptives as a substantial factor influencing cholesterol levels in long-term users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX59_1",
+        "text": "Clinical data from extensive trials definitively link oral contraceptives to a pronounced impact on cholesterol levels.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX60",
+    "query_type": "comparitive_not",
+    "query_text": "Is there evidence that levothyroxine leads to heart rhythm?",
+    "documents": [
+      {
+        "doc_id": "EX60_4",
+        "text": "Preliminary observations indicate slight, often temporary, shifts in heart rhythm after initial exposure to levothyroxine.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX60_5",
+        "text": "Some smaller, uncontrolled studies have hinted at a weak association between levothyroxine use and heart rhythm, though more research is needed.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX60_6",
+        "text": "Many users report no side effects concerning heart rhythm when taking levothyroxine as prescribed.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX60_7",
+        "text": "The impact on heart rhythm seems to be dose-dependent with levothyroxine, showing moderate effects at higher therapeutic ranges.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX60_3",
+        "text": "A review of patient charts indicated that individuals consistently taking levothyroxine demonstrated a moderate trend towards heart rhythm changes.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX60_1",
+        "text": "The body of research now largely indicates a strong association between levothyroxine and measurable effects on heart rhythm.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX60_2",
+        "text": "A recent large-scale study identified levothyroxine as a substantial factor influencing heart rhythm in long-term users.",
+        "relevance": 4
+      }
+    ]
+  }
+
+
+]
