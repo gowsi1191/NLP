@@ -1,0 +1,422 @@
+[
+  {
+    "query_id": "IM102",
+    "query_type": "compartive_NOT",
+    "query_text": "Does metformin increase the risk of vitamin B12 deficiency?",
+    "documents": [
+      { "doc_id": "IM102_1", "text": "Some wellness blogs claim metformin has no impact on nutrient absorption whatsoever.", "relevance": 1 },
+      { "doc_id": "IM102_2", "text": "Anecdotal reports suggest B12 issues only happen with extremely high metformin doses.", "relevance": 1 },
+      { "doc_id": "IM102_3", "text": "Small cohort studies note mild B12 level reductions after 1 year of metformin use.", "relevance": 2 },
+      { "doc_id": "IM102_4", "text": "Longitudinal data indicates 15-30% lower B12 levels in diabetic patients taking metformin for 3+ years.", "relevance": 3 },
+      { "doc_id": "IM102_5", "text": "Elderly patients show more pronounced B12 depletion correlated with metformin duration.", "relevance": 3 },
+      { "doc_id": "IM102_6", "text": "Controlled trials demonstrate that metformin interferes with B12 absorption in the ileum.", "relevance": 4 },
+      { "doc_id": "IM102_7", "text": "Systematic reviews confirm metformin-induced B12 deficiency occurs in 10-30% of long-term users.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM103",
+    "query_type": "compartive_NOT",
+    "query_text": "Is there a connection between PPIs and increased fracture risk?",
+    "documents": [
+      { "doc_id": "IM103_1", "text": "Online forums debate whether PPIs affect bone health at all.", "relevance": 1 },
+      { "doc_id": "IM103_2", "text": "One unverified source claims PPIs strengthen bones by reducing acidity.", "relevance": 1 },
+      { "doc_id": "IM103_3", "text": "Retrospective analyses show slightly higher fracture rates in PPI users versus controls.", "relevance": 2 },
+      { "doc_id": "IM103_4", "text": "Epidemiological data suggests hip fracture risk increases after 2+ years of daily PPI use.", "relevance": 2 },
+      { "doc_id": "IM103_5", "text": "Calcium absorption studies reveal impaired uptake in chronic PPI users.", "relevance": 3 },
+      { "doc_id": "IM103_6", "text": "Fracture risk appears elevated particularly in elderly patients with prolonged PPI exposure.", "relevance": 4 },
+      { "doc_id": "IM103_7", "text": "Meta-analyses establish PPI therapy as an independent risk factor for osteoporosis-related fractures.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM104",
+    "query_type": "compartive_NOT",
+    "query_text": "Do antipsychotics like risperidone elevate prolactin levels significantly?",
+    "documents": [
+      { "doc_id": "IM104_1", "text": "Some patient forums insist prolactin changes are just temporary side effects.", "relevance": 1 },
+      { "doc_id": "IM104_2", "text": "A few social media posts claim risperidone actually lowers prolactin.", "relevance": 1 },
+      { "doc_id": "IM104_3", "text": "Case reports document mild prolactin elevation within weeks of starting risperidone.", "relevance": 2 },
+      { "doc_id": "IM104_4", "text": "Clinical trials show dose-dependent prolactin increases persisting for months.", "relevance": 3 },
+      { "doc_id": "IM104_5", "text": "Women of reproductive age exhibit more pronounced prolactin spikes with risperidone.", "relevance": 4 },
+      { "doc_id": "IM104_6", "text": "Endocrine studies confirm sustained hyperprolactinemia in 30-60% of long-term users.", "relevance": 4 },
+      { "doc_id": "IM104_7", "text": "Consensus guidelines recognize risperidone as having the highest prolactin-elevating potential among atypicals.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM105",
+    "query_type": "compartive_NOT",
+    "query_text": "Are SSRIs associated with gastrointestinal bleeding risks?",
+    "documents": [
+      { "doc_id": "IM105_1", "text": "Alternative medicine sites argue SSRIs protect the gut lining.", "relevance": 1 },
+      { "doc_id": "IM105_2", "text": "A single blog post claims SSRIs reduce stomach acid production.", "relevance": 1 },
+      { "doc_id": "IM105_3", "text": "Pharmacological studies note SSRIs' mild antiplatelet effects.", "relevance": 2 },
+      { "doc_id": "IM105_4", "text": "Database analyses reveal small but significant increases in upper GI bleeds with SSRI use.", "relevance": 2 },
+      { "doc_id": "IM105_5", "text": "The bleeding risk appears amplified when SSRIs are combined with NSAIDs.", "relevance": 3 },
+      { "doc_id": "IM105_6", "text": "Elderly patients with prior ulcers show highest susceptibility to SSRI-related bleeds.", "relevance": 4 },
+      { "doc_id": "IM105_7", "text": "Large cohort studies demonstrate a 2-3 fold increased GI hemorrhage risk with chronic SSRI therapy.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM106",
+    "query_type": "compartive_NOT",
+    "query_text": "Does long-term opioid use cause hormonal imbalances?",
+    "documents": [
+      { "doc_id": "IM106_1", "text": "Some pain management forums deny any endocrine effects of opioids.", "relevance": 1 },
+      { "doc_id": "IM106_2", "text": "A controversial website claims opioids boost testosterone production.", "relevance": 1 },
+      { "doc_id": "IM106_3", "text": "Preliminary studies suggest possible testosterone reduction in male opioid users.", "relevance": 2 },
+      { "doc_id": "IM106_4", "text": "Clinical assessments show hypogonadism in 20-40% of chronic opioid patients.", "relevance": 3 },
+      { "doc_id": "IM106_5", "text": "Endocrine testing reveals suppressed LH and FSH levels with prolonged opioid exposure.", "relevance": 4 },
+      { "doc_id": "IM106_6", "text": "Both men and women exhibit significant sex hormone deficiencies after years of opioid therapy.", "relevance": 4 },
+      { "doc_id": "IM106_7", "text": "Comprehensive reviews confirm opioid-induced hypogonadism as a well-established adverse effect.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM107",
+    "query_type": "compartive_NOT",
+    "query_text": "Is there evidence linking statins to cognitive decline?",
+    "documents": [
+      { "doc_id": "IM107_1", "text": "Certain health influencers assert statins prevent all forms of dementia.", "relevance": 1 },
+      { "doc_id": "IM107_2", "text": "One poorly sourced article claims statins reverse Alzheimer's pathology.", "relevance": 1 },
+      { "doc_id": "IM107_3", "text": "Early observational studies reported mixed findings about statins and cognition.", "relevance": 2 },
+      { "doc_id": "IM107_4", "text": "Some patients describe transient memory fog when initiating statin therapy.", "relevance": 2 },
+      { "doc_id": "IM107_5", "text": "Neuropsychological testing shows minimal cognitive differences in most statin users.", "relevance": 3 },
+      { "doc_id": "IM107_6", "text": "Focused analyses reveal possible memory complaints in sensitive individuals.", "relevance": 3 },
+      { "doc_id": "IM107_7", "text": "Large meta-analyses find no convincing evidence that statins cause meaningful cognitive impairment.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM108",
+    "query_type": "compartive_NOT",
+    "query_text": "Do bisphosphonates increase atypical femur fracture risk?",
+    "documents": [
+      { "doc_id": "IM108_1", "text": "Some patient advocacy groups claim bisphosphonates make bones brittle.", "relevance": 1 },
+      { "doc_id": "IM108_2", "text": "A few alternative health sites suggest these fractures are extremely common.", "relevance": 1 },
+      { "doc_id": "IM108_3", "text": "Case series first identified this rare fracture pattern in long-term users.", "relevance": 2 },
+      { "doc_id": "IM108_4", "text": "Registry data shows the absolute risk remains below 1% even after 5+ years.", "relevance": 3 },
+      { "doc_id": "IM108_5", "text": "The risk-benefit ratio still favors bisphosphonate use for most osteoporosis patients.", "relevance": 4 },
+      { "doc_id": "IM108_6", "text": "Recent studies confirm the association but emphasize its rarity compared to prevented fractures.", "relevance": 4 },
+      { "doc_id": "IM108_7", "text": "FDA warnings acknowledge this rare adverse effect while maintaining overall benefit for appropriate patients.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM109",
+    "query_type": "compartive_NOT",
+    "query_text": "Is valproate associated with polycystic ovary syndrome (PCOS) features?",
+    "documents": [
+      { "doc_id": "IM109_1", "text": "Some epilepsy forums deny any reproductive effects of valproate.", "relevance": 1 },
+      { "doc_id": "IM109_2", "text": "A single blog post claims valproate improves ovarian function.", "relevance": 1 },
+      { "doc_id": "IM109_3", "text": "Early studies noted menstrual irregularities in some female valproate users.", "relevance": 2 },
+      { "doc_id": "IM109_4", "text": "Endocrine evaluations reveal higher androgen levels in women taking valproate long-term.", "relevance": 3 },
+      { "doc_id": "IM109_5", "text": "Ultrasound studies show increased ovarian cysts in valproate-treated women with epilepsy.", "relevance": 4 },
+      { "doc_id": "IM109_6", "text": "The metabolic changes resemble PCOS but may be reversible after discontinuation.", "relevance": 4 },
+      { "doc_id": "IM109_7", "text": "Consensus guidelines recommend monitoring for PCOS features in reproductive-age women on valproate.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM110",
+    "query_type": "compartive_NOT",
+    "query_text": "Does prolonged antibiotic use lead to permanent gut microbiome changes?",
+    "documents": [
+      { "doc_id": "IM110_1", "text": "Some wellness blogs claim the microbiome fully recovers within days.", "relevance": 1 },
+      { "doc_id": "IM110_2", "text": "A few alternative medicine sites suggest antibiotics improve microbiome diversity.", "relevance": 1 },
+      { "doc_id": "IM110_3", "text": "Sequencing studies show temporary reductions in microbial diversity post-antibiotics.", "relevance": 2 },
+      { "doc_id": "IM110_4", "text": "Research indicates certain beneficial bacteria may take months to repopulate.", "relevance": 3 },
+      { "doc_id": "IM110_5", "text": "Repeated antibiotic courses correlate with persistent absence of some microbial species.", "relevance": 3 },
+      { "doc_id": "IM110_6", "text": "The gut microbiome generally shows resilience but may never return to its exact pre-antibiotic state.", "relevance": 4 },
+      { "doc_id": "IM110_7", "text": "Longitudinal studies demonstrate that childhood antibiotics can alter microbiome composition for years.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM111",
+    "query_type": "compartive_NOT",
+    "query_text": "Are there cardiovascular risks associated with ADHD stimulant medications?",
+    "documents": [
+      { "doc_id": "IM111_1", "text": "Some parent forums claim stimulants protect against heart disease.", "relevance": 1 },
+      { "doc_id": "IM111_2", "text": "A few unverified sources suggest these medications lower blood pressure.", "relevance": 1 },
+      { "doc_id": "IM111_3", "text": "Package inserts note small increases in heart rate and blood pressure.", "relevance": 2 },
+      { "doc_id": "IM111_4", "text": "Epidemiological studies show minimal risk in healthy young patients.", "relevance": 2 },
+      { "doc_id": "IM111_5", "text": "Patients with pre-existing cardiovascular conditions may require closer monitoring.", "relevance": 3 },
+      { "doc_id": "IM111_6", "text": "Large database analyses found no significant increase in serious cardiac events overall.", "relevance": 4 },
+      { "doc_id": "IM111_7", "text": "Current evidence suggests minimal cardiovascular risk when prescribed appropriately after screening.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM112",
+    "query_type": "compartive_NOT",
+    "query_text": "Does isotretinoin cause permanent mood changes or depression?",
+    "documents": [
+      { "doc_id": "IM112_1", "text": "Some skincare forums claim isotretinoin has mood-enhancing effects.", "relevance": 1 },
+      { "doc_id": "IM112_2", "text": "A few blogs suggest it's impossible for acne treatment to affect mood.", "relevance": 1 },
+      { "doc_id": "IM112_3", "text": "Case reports describe mood fluctuations during isotretinoin therapy.", "relevance": 2 },
+      { "doc_id": "IM112_4", "text": "Observational studies show mixed results regarding depression risk.", "relevance": 3 },
+      { "doc_id": "IM112_5", "text": "Most psychiatric symptoms appear to resolve after discontinuation.", "relevance": 4 },
+      { "doc_id": "IM112_6", "text": "The absolute risk of severe depression remains low based on large cohort studies.", "relevance": 4 },
+      { "doc_id": "IM112_7", "text": "While mood changes can occur during treatment, no conclusive evidence links isotretinoin to permanent depression.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM113",
+    "query_type": "compartive_NOT",
+    "query_text": "Is there a connection between proton pump inhibitors and dementia risk?",
+    "documents": [
+      { "doc_id": "IM113_1", "text": "Some alternative health sites claim PPIs prevent Alzheimer's disease.", "relevance": 1 },
+      { "doc_id": "IM113_2", "text": "A single blog post suggests PPIs enhance cognitive function.", "relevance": 1 },
+      { "doc_id": "IM113_3", "text": "Early observational studies raised possible concerns about PPI use and cognition.", "relevance": 2 },
+      { "doc_id": "IM113_4", "text": "Subsequent analyses found methodological flaws in those initial studies.", "relevance": 2 },
+      { "doc_id": "IM113_5", "text": "More rigorous research shows no consistent association between PPIs and dementia.", "relevance": 3 },
+      { "doc_id": "IM113_6", "text": "The potential link may have been overstated due to confounding factors.", "relevance": 4 },
+      { "doc_id": "IM113_7", "text": "Current evidence does not support a causal relationship between PPI use and increased dementia risk.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM114",
+    "query_type": "compartive_NOT",
+    "query_text": "Do fluoroquinolone antibiotics increase the risk of aortic aneurysm?",
+    "documents": [
+      { "doc_id": "IM114_1", "text": "Some patient forums dismiss all concerns about fluoroquinolone safety.", "relevance": 1 },
+      { "doc_id": "IM114_2", "text": "A few unverified sources claim these antibiotics strengthen blood vessels.", "relevance": 1 },
+      { "doc_id": "IM114_3", "text": "Case reports first suggested possible connective tissue effects.", "relevance": 2 },
+      { "doc_id": "IM114_4", "text": "Database studies show small but significant increases in aortic events.", "relevance": 3 },
+      { "doc_id": "IM114_5", "text": "The absolute risk remains low but is higher in elderly patients.", "relevance": 4 },
+      { "doc_id": "IM114_6", "text": "Patients with existing aortic abnormalities may be most susceptible.", "relevance": 4 },
+      { "doc_id": "IM114_7", "text": "FDA warnings now include precautions about fluoroquinolone use in high-risk patients.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM115",
+    "query_type": "compartive_NOT",
+    "query_text": "Is there evidence that antihistamines cause cognitive impairment in older adults?",
+    "documents": [
+      { "doc_id": "IM115_1", "text": "Some over-the-counter medication guides claim antihistamines improve alertness.", "relevance": 1 },
+      { "doc_id": "IM115_2", "text": "A few blogs suggest first-generation antihistamines enhance memory.", "relevance": 1 },
+      { "doc_id": "IM115_3", "text": "Pharmacological studies note the anticholinergic properties of older antihistamines.", "relevance": 2 },
+      { "doc_id": "IM115_4", "text": "Cognitive testing shows minor performance differences with acute use.", "relevance": 2 },
+      { "doc_id": "IM115_5", "text": "Elderly patients demonstrate more pronounced effects with chronic antihistamine use.", "relevance": 3 },
+      { "doc_id": "IM115_6", "text": "Long-term use correlates with slightly increased dementia risk in population studies.", "relevance": 4 },
+      { "doc_id": "IM115_7", "text": "Second-generation antihistamines show markedly reduced cognitive effects compared to first-generation drugs.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM116",
+    "query_type": "compartive_NOT",
+    "query_text": "Does long-term NSAID use increase the risk of kidney disease?",
+    "documents": [
+      { "doc_id": "IM116_1", "text": "Some pain relief websites claim NSAIDs have no renal effects at any dose.", "relevance": 1 },
+      { "doc_id": "IM116_2", "text": "A few alternative health sources suggest NSAIDs improve kidney function.", "relevance": 1 },
+      { "doc_id": "IM116_3", "text": "Case reports describe acute kidney injury with NSAID overdose.", "relevance": 2 },
+      { "doc_id": "IM116_4", "text": "Short-term use in healthy individuals rarely causes problems.", "relevance": 3 },
+      { "doc_id": "IM116_5", "text": "Chronic high-dose NSAID use correlates with reduced kidney function in elderly patients.", "relevance": 4 },
+      { "doc_id": "IM116_6", "text": "The risk appears highest in those with pre-existing renal impairment or dehydration.", "relevance": 4 },
+      { "doc_id": "IM116_7", "text": "Population studies confirm an association between prolonged NSAID use and chronic kidney disease progression.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM117",
+    "query_type": "compartive_NOT",
+    "query_text": "Is there a link between beta-blockers and depression?",
+    "documents": [
+      { "doc_id": "IM117_1", "text": "Some cardiology forums insist beta-blockers cannot cross the blood-brain barrier.", "relevance": 1 },
+      { "doc_id": "IM117_2", "text": "A few unverified sources claim beta-blockers treat depression effectively.", "relevance": 1 },
+      { "doc_id": "IM117_3", "text": "Early studies reported varying rates of mood changes with different beta-blockers.", "relevance": 2 },
+      { "doc_id": "IM117_4", "text": "Lipophilic agents like propranolol show more CNS penetration than hydrophilic ones.", "relevance": 2 },
+      { "doc_id": "IM117_5", "text": "Some patients describe fatigue or emotional blunting rather than classic depression.", "relevance": 3 },
+      { "doc_id": "IM117_6", "text": "Modern meta-analyses find inconsistent evidence for a true depressive effect.", "relevance": 4 },
+      { "doc_id": "IM117_7", "text": "Current consensus suggests any mood effects are usually mild and drug-specific rather than class-wide.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM118",
+    "query_type": "compartive_NOT",
+    "query_text": "Do calcium channel blockers increase the risk of breast cancer?",
+    "documents": [
+      { "doc_id": "IM118_1", "text": "Some alternative medicine sites claim calcium blockers prevent all cancers.", "relevance": 1 },
+      { "doc_id": "IM118_2", "text": "A single blog post suggests these drugs cure existing breast tumors.", "relevance": 1 },
+      { "doc_id": "IM118_3", "text": "Initial epidemiological studies reported conflicting results about cancer risk.", "relevance": 2 },
+      { "doc_id": "IM118_4", "text": "Subsequent analyses found no consistent pattern across different calcium channel blockers.", "relevance": 3 },
+      { "doc_id": "IM118_5", "text": "Large database studies show no increased breast cancer incidence with long-term use.", "relevance": 4 },
+      { "doc_id": "IM118_6", "text": "The hypothesized biological mechanisms have not been substantiated in clinical studies.", "relevance": 4 },
+      { "doc_id": "IM118_7", "text": "Comprehensive reviews conclude there is no convincing evidence linking calcium channel blockers to breast cancer.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM119",
+    "query_type": "compartive_NOT",
+    "query_text": "Is there evidence that diuretics cause significant electrolyte imbalances in elderly patients?",
+    "documents": [
+      { "doc_id": "IM119_1", "text": "Some health forums claim diuretics have no effect on electrolytes at any age.", "relevance": 1 },
+      { "doc_id": "IM119_2", "text": "A few alternative sources suggest diuretics improve mineral balance.", "relevance": 1 },
+      { "doc_id": "IM119_3", "text": "Basic metabolic panels often show mild changes after initiating diuretics.", "relevance": 2 },
+      { "doc_id": "IM119_4", "text": "Elderly patients are more prone to developing hyponatremia with thiazides.", "relevance": 3 },
+      { "doc_id": "IM119_5", "text": "Loop diuretics more commonly cause hypokalemia than thiazides in clinical practice.", "relevance": 4 },
+      { "doc_id": "IM119_6", "text": "The risk of severe imbalances increases with high doses and combination therapy.", "relevance": 4 },
+      { "doc_id": "IM119_7", "text": "While electrolyte disturbances can occur, routine monitoring prevents most serious complications in elderly patients.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM120",
+    "query_type": "compartive_NOT",
+    "query_text": "Does long-term aspirin use lead to hearing loss?",
+    "documents": [
+      { "doc_id": "IM120_1", "text": "Some websites claim aspirin protects against all forms of hearing impairment.", "relevance": 1 },
+      { "doc_id": "IM120_2", "text": "A few unverified sources suggest aspirin reverses existing hearing damage.", "relevance": 1 },
+      { "doc_id": "IM120_3", "text": "High doses can cause temporary tinnitus in some individuals.", "relevance": 2 },
+      { "doc_id": "IM120_4", "text": "The ototoxic effects appear dose-dependent and usually reversible.", "relevance": 3 },
+      { "doc_id": "IM120_5", "text": "Standard low-dose aspirin regimens rarely affect hearing in clinical studies.", "relevance": 4 },
+      { "doc_id": "IM120_6", "text": "Chronic very high doses may contribute to cumulative cochlear damage.", "relevance": 4 },
+      { "doc_id": "IM120_7", "text": "Current evidence suggests minimal risk of permanent hearing loss with typical cardiovascular aspirin doses.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM121",
+    "query_type": "compartive_NOT",
+    "query_text": "Is there a connection between antidepressants and weight gain?",
+    "documents": [
+      { "doc_id": "IM121_1", "text": "Some mental health forums claim all antidepressants cause weight loss.", "relevance": 1 },
+      { "doc_id": "IM121_2", "text": "A few blogs suggest certain SSRIs are effective weight loss drugs.", "relevance": 1 },
+      { "doc_id": "IM121_3", "text": "Short-term studies often show minimal weight changes with most antidepressants.", "relevance": 2 },
+      { "doc_id": "IM121_4", "text": "Longitudinal data reveals varying weight effects among different drug classes.", "relevance": 3 },
+      { "doc_id": "IM121_5", "text": "Mirtazapine and some TCAs show more consistent associations with weight gain.", "relevance": 4 },
+      { "doc_id": "IM121_6", "text": "Bupropion and some SSRIs tend to be weight-neutral or associated with slight loss.", "relevance": 4 },
+      { "doc_id": "IM121_7", "text": "While some antidepressants do promote weight gain, the effect varies significantly by medication and individual.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM122",
+    "query_type": "compartive_NOT",
+    "query_text": "Do cholesterol-lowering drugs contribute to muscle pain or weakness?",
+    "documents": [
+      { "doc_id": "IM122_1", "text": "Some fitness forums claim statins enhance athletic performance.", "relevance": 1 },
+      { "doc_id": "IM122_2", "text": "A few alternative health sites suggest statins build muscle mass.", "relevance": 1 },
+      { "doc_id": "IM122_3", "text": "Clinical trials report myalgia rates similar to placebo in most patients.", "relevance": 2 },
+      { "doc_id": "IM122_4", "text": "A small percentage of users describe statin-associated muscle symptoms.", "relevance": 3 },
+      { "doc_id": "IM122_5", "text": "The risk increases with high doses and certain drug interactions.", "relevance": 4 },
+      { "doc_id": "IM122_6", "text": "True myopathy with elevated CK levels occurs in less than 0.1% of cases.", "relevance": 4 },
+      { "doc_id": "IM122_7", "text": "While muscle symptoms can occur, severe statin-induced myopathy is rare with proper monitoring.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM123",
+    "query_type": "compartive_NOT",
+    "query_text": "Is there evidence that antacids impair nutrient absorption?",
+    "documents": [
+      { "doc_id": "IM123_1", "text": "Some digestive health sites claim antacids enhance vitamin uptake.", "relevance": 1 },
+      { "doc_id": "IM123_2", "text": "A few blogs suggest antacids make all nutrients more bioavailable.", "relevance": 1 },
+      { "doc_id": "IM123_3", "text": "PPIs may slightly reduce absorption of non-heme iron from plant sources.", "relevance": 2 },
+      { "doc_id": "IM123_4", "text": "Calcium carbonate antacids can interfere with iron absorption if taken simultaneously.", "relevance": 3 },
+      { "doc_id": "IM123_5", "text": "Long-term PPI use has been associated with lower magnesium levels in some patients.", "relevance": 4 },
+      { "doc_id": "IM123_6", "text": "Vitamin B12 absorption may decrease after years of acid suppression.", "relevance": 4 },
+      { "doc_id": "IM123_7", "text": "While antacids can affect certain nutrients, clinically significant deficiencies are rare with typical use.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM124",
+    "query_type": "compartive_NOT",
+    "query_text": "Does long-term use of oral contraceptives affect fertility?",
+    "documents": [
+      { "doc_id": "IM124_1", "text": "Some forums claim birth control pills cause permanent sterility.", "relevance": 1 },
+      { "doc_id": "IM124_2", "text": "A few unverified sources suggest OCs improve future fertility.", "relevance": 1 },
+      { "doc_id": "IM124_3", "text": "Cycle regularity may take a few months to return after discontinuation.", "relevance": 2 },
+      { "doc_id": "IM124_4", "text": "Most women resume normal ovulation patterns within 3-6 months.", "relevance": 3 },
+      { "doc_id": "IM124_5", "text": "Long-term studies show comparable pregnancy rates to never-users after stopping OCs.", "relevance": 4 },
+      { "doc_id": "IM124_6", "text": "Age rather than OC duration is the primary determinant of post-pill fertility.", "relevance": 4 },
+      { "doc_id": "IM124_7", "text": "Extensive research confirms no negative long-term impact of oral contraceptives on fertility potential.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM125",
+    "query_type": "compartive_NOT",
+    "query_text": "Are there neurological risks associated with quinolone antibiotics?",
+    "documents": [
+      { "doc_id": "IM125_1", "text": "Some patient forums claim fluoroquinolones cannot affect the nervous system.", "relevance": 1 },
+      { "doc_id": "IM125_2", "text": "A few blogs suggest these antibiotics treat neurological conditions.", "relevance": 1 },
+      { "doc_id": "IM125_3", "text": "Package inserts note possible CNS effects like dizziness or insomnia.", "relevance": 2 },
+      { "doc_id": "IM125_4", "text": "Case reports describe rare instances of seizures or psychosis.", "relevance": 3 },
+      { "doc_id": "IM125_5", "text": "The risk appears higher in elderly patients and those with CNS disorders.", "relevance": 4 },
+      { "doc_id": "IM125_6", "text": "Most neurological symptoms resolve after discontinuing the medication.", "relevance": 4 },
+      { "doc_id": "IM125_7", "text": "While neurological side effects can occur, they are generally rare and reversible with prompt discontinuation.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM126",
+    "query_type": "compartive_NOT",
+    "query_text": "Does phentermine cause heart valve damage?",
+    "documents": [
+      { "doc_id": "IM126_1", "text": "Some weight loss forums claim phentermine strengthens heart valves.", "relevance": 1 },
+      { "doc_id": "IM126_2", "text": "A few unverified sources suggest it reverses existing valve disease.", "relevance": 1 },
+      { "doc_id": "IM126_3", "text": "Initial concerns stemmed from the fenfluramine-phentermine combination.", "relevance": 2 },
+      { "doc_id": "IM126_4", "text": "Isolated phentermine use hasn't been linked to valve pathology in studies.", "relevance": 3 },
+      { "doc_id": "IM126_5", "text": "Echocardiographic surveys show no increased risk with phentermine monotherapy.", "relevance": 4 },
+      { "doc_id": "IM126_6", "text": "Current labeling doesn't include valvulopathy warnings for phentermine alone.", "relevance": 4 },
+      { "doc_id": "IM126_7", "text": "Available evidence does not support an association between phentermine monotherapy and heart valve damage.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM127",
+    "query_type": "compartive_NOT",
+    "query_text": "Is there a link between thyroid medications and osteoporosis?",
+    "documents": [
+      { "doc_id": "IM127_1", "text": "Some thyroid patient groups claim levothyroxine protects bones.", "relevance": 1 },
+      { "doc_id": "IM127_2", "text": "A few blogs suggest all thyroid medications increase bone density.", "relevance": 1 },
+      { "doc_id": "IM127_3", "text": "Early studies raised concerns about supraphysiologic doses.", "relevance": 2 },
+      { "doc_id": "IM127_4", "text": "Modern replacement regimens aim to maintain TSH in normal range.", "relevance": 3 },
+      { "doc_id": "IM127_5", "text": "Properly dosed thyroid replacement doesn't appear to increase fracture risk.", "relevance": 4 },
+      { "doc_id": "IM127_6", "text": "The risk of bone loss is primarily associated with over-replacement.", "relevance": 4 },
+      { "doc_id": "IM127_7", "text": "When thyroid function is maintained in the normal range, there is no significant association with osteoporosis development.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM128",
+    "query_type": "compartive_NOT",
+    "query_text": "Do benzodiazepines increase dementia risk with long-term use?",
+    "documents": [
+      { "doc_id": "IM128_1", "text": "Some anxiety forums claim benzodiazepines prevent Alzheimer's disease.", "relevance": 1 },
+      { "doc_id": "IM128_2", "text": "A few unverified sources suggest they enhance cognitive function.", "relevance": 1 },
+      { "doc_id": "IM128_3", "text": "Observational studies initially reported possible associations.", "relevance": 2 },
+      { "doc_id": "IM128_4", "text": "The relationship may be complicated by prodromal anxiety in dementia patients.", "relevance": 3 },
+      { "doc_id": "IM128_5", "text": "More rigorous studies show inconsistent evidence for causation.", "relevance": 4 },
+      { "doc_id": "IM128_6", "text": "The potential risk appears greater with long-term, high-dose use in elderly patients.", "relevance": 4 },
+      { "doc_id": "IM128_7", "text": "While an association exists, current evidence doesn't establish benzodiazepines as a direct cause of dementia.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM129",
+    "query_type": "compartive_NOT",
+    "query_text": "Does methotrexate cause permanent liver damage at low doses?",
+    "documents": [
+      { "doc_id": "IM129_1", "text": "Some arthritis forums claim methotrexate has no hepatic effects.", "relevance": 1 },
+      { "doc_id": "IM129_2", "text": "A few alternative health sites suggest it improves liver function.", "relevance": 1 },
+      { "doc_id": "IM129_3", "text": "Liver enzyme elevations are common but often transient.", "relevance": 2 },
+      { "doc_id": "IM129_4", "text": "Regular monitoring detects most significant hepatic effects early.", "relevance": 3 },
+      { "doc_id": "IM129_5", "text": "Fibrosis risk increases with cumulative dose and alcohol use.", "relevance": 4 },
+      { "doc_id": "IM129_6", "text": "Serious liver damage is rare at rheumatologic doses with proper monitoring.", "relevance": 4 },
+      { "doc_id": "IM129_7", "text": "When used appropriately with monitoring, low-dose methotrexate rarely causes irreversible liver damage.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM130",
+    "query_type": "compartive_NOT",
+    "query_text": "Is there evidence that antihypertensive drugs cause erectile dysfunction?",
+    "documents": [
+      { "doc_id": "IM130_1", "text": "Some men's health forums claim all blood pressure medications improve sexual function.", "relevance": 1 },
+      { "doc_id": "IM130_2", "text": "A few blogs suggest beta-blockers enhance erectile performance.", "relevance": 1 },
+      { "doc_id": "IM130_3", "text": "Patient surveys report varying rates of sexual side effects among drug classes.", "relevance": 2 },
+      { "doc_id": "IM130_4", "text": "Thiazide diuretics and beta-blockers show more association than others.", "relevance": 3 },
+      { "doc_id": "IM130_5", "text": "ARBs and some CCBs may have neutral or positive effects on erectile function.", "relevance": 4 },
+      { "doc_id": "IM130_6", "text": "The relationship is complicated by hypertension itself being a risk factor for ED.", "relevance": 4 },
+      { "doc_id": "IM130_7", "text": "While some antihypertensives can contribute to ED, the effect varies significantly by medication class.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM131",
+    "query_type": "compartive_NOT",
+    "query_text": "Do SSRIs increase bleeding risk during surgery?",
+    "documents": [
+      { "doc_id": "IM131_1", "text": "Some surgical forums claim SSRIs reduce bleeding by strengthening blood vessels.", "relevance": 1 },
+      { "doc_id": "IM131_2", "text": "A few blogs suggest these antidepressants improve clotting function.", "relevance": 1 },
+      { "doc_id": "IM131_3", "text": "Pharmacological studies note SSRIs' mild antiplatelet effects.", "relevance": 2 },
+      { "doc_id": "IM131_4", "text": "The increased bleeding risk appears small but measurable in most procedures.", "relevance": 3 },
+      { "doc_id": "IM131_5", "text": "The effect may be more significant in surgeries with high bleeding risk.", "relevance": 4 },
+      { "doc_id": "IM131_6", "text": "Current guidelines don't universally recommend discontinuing SSRIs preoperatively.", "relevance": 4 },
+      { "doc_id": "IM131_7", "text": "While SSRIs may slightly increase surgical bleeding risk, the clinical significance varies by procedure and patient factors.", "relevance": 5 }
+    ]
+  }
+]

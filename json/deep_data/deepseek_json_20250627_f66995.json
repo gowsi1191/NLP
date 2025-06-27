@@ -1,0 +1,212 @@
+[
+  {
+    "query_id": "EX101",
+    "query_type": "explicit_NOT",
+    "query_text": "Find evidence that corticosteroids do NOT cause bone mineral density loss",
+    "documents": [
+      { "doc_id": "EX101_1", "text": "Several blog posts claim corticosteroids have no effect on bones at any dose.", "relevance": 1 },
+      { "doc_id": "EX101_2", "text": "Some patients report using steroids for years without bone scans.", "relevance": 1 },
+      { "doc_id": "EX101_3", "text": "Short-term studies (<3 months) show no significant BMD changes.", "relevance": 2 },
+      { "doc_id": "EX101_4", "text": "Pediatric patients show normal bone growth with intermittent dosing.", "relevance": 3 },
+      { "doc_id": "EX101_5", "text": "Low-dose alternate-day regimens demonstrate preserved bone markers.", "relevance": 3 },
+      { "doc_id": "EX101_6", "text": "RCTs of inhaled corticosteroids find no spinal density reduction.", "relevance": 4 },
+      { "doc_id": "EX101_7", "text": "Meta-analyses confirm bone-sparing effects of concurrent bisphosphonate therapy.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX102",
+    "query_type": "explicit_NOT",
+    "query_text": "Show that metformin does NOT lead to vitamin B12 deficiency",
+    "documents": [
+      { "doc_id": "EX102_1", "text": "Alternative medicine sites claim B12 deficiency is impossible with metformin.", "relevance": 1 },
+      { "doc_id": "EX102_2", "text": "Some diabetics report decades of use without supplements.", "relevance": 1 },
+      { "doc_id": "EX102_3", "text": "Studies with B12-fortified diets show normal absorption rates.", "relevance": 2 },
+      { "doc_id": "EX102_4", "text": "Patients consuming high dairy intake maintain normal B12 levels.", "relevance": 2 },
+      { "doc_id": "EX102_5", "text": "No deficiency observed when metformin is taken with meals.", "relevance": 3 },
+      { "doc_id": "EX102_6", "text": "Extended-release formulations show no effect on B12 status.", "relevance": 4 },
+      { "doc_id": "EX102_7", "text": "Systematic reviews find no B12 decline in populations with meat-rich diets.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX103",
+    "query_type": "explicit_NOT",
+    "query_text": "Prove that PPIs do NOT increase dementia risk",
+    "documents": [
+      { "doc_id": "EX103_1", "text": "Some gastroenterologists dismiss all cognitive concerns as myths.", "relevance": 1 },
+      { "doc_id": "EX103_2", "text": "Online GERD communities report no memory issues with long-term use.", "relevance": 1 },
+      { "doc_id": "EX103_3", "text": "Short-term cognitive testing shows no impairment after 6 months.", "relevance": 2 },
+      { "doc_id": "EX103_4", "text": "Studies controlling for comorbidities find no association.", "relevance": 3 },
+      { "doc_id": "EX103_5", "text": "No biomarker changes in CSF amyloid/tau with PPI exposure.", "relevance": 3 },
+      { "doc_id": "EX103_6", "text": "Large cohort studies show no dose-response relationship.", "relevance": 4 },
+      { "doc_id": "EX103_7", "text": "NIH-funded RCTs demonstrate no cognitive decline after 3 years of continuous use.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX104",
+    "query_type": "explicit_NOT",
+    "query_text": "Demonstrate that SSRIs do NOT cause bleeding",
+    "documents": [
+      { "doc_id": "EX104_1", "text": "Some psychiatrists claim bleeding risks are pharmaceutical fiction.", "relevance": 1 },
+      { "doc_id": "EX104_2", "text": "Online forums report no bruising even with concurrent NSAIDs.", "relevance": 1 },
+      { "doc_id": "EX104_3", "text": "Platelet aggregation tests normal in healthy volunteers.", "relevance": 2 },
+      { "doc_id": "EX104_4", "text": "No increased surgical bleeding when discontinued 72h pre-op.", "relevance": 2 },
+      { "doc_id": "EX104_5", "text": "Studies of selective serotonin reuptake show intact clotting.", "relevance": 3 },
+      { "doc_id": "EX104_6", "text": "Meta-analyses find no GI bleeding risk in patients <50 years.", "relevance": 4 },
+      { "doc_id": "EX104_7", "text": "Multinational RCTs confirm no bleeding difference versus placebo in coagulation-normal patients.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX105",
+    "query_type": "explicit_NOT",
+    "query_text": "Confirm that statins do NOT induce muscle damage",
+    "documents": [
+      { "doc_id": "EX105_1", "text": "Some cardiologists dismiss all myalgia reports as nocebo effect.", "relevance": 1 },
+      { "doc_id": "EX105_2", "text": "Patient groups report tolerance after initial adjustment period.", "relevance": 1 },
+      { "doc_id": "EX105_3", "text": "No CK elevation in 80% of users at standard doses.", "relevance": 2 },
+      { "doc_id": "EX105_4", "text": "Muscle biopsies show normal histology in symptomatic patients.", "relevance": 3 },
+      { "doc_id": "EX105_5", "text": "No mitochondrial abnormalities on electron microscopy.", "relevance": 3 },
+      { "doc_id": "EX105_6", "text": "Genetic studies find no myopathy risk in SLCO1B1 normal variants.", "relevance": 4 },
+      { "doc_id": "EX105_7", "text": "NIH muscle study consortium finds no structural damage biomarkers in chronic users.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX106",
+    "query_type": "explicit_NOT",
+    "query_text": "Establish that proton pump inhibitors do NOT cause kidney disease",
+    "documents": [
+      { "doc_id": "EX106_1", "text": "Some nephrologists argue PPI-renal claims are correlational only.", "relevance": 1 },
+      { "doc_id": "EX106_2", "text": "GERD patient forums report normal creatinine after decade-long use.", "relevance": 1 },
+      { "doc_id": "EX106_3", "text": "No albuminuria in healthy volunteers after 6 months.", "relevance": 2 },
+      { "doc_id": "EX106_4", "text": "Studies controlling for hypertension show no GFR difference.", "relevance": 2 },
+      { "doc_id": "EX106_5", "text": "Renal biopsies reveal no specific PPI-induced pathology.", "relevance": 3 },
+      { "doc_id": "EX106_6", "text": "Large Medicare analysis finds no CKD progression after dose reduction.", "relevance": 4 },
+      { "doc_id": "EX106_7", "text": "Prospective RCTs demonstrate identical cystatin C trajectories versus placebo.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX107",
+    "query_type": "explicit_NOT",
+    "query_text": "Verify that bisphosphonates do NOT cause jaw osteonecrosis",
+    "documents": [
+      { "doc_id": "EX107_1", "text": "Some dentists claim ONJ risks are overstated by litigation.", "relevance": 1 },
+      { "doc_id": "EX107_2", "text": "Osteoporosis patients report years of use without dental issues.", "relevance": 1 },
+      { "doc_id": "EX107_3", "text": "No cases reported with proper dental prophylaxis.", "relevance": 2 },
+      { "doc_id": "EX107_4", "text": "Oral cancer studies show normal healing post-extraction.", "relevance": 3 },
+      { "doc_id": "EX107_5", "text": "Micro-CT demonstrates intact mandibular vasculature.", "relevance": 3 },
+      { "doc_id": "EX107_6", "text": "10-year registry data finds ONJ incidence <0.001% in osteoporosis doses.", "relevance": 4 },
+      { "doc_id": "EX107_7", "text": "NIH consensus panel attributes most cases to concurrent antiangiogenics.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX108",
+    "query_type": "explicit_NOT",
+    "query_text": "Show that beta-blockers do NOT worsen COPD",
+    "documents": [
+      { "doc_id": "EX108_1", "text": "Some pulmonologists claim bronchospasm fears are outdated.", "relevance": 1 },
+      { "doc_id": "EX108_2", "text": "COPD patient groups report tolerance to cardioselective agents.", "relevance": 1 },
+      { "doc_id": "EX108_3", "text": "No FEV1 decline in mild-moderate COPD after 3 months.", "relevance": 2 },
+      { "doc_id": "EX108_4", "text": "Studies show reduced exacerbations with concomitant LABA use.", "relevance": 2 },
+      { "doc_id": "EX108_5", "text": "Metoprolol demonstrates no increased rescue inhaler use.", "relevance": 3 },
+      { "doc_id": "EX108_6", "text": "Large VA study finds mortality benefit in COPD-heart failure.", "relevance": 4 },
+      { "doc_id": "EX108_7", "text": "GOLD guidelines now endorse cardioselective beta-blockers based on RCT evidence.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX109",
+    "query_type": "explicit_NOT",
+    "query_text": "Confirm that ACE inhibitors do NOT cause chronic cough",
+    "documents": [
+      { "doc_id": "EX109_1", "text": "Some cardiologists claim cough incidence is <1% in practice.", "relevance": 1 },
+      { "doc_id": "EX109_2", "text": "Hypertension forums report no respiratory side effects.", "relevance": 1 },
+      { "doc_id": "EX109_3", "text": "No bronchial hyperreactivity on methacholine challenge.", "relevance": 2 },
+      { "doc_id": "EX109_4", "text": "Asian populations show same incidence as Caucasians.", "relevance": 3 },
+      { "doc_id": "EX109_5", "text": "Bradykinin receptor polymorphisms don't predict symptoms.", "relevance": 3 },
+      { "doc_id": "EX109_6", "text": "Double-blind studies show identical cough rates to ARBs.", "relevance": 4 },
+      { "doc_id": "EX109_7", "text": "NIH meta-analysis attributes most reports to nocebo effect.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX110",
+    "query_type": "explicit_NOT",
+    "query_text": "Prove that antidepressants do NOT increase suicide risk",
+    "documents": [
+      { "doc_id": "EX110_1", "text": "Some psychiatrists claim suicide warnings cause more harm.", "relevance": 1 },
+      { "doc_id": "EX110_2", "text": "Patient advocacy groups report improved outcomes.", "relevance": 1 },
+      { "doc_id": "EX110_3", "text": "No increased suicidal ideation in adult RCTs.", "relevance": 2 },
+      { "doc_id": "EX110_4", "text": "Population studies show declining rates with SSRI availability.", "relevance": 3 },
+      { "doc_id": "EX110_5", "text": "Meta-analyses demonstrate protective effects after 30 days.", "relevance": 3 },
+      { "doc_id": "EX110_6", "text": "FDA reanalysis finds age-dependent benefits outweigh risks.", "relevance": 4 },
+      { "doc_id": "EX110_7", "text": "WHO data confirms 30% lower suicide mortality with treatment access.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX111",
+    "query_type": "explicit_NOT",
+    "query_text": "Demonstrate that NSAIDs do NOT delay fracture healing",
+    "documents": [
+      { "doc_id": "EX111_1", "text": "Some orthopedists claim COX-2 inhibition benefits healing.", "relevance": 1 },
+      { "doc_id": "EX111_2", "text": "Athletes report normal recovery with postoperative NSAIDs.", "relevance": 1 },
+      { "doc_id": "EX111_3", "text": "No callus formation difference in pediatric studies.", "relevance": 2 },
+      { "doc_id": "EX111_4", "text": "Animal models show compensatory prostaglandin pathways.", "relevance": 3 },
+      { "doc_id": "EX111_5", "text": "CT scans demonstrate equivalent bridging trabeculae.", "relevance": 3 },
+      { "doc_id": "EX111_6", "text": "Large fracture registry finds no nonunion association.", "relevance": 4 },
+      { "doc_id": "EX111_7", "text": "AAOS systematic review concludes no clinically significant delay.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX112",
+    "query_type": "explicit_NOT",
+    "query_text": "Verify that quinolones do NOT cause retinal detachment",
+    "documents": [
+      { "doc_id": "EX112_1", "text": "Some ophthalmologists dismiss retinal claims as anecdotal.", "relevance": 1 },
+      { "doc_id": "EX112_2", "text": "Patient surveys report no vision changes during treatment.", "relevance": 1 },
+      { "doc_id": "EX112_3", "text": "No vitreous changes on OCT in clinical trials.", "relevance": 2 },
+      { "doc_id": "EX112_4", "text": "Studies controlling for myopia find no increased risk.", "relevance": 2 },
+      { "doc_id": "EX112_5", "text": "Collagen binding assays show no matrix disruption.", "relevance": 3 },
+      { "doc_id": "EX112_6", "text": "10-year pharmacovigilance data matches baseline population rates.", "relevance": 4 },
+      { "doc_id": "EX112_7", "text": "FDA reanalysis confirms no causal association after case-control adjustment.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX113",
+    "query_type": "explicit_NOT",
+    "query_text": "Show that antipsychotics do NOT cause brain volume loss",
+    "documents": [
+      { "doc_id": "EX113_1", "text": "Some psychiatrists claim imaging changes are disease-related.", "relevance": 1 },
+      { "doc_id": "EX113_2", "text": "Long-term schizophrenia patients report stable cognition.", "relevance": 1 },
+      { "doc_id": "EX113_3", "text": "No cortical thinning in first-episode medication-naïve comparisons.", "relevance": 2 },
+      { "doc_id": "EX113_4", "text": "Longitudinal MRI shows no dose-dependent effects.", "relevance": 3 },
+      { "doc_id": "EX113_5", "text": "Postmortem studies find no neuronal reduction.", "relevance": 3 },
+      { "doc_id": "EX113_6", "text": "Meta-analyses attribute changes to chronic illness progression.", "relevance": 4 },
+      { "doc_id": "EX113_7", "text": "NIMH study demonstrates gray matter preservation with early treatment.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX114",
+    "query_type": "explicit_NOT",
+    "query_text": "Confirm that hormonal contraceptives do NOT increase depression",
+    "documents": [
+      { "doc_id": "EX114_1", "text": "Some gynecologists claim mood effects are rare in practice.", "relevance": 1 },
+      { "doc_id": "EX114_2", "text": "Patient surveys report improved PMS symptoms.", "relevance": 1 },
+      { "doc_id": "EX114_3", "text": "No PHQ-9 score changes in healthy women after 6 months.", "relevance": 2 },
+      { "doc_id": "EX114_4", "text": "Studies controlling for PMDD history show no association.", "relevance": 2 },
+      { "doc_id": "EX114_5", "text": "Estrogen receptor polymorphisms don't predict symptoms.", "relevance": 3 },
+      { "doc_id": "EX114_6", "text": "Million Women Study finds identical depression rates to non-users.", "relevance": 4 },
+      { "doc_id": "EX114_7", "text": "Cochrane review concludes no causal relationship with major depression.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX115",
+    "query_type": "explicit_NOT",
+    "query_text": "Prove that gabapentin does NOT cause cognitive impairment",
+    "documents": [
+      { "doc_id": "EX115_1", "text": "Some neurologists claim brain fog reports are anecdotal.", "relevance": 1 },
+      { "doc_id": "EX115_2", "text": "Chronic pain patients report normal work performance.", "relevance": 1 },
+      { "doc_id": "EX115_3", "text": "No MMSE changes in elderly at therapeutic doses.", "relevance": 2 },
+      { "doc_id": "EX115_4", "text": "Studies show intact executive function on neuropsychological testing.", "relevance": 3 },
+      { "doc_id": "EX115_5", "text": "fMRI demonstrates normal prefrontal activation patterns.", "relevance": 3 },
+      { "doc_id": "EX115_6", "text": "Epilepsy monitoring finds no EEG slowing correlation.", "relevance": 4 },
+      { "doc_id": "EX115_7", "text": "NIH cognitive battery reveals no deficits versus placebo in RCTs.", "relevance": 5 }
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "query_id": "EX116",
+    "query_type": "explicit_NOT",
+    "query_text": "Demonstrate that TNF inhibitors do NOT increase cancer risk",
+    "documents": [
+      { "doc_id": "EX116_1", "text": "Some rheumatologists claim malignancy fears are overblown.", "relevance": 1 },
+      { "doc_id": "EX116_2", "text": "Patient registries report no increased cancer diagnoses.", "relevance": 1 },
+      { "doc_id": "EX116_3", "text": "No DNA damage in lymphocyte assays.", "relevance": 2 },
+      { "doc_id": "EX116_4", "text": "Studies controlling for disease activity show no association.", "relevance": 3 },
+      { "doc_id": "EX116_5", "text": "10-year follow-up finds identical rates to general population.", "relevance": 3 },
+      { "doc_id": "EX116_6", "text": "Meta-analyses demonstrate reduced lymphoma risk versus untreated RA.", "relevance": 4 },
+      { "doc_id": "EX116_7", "text": "FDA-mandated RCT extension data confirms no excess malignancies.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX117",
+    "query_type": "explicit_NOT",
+    "query_text": "Verify that isotretinoin does NOT cause inflammatory bowel disease",
+    "documents": [
+      { "doc_id": "EX117_1", "text": "Some dermatologists dismiss IBD links as coincidental.", "relevance": 1 },
+      { "doc_id": "EX117_2", "text": "Acne patients report no GI symptoms post-treatment.", "relevance": 1 },
+      { "doc_id": "EX117_3", "text": "No microbiome shifts in longitudinal stool analyses.", "relevance": 2 },
+      { "doc_id": "EX117_4", "text": "Studies matching for family history show no increased risk.", "relevance": 2 },
+      { "doc_id": "EX117_5", "text": "Retinoid receptor knockouts develop normal intestinal mucosa.", "relevance": 3 },
+      { "doc_id": "EX117_6", "text": "Nationwide cohort studies find identical incidence rates.", "relevance": 4 },
+      { "doc_id": "EX117_7", "text": "NIH expert panel concludes no biological plausibility for causation.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX118",
+    "query_type": "explicit_NOT",
+    "query_text": "Show that opioids do NOT cause hyperalgesia at therapeutic doses",
+    "documents": [
+      { "doc_id": "EX118_1", "text": "Some pain specialists claim OIH is only seen in addiction.", "relevance": 1 },
+      { "doc_id": "EX118_2", "text": "Chronic pain patients report stable analgesic efficacy.", "relevance": 1 },
+      { "doc_id": "EX118_3", "text": "No increased pain sensitivity in quantitative sensory testing.", "relevance": 2 },
+      { "doc_id": "EX118_4", "text": "Studies show intact descending inhibitory pathways.", "relevance": 3 },
+      { "doc_id": "EX118_5", "text": "NMDA antagonists don't improve pain scores in clinical users.", "relevance": 3 },
+      { "doc_id": "EX118_6", "text": "Systematic reviews find no evidence below 200mg MED daily.", "relevance": 4 },
+      { "doc_id": "EX118_7", "text": "IASP consensus guidelines state OIH is negligible in non-escalating regimens.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX119",
+    "query_type": "explicit_NOT",
+    "query_text": "Confirm that finasteride does NOT cause persistent sexual dysfunction",
+    "documents": [
+      { "doc_id": "EX119_1", "text": "Some urologists claim PFS is psychosomatic.", "relevance": 1 },
+      { "doc_id": "EX119_2", "text": "BPH patients report normal sexual function long-term.", "relevance": 1 },
+      { "doc_id": "EX119_3", "text": "No androgen receptor changes in genital tissue biopsies.", "relevance": 2 },
+      { "doc_id": "EX119_4", "text": "Studies show full recovery after discontinuation.", "relevance": 2 },
+      { "doc_id": "EX119_5", "text": "Neurosteroid levels normalize within 3 months post-treatment.", "relevance": 3 },
+      { "doc_id": "EX119_6", "text": "5-year follow-up studies find identical dysfunction rates to placebo.", "relevance": 4 },
+      { "doc_id": "EX119_7", "text": "EMA scientific review finds no causal relationship with persistent symptoms.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX120",
+    "query_type": "explicit_NOT",
+    "query_text": "Prove that calcium channel blockers do NOT increase breast cancer risk",
+    "documents": [
+      { "doc_id": "EX120_1", "text": "Some oncologists dismiss observational studies as flawed.", "relevance": 1 },
+      { "doc_id": "EX120_2", "text": "Hypertensive women report normal mammograms over decades.", "relevance": 1 },
+      { "doc_id": "EX120_3", "text": "No DNA damage in mammary epithelial cell cultures.", "relevance": 2 },
+      { "doc_id": "EX120_4", "text": "Studies controlling for screening frequency show no association.", "relevance": 3 },
+      { "doc_id": "EX120_5", "text": "Million Women Study reanalysis finds no increased incidence.", "relevance": 3 },
+      { "doc_id": "EX120_6", "text": "Meta-analyses demonstrate identical risk to other antihypertensives.", "relevance": 4 },
+      { "doc_id": "EX120_7", "text": "NIH-AARP study with 15-year follow-up confirms null association.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX121",
+    "query_type": "explicit_NOT",
+    "query_text": "Demonstrate that levodopa does NOT accelerate Parkinson's progression",
+    "documents": [
+      { "doc_id": "EX121_1", "text": "Some movement specialists claim neurotoxicity is theoretical.", "relevance": 1 },
+      { "doc_id": "EX121_2", "text": "Patients report stable symptoms for years on therapy.", "relevance": 1 },
+      { "doc_id": "EX121_3", "text": "No increased oxidative stress markers in CSF studies.", "relevance": 2 },
+      { "doc_id": "EX121_4", "text": "DAT scans show identical decline rates to delayed-start groups.", "relevance": 3 },
+      { "doc_id": "EX121_5", "text": "Postmortem studies find no excess neuronal loss.", "relevance": 3 },
+      { "doc_id": "EX121_6", "text": "ELLDOPA trial extension demonstrates long-term functional benefits.", "relevance": 4 },
+      { "doc_id": "EX121_7", "text": "MDS evidence-based review concludes no disease-modifying effects.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX122",
+    "query_type": "explicit_NOT",
+    "query_text": "Verify that anticholinergics do NOT cause permanent cognitive decline",
+    "documents": [
+      { "doc_id": "EX122_1", "text": "Some geriatricians claim dementia risks are overstated.", "relevance": 1 },
+      { "doc_id": "EX122_2", "text": "OAB patients report normal cognition after discontinuation.", "relevance": 1 },
+      { "doc_id": "EX122_3", "text": "No hippocampal atrophy on longitudinal MRI.", "relevance": 2 },
+      { "doc_id": "EX122_4", "text": "Studies show full MMSE recovery within 6 months.", "relevance": 2 },
+      { "doc_id": "EX122_5", "text": "Muscarinic receptor density normalizes after washout.", "relevance": 3 },
+      { "doc_id": "EX122_6", "text": "Nursing home studies find no accelerated decline.", "relevance": 4 },
+      { "doc_id": "EX122_7", "text": "NIH cognitive aging study confirms no residual impairment.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX123",
+    "query_type": "explicit_NOT",
+    "query_text": "Show that diuretics do NOT increase fracture risk",
+    "documents": [
+      { "doc_id": "EX123_1", "text": "Some endocrinologists claim thiazides protect bone.", "relevance": 1 },
+      { "doc_id": "EX123_2", "text": "Hypertensive elderly report fewer falls than expected.", "relevance": 1 },
+      { "doc_id": "EX123_3", "text": "No BMD differences in DEXA studies.", "relevance": 2 },
+      { "doc_id": "EX123_4", "text": "Studies controlling for dizziness show no association.", "relevance": 3 },
+      { "doc_id": "EX123_5", "text": "Calcium excretion normalizes after dose adjustment.", "relevance": 3 },
+      { "doc_id": "EX123_6", "text": "WHI data demonstrates reduced vertebral fracture rates.", "relevance": 4 },
+      { "doc_id": "EX123_7", "text": "Meta-analyses confirm lower hip fracture incidence versus other antihypertensives.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX124",
+    "query_type": "explicit_NOT",
+    "query_text": "Confirm that benzodiazepines do NOT cause dementia",
+    "documents": [
+      { "doc_id": "EX124_1", "text": "Some psychiatrists claim studies don't account for insomnia.", "relevance": 1 },
+      { "doc_id": "EX124_2", "text": "Anxiety patients report normal cognition with PRN use.", "relevance": 1 },
+      { "doc_id": "EX124_3", "text": "No hippocampal volume loss on controlled MRI studies.", "relevance": 2 },
+      { "doc_id": "EX124_4", "text": "Research accounting for prodromal symptoms shows no link.", "relevance": 3 },
+      { "doc_id": "EX124_5", "text": "GABA receptor imaging finds no long-term changes.", "relevance": 3 },
+      { "doc_id": "EX124_6", "text": "Twins studies demonstrate identical dementia rates.", "relevance": 4 },
+      { "doc_id": "EX124_7", "text": "NIH-funded RCT finds no cognitive decline after 2 years.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX125",
+    "query_type": "explicit_NOT",
+    "query_text": "Prove that vaccines do NOT cause autism",
+    "documents": [
+      { "doc_id": "EX125_1", "text": "Some pediatricians dismiss all autism claims as debunked.", "relevance": 1 },
+      { "doc_id": "EX125_2", "text": "Parent surveys report no developmental changes post-vaccination.", "relevance": 1 },
+      { "doc_id": "EX125_3", "text": "No thimerosal or aluminum biomarkers in ASD cases.", "relevance": 2 },
+      { "doc_id": "EX125_4", "text": "Studies of unvaccinated populations show identical rates.", "relevance": 3 },
+      { "doc_id": "EX125_5", "text": "MMR components don't cross blood-brain barrier.", "relevance": 3 },
+      { "doc_id": "EX125_6", "text": "Danish cohort study of 650,000 children finds no association.", "relevance": 4 },
+      { "doc_id": "EX125_7", "text": "CDC/FDA 10-year review confirms no causal relationship.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX126",
+    "query_type": "explicit_NOT",
+    "query_text": "Demonstrate that PPIs do NOT increase myocardial infarction risk",
+    "documents": [
+      { "doc_id": "EX126_1", "text": "Some cardiologists claim Plavix interaction explains all risk.", "relevance": 1 },
+      { "doc_id": "EX126_2", "text": "GERD patients report no cardiac symptoms with long-term use.", "relevance": 1 },
+      { "doc_id": "EX126_3", "text": "No endothelial dysfunction on vascular testing.", "relevance": 2 },
+      { "doc_id": "EX126_4", "text": "Studies controlling for CAD severity show no association.", "relevance": 2 },
+      { "doc_id": "EX126_5", "text": "Proton pump KO mice have normal cardiac histology.", "relevance": 3 },
+      { "doc_id": "EX126_6", "text": "FDA Sentinel Initiative finds no signal in 3.5 million patients.", "relevance": 4 },
+      { "doc_id": "EX126_7", "text": "NIH-funded RCT demonstrates identical cardiac event rates to placebo.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX127",
+    "query_type": "explicit_NOT",
+    "query_text": "Verify that statins do NOT increase hemorrhagic stroke risk",
+    "documents": [
+      { "doc_id": "EX127_1", "text": "Some neurologists claim cholesterol lowering protects vessels.", "relevance": 1 },
+      { "doc_id": "EX127_2", "text": "High-risk patients report no bleeding events.", "relevance": 1 },
+      { "doc_id": "EX127_3", "text": "No cerebral microbleeds on controlled MRI studies.", "relevance": 2 },
+      { "doc_id": "EX127_4", "text": "Research accounting for hypertension shows no association.", "relevance": 3 },
+      { "doc_id": "EX127_5", "text": "LDL reduction correlates with reduced hemorrhage recurrence.", "relevance": 3 },
+      { "doc_id": "EX127_6", "text": "SPARCL trial reanalysis finds net cerebrovascular benefit.", "relevance": 4 },
+      { "doc_id": "EX127_7", "text": "AHA/ASA guidelines affirm statins for secondary stroke prevention.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX128",
+    "query_type": "explicit_NOT",
+    "query_text": "Show that testosterone does NOT cause prostate cancer",
+    "documents": [
+      { "doc_id": "EX128_1", "text": "Some urologists claim androgen theory is outdated.", "relevance": 1 },
+      { "doc_id": "EX128_2", "text": "Hypogonadal men report normal PSA over decade-long therapy.", "relevance": 1 },
+      { "doc_id": "EX128_3", "text": "No increased proliferation in prostate biopsies.", "relevance": 2 },
+      { "doc_id": "EX128_4", "text": "Studies of androgen suppression show no reduced incidence.", "relevance": 3 },
+      { "doc_id": "EX128_5", "text": "Saturation model explains stable risk despite level variations.", "relevance": 3 },
+      { "doc_id": "EX128_6", "text": "Registry data demonstrates identical cancer rates to age-matched controls.", "relevance": 4 },
+      { "doc_id": "EX128_7", "text": "EAU position statement finds no evidence for causal relationship.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX129",
+    "query_type": "explicit_NOT",
+    "query_text": "Confirm that lithium does NOT cause significant weight gain",
+    "documents": [
+      { "doc_id": "EX129_1", "text": "Some psychiatrists claim metabolic effects are minimal.", "relevance": 1 },
+      { "doc_id": "EX129_2", "text": "Bipolar patients report stable BMI with monitoring.", "relevance": 1 },
+      { "doc_id": "EX129_3", "text": "No leptin resistance in longitudinal biomarker studies.", "relevance": 2 },
+      { "doc_id": "EX129_4", "text": "Research controlling for depression remission shows <2kg effect.", "relevance": 2 },
+      { "doc_id": "EX129_5", "text": "Thyroid-normal patients have identical weight trajectories.", "relevance": 3 },
+      { "doc_id": "EX129_6", "text": "STEP-BD study finds no difference versus other mood stabilizers.", "relevance": 4 },
+      { "doc_id": "EX129_7", "text": "Meta-analysis demonstrates 85% of users gain <5% body weight.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX130",
+    "query_type": "explicit_NOT",
+    "query_text": "Prove that fluoroquinolones do NOT cause peripheral neuropathy",
+    "documents": [
+      { "doc_id": "EX130_1", "text": "Some infectious disease doctors claim reports are overestimated.", "relevance": 1 },
+      { "doc_id": "EX130_2", "text": "UTI patients report no persistent tingling post-treatment.", "relevance": 1 },
+      { "doc_id": "EX130_3", "text": "No nerve conduction changes in controlled EMG studies.", "relevance": 2 },
+      { "doc_id": "EX130_4", "text": "Research accounting for diabetes shows no association.", "relevance": 3 },
+      { "doc_id": "EX130_5", "text": "Mitochondrial toxicity only occurs at supratherapeutic doses.", "relevance": 3 },
+      { "doc_id": "EX130_6", "text": "FDA Sentinel analysis finds incidence <0.01%.", "relevance": 4 },
+      { "doc_id": "EX130_7", "text": "Neurology consensus panel attributes most cases to preexisting conditions.", "relevance": 5 }
+    ]
+  }
+]

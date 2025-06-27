@@ -1,0 +1,212 @@
+[
+  {
+    "query_id": "IM102",
+    "query_type": "implicit_NOT",
+    "query_text": "Does metformin affect vitamin B12 absorption?",
+    "documents": [
+      { "doc_id": "IM102_1", "text": "Some forums claim metformin has no nutritional side effects whatsoever.", "relevance": 1 },
+      { "doc_id": "IM102_2", "text": "Anecdotal reports suggest vitamin deficiencies are rare with metformin.", "relevance": 1 },
+      { "doc_id": "IM102_3", "text": "Basic metabolic panels sometimes show lower B12 levels in metformin users.", "relevance": 2 },
+      { "doc_id": "IM102_4", "text": "Longitudinal data indicates B12 deficiency develops in about 10% of patients after 5 years.", "relevance": 3 },
+      { "doc_id": "IM102_5", "text": "Malabsorption mechanisms appear dose-dependent, particularly with >1000mg daily.", "relevance": 3 },
+      { "doc_id": "IM102_6", "text": "Controlled studies demonstrate reduced B12 absorption via calcium-dependent ileal membrane changes.", "relevance": 4 },
+      { "doc_id": "IM102_7", "text": "Current guidelines recommend annual B12 monitoring for all chronic metformin users.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM103",
+    "query_type": "implicit_NOT",
+    "query_text": "Can PPIs cause magnesium deficiency?",
+    "documents": [
+      { "doc_id": "IM103_1", "text": "Social media posts often state PPIs are completely safe for mineral balance.", "relevance": 1 },
+      { "doc_id": "IM103_2", "text": "Magnesium supplements are sometimes marketed alongside PPIs without evidence.", "relevance": 1 },
+      { "doc_id": "IM103_3", "text": "Case reports describe hypomagnesemia in elderly PPI users.", "relevance": 2 },
+      { "doc_id": "IM103_4", "text": "Electrolyte disturbances appear more common with concurrent diuretic use.", "relevance": 2 },
+      { "doc_id": "IM103_5", "text": "Proton pump inhibition may reduce active magnesium transport in the gut.", "relevance": 3 },
+      { "doc_id": "IM103_6", "text": "FDA warnings highlight refractory hypomagnesemia requiring IV replacement.", "relevance": 4 },
+      { "doc_id": "IM103_7", "text": "Mechanistic studies confirm PPIs impair TRPM6/7 mediated magnesium absorption.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM104",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there a connection between SSRIs and bleeding risk?",
+    "documents": [
+      { "doc_id": "IM104_1", "text": "Some alternative health sites deny any bleeding risks with antidepressants.", "relevance": 1 },
+      { "doc_id": "IM104_2", "text": "General health articles rarely mention SSRI effects on platelets.", "relevance": 1 },
+      { "doc_id": "IM104_3", "text": "Pharmacological data shows serotonin's role in platelet aggregation.", "relevance": 2 },
+      { "doc_id": "IM104_4", "text": "Epidemiological studies find increased GI bleeding with concurrent NSAID use.", "relevance": 3 },
+      { "doc_id": "IM104_5", "text": "Post-marketing surveillance reports higher intracranial hemorrhage rates.", "relevance": 4 },
+      { "doc_id": "IM104_6", "text": "Meta-analyses confirm 1.5-2x increased bleeding risk across SSRI classes.", "relevance": 4 },
+      { "doc_id": "IM104_7", "text": "Current perioperative guidelines recommend SSRI discontinuation before major surgery.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM105",
+    "query_type": "implicit_NOT",
+    "query_text": "Do antipsychotics increase diabetes risk?",
+    "documents": [
+      { "doc_id": "IM105_1", "text": "Some patient forums claim metabolic effects are just scare tactics.", "relevance": 1 },
+      { "doc_id": "IM105_2", "text": "Basic drug leaflets often downplay long-term metabolic consequences.", "relevance": 1 },
+      { "doc_id": "IM105_3", "text": "Early clinical trials noted minor glucose elevation in some participants.", "relevance": 2 },
+      { "doc_id": "IM105_4", "text": "Second-generation antipsychotics show stronger associations than first-gen.", "relevance": 3 },
+      { "doc_id": "IM105_5", "text": "Mechanisms involve both weight gain and direct pancreatic β-cell effects.", "relevance": 3 },
+      { "doc_id": "IM105_6", "text": "Population studies reveal 3-fold higher diabetes incidence in chronic users.", "relevance": 4 },
+      { "doc_id": "IM105_7", "text": "Consensus guidelines mandate quarterly glucose monitoring for all patients on atypical antipsychotics.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM106",
+    "query_type": "implicit_NOT",
+    "query_text": "Does long-term opioid use affect testosterone levels?",
+    "documents": [
+      { "doc_id": "IM106_1", "text": "Opioid manufacturers rarely discuss endocrine effects in advertising.", "relevance": 1 },
+      { "doc_id": "IM106_2", "text": "Some pain management sites claim hormonal effects are negligible.", "relevance": 1 },
+      { "doc_id": "IM106_3", "text": "Clinical observations note libido changes in male chronic pain patients.", "relevance": 2 },
+      { "doc_id": "IM106_4", "text": "Endocrine testing shows hypothalamic-pituitary-gonadal axis suppression.", "relevance": 3 },
+      { "doc_id": "IM106_5", "text": "Studies demonstrate 50% lower testosterone levels in >6 month opioid users.", "relevance": 4 },
+      { "doc_id": "IM106_6", "text": "The effect appears dose-dependent and reversible upon discontinuation.", "relevance": 4 },
+      { "doc_id": "IM106_7", "text": "Current pain management protocols include mandatory testosterone screening for chronic opioid therapy.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM107",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that statins cause muscle damage?",
+    "documents": [
+      { "doc_id": "IM107_1", "text": "Some health blogs insist statin myopathy is a pharmaceutical myth.", "relevance": 1 },
+      { "doc_id": "IM107_2", "text": "General wellness articles often minimize muscle-related complaints.", "relevance": 1 },
+      { "doc_id": "IM107_3", "text": "Patient surveys report mild myalgia in 10-15% of statin users.", "relevance": 2 },
+      { "doc_id": "IM107_4", "text": "CK elevations occur more frequently with high-intensity regimens.", "relevance": 3 },
+      { "doc_id": "IM107_5", "text": "Genetic studies identify SLCO1B1 variants as risk factors for severe myopathy.", "relevance": 3 },
+      { "doc_id": "IM107_6", "text": "Rhabdomyolysis incidence is 0.1-0.5% with certain statin combinations.", "relevance": 4 },
+      { "doc_id": "IM107_7", "text": "FDA mandates black box warnings about irreversible necrotizing myositis risks.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM108",
+    "query_type": "implicit_NOT",
+    "query_text": "Can antidepressants cause weight gain?",
+    "documents": [
+      { "doc_id": "IM108_1", "text": "Some online communities deny any metabolic effects of mood medications.", "relevance": 1 },
+      { "doc_id": "IM108_2", "text": "Basic drug information often omits detailed weight change data.", "relevance": 1 },
+      { "doc_id": "IM108_3", "text": "Clinical trials note 2-4 lb average weight increase over 6 months.", "relevance": 2 },
+      { "doc_id": "IM108_4", "text": "TCAs and mirtazapine show stronger associations than SSRIs.", "relevance": 2 },
+      { "doc_id": "IM108_5", "text": "Mechanisms involve histamine H1 receptor antagonism and metabolic rate changes.", "relevance": 3 },
+      { "doc_id": "IM108_6", "text": "Long-term observational studies find 10-15% patients gain >7% body weight.", "relevance": 4 },
+      { "doc_id": "IM108_7", "text": "Metabolic monitoring is now standard in treatment guidelines for second-generation antidepressants.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM109",
+    "query_type": "implicit_NOT",
+    "query_text": "Does prolonged antibiotic use disrupt gut microbiota?",
+    "documents": [
+      { "doc_id": "IM109_1", "text": "Some alternative medicine sites exaggerate permanent microbiome damage claims.", "relevance": 1 },
+      { "doc_id": "IM109_2", "text": "General antibiotic information leaflets rarely discuss microbiome effects.", "relevance": 1 },
+      { "doc_id": "IM109_3", "text": "Culture studies show temporary reductions in microbial diversity post-treatment.", "relevance": 2 },
+      { "doc_id": "IM109_4", "text": "Broad-spectrum antibiotics cause more pronounced shifts than narrow-spectrum.", "relevance": 3 },
+      { "doc_id": "IM109_5", "text": "16S rRNA sequencing reveals taxonomic imbalances lasting months after cessation.", "relevance": 4 },
+      { "doc_id": "IM109_6", "text": "Certain taxa like Bifidobacteria show particularly slow recovery patterns.", "relevance": 4 },
+      { "doc_id": "IM109_7", "text": "Current research demonstrates antibiotic-induced dysbiosis contributes to C. difficile susceptibility and other long-term health consequences.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM110",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there a link between bisphosphonates and atypical femur fractures?",
+    "documents": [
+      { "doc_id": "IM110_1", "text": "Some osteoporosis websites dismiss fracture concerns as extremely rare.", "relevance": 1 },
+      { "doc_id": "IM110_2", "text": "Pharmaceutical sites often highlight benefits over potential risks.", "relevance": 1 },
+      { "doc_id": "IM110_3", "text": "Case reports describe transverse fractures with minimal trauma.", "relevance": 2 },
+      { "doc_id": "IM110_4", "text": "Radiographic studies show unique cortical thickening patterns in long-term users.", "relevance": 3 },
+      { "doc_id": "IM110_5", "text": "The risk appears duration-dependent, increasing after 3-5 years of use.", "relevance": 3 },
+      { "doc_id": "IM110_6", "text": "Epidemiological data confirms 2-3 fold higher incidence versus non-users.", "relevance": 4 },
+      { "doc_id": "IM110_7", "text": "FDA now mandates drug holidays after 3-5 years of bisphosphonate therapy due to suppressed bone turnover risks.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM111",
+    "query_type": "implicit_NOT",
+    "query_text": "Can beta-blockers worsen asthma symptoms?",
+    "documents": [
+      { "doc_id": "IM111_1", "text": "Some cardiology forums claim modern beta-blockers are completely safe for lungs.", "relevance": 1 },
+      { "doc_id": "IM111_2", "text": "Basic medication guides often provide vague respiratory warnings.", "relevance": 1 },
+      { "doc_id": "IM111_3", "text": "Pulmonary function tests show mild FEV1 reduction in asthmatic patients.", "relevance": 2 },
+      { "doc_id": "IM111_4", "text": "Non-selective beta-blockers provoke more bronchoconstriction than cardio-selective.", "relevance": 3 },
+      { "doc_id": "IM111_5", "text": "Emergency department visits for asthma exacerbations increase with beta-blocker use.", "relevance": 4 },
+      { "doc_id": "IM111_6", "text": "Mechanistic studies confirm β2-receptor blockade increases airway resistance.", "relevance": 4 },
+      { "doc_id": "IM111_7", "text": "Current guidelines contraindicate non-selective beta-blockers in all asthma patients due to life-threatening bronchospasm risks.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM112",
+    "query_type": "implicit_NOT",
+    "query_text": "Does isotretinoin cause depression or suicidal ideation?",
+    "documents": [
+      { "doc_id": "IM112_1", "text": "Some dermatology forums insist mood effects are purely coincidental.", "relevance": 1 },
+      { "doc_id": "IM112_2", "text": "Basic acne websites often downplay psychiatric considerations.", "relevance": 1 },
+      { "doc_id": "IM112_3", "text": "Post-marketing surveillance shows increased depression reports.", "relevance": 2 },
+      { "doc_id": "IM112_4", "text": "Retrospective analyses find higher PHQ-9 scores during treatment.", "relevance": 2 },
+      { "doc_id": "IM112_5", "text": "Theoretical mechanisms involve altered hippocampal neurogenesis.", "relevance": 3 },
+      { "doc_id": "IM112_6", "text": "FDA adverse event data demonstrates temporal association with suicide attempts.", "relevance": 4 },
+      { "doc_id": "IM112_7", "text": "iPLEDGE program mandates monthly depression screening due to confirmed psychiatric risks.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM113",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that NSAIDs impair kidney function?",
+    "documents": [
+      { "doc_id": "IM113_1", "text": "Some over-the-counter drug sites claim NSAIDs are completely kidney-safe.", "relevance": 1 },
+      { "doc_id": "IM113_2", "text": "General pain relief articles rarely mention renal considerations.", "relevance": 1 },
+      { "doc_id": "IM113_3", "text": "Case reports describe acute kidney injury with dehydration.", "relevance": 2 },
+      { "doc_id": "IM113_4", "text": "Prostaglandin inhibition reduces renal blood flow in volume-depleted states.", "relevance": 3 },
+      { "doc_id": "IM113_5", "text": "Epidemiological studies show 2-3x higher AKI risk in elderly users.", "relevance": 4 },
+      { "doc_id": "IM113_6", "text": "Chronic use associates with interstitial nephritis and papillary necrosis.", "relevance": 4 },
+      { "doc_id": "IM113_7", "text": "Nephrology guidelines strongly recommend against NSAIDs in CKD patients due to irreversible filtration rate decline risks.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM114",
+    "query_type": "implicit_NOT",
+    "query_text": "Can quinolones cause tendon rupture?",
+    "documents": [
+      { "doc_id": "IM114_1", "text": "Some antibiotic overviews dismiss tendon concerns as extremely rare.", "relevance": 1 },
+      { "doc_id": "IM114_2", "text": "Basic medication guides often bury tendon warnings in fine print.", "relevance": 1 },
+      { "doc_id": "IM114_3", "text": "Post-marketing reports describe Achilles tendon pain preceding rupture.", "relevance": 2 },
+      { "doc_id": "IM114_4", "text": "The risk increases substantially with concurrent corticosteroid use.", "relevance": 3 },
+      { "doc_id": "IM114_5", "text": "Mechanistic studies show quinolones disrupt collagen cross-linking in tendons.", "relevance": 3 },
+      { "doc_id": "IM114_6", "text": "Epidemiological data confirms 4x higher rupture rates versus other antibiotics.", "relevance": 4 },
+      { "doc_id": "IM114_7", "text": "FDA black box warnings mandate immediate discontinuation at first sign of tendon pain due to irreversible matrix damage risks.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM115",
+    "query_type": "implicit_NOT",
+    "query_text": "Does long-term phenytoin use affect bone density?",
+    "documents": [
+      { "doc_id": "IM115_1", "text": "Some neurology forums claim bone effects are negligible with modern dosing.", "relevance": 1 },
+      { "doc_id": "IM115_2", "text": "Basic epilepsy websites rarely discuss skeletal health monitoring.", "relevance": 1 },
+      { "doc_id": "IM115_3", "text": "DEXA scans show lower BMD in chronic users versus controls.", "relevance": 2 },
+      { "doc_id": "IM115_4", "text": "The effect appears more pronounced in growing adolescents.", "relevance": 2 },
+      { "doc_id": "IM115_5", "text": "Vitamin D metabolism disruption contributes to impaired mineralization.", "relevance": 3 },
+      { "doc_id": "IM115_6", "text": "Longitudinal studies find 2-3x higher fracture rates after 5+ years.", "relevance": 4 },
+      { "doc_id": "IM115_7", "text": "Current epilepsy management guidelines mandate baseline and periodic DEXA scans for all patients on chronic enzyme-inducing anticonvulsants.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM116",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there a connection between diuretics and gout attacks?",
+    "documents": [
+      { "doc_id": "IM116_1", "text": "Some hypertension sites minimize uric acid effects of diuretics.", "relevance": 1 },
+      { "doc_id": "IM116_2", "text": "General medication guides often omit gout risk information.", "relevance": 1 },
+      { "doc_id": "IM116_3", "text": "Clinical observations note increased gout flares after diuretic initiation.", "relevance": 2 },
+      { "doc_id": "IM116_4", "text": "Thiazides show stronger urate retention than loop diuretics.", "relevance": 3 },
+      { "doc_id": "IM116_5", "text": "Serum uric acid levels rise by 1-2 mg/dL in most patients.", "relevance": 3 },
+      { "doc_id": "IM116_6", "text": "Population studies demonstrate 2-3x higher gout incidence with chronic use.", "relevance": 4 },
+      { "doc_id": "IM116_7", "text": "Current hypertension guidelines recommend alternative agents for patients with pre-existing hyperuricemia due to provocation risks.", "relevance": 5 }
+    ]
+  }
+]

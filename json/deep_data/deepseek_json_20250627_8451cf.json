@@ -1,0 +1,426 @@
+[
+  {
+    "query_id": "EX201",
+    "query_type": "explicit_NOT",
+    "query_text": "Medications that do NOT cause weight gain",
+    "documents": [
+      { "doc_id": "EX201_1", "text": "All psychiatric medications make you gain weight according to several online forums.", "relevance": 1 },
+      { "doc_id": "EX201_2", "text": "A blog post claims there are no weight-neutral antidepressants available.", "relevance": 1 },
+      { "doc_id": "EX201_3", "text": "Bupropion is sometimes associated with mild weight loss in clinical trials.", "relevance": 2 },
+      { "doc_id": "EX201_4", "text": "Fluoxetine shows minimal weight impact in short-term use for depression.", "relevance": 3 },
+      { "doc_id": "EX201_5", "text": "Unlike many SSRIs, vilazodone demonstrates weight neutrality in long-term studies.", "relevance": 4 },
+      { "doc_id": "EX201_6", "text": "Meta-analyses confirm bupropion and duloxetine have favorable weight profiles.", "relevance": 4 },
+      { "doc_id": "EX201_7", "text": "Controlled studies prove that bupropion, fluoxetine, and vilazodone do NOT typically cause weight gain.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX202",
+    "query_type": "explicit_NOT",
+    "query_text": "Antibiotics that are NOT associated with tendon rupture",
+    "documents": [
+      { "doc_id": "EX202_1", "text": "All antibiotics can cause tendon problems according to a questionable health website.", "relevance": 1 },
+      { "doc_id": "EX202_2", "text": "A social media post claims penicillin derivatives frequently rupture tendons.", "relevance": 1 },
+      { "doc_id": "EX202_3", "text": "Azithromycin has minimal reports of tendon-related adverse effects.", "relevance": 2 },
+      { "doc_id": "EX202_4", "text": "Cephalosporins show extremely low incidence of tendon disorders in pharmacovigilance data.", "relevance": 3 },
+      { "doc_id": "EX202_5", "text": "Tetracyclines are not known to affect tendon integrity based on current evidence.", "relevance": 4 },
+      { "doc_id": "EX202_6", "text": "Large database analyses confirm macrolides and penicillins are NOT associated with tendon rupture.", "relevance": 5 },
+      { "doc_id": "EX202_7", "text": "Unlike fluoroquinolones, most antibiotic classes including penicillins, macrolides, and tetracyclines do NOT increase tendon rupture risk.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX203",
+    "query_type": "explicit_NOT",
+    "query_text": "Blood pressure medications that do NOT cause cough",
+    "documents": [
+      { "doc_id": "EX203_1", "text": "An unverified source claims all antihypertensives trigger chronic coughing.", "relevance": 1 },
+      { "doc_id": "EX203_2", "text": "A forum post suggests calcium channel blockers frequently cause throat irritation.", "relevance": 1 },
+      { "doc_id": "EX203_3", "text": "Thiazide diuretics rarely report cough as a side effect in clinical trials.", "relevance": 2 },
+      { "doc_id": "EX203_4", "text": "Beta-blockers are not typically associated with cough unlike ACE inhibitors.", "relevance": 3 },
+      { "doc_id": "EX203_5", "text": "ARBs like losartan were specifically developed to avoid ACE inhibitor-related cough.", "relevance": 4 },
+      { "doc_id": "EX203_6", "text": "Large cohort studies confirm calcium channel blockers and thiazides do NOT cause cough.", "relevance": 5 },
+      { "doc_id": "EX203_7", "text": "Unlike ACE inhibitors, ARBs, CCBs, diuretics, and beta-blockers are NOT associated with drug-induced cough.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX204",
+    "query_type": "explicit_NOT",
+    "query_text": "Diabetes medications that do NOT cause hypoglycemia",
+    "documents": [
+      { "doc_id": "EX204_1", "text": "A misleading blog states all diabetes drugs can cause dangerous low blood sugar.", "relevance": 1 },
+      { "doc_id": "EX204_2", "text": "Some forums claim even metformin frequently causes hypoglycemia.", "relevance": 1 },
+      { "doc_id": "EX204_3", "text": "Metformin has minimal hypoglycemia risk when used alone.", "relevance": 2 },
+      { "doc_id": "EX204_4", "text": "DPP-4 inhibitors demonstrate neutral effects on hypoglycemia rates.", "relevance": 3 },
+      { "doc_id": "EX204_5", "text": "SGLT2 inhibitors do not typically cause hypoglycemia in monotherapy.", "relevance": 4 },
+      { "doc_id": "EX204_6", "text": "Clinical guidelines emphasize that metformin, DPP-4 inhibitors, and SGLT2 inhibitors do NOT usually cause hypoglycemia.", "relevance": 5 },
+      { "doc_id": "EX204_7", "text": "Unlike insulin and sulfonylureas, biguanides, GLP-1 agonists, and SGLT2 inhibitors are NOT associated with significant hypoglycemia risk.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX205",
+    "query_type": "explicit_NOT",
+    "query_text": "Pain medications that are NOT addictive",
+    "documents": [
+      { "doc_id": "EX205_1", "text": "An alarmist website claims all pain relievers lead to addiction.", "relevance": 1 },
+      { "doc_id": "EX205_2", "text": "A forum post suggests even NSAIDs cause dependency with regular use.", "relevance": 1 },
+      { "doc_id": "EX205_3", "text": "Acetaminophen has no known addictive potential in clinical use.", "relevance": 2 },
+      { "doc_id": "EX205_4", "text": "NSAIDs like ibuprofen don't exhibit dependence or withdrawal syndromes.", "relevance": 3 },
+      { "doc_id": "EX205_5", "text": "Topical analgesics show no evidence of causing addiction.", "relevance": 4 },
+      { "doc_id": "EX205_6", "text": "Comprehensive reviews confirm that NSAIDs, acetaminophen, and topical agents are NOT addictive substances.", "relevance": 5 },
+      { "doc_id": "EX205_7", "text": "Unlike opioids, medications such as NSAIDs, acetaminophen, and gabapentinoids do NOT carry addiction risk when used appropriately.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX206",
+    "query_type": "explicit_NOT",
+    "query_text": "Antidepressants that do NOT cause sexual dysfunction",
+    "documents": [
+      { "doc_id": "EX206_1", "text": "A poorly researched article states all antidepressants impair sexual function.", "relevance": 1 },
+      { "doc_id": "EX206_2", "text": "Some forums claim even bupropion causes significant sexual side effects.", "relevance": 1 },
+      { "doc_id": "EX206_3", "text": "Mirtazapine shows lower rates of sexual dysfunction than SSRIs.", "relevance": 2 },
+      { "doc_id": "EX206_4", "text": "Bupropion demonstrates sexual side effect rates similar to placebo.", "relevance": 3 },
+      { "doc_id": "EX206_5", "text": "Vilazodone and vortioxetine were developed specifically to minimize sexual dysfunction.", "relevance": 4 },
+      { "doc_id": "EX206_6", "text": "Clinical trials confirm bupropion and mirtazapine do NOT typically cause sexual dysfunction.", "relevance": 5 },
+      { "doc_id": "EX206_7", "text": "Unlike SSRIs and SNRIs, antidepressants like bupropion, mirtazapine, and vilazodone are NOT associated with significant sexual side effects.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX207",
+    "query_type": "explicit_NOT",
+    "query_text": "Steroids that do NOT suppress the adrenal axis",
+    "documents": [
+      { "doc_id": "EX207_1", "text": "An alternative medicine site claims all steroids cause permanent adrenal damage.", "relevance": 1 },
+      { "doc_id": "EX207_2", "text": "A forum post suggests even topical steroids lead to adrenal suppression.", "relevance": 1 },
+      { "doc_id": "EX207_3", "text": "Low-potency topical steroids show minimal systemic absorption.", "relevance": 2 },
+      { "doc_id": "EX207_4", "text": "Inhaled corticosteroids at standard doses rarely affect the HPA axis.", "relevance": 3 },
+      { "doc_id": "EX207_5", "text": "Short courses of oral steroids (<1 week) typically don't cause adrenal suppression.", "relevance": 4 },
+      { "doc_id": "EX207_6", "text": "Clinical guidelines confirm that topical and inhaled steroids do NOT usually suppress adrenal function at recommended doses.", "relevance": 5 },
+      { "doc_id": "EX207_7", "text": "Unlike chronic oral steroids, topical, inhaled, and short-course systemic corticosteroids are NOT associated with significant adrenal axis suppression.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX208",
+    "query_type": "explicit_NOT",
+    "query_text": "Cancer treatments that do NOT cause hair loss",
+    "documents": [
+      { "doc_id": "EX208_1", "text": "A misleading patient site states all chemotherapy causes complete baldness.", "relevance": 1 },
+      { "doc_id": "EX208_2", "text": "Some forums claim even targeted therapies lead to significant hair thinning.", "relevance": 1 },
+      { "doc_id": "EX208_3", "text": "Certain hormone therapies like tamoxifen rarely cause alopecia.", "relevance": 2 },
+      { "doc_id": "EX208_4", "text": "Immunotherapies show minimal hair loss compared to traditional chemo.", "relevance": 3 },
+      { "doc_id": "EX208_5", "text": "Targeted agents like trastuzumab typically don't affect hair follicles.", "relevance": 4 },
+      { "doc_id": "EX208_6", "text": "Oncology references confirm that many hormonal and targeted therapies do NOT cause chemotherapy-induced alopecia.", "relevance": 5 },
+      { "doc_id": "EX208_7", "text": "Unlike anthracyclines and taxanes, cancer treatments including immunotherapy, hormone therapy, and many targeted agents are NOT associated with significant hair loss.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX209",
+    "query_type": "explicit_NOT",
+    "query_text": "Antipsychotics that do NOT cause significant weight gain",
+    "documents": [
+      { "doc_id": "EX209_1", "text": "An unverified source claims all antipsychotics cause massive weight increases.", "relevance": 1 },
+      { "doc_id": "EX209_2", "text": "A blog post suggests even aripiprazole leads to obesity in most patients.", "relevance": 1 },
+      { "doc_id": "EX209_3", "text": "Lurasidone shows minimal metabolic effects in clinical trials.", "relevance": 2 },
+      { "doc_id": "EX209_4", "text": "Ziprasidone demonstrates relatively weight-neutral properties.", "relevance": 3 },
+      { "doc_id": "EX209_5", "text": "Aripiprazole is associated with less weight gain than most other antipsychotics.", "relevance": 4 },
+      { "doc_id": "EX209_6", "text": "Comparative studies confirm that lurasidone, ziprasidone, and aripiprazole do NOT typically cause significant weight gain.", "relevance": 5 },
+      { "doc_id": "EX209_7", "text": "Unlike olanzapine and clozapine, second-generation antipsychotics including aripiprazole, lurasidone, and ziprasidone are NOT associated with substantial weight gain.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "EX210",
+    "query_type": "explicit_NOT",
+    "query_text": "Anticoagulants that do NOT require regular blood monitoring",
+    "documents": [
+      { "doc_id": "EX210_1", "text": "A patient forum claims all blood thinners need weekly INR checks.", "relevance": 1 },
+      { "doc_id": "EX210_2", "text": "Some blogs suggest even DOACs require frequent dose adjustments.", "relevance": 1 },
+      { "doc_id": "EX210_3", "text": "Rivaroxaban has fixed dosing without routine coagulation monitoring.", "relevance": 2 },
+      { "doc_id": "EX210_4", "text": "Apixaban demonstrates predictable pharmacokinetics in most patients.", "relevance": 3 },
+      { "doc_id": "EX210_5", "text": "Dabigatran typically doesn't require regular blood tests after initial setup.", "relevance": 4 },
+      { "doc_id": "EX210_6", "text": "Clinical guidelines emphasize that DOACs do NOT need routine INR monitoring like warfarin.", "relevance": 5 },
+      { "doc_id": "EX210_7", "text": "Unlike warfarin, direct oral anticoagulants including apixaban, rivaroxaban, and dabigatran are NOT associated with frequent blood monitoring requirements.", "relevance": 5 }
+    ]
+  },
+
+  // Implicit NOT (10 datasets)
+  {
+    "query_id": "IM201",
+    "query_type": "implicit_NOT",
+    "query_text": "Alternative treatments for depression when SSRIs are ineffective",
+    "documents": [
+      { "doc_id": "IM201_1", "text": "All depression cases respond to SSRIs according to some general health websites.", "relevance": 1 },
+      { "doc_id": "IM201_2", "text": "A blog post claims increasing SSRI dose always works when initial therapy fails.", "relevance": 1 },
+      { "doc_id": "IM201_3", "text": "SNRIs like venlafaxine may help when SSRIs don't provide adequate relief.", "relevance": 2 },
+      { "doc_id": "IM201_4", "text": "Augmentation strategies with atypical antipsychotics show efficacy in treatment-resistant cases.", "relevance": 3 },
+      { "doc_id": "IM201_5", "text": "Psychotherapy combined with medication changes often benefits SSRI non-responders.", "relevance": 4 },
+      { "doc_id": "IM201_6", "text": "Novel approaches like ketamine infusion therapy are being studied for refractory depression.", "relevance": 4 },
+      { "doc_id": "IM201_7", "text": "When SSRIs fail, alternatives include SNRIs, mirtazapine, bupropion, or augmentation with lithium or atypical antipsychotics.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM202",
+    "query_type": "implicit_NOT",
+    "query_text": "Managing hypertension without beta-blockers",
+    "documents": [
+      { "doc_id": "IM202_1", "text": "Some forums claim beta-blockers are the only effective antihypertensives.", "relevance": 1 },
+      { "doc_id": "IM202_2", "text": "A questionable source suggests all hypertension protocols must include beta-blockers.", "relevance": 1 },
+      { "doc_id": "IM202_3", "text": "ACE inhibitors or ARBs can be first-line alternatives to beta-blockers.", "relevance": 2 },
+      { "doc_id": "IM202_4", "text": "Calcium channel blockers like amlodipine effectively lower blood pressure without beta-blockade.", "relevance": 3 },
+      { "doc_id": "IM202_5", "text": "Thiazide diuretics remain a cornerstone of non-beta-blocker hypertension therapy.", "relevance": 4 },
+      { "doc_id": "IM202_6", "text": "Current guidelines recommend multiple drug classes as alternatives to beta-blockers for uncomplicated hypertension.", "relevance": 5 },
+      { "doc_id": "IM202_7", "text": "Effective beta-blocker alternatives for hypertension include ACE inhibitors, ARBs, calcium channel blockers, and thiazide diuretics based on individual patient factors.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM203",
+    "query_type": "implicit_NOT",
+    "query_text": "Non-opioid options for chronic pain management",
+    "documents": [
+      { "doc_id": "IM203_1", "text": "An outdated pain clinic website states opioids are the only solution for chronic pain.", "relevance": 1 },
+      { "doc_id": "IM203_2", "text": "Some patient forums dismiss all non-opioid therapies as ineffective.", "relevance": 1 },
+      { "doc_id": "IM203_3", "text": "Anticonvulsants like gabapentin help certain neuropathic pain conditions.", "relevance": 2 },
+      { "doc_id": "IM203_4", "text": "SNRIs such as duloxetine are FDA-approved for chronic musculoskeletal pain.", "relevance": 3 },
+      { "doc_id": "IM203_5", "text": "Physical therapy and exercise regimens significantly improve many chronic pain syndromes.", "relevance": 4 },
+      { "doc_id": "IM203_6", "text": "Multidisciplinary approaches combining medications, therapy, and lifestyle changes often outperform opioids long-term.", "relevance": 5 },
+      { "doc_id": "IM203_7", "text": "Effective non-opioid pain management options include NSAIDs, anticonvulsants, SNRIs, physical therapy, cognitive behavioral therapy, and interventional procedures.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM204",
+    "query_type": "implicit_NOT",
+    "query_text": "Treatment approaches for insomnia that avoid benzodiazepines",
+    "documents": [
+      { "doc_id": "IM204_1", "text": "A sleep clinic blog claims benzodiazepines are the only reliable sleep aids.", "relevance": 1 },
+      { "doc_id": "IM204_2", "text": "Some forums suggest all insomnia requires medication intervention.", "relevance": 1 },
+      { "doc_id": "IM204_3", "text": "Cognitive behavioral therapy for insomnia (CBT-I) has durable benefits.", "relevance": 2 },
+      { "doc_id": "IM204_4", "text": "Melatonin receptor agonists like ramelteon provide non-habit-forming alternatives.", "relevance": 3 },
+      { "doc_id": "IM204_5", "text": "Sedating antidepressants such as trazodone are commonly used off-label.", "relevance": 4 },
+      { "doc_id": "IM204_6", "text": "Sleep hygiene education and stimulus control techniques help many patients without medications.", "relevance": 5 },
+      { "doc_id": "IM204_7", "text": "Non-benzodiazepine insomnia treatments include CBT-I, melatonin agonists, sedating antidepressants, orexin antagonists, and improved sleep hygiene practices.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM205",
+    "query_type": "implicit_NOT",
+    "query_text": "Antiemetic strategies when ondansetron is contraindicated",
+    "documents": [
+      { "doc_id": "IM205_1", "text": "Some hospital protocols suggest ondansetron is the only effective antiemetic.", "relevance": 1 },
+      { "doc_id": "IM205_2", "text": "A nursing blog claims all chemotherapy nausea requires 5-HT3 antagonists.", "relevance": 1 },
+      { "doc_id": "IM205_3", "text": "Dopamine antagonists like prochlorperazine are alternatives for QT-prolongation concerns.", "relevance": 2 },
+      { "doc_id": "IM205_4", "text": "NK1 receptor antagonists provide another mechanism for chemotherapy-induced nausea.", "relevance": 3 },
+      { "doc_id": "IM205_5", "text": "Corticosteroids like dexamethasone have significant antiemetic properties.", "relevance": 4 },
+      { "doc_id": "IM205_6", "text": "Olanzapine shows efficacy in refractory nausea when standard antiemetics fail.", "relevance": 5 },
+      { "doc_id": "IM205_7", "text": "When ondansetron can't be used, alternative antiemetics include other 5-HT3 antagonists, dopamine antagonists, NK1 inhibitors, corticosteroids, or atypical antipsychotics.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM206",
+    "query_type": "implicit_NOT",
+    "query_text": "Diabetes management approaches avoiding insulin injections",
+    "documents": [
+      { "doc_id": "IM206_1", "text": "Some patient forums claim all type 2 diabetes eventually requires insulin.", "relevance": 1 },
+      { "doc_id": "IM206_2", "text": "A blog post suggests oral medications stop working after a few years.", "relevance": 1 },
+      { "doc_id": "IM206_3", "text": "Lifestyle modifications can significantly improve glycemic control in early diabetes.", "relevance": 2 },
+      { "doc_id": "IM206_4", "text": "GLP-1 receptor agonists provide injectable alternatives to insulin therapy.", "relevance": 3 },
+      { "doc_id": "IM206_5", "text": "Combination oral therapies with metformin, SGLT2 inhibitors, and DPP-4 inhibitors delay insulin need.", "relevance": 4 },
+      { "doc_id": "IM206_6", "text": "Bariatric surgery induces remission in many obese type 2 diabetics without insulin.", "relevance": 5 },
+      { "doc_id": "IM206_7", "text": "Non-insulin diabetes management includes oral medications, GLP-1 agonists, lifestyle changes, metabolic surgery, and continuous glucose monitoring with tailored therapy.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM207",
+    "query_type": "implicit_NOT",
+    "query_text": "Antimicrobial strategies when penicillin allergy is present",
+    "documents": [
+      { "doc_id": "IM207_1", "text": "Some outdated references suggest avoiding all beta-lactams with penicillin allergy.", "relevance": 1 },
+      { "doc_id": "IM207_2", "text": "A nursing website claims cephalosporins are always contraindicated with penicillin allergy.", "relevance": 1 },
+      { "doc_id": "IM207_3", "text": "Macrolides like azithromycin are traditional penicillin alternatives.", "relevance": 2 },
+      { "doc_id": "IM207_4", "text": "Recent guidelines allow certain cephalosporins in non-severe penicillin allergies.", "relevance": 3 },
+      { "doc_id": "IM207_5", "text": "Carbapenems have low cross-reactivity in most penicillin-allergic patients.", "relevance": 4 },
+      { "doc_id": "IM207_6", "text": "Allergy testing can clarify true penicillin hypersensitivity and expand antibiotic options.", "relevance": 5 },
+      { "doc_id": "IM207_7", "text": "With penicillin allergy, alternatives include macrolides, certain cephalosporins, fluoroquinolones, clindamycin, or allergy testing to confirm true hypersensitivity.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM208",
+    "query_type": "implicit_NOT",
+    "query_text": "Migraine prevention without topiramate",
+    "documents": [
+      { "doc_id": "IM208_1", "text": "Some headache clinics promote topiramate as the only preventive option.", "relevance": 1 },
+      { "doc_id": "IM208_2", "text": "A forum post claims all migraine preventives cause similar cognitive effects.", "relevance": 1 },
+      { "doc_id": "IM208_3", "text": "Beta-blockers like propranolol are established first-line preventives.", "relevance": 2 },
+      { "doc_id": "IM208_4", "text": "CGRP monoclonal antibodies offer newer targeted prevention with few side effects.", "relevance": 3 },
+      { "doc_id": "IM208_5", "text": "Antidepressants such as amitriptyline help prevent migraines in some patients.", "relevance": 4 },
+      { "doc_id": "IM208_6", "text": "Magnesium and riboflavin supplements show modest preventive benefits.", "relevance": 5 },
+      { "doc_id": "IM208_7", "text": "Effective migraine prevention without topiramate includes beta-blockers, CGRP inhibitors, certain antidepressants, calcium channel blockers, and nutritional supplements.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM209",
+    "query_type": "implicit_NOT",
+    "query_text": "Anticoagulation options when warfarin is unsuitable",
+    "documents": [
+      { "doc_id": "IM209_1", "text": "Some patient materials suggest warfarin is the only reliable blood thinner.", "relevance": 1 },
+      { "doc_id": "IM209_2", "text": "A blog post claims all newer anticoagulants have more bleeding risks.", "relevance": 1 },
+      { "doc_id": "IM209_3", "text": "DOACs like apixaban require no routine monitoring unlike warfarin.", "relevance": 2 },
+      { "doc_id": "IM209_4", "text": "Dabigatran is effective for atrial fibrillation when INR control is poor.", "relevance": 3 },
+      { "doc_id": "IM209_5", "text": "Rivaroxaban offers once-daily dosing for venous thromboembolism prevention.", "relevance": 4 },
+      { "doc_id": "IM209_6", "text": "For patients with unstable INRs, DOACs often provide more predictable anticoagulation.", "relevance": 5 },
+      { "doc_id": "IM209_7", "text": "When warfarin isn't suitable, direct oral anticoagulants (DOACs) like apixaban, rivaroxaban, dabigatran, or edoxaban provide effective alternatives with more stable pharmacokinetics.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM210",
+    "query_type": "implicit_NOT",
+    "query_text": "Managing bipolar disorder without lithium",
+    "documents": [
+      { "doc_id": "IM210_1", "text": "Some psychiatric resources present lithium as the only effective mood stabilizer.", "relevance": 1 },
+      { "doc_id": "IM210_2", "text": "A forum post claims all alternatives to lithium are significantly less effective.", "relevance": 1 },
+      { "doc_id": "IM210_3", "text": "Valproate demonstrates comparable efficacy to lithium for acute mania.", "relevance": 2 },
+      { "doc_id": "IM210_4", "text": "Lamotrigine is particularly effective for bipolar depression prevention.", "relevance": 3 },
+      { "doc_id": "IM210_5", "text": "Atypical antipsychotics like quetiapine are FDA-approved for bipolar maintenance.", "relevance": 4 },
+      { "doc_id": "IM210_6", "text": "Combination therapies often allow lithium-free management of bipolar disorder.", "relevance": 5 },
+      { "doc_id": "IM210_7", "text": "Effective lithium alternatives for bipolar disorder include valproate, lamotrigine, carbamazepine, and several atypical antipsychotics, often in combination.", "relevance": 5 }
+    ]
+  },
+
+  // Comparative NOT (10 datasets)
+  {
+    "query_id": "CP201",
+    "query_type": "comparative_NOT",
+    "query_text": "Comparing bone density effects: corticosteroids versus inhaled steroids",
+    "documents": [
+      { "doc_id": "CP201_1", "text": "A layperson's blog claims all steroids have identical effects on bones.", "relevance": 1 },
+      { "doc_id": "CP201_2", "text": "Some forums suggest inhaled steroids are worse for bones than oral steroids.", "relevance": 1 },
+      { "doc_id": "CP201_3", "text": "Low-dose inhaled corticosteroids show minimal systemic absorption.", "relevance": 2 },
+      { "doc_id": "CP201_4", "text": "Oral corticosteroids cause dose-dependent bone loss within months.", "relevance": 3 },
+      { "doc_id": "CP201_5", "text": "Fracture risk increases significantly with chronic oral steroid use but not typically with inhaled.", "relevance": 4 },
+      { "doc_id": "CP201_6", "text": "Bone density studies reveal substantial differences between systemic and local steroid effects.", "relevance": 4 },
+      { "doc_id": "CP201_7", "text": "Unlike systemic corticosteroids, inhaled steroids at standard doses do NOT typically cause clinically significant bone loss.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP202",
+    "query_type": "comparative_NOT",
+    "query_text": "Comparing diabetes medications: metformin versus sulfonylureas regarding weight effects",
+    "documents": [
+      { "doc_id": "CP202_1", "text": "A diabetes forum claims all oral diabetes drugs cause identical weight changes.", "relevance": 1 },
+      { "doc_id": "CP202_2", "text": "Some blogs suggest sulfonylureas help with weight loss like metformin.", "relevance": 1 },
+      { "doc_id": "CP202_3", "text": "Metformin is typically weight-neutral or associated with mild loss.", "relevance": 2 },
+      { "doc_id": "CP202_4", "text": "Sulfonylureas frequently cause weight gain of 2-5 kg in clinical use.", "relevance": 3 },
+      { "doc_id": "CP202_5", "text": "The mechanisms differ - metformin improves insulin sensitivity while sulfonylureas increase insulin secretion.", "relevance": 4 },
+      { "doc_id": "CP202_6", "text": "Comparative trials consistently show metformin's favorable weight profile versus sulfonylureas.", "relevance": 5 },
+      { "doc_id": "CP202_7", "text": "Unlike sulfonylureas which typically cause weight gain, metformin does NOT lead to increased body weight and may promote mild weight reduction.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP203",
+    "query_type": "comparative_NOT",
+    "query_text": "Comparing bleeding risks: SSRIs versus NSAIDs",
+    "documents": [
+      { "doc_id": "CP203_1", "text": "An unverified source claims SSRIs and NSAIDs have identical bleeding risks.", "relevance": 1 },
+      { "doc_id": "CP203_2", "text": "Some forums suggest SSRIs pose greater bleeding danger than NSAIDs.", "relevance": 1 },
+      { "doc_id": "CP203_3", "text": "SSRIs mildly affect platelet serotonin uptake mechanisms.", "relevance": 2 },
+      { "doc_id": "CP203_4", "text": "NSAIDs directly inhibit prostaglandins and platelet aggregation.", "relevance": 3 },
+      { "doc_id": "CP203_5", "text": "The absolute bleeding risk is higher with NSAIDs than SSRIs alone.", "relevance": 4 },
+      { "doc_id": "CP203_6", "text": "Combination therapy shows synergistic increases in bleeding risk.", "relevance": 5 },
+      { "doc_id": "CP203_7", "text": "Unlike NSAIDs which significantly increase bleeding risk through multiple pathways, SSRIs alone do NOT typically cause clinically important bleeding in most patients.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP204",
+    "query_type": "comparative_NOT",
+    "query_text": "Comparing cognitive effects: benzodiazepines versus z-drugs",
+    "documents": [
+      { "doc_id": "CP204_1", "text": "A sleep website claims all sedatives cause identical cognitive impairment.", "relevance": 1 },
+      { "doc_id": "CP204_2", "text": "Some forums suggest z-drugs are more cognitively impairing than benzodiazepines.", "relevance": 1 },
+      { "doc_id": "CP204_3", "text": "Benzodiazepines affect multiple GABA receptor subtypes broadly.", "relevance": 2 },
+      { "doc_id": "CP204_4", "text": "Z-drugs like zolpidem have more selective receptor targeting.", "relevance": 3 },
+      { "doc_id": "CP204_5", "text": "Morning-after cognitive testing shows less impairment with z-drugs.", "relevance": 4 },
+      { "doc_id": "CP204_6", "text": "Long-term benzodiazepine use correlates more strongly with dementia risk.", "relevance": 5 },
+      { "doc_id": "CP204_7", "text": "Unlike benzodiazepines which cause broad cognitive effects, z-drugs do NOT typically impair next-day cognition at therapeutic doses when used properly.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP205",
+    "query_type": "comparative_NOT",
+    "query_text": "Comparing QT prolongation: macrolides versus fluoroquinolones",
+    "documents": [
+      { "doc_id": "CP205_1", "text": "A pharmacy blog claims all antibiotics equally affect cardiac rhythms.", "relevance": 1 },
+      { "doc_id": "CP205_2", "text": "Some forums suggest macrolides are worse for QT than fluoroquinolones.", "relevance": 1 },
+      { "doc_id": "CP205_3", "text": "Erythromycin shows concentration-dependent potassium channel blocking.", "relevance": 2 },
+      { "doc_id": "CP205_4", "text": "Azithromycin has minimal QT effects at standard doses.", "relevance": 3 },
+      { "doc_id": "CP205_5", "text": "Certain fluoroquinolones like moxifloxacin demonstrate clear QT prolongation.", "relevance": 4 },
+      { "doc_id": "CP205_6", "text": "Risk stratification considers drug, dose, and patient factors.", "relevance": 5 },
+      { "doc_id": "CP205_7", "text": "Unlike erythromycin and some fluoroquinolones, azithromycin and other macrolides do NOT typically cause clinically significant QT prolongation in most patients.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP206",
+    "query_type": "comparative_NOT",
+    "query_text": "Comparing glaucoma risk: topical steroids versus oral steroids",
+    "documents": [
+      { "doc_id": "CP206_1", "text": "An eye health forum claims all steroid forms equally raise eye pressure.", "relevance": 1 },
+      { "doc_id": "CP206_2", "text": "Some blogs suggest topical steroids are worse for glaucoma risk.", "relevance": 1 },
+      { "doc_id": "CP206_3", "text": "Periocular steroid injections carry significant glaucoma risk.", "relevance": 2 },
+      { "doc_id": "CP206_4", "text": "Low-potency topical steroids rarely affect intraocular pressure.", "relevance": 3 },
+      { "doc_id": "CP206_5", "text": "Systemic steroids cause dose-dependent increases in glaucoma risk.", "relevance": 4 },
+      { "doc_id": "CP206_6", "text": "Ophthalmic monitoring recommendations differ by steroid route.", "relevance": 5 },
+      { "doc_id": "CP206_7", "text": "Unlike systemic corticosteroids which significantly increase glaucoma risk, properly administered topical eye steroids do NOT typically raise intraocular pressure in most patients.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP207",
+    "query_type": "comparative_NOT",
+    "query_text": "Comparing withdrawal syndromes: SSRIs versus SNRIs",
+    "documents": [
+      { "doc_id": "CP207_1", "text": "A mental health forum claims all antidepressants have identical withdrawal.", "relevance": 1 },
+      { "doc_id": "CP207_2", "text": "Some blogs suggest SSRIs cause worse withdrawal than SNRIs.", "relevance": 1 },
+      { "doc_id": "CP207_3", "text": "Paroxetine is particularly associated with discontinuation symptoms.", "relevance": 2 },
+      { "doc_id": "CP207_4", "text": "SNRIs like venlafaxine also demonstrate notable withdrawal effects.", "relevance": 3 },
+      { "doc_id": "CP207_5", "text": "Fluoxetine's long half-life minimizes withdrawal concerns.", "relevance": 4 },
+      { "doc_id": "CP207_6", "text": "Tapering strategies differ based on medication pharmacokinetics.", "relevance": 5 },
+      { "doc_id": "CP207_7", "text": "Unlike short-acting SSRIs and SNRIs which often cause discontinuation syndromes, fluoxetine and other long-half-life antidepressants do NOT typically produce significant withdrawal symptoms.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP208",
+    "query_type": "comparative_NOT",
+    "query_text": "Comparing diabetes risk: statins versus fibrates",
+    "documents": [
+      { "doc_id": "CP208_1", "text": "A cardiology blog claims all cholesterol drugs increase diabetes equally.", "relevance": 1 },
+      { "doc_id": "CP208_2", "text": "Some forums suggest fibrates are worse for blood sugar than statins.", "relevance": 1 },
+      { "doc_id": "CP208_3", "text": "High-potency statins show modest increases in diabetes incidence.", "relevance": 2 },
+      { "doc_id": "CP208_4", "text": "Fibrates may improve insulin sensitivity in some patients.", "relevance": 3 },
+      { "doc_id": "CP208_5", "text": "The diabetes risk with statins appears dose-dependent.", "relevance": 4 },
+      { "doc_id": "CP208_6", "text": "Cardiovascular benefits generally outweigh diabetes risks for statins.", "relevance": 5 },
+      { "doc_id": "CP208_7", "text": "Unlike statins which modestly increase diabetes risk, fibrates do NOT typically worsen glycemic control and may improve it in some patients.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP209",
+    "query_type": "comparative_NOT",
+    "query_text": "Comparing osteoporosis risk: PPIs versus H2 blockers",
+    "documents": [
+      { "doc_id": "CP209_1", "text": "A gastroenterology forum claims all acid reducers affect bones equally.", "relevance": 1 },
+      { "doc_id": "CP209_2", "text": "Some blogs suggest H2 blockers are worse for bones than PPIs.", "relevance": 1 },
+      { "doc_id": "CP209_3", "text": "PPIs may slightly reduce calcium absorption over time.", "relevance": 2 },
+      { "doc_id": "CP209_4", "text": "H2 blockers don't significantly affect mineral metabolism.", "relevance": 3 },
+      { "doc_id": "CP209_5", "text": "Fracture risk associations are stronger with long-term PPI use.", "relevance": 4 },
+      { "doc_id": "CP209_6", "text": "The absolute risk increase with PPIs remains small in most patients.", "relevance": 5 },
+      { "doc_id": "CP209_7", "text": "Unlike PPIs which may modestly increase osteoporosis risk with chronic use, H2 blockers do NOT typically affect bone mineral density.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "CP210",
+    "query_type": "comparative_NOT",
+    "query_text": "Comparing sexual side effects: SSRIs versus tricyclic antidepressants",
+    "documents": [
+      { "doc_id": "CP210_1", "text": "A mental health website claims all antidepressants cause identical sexual dysfunction.", "relevance": 1 },
+      { "doc_id": "CP210_2", "text": "Some forums suggest TCAs are worse for sexual function than SSRIs.", "relevance": 1 },
+      { "doc_id": "CP210_3", "text": "SSRIs frequently cause delayed orgasm or libido changes.", "relevance": 2 },
+      { "doc_id": "CP210_4", "text": "TCAs vary in their sexual side effect profiles by specific agent.", "relevance": 3 },
+      { "doc_id": "CP210_5", "text": "Clomipramine tends to have more sexual side effects than other TCAs.", "relevance": 4 },
+      { "doc_id": "CP210_6", "text": "Some TCAs like desipramine have relatively favorable sexual side effect profiles.", "relevance": 5 },
+      { "doc_id": "CP210_7", "text": "Unlike SSRIs which commonly cause sexual dysfunction, certain tricyclic antidepressants like desipramine do NOT typically impair sexual function at therapeutic doses.", "relevance": 5 }
+    ]
+  }
+]

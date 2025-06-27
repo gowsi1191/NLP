@@ -1,0 +1,212 @@
+[
+  {
+    "query_id": "IM117",
+    "query_type": "implicit_NOT",
+    "query_text": "Can proton pump inhibitors lead to small intestinal bacterial overgrowth?",
+    "documents": [
+      { "doc_id": "IM117_1", "text": "Some gastroenterology forums deny any microbiome changes with acid suppression.", "relevance": 1 },
+      { "doc_id": "IM117_2", "text": "Basic GERD information rarely mentions SIBO as a potential consequence.", "relevance": 1 },
+      { "doc_id": "IM117_3", "text": "Breath tests show abnormal hydrogen patterns in some PPI users.", "relevance": 2 },
+      { "doc_id": "IM117_4", "text": "The risk appears higher with prolonged use beyond 6 months.", "relevance": 2 },
+      { "doc_id": "IM117_5", "text": "Gastric acid reduction permits upper GI bacterial colonization.", "relevance": 3 },
+      { "doc_id": "IM117_6", "text": "Controlled studies demonstrate 2x higher SIBO prevalence versus controls.", "relevance": 4 },
+      { "doc_id": "IM117_7", "text": "Current consensus guidelines recommend periodic PPI discontinuation in patients with recurrent bloating and diarrhea symptoms.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM118",
+    "query_type": "implicit_NOT",
+    "query_text": "Does tamoxifen increase risk of uterine cancer?",
+    "documents": [
+      { "doc_id": "IM118_1", "text": "Some breast cancer support sites downplay gynecological risks.", "relevance": 1 },
+      { "doc_id": "IM118_2", "text": "Basic oncology leaflets often bury endometrial cancer statistics.", "relevance": 1 },
+      { "doc_id": "IM118_3", "text": "Post-marketing surveillance noted increased uterine pathology reports.", "relevance": 2 },
+      { "doc_id": "IM118_4", "text": "The estrogen agonist effect on endometrium causes hyperplasia.", "relevance": 3 },
+      { "doc_id": "IM118_5", "text": "Annual incidence rises from 0.1% to 1-2% with 5+ years of use.", "relevance": 4 },
+      { "doc_id": "IM118_6", "text": "Risk-benefit analyses still favor tamoxifen for ER+ breast cancer despite this effect.", "relevance": 4 },
+      { "doc_id": "IM118_7", "text": "Current protocols mandate annual transvaginal ultrasounds for all women on long-term tamoxifen therapy.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM119",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that lithium causes kidney damage?",
+    "documents": [
+      { "doc_id": "IM119_1", "text": "Some mental health forums claim lithium nephrotoxicity is overstated.", "relevance": 1 },
+      { "doc_id": "IM119_2", "text": "Basic bipolar disorder sites provide vague renal monitoring guidelines.", "relevance": 1 },
+      { "doc_id": "IM119_3", "text": "Urine tests show reduced concentrating ability in some patients.", "relevance": 2 },
+      { "doc_id": "IM119_4", "text": "Chronic interstitial nephritis develops after 10+ years in 15-20% of users.", "relevance": 3 },
+      { "doc_id": "IM119_5", "text": "The risk appears dose-dependent and correlates with serum levels.", "relevance": 3 },
+      { "doc_id": "IM119_6", "text": "Long-term studies demonstrate GFR decline of 1-2 mL/min/year.", "relevance": 4 },
+      { "doc_id": "IM119_7", "text": "Current psychiatric guidelines require quarterly renal function tests for all lithium-treated patients due to irreversible damage risks.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM120",
+    "query_type": "implicit_NOT",
+    "query_text": "Can anticholinergics contribute to cognitive decline?",
+    "documents": [
+      { "doc_id": "IM120_1", "text": "Some urology sites dismiss brain fog reports as temporary.", "relevance": 1 },
+      { "doc_id": "IM120_2", "text": "Basic overactive bladder information rarely mentions dementia risks.", "relevance": 1 },
+      { "doc_id": "IM120_3", "text": "Cognitive testing shows mild executive function impairment.", "relevance": 2 },
+      { "doc_id": "IM120_4", "text": "Elderly patients demonstrate more pronounced memory effects.", "relevance": 2 },
+      { "doc_id": "IM120_5", "text": "Antimuscarinic effects reduce acetylcholine activity in hippocampus.", "relevance": 3 },
+      { "doc_id": "IM120_6", "text": "Population studies find 50% higher dementia incidence with chronic use.", "relevance": 4 },
+      { "doc_id": "IM120_7", "text": "Geriatric guidelines now strongly recommend against long-term anticholinergics due to cumulative cognitive impairment risks.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM121",
+    "query_type": "implicit_NOT",
+    "query_text": "Does testosterone therapy increase cardiovascular risks?",
+    "documents": [
+      { "doc_id": "IM121_1", "text": "Some men's health clinics advertise testosterone as completely heart-safe.", "relevance": 1 },
+      { "doc_id": "IM121_2", "text": "Basic hormone replacement sites often downplay cardiovascular data.", "relevance": 1 },
+      { "doc_id": "IM121_3", "text": "Early trials noted hematocrit increases in some participants.", "relevance": 2 },
+      { "doc_id": "IM121_4", "text": "Observational studies show mixed MI/stroke association signals.", "relevance": 3 },
+      { "doc_id": "IM121_5", "text": "Mechanistic studies demonstrate increased platelet aggregation.", "relevance": 3 },
+      { "doc_id": "IM121_6", "text": "Meta-analyses confirm 30% higher adverse cardiac event rates in older men.", "relevance": 4 },
+      { "doc_id": "IM121_7", "text": "FDA now mandates cardiovascular risk warnings on all testosterone products due to thrombotic event concerns.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM122",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there a link between fluoroquinolones and aortic aneurysm?",
+    "documents": [
+      { "doc_id": "IM122_1", "text": "Some antibiotic guides completely omit vascular safety concerns.", "relevance": 1 },
+      { "doc_id": "IM122_2", "text": "Basic UTI treatment articles rarely mention connective tissue risks.", "relevance": 1 },
+      { "doc_id": "IM122_3", "text": "Case reports describe acute aortic dissections post-treatment.", "relevance": 2 },
+      { "doc_id": "IM122_4", "text": "Fluoroquinolones upregulate matrix metalloproteinase activity.", "relevance": 3 },
+      { "doc_id": "IM122_5", "text": "The risk appears highest in elderly with pre-existing vascular disease.", "relevance": 4 },
+      { "doc_id": "IM122_6", "text": "Population data shows 2x higher aneurysm hospitalization rates.", "relevance": 4 },
+      { "doc_id": "IM122_7", "text": "Current FDA contraindications prohibit fluoroquinolone use in patients with known aortic pathology due to catastrophic dissection risks.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM123",
+    "query_type": "implicit_NOT",
+    "query_text": "Can calcium channel blockers cause gingival hyperplasia?",
+    "documents": [
+      { "doc_id": "IM123_1", "text": "Some dental health forums dismiss gum overgrowth as extremely rare.", "relevance": 1 },
+      { "doc_id": "IM123_2", "text": "Basic hypertension information rarely mentions oral side effects.", "relevance": 1 },
+      { "doc_id": "IM123_3", "text": "Case series describe gingival changes within 3 months of use.", "relevance": 2 },
+      { "doc_id": "IM123_4", "text": "Nifedipine shows stronger association than amlodipine.", "relevance": 2 },
+      { "doc_id": "IM123_5", "text": "The mechanism involves fibroblast proliferation stimulation.", "relevance": 3 },
+      { "doc_id": "IM123_6", "text": "Clinical studies find 15-20% prevalence with chronic CCB therapy.", "relevance": 4 },
+      { "doc_id": "IM123_7", "text": "Periodontal guidelines recommend alternative antihypertensives for patients with pre-existing gum disease due to refractory hyperplasia risks.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM124",
+    "query_type": "implicit_NOT",
+    "query_text": "Does methotrexate cause pulmonary fibrosis?",
+    "documents": [
+      { "doc_id": "IM124_1", "text": "Some rheumatology sites claim lung toxicity only occurs at very high doses.", "relevance": 1 },
+      { "doc_id": "IM124_2", "text": "Basic RA treatment overviews often omit pulmonary monitoring.", "relevance": 1 },
+      { "doc_id": "IM124_3", "text": "Case reports describe subacute cough and dyspnea.", "relevance": 2 },
+      { "doc_id": "IM124_4", "text": "HRCT scans show ground-glass opacities in affected patients.", "relevance": 3 },
+      { "doc_id": "IM124_5", "text": "The risk appears dose-independent and idiosyncratic.", "relevance": 3 },
+      { "doc_id": "IM124_6", "text": "Registry data indicates 1-3% incidence with long-term low-dose use.", "relevance": 4 },
+      { "doc_id": "IM124_7", "text": "Current rheumatology protocols mandate baseline and annual PFTs due to potentially fatal interstitial lung disease risks.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM125",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that interferon causes thyroid dysfunction?",
+    "documents": [
+      { "doc_id": "IM125_1", "text": "Some hepatitis C treatment sites downplay endocrine effects.", "relevance": 1 },
+      { "doc_id": "IM125_2", "text": "Basic antiviral information rarely mentions thyroid monitoring.", "relevance": 1 },
+      { "doc_id": "IM125_3", "text": "Clinical observations note fatigue changes during therapy.", "relevance": 2 },
+      { "doc_id": "IM125_4", "text": "Both hypothyroidism and Graves' disease can be triggered.", "relevance": 3 },
+      { "doc_id": "IM125_5", "text": "Mechanisms involve autoimmune thyroiditis induction.", "relevance": 3 },
+      { "doc_id": "IM125_6", "text": "Longitudinal studies find 15-20% develop thyroid antibodies.", "relevance": 4 },
+      { "doc_id": "IM125_7", "text": "Current hepatitis treatment guidelines require monthly TSH checks due to high rates of interferon-induced thyroiditis.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM126",
+    "query_type": "implicit_NOT",
+    "query_text": "Can long-term NSAID use lead to small intestinal ulcers?",
+    "documents": [
+      { "doc_id": "IM126_1", "text": "Some pain management sites focus only on gastric protection.", "relevance": 1 },
+      { "doc_id": "IM126_2", "text": "Basic arthritis information rarely mentions distal GI risks.", "relevance": 1 },
+      { "doc_id": "IM126_3", "text": "Capsule endoscopy reveals mucosal breaks in chronic users.", "relevance": 2 },
+      { "doc_id": "IM126_4", "text": "The effect appears more pronounced with non-selective NSAIDs.", "relevance": 2 },
+      { "doc_id": "IM126_5", "text": "Prostaglandin inhibition reduces intestinal barrier function.", "relevance": 3 },
+      { "doc_id": "IM126_6", "text": "Controlled studies demonstrate 5-10% prevalence of small bowel ulcers.", "relevance": 4 },
+      { "doc_id": "IM126_7", "text": "Current gastroenterology guidelines recommend periodic small bowel evaluation in patients with unexplained anemia on chronic NSAIDs.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM127",
+    "query_type": "implicit_NOT",
+    "query_text": "Does valproate increase risk of polycystic ovarian syndrome?",
+    "documents": [
+      { "doc_id": "IM127_1", "text": "Some epilepsy forums claim hormonal effects are exaggerated.", "relevance": 1 },
+      { "doc_id": "IM127_2", "text": "Basic seizure disorder sites often omit endocrine monitoring.", "relevance": 1 },
+      { "doc_id": "IM127_3", "text": "Clinical observations note menstrual irregularities in young women.", "relevance": 2 },
+      { "doc_id": "IM127_4", "text": "Valproate induces insulin resistance and hyperandrogenism.", "relevance": 3 },
+      { "doc_id": "IM127_5", "text": "The risk appears dose-dependent and more common in obesity.", "relevance": 3 },
+      { "doc_id": "IM127_6", "text": "Longitudinal studies find 40-50% PCOS prevalence in reproductive-age users.", "relevance": 4 },
+      { "doc_id": "IM127_7", "text": "Current neurology guidelines recommend alternative anticonvulsants for women of childbearing potential due to metabolic and reproductive risks.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM128",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there a connection between TNF inhibitors and demyelination?",
+    "documents": [
+      { "doc_id": "IM128_1", "text": "Some rheumatology sites dismiss neurological concerns as theoretical.", "relevance": 1 },
+      { "doc_id": "IM128_2", "text": "Basic biologic therapy information rarely mentions MS-like symptoms.", "relevance": 1 },
+      { "doc_id": "IM128_3", "text": "Case reports describe optic neuritis following treatment initiation.", "relevance": 2 },
+      { "doc_id": "IM128_4", "text": "MRI studies show new white matter lesions in some patients.", "relevance": 3 },
+      { "doc_id": "IM128_5", "text": "The mechanism may involve disrupted TNF signaling in oligodendrocytes.", "relevance": 3 },
+      { "doc_id": "IM128_6", "text": "Post-marketing surveillance confirms increased demyelination event reporting.", "relevance": 4 },
+      { "doc_id": "IM128_7", "text": "FDA contraindicates TNF inhibitors in patients with pre-existing demyelinating disorders due to disease activation risks.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM129",
+    "query_type": "implicit_NOT",
+    "query_text": "Can dopamine agonists cause impulse control disorders?",
+    "documents": [
+      { "doc_id": "IM129_1", "text": "Some Parkinson's forums dismiss behavioral changes as coincidental.", "relevance": 1 },
+      { "doc_id": "IM129_2", "text": "Basic movement disorder sites often bury compulsive behavior warnings.", "relevance": 1 },
+      { "doc_id": "IM129_3", "text": "Clinical notes describe new-onset gambling in treated patients.", "relevance": 2 },
+      { "doc_id": "IM129_4", "text": "Pramipexole shows stronger association than levodopa.", "relevance": 2 },
+      { "doc_id": "IM129_5", "text": "Mesolimbic dopamine receptor overstimulation underlies the effect.", "relevance": 3 },
+      { "doc_id": "IM129_6", "text": "Controlled studies find 10-15% incidence of pathological behaviors.", "relevance": 4 },
+      { "doc_id": "IM129_7", "text": "Current treatment guidelines mandate pre-therapy counseling about potential irreversible compulsive gambling, shopping, and hypersexuality risks.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM130",
+    "query_type": "implicit_NOT",
+    "query_text": "Does prolonged colchicine use cause myopathy?",
+    "documents": [
+      { "doc_id": "IM130_1", "text": "Some gout treatment sites claim muscle effects only occur in overdose.", "relevance": 1 },
+      { "doc_id": "IM130_2", "text": "Basic medication guides often omit chronic myotoxicity warnings.", "relevance": 1 },
+      { "doc_id": "IM130_3", "text": "Case reports describe proximal weakness in long-term users.", "relevance": 2 },
+      { "doc_id": "IM130_4", "text": "The risk increases substantially with concurrent statin use.", "relevance": 3 },
+      { "doc_id": "IM130_5", "text": "Colchicine disrupts microtubule function in muscle cells.", "relevance": 3 },
+      { "doc_id": "IM130_6", "text": "Muscle biopsies show characteristic vacuolar changes.", "relevance": 4 },
+      { "doc_id": "IM130_7", "text": "Current rheumatology protocols recommend CK monitoring and dose limitation due to potentially fatal necrotizing myopathy risks.", "relevance": 5 }
+    ]
+  },
+  {
+    "query_id": "IM131",
+    "query_type": "implicit_NOT",
+    "query_text": "Is there evidence that thiazolidinediones cause heart failure?",
+    "documents": [
+      { "doc_id": "IM131_1", "text": "Some diabetes forums claim cardiovascular risks are overstated.", "relevance": 1 },
+      { "doc_id": "IM131_2", "text": "Basic glycemic control information often downplays fluid retention.", "relevance": 1 },
+      { "doc_id": "IM131_3", "text": "Clinical trials noted increased edema in some participants.", "relevance": 2 },
+      { "doc_id": "IM131_4", "text": "PPAR-γ activation promotes renal sodium reabsorption.", "relevance": 3 },
+      { "doc_id": "IM131_5", "text": "The effect appears more pronounced with pre-existing cardiac disease.", "relevance": 3 },
+      { "doc_id": "IM131_6", "text": "Post-marketing studies demonstrate 2-3x higher HF hospitalization rates.", "relevance": 4 },
+      { "doc_id": "IM131_7", "text": "FDA now contraindicates TZDs in NYHA class III/IV heart failure due to fluid overload risks.", "relevance": 5 }
+    ]
+  }
+]

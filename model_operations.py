@@ -83,68 +83,53 @@ class ModelOperations:
 
 
 
-        if mode == "explicit_NOT":
-            eps = 0.01  # for ratio stability
+        # if mode == "explicit_NOT":
+        #     eps = 0.01  # for ratio stability
             # Option 1: Ratio formula (high Pearson)
             # return (n_tensor / (e_tensor + eps)) + c_tensor
 
             # Option 2: Sigmoid-based formula σ(15n) + c - σ(15e)
-            return torch.sigmoid(15 * n_tensor) + c_tensor - torch.sigmoid(15 * e_tensor)
+            # return torch.sigmoid(15 * n_tensor) + c_tensor - torch.sigmoid(15 * e_tensor)
 
         #cross gives 41 facebook bart gives 44
         # elif mode == "implicit_NOT":
         # #     # Soft binary version of: (n > 0.3) + c - (e > 0.3)
         #     return torch.sigmoid(40 * (n_tensor - 0.3)) + c_tensor - torch.sigmoid(40 * (e_tensor - 0.3))
         
-        elif mode == "implicit_NOT":
-            # Smooth sigmoid-based version of: (n > 0.5) + c - (e > 0.5)
-            return torch.sigmoid(40 * (n_tensor - 0.5)) + c_tensor - torch.sigmoid(40 * (e_tensor - 0.5))
+        # elif mode == "implicit_NOT":
+        #     # Smooth sigmoid-based version of: (n > 0.5) + c - (e > 0.5)
+        #     return torch.sigmoid(40 * (n_tensor - 0.5)) + c_tensor - torch.sigmoid(40 * (e_tensor - 0.5))
         
-        # cross gives 48 fb gives 31, prajwal gives 41
-        elif mode == "implicit_NOT":
-            # Smooth sigmoid-based formula: σ(10n) + c - σ(10e)
-            return torch.sigmoid(10 * n_tensor) + c_tensor - torch.sigmoid(10 * e_tensor)
+        # # cross gives 48 fb gives 31, prajwal gives 41
+        # elif mode == "implicit_NOT":
+        #     # Smooth sigmoid-based formula: σ(10n) + c - σ(10e)
+        #     return torch.sigmoid(10 * n_tensor) + c_tensor - torch.sigmoid(10 * e_tensor)
+
+
+    #         The document's general formula for the Universal Linear Baseline is:
+
+    # Score= c tensor +n tensor −e tensor
+
+        if 1==1:
+            """
+            Canonical linear combination used in IR research (non-parametric):
+            - n_tensor: Neural relevance score (0-1)
+            - e_tensor: NOT component (0-1)
+            - c_tensor: Comparative component (0-1)
+            
+            Implements the standard: 
+            Score = PrimaryRelevance - NOT_Penalty + Comparison_Boost
+            """
+            return n_tensor - e_tensor + c_tensor
 
 
 
 
+        # elif mode == "comparative_NOT":
+        #     # --- Entailment reward: scaled sigmoid rising after 0.03, near 1 by 0.1 ---
+        #     return n_tensor + (n_tensor * c_tensor) - e_tensor
 
 
-        elif mode == "comparative_NOT":
-            # --- Entailment reward: scaled sigmoid rising after 0.03, near 1 by 0.1 ---
-            return n_tensor + (n_tensor * c_tensor) - e_tensor
-
-
-        elif mode == "prohibition_NOT":
-            # Hardcoded values
-            threshold = 0.02
-            steepness = 30.0
-
-            # Slight reward for high entailment
-            e_reward = 0.5 * torch.sigmoid(25 * (e_tensor - 0.965))
-
-            # Minimal penalty for neutral
-            n_penalty = 0.2 * torch.sigmoid(40 * (n_tensor - 0.015))
-
-            # Stronger penalty for contradiction
-            c_penalty = 0.8 * torch.sigmoid(40 * (c_tensor - 0.02))
-
-            raw_score = e_reward - n_penalty - c_penalty
-
-        elif mode == "scope_NOT":
-            threshold = 0.04
-            steepness = 25.0
-
-            # Penalty for high entailment
-            e_penalty = 0.6 * torch.sigmoid(35 * (e_tensor - 0.90))
-
-            # Mild penalty for neutral
-            n_penalty = 0.3 * torch.sigmoid(30 * (n_tensor - 0.05))
-
-            # Reward for contradiction
-            c_reward = 1.2 * torch.sigmoid(steepness * (c_tensor - threshold))
-
-            raw_score = c_reward - n_penalty - e_penalty
 
         else:
             # General mode: use sum of neutral and contradiction directly

@@ -10,9 +10,9 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Construct full paths to the JSON files
 file_names = [
-    os.path.join(script_dir, "json", "implicit.json"),
-    # os.path.join(script_dir, "json","explicit.json"),
-    # os.path.join(script_dir, "json","comparative_not.json"),
+    os.path.join(script_dir, "json", "implicit_150.json"),
+    # os.path.join(script_dir, "json","explicit_30.json"),
+    # os.path.join(script_dir, "json","comparative_30.json"),
     # os.path.join(script_dir, "json","scope.json"),
     # os.path.join(script_dir, "json","prohibition.json")
 ]
@@ -31,11 +31,8 @@ def main():
         AVAILABLE_MODELS = {
             "roberta-large-mnli": "RoBERTa-large (MNLI)",
             "microsoft/deberta-large-mnli": "DeBERTa-large (MNLI)",
-            "prajjwal1/albert-base-v2-mnli": "ALBERT-base (MNLI)",
-            "pritamdeka/PubMedBERT-MNLI-MedNLI": "Pub-MedBERT (MNLI → MedNLI)",
             "facebook/bart-large-mnli": "BART-large (MNLI)", 
             "cross-encoder/nli-deberta-base": "Cross-Encoder (DeBERTa-base NLI)",
-            "typeform/distilbert-base-uncased-mnli": "DistilBERT-base (MNLI)"
         }
 
         for model_id in AVAILABLE_MODELS:
