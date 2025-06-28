@@ -1,7 +1,7 @@
 [
   {
-    "query_id": "EX5",
-    "query_type": "comparitive_not",
+    "query_id": "EX5_5129",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that PPIs (Proton Pump Inhibitors) leads to blood glucose control?",
     "documents": [
       {
@@ -42,8 +42,8 @@
     ]
   },
   {
-    "query_id": "EX6",
-    "query_type": "comparitive_not",
+    "query_id": "EX6_1394",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that thyroid hormones leads to liver enzyme elevation?",
     "documents": [
       {
@@ -84,8 +84,8 @@
     ]
   },
   {
-    "query_id": "EX7",
-    "query_type": "comparitive_not",
+    "query_id": "EX7_9390",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that risperidone leads to blood glucose control?",
     "documents": [
       {
@@ -126,8 +126,8 @@
     ]
   },
   {
-    "query_id": "EX8",
-    "query_type": "comparitive_not",
+    "query_id": "EX8_1114",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that statins leads to gastrointestinal discomfort?",
     "documents": [
       {
@@ -168,8 +168,8 @@
     ]
   },
   {
-    "query_id": "EX9",
-    "query_type": "comparitive_not",
+    "query_id": "EX9_0800",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that ACE inhibitors leads to bone mineral density loss?",
     "documents": [
       {
@@ -210,8 +210,8 @@
     ]
   },
   {
-    "query_id": "EX10",
-    "query_type": "comparitive_not",
+    "query_id": "EX10_2095",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that amlodipine leads to sleep quality?",
     "documents": [
       {
@@ -253,7 +253,7 @@
   },
   {
     "query_id": "EX11",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that insulin leads to liver enzyme elevation?",
     "documents": [
       {
@@ -295,7 +295,7 @@
   },
   {
     "query_id": "EX12",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that warfarin leads to blood glucose control?",
     "documents": [
       {
@@ -337,7 +337,7 @@
   },
   {
     "query_id": "EX13",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that risperidone leads to inflammation markers?",
     "documents": [
       {
@@ -379,7 +379,7 @@
   },
   {
     "query_id": "EX14",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that PPIs (Proton Pump Inhibitors) leads to blood pressure?",
     "documents": [
       {
@@ -424,13 +424,41 @@
     "query_type": "comparative_NOT",
     "query_text": "Are SSRIs more effective than SNRIs in treating generalized anxiety disorder?",
     "documents": [
-      { "doc_id": "CN041_1", "text": "A few non-peer-reviewed forums suggest both drug types are equally effective, lacking clear preference.", "relevance": 1 },
-      { "doc_id": "CN041_2", "text": "Lay summaries often mention SNRIs without providing comparative data against SSRIs.", "relevance": 1 },
-      { "doc_id": "CN041_3", "text": "Some observational studies show slightly better symptom reduction with SNRIs.", "relevance": 2 },
-      { "doc_id": "CN041_4", "text": "Head-to-head trials reveal modest improvements in anxiety scales for SNRIs in certain populations.", "relevance": 3 },
-      { "doc_id": "CN041_5", "text": "Clinicians note more rapid symptom control in SSRI-treated patients with fewer side effects.", "relevance": 3 },
-      { "doc_id": "CN041_6", "text": "Meta-analyses suggest SSRIs have a more favorable tolerability profile in GAD treatment.", "relevance": 4 },
-      { "doc_id": "CN041_7", "text": "Systematic reviews consistently show SSRIs outperform SNRIs in long-term management of GAD.", "relevance": 5 }
+      {
+        "doc_id": "CN041_1",
+        "text": "A few non-peer-reviewed forums suggest both drug types are equally effective, lacking clear preference.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "CN041_2",
+        "text": "Lay summaries often mention SNRIs without providing comparative data against SSRIs.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "CN041_3",
+        "text": "Some observational studies show slightly better symptom reduction with SNRIs.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "CN041_4",
+        "text": "Head-to-head trials reveal modest improvements in anxiety scales for SNRIs in certain populations.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "CN041_5",
+        "text": "Clinicians note more rapid symptom control in SSRI-treated patients with fewer side effects.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "CN041_6",
+        "text": "Meta-analyses suggest SSRIs have a more favorable tolerability profile in GAD treatment.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "CN041_7",
+        "text": "Systematic reviews consistently show SSRIs outperform SNRIs in long-term management of GAD.",
+        "relevance": 5
+      }
     ]
   },
   {
@@ -438,13 +466,41 @@
     "query_type": "comparative_NOT",
     "query_text": "Is risperidone more effective than olanzapine for controlling aggression in schizophrenia?",
     "documents": [
-      { "doc_id": "CN042_1", "text": "Anecdotal experiences vary significantly, and often lack comparative structure.", "relevance": 1 },
-      { "doc_id": "CN042_2", "text": "Older case studies discuss aggression control without specifying the drug used.", "relevance": 1 },
-      { "doc_id": "CN042_3", "text": "Some randomized studies report slight advantages of olanzapine over risperidone in managing aggression.", "relevance": 2 },
-      { "doc_id": "CN042_4", "text": "Small-scale trials find similar efficacy between the two agents, with some variance by dosage.", "relevance": 2 },
-      { "doc_id": "CN042_5", "text": "Psychiatric review articles suggest olanzapine may reduce hostility slightly faster.", "relevance": 3 },
-      { "doc_id": "CN042_6", "text": "Network meta-analyses show risperidone to be equally effective, with fewer sedative effects.", "relevance": 4 },
-      { "doc_id": "CN042_7", "text": "Comprehensive trials conclude risperidone performs comparably or better than olanzapine in aggressive symptom control.", "relevance": 5 }
+      {
+        "doc_id": "CN042_1",
+        "text": "Anecdotal experiences vary significantly, and often lack comparative structure.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "CN042_2",
+        "text": "Older case studies discuss aggression control without specifying the drug used.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "CN042_3",
+        "text": "Some randomized studies report slight advantages of olanzapine over risperidone in managing aggression.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "CN042_4",
+        "text": "Small-scale trials find similar efficacy between the two agents, with some variance by dosage.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "CN042_5",
+        "text": "Psychiatric review articles suggest olanzapine may reduce hostility slightly faster.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "CN042_6",
+        "text": "Network meta-analyses show risperidone to be equally effective, with fewer sedative effects.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "CN042_7",
+        "text": "Comprehensive trials conclude risperidone performs comparably or better than olanzapine in aggressive symptom control.",
+        "relevance": 5
+      }
     ]
   },
   {
@@ -452,13 +508,41 @@
     "query_type": "comparative_NOT",
     "query_text": "Is aspirin better than clopidogrel in reducing recurrent strokes?",
     "documents": [
-      { "doc_id": "CN043_1", "text": "General wellness blogs rarely distinguish between these two antiplatelet medications.", "relevance": 1 },
-      { "doc_id": "CN043_2", "text": "Editorials mention their roles but don’t provide head-to-head outcome comparisons.", "relevance": 2 },
-      { "doc_id": "CN043_3", "text": "Clinical data suggest clopidogrel may be marginally more effective at preventing recurrence.", "relevance": 3 },
-      { "doc_id": "CN043_4", "text": "A few stroke registry studies show no major difference in outcomes between the two.", "relevance": 3 },
-      { "doc_id": "CN043_5", "text": "Pooled analyses indicate clopidogrel has slightly fewer GI side effects.", "relevance": 4 },
-      { "doc_id": "CN043_6", "text": "Cochrane reviews consistently report clopidogrel outperforms aspirin for secondary prevention.", "relevance": 5 },
-      { "doc_id": "CN043_7", "text": "Neurologists now favor clopidogrel in patients with aspirin intolerance.", "relevance": 4 }
+      {
+        "doc_id": "CN043_1",
+        "text": "General wellness blogs rarely distinguish between these two antiplatelet medications.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "CN043_2",
+        "text": "Editorials mention their roles but don\u2019t provide head-to-head outcome comparisons.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "CN043_3",
+        "text": "Clinical data suggest clopidogrel may be marginally more effective at preventing recurrence.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "CN043_4",
+        "text": "A few stroke registry studies show no major difference in outcomes between the two.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "CN043_5",
+        "text": "Pooled analyses indicate clopidogrel has slightly fewer GI side effects.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "CN043_6",
+        "text": "Cochrane reviews consistently report clopidogrel outperforms aspirin for secondary prevention.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "CN043_7",
+        "text": "Neurologists now favor clopidogrel in patients with aspirin intolerance.",
+        "relevance": 4
+      }
     ]
   },
   {
@@ -466,13 +550,41 @@
     "query_type": "comparative_NOT",
     "query_text": "Is vitamin D supplementation better than calcium alone for fracture prevention?",
     "documents": [
-      { "doc_id": "CN044_1", "text": "Magazines promoting supplements often blur the lines between calcium and vitamin D.", "relevance": 1 },
-      { "doc_id": "CN044_2", "text": "Lay articles suggest both are essential but don’t compare outcomes.", "relevance": 2 },
-      { "doc_id": "CN044_3", "text": "Controlled trials show vitamin D alone provides little benefit without calcium.", "relevance": 3 },
-      { "doc_id": "CN044_4", "text": "Comparative studies suggest the combination works best, with neither fully effective alone.", "relevance": 4 },
-      { "doc_id": "CN044_5", "text": "Longitudinal data support vitamin D as having a superior role in vertebral fracture reduction.", "relevance": 5 },
-      { "doc_id": "CN044_6", "text": "RCTs show calcium is more effective than vitamin D in reducing hip fracture incidence.", "relevance": 3 },
-      { "doc_id": "CN044_7", "text": "Experts advise individualized supplementation strategies depending on deficiency levels.", "relevance": 4 }
+      {
+        "doc_id": "CN044_1",
+        "text": "Magazines promoting supplements often blur the lines between calcium and vitamin D.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "CN044_2",
+        "text": "Lay articles suggest both are essential but don\u2019t compare outcomes.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "CN044_3",
+        "text": "Controlled trials show vitamin D alone provides little benefit without calcium.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "CN044_4",
+        "text": "Comparative studies suggest the combination works best, with neither fully effective alone.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "CN044_5",
+        "text": "Longitudinal data support vitamin D as having a superior role in vertebral fracture reduction.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "CN044_6",
+        "text": "RCTs show calcium is more effective than vitamin D in reducing hip fracture incidence.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "CN044_7",
+        "text": "Experts advise individualized supplementation strategies depending on deficiency levels.",
+        "relevance": 4
+      }
     ]
   },
   {
@@ -480,13 +592,41 @@
     "query_type": "comparative_NOT",
     "query_text": "Is lifestyle change more effective than metformin in prediabetes management?",
     "documents": [
-      { "doc_id": "CN045_1", "text": "Some wellness blogs dismiss medication entirely, favoring diets without evidence.", "relevance": 1 },
-      { "doc_id": "CN045_2", "text": "Social media often overstates lifestyle impact without citing trials.", "relevance": 1 },
-      { "doc_id": "CN045_3", "text": "Population studies reveal metformin alone reduces diabetes onset modestly.", "relevance": 2 },
-      { "doc_id": "CN045_4", "text": "Combined strategies show greater efficacy than either intervention alone.", "relevance": 3 },
-      { "doc_id": "CN045_5", "text": "DPP trials consistently indicate structured lifestyle changes delay diabetes better than metformin.", "relevance": 4 },
-      { "doc_id": "CN045_6", "text": "Systematic reviews support lifestyle intervention as the superior long-term strategy.", "relevance": 5 },
-      { "doc_id": "CN045_7", "text": "Clinicians recommend early lifestyle modification, especially in younger prediabetic adults.", "relevance": 3 }
+      {
+        "doc_id": "CN045_1",
+        "text": "Some wellness blogs dismiss medication entirely, favoring diets without evidence.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "CN045_2",
+        "text": "Social media often overstates lifestyle impact without citing trials.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "CN045_3",
+        "text": "Population studies reveal metformin alone reduces diabetes onset modestly.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "CN045_4",
+        "text": "Combined strategies show greater efficacy than either intervention alone.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "CN045_5",
+        "text": "DPP trials consistently indicate structured lifestyle changes delay diabetes better than metformin.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "CN045_6",
+        "text": "Systematic reviews support lifestyle intervention as the superior long-term strategy.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "CN045_7",
+        "text": "Clinicians recommend early lifestyle modification, especially in younger prediabetic adults.",
+        "relevance": 3
+      }
     ]
   },
   {
@@ -494,13 +634,41 @@
     "query_type": "comparative_NOT",
     "query_text": "Do newer antihistamines work better than first-generation ones for allergic rhinitis?",
     "documents": [
-      { "doc_id": "CN046_1", "text": "Patient blogs note drowsiness from older antihistamines but rarely mention alternatives.", "relevance": 1 },
-      { "doc_id": "CN046_2", "text": "Retail advertisements praise newer drugs without offering comparative clinical results.", "relevance": 1 },
-      { "doc_id": "CN046_3", "text": "Double-blind studies confirm fewer CNS side effects with second-generation antihistamines.", "relevance": 2 },
-      { "doc_id": "CN046_4", "text": "Symptom relief duration is slightly longer in newer agents per dose-response trials.", "relevance": 3 },
-      { "doc_id": "CN046_5", "text": "Comparative trials favor second-gen antihistamines for safety, not always efficacy.", "relevance": 4 },
-      { "doc_id": "CN046_6", "text": "Meta-analyses rank loratadine and cetirizine as top performers among newer agents.", "relevance": 5 },
-      { "doc_id": "CN046_7", "text": "First-gen drugs are still used in acute care despite lower patient preference.", "relevance": 3 }
+      {
+        "doc_id": "CN046_1",
+        "text": "Patient blogs note drowsiness from older antihistamines but rarely mention alternatives.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "CN046_2",
+        "text": "Retail advertisements praise newer drugs without offering comparative clinical results.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "CN046_3",
+        "text": "Double-blind studies confirm fewer CNS side effects with second-generation antihistamines.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "CN046_4",
+        "text": "Symptom relief duration is slightly longer in newer agents per dose-response trials.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "CN046_5",
+        "text": "Comparative trials favor second-gen antihistamines for safety, not always efficacy.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "CN046_6",
+        "text": "Meta-analyses rank loratadine and cetirizine as top performers among newer agents.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "CN046_7",
+        "text": "First-gen drugs are still used in acute care despite lower patient preference.",
+        "relevance": 3
+      }
     ]
   },
   {
@@ -508,13 +676,41 @@
     "query_type": "comparative_NOT",
     "query_text": "Is CBT more effective than SSRIs for treating adolescent depression?",
     "documents": [
-      { "doc_id": "CN047_1", "text": "Some mental health blogs advocate therapy exclusively, ignoring medication benefits.", "relevance": 1 },
-      { "doc_id": "CN047_2", "text": "Parent forums share mixed personal outcomes between therapy and drugs.", "relevance": 2 },
-      { "doc_id": "CN047_3", "text": "Initial trials suggest CBT may improve coping faster than SSRIs.", "relevance": 3 },
-      { "doc_id": "CN047_4", "text": "Meta-analyses show both are effective but combined treatment is superior.", "relevance": 4 },
-      { "doc_id": "CN047_5", "text": "Long-term data supports CBT having lower relapse rates than pharmacotherapy alone.", "relevance": 5 },
-      { "doc_id": "CN047_6", "text": "Some adolescents respond better to SSRIs when depression severity is high.", "relevance": 3 },
-      { "doc_id": "CN047_7", "text": "Psychiatrists increasingly personalize treatment plans between therapy and medication.", "relevance": 4 }
+      {
+        "doc_id": "CN047_1",
+        "text": "Some mental health blogs advocate therapy exclusively, ignoring medication benefits.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "CN047_2",
+        "text": "Parent forums share mixed personal outcomes between therapy and drugs.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "CN047_3",
+        "text": "Initial trials suggest CBT may improve coping faster than SSRIs.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "CN047_4",
+        "text": "Meta-analyses show both are effective but combined treatment is superior.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "CN047_5",
+        "text": "Long-term data supports CBT having lower relapse rates than pharmacotherapy alone.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "CN047_6",
+        "text": "Some adolescents respond better to SSRIs when depression severity is high.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "CN047_7",
+        "text": "Psychiatrists increasingly personalize treatment plans between therapy and medication.",
+        "relevance": 4
+      }
     ]
   },
   {
@@ -522,13 +718,41 @@
     "query_type": "comparative_NOT",
     "query_text": "Is warfarin safer than NOACs in patients with renal impairment?",
     "documents": [
-      { "doc_id": "CN048_1", "text": "Online health sites offer simplistic comparisons without dose adjustment insights.", "relevance": 1 },
-      { "doc_id": "CN048_2", "text": "Some doctors still prefer warfarin due to its monitorability.", "relevance": 2 },
-      { "doc_id": "CN048_3", "text": "Retrospective studies show elevated bleeding risk with certain NOACs in renal dysfunction.", "relevance": 3 },
-      { "doc_id": "CN048_4", "text": "Meta-analyses suggest warfarin may be more manageable in advanced renal disease.", "relevance": 4 },
-      { "doc_id": "CN048_5", "text": "NOACs are safer overall but require strict renal dosing in vulnerable groups.", "relevance": 4 },
-      { "doc_id": "CN048_6", "text": "Expert consensus indicates no single agent is safest—depends on patient profile.", "relevance": 5 },
-      { "doc_id": "CN048_7", "text": "RCTs comparing outcomes remain limited in advanced kidney disease populations.", "relevance": 3 }
+      {
+        "doc_id": "CN048_1",
+        "text": "Online health sites offer simplistic comparisons without dose adjustment insights.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "CN048_2",
+        "text": "Some doctors still prefer warfarin due to its monitorability.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "CN048_3",
+        "text": "Retrospective studies show elevated bleeding risk with certain NOACs in renal dysfunction.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "CN048_4",
+        "text": "Meta-analyses suggest warfarin may be more manageable in advanced renal disease.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "CN048_5",
+        "text": "NOACs are safer overall but require strict renal dosing in vulnerable groups.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "CN048_6",
+        "text": "Expert consensus indicates no single agent is safest\u2014depends on patient profile.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "CN048_7",
+        "text": "RCTs comparing outcomes remain limited in advanced kidney disease populations.",
+        "relevance": 3
+      }
     ]
   },
   {
@@ -536,13 +760,41 @@
     "query_type": "comparative_NOT",
     "query_text": "Is sublingual immunotherapy more effective than subcutaneous for allergic rhinitis?",
     "documents": [
-      { "doc_id": "CN049_1", "text": "Some patients prefer tablets over injections but this doesn’t reflect efficacy.", "relevance": 1 },
-      { "doc_id": "CN049_2", "text": "General practice websites often promote SLIT due to convenience.", "relevance": 2 },
-      { "doc_id": "CN049_3", "text": "RCTs show SLIT has comparable outcomes to SCIT for dust mite allergies.", "relevance": 3 },
-      { "doc_id": "CN049_4", "text": "Comparative data reveals slight improvements in adherence with sublingual forms.", "relevance": 3 },
-      { "doc_id": "CN049_5", "text": "Immunology reviews conclude both methods are effective but differ in patient preference.", "relevance": 4 },
-      { "doc_id": "CN049_6", "text": "Meta-analyses suggest SCIT yields slightly stronger immunogenic response.", "relevance": 4 },
-      { "doc_id": "CN049_7", "text": "Experts agree no single method outperforms universally; individual factors drive decisions.", "relevance": 5 }
+      {
+        "doc_id": "CN049_1",
+        "text": "Some patients prefer tablets over injections but this doesn\u2019t reflect efficacy.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "CN049_2",
+        "text": "General practice websites often promote SLIT due to convenience.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "CN049_3",
+        "text": "RCTs show SLIT has comparable outcomes to SCIT for dust mite allergies.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "CN049_4",
+        "text": "Comparative data reveals slight improvements in adherence with sublingual forms.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "CN049_5",
+        "text": "Immunology reviews conclude both methods are effective but differ in patient preference.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "CN049_6",
+        "text": "Meta-analyses suggest SCIT yields slightly stronger immunogenic response.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "CN049_7",
+        "text": "Experts agree no single method outperforms universally; individual factors drive decisions.",
+        "relevance": 5
+      }
     ]
   },
   {
@@ -550,15 +802,41 @@
     "query_type": "comparative_NOT",
     "query_text": "Is yoga more effective than physical therapy for chronic lower back pain?",
     "documents": [
-      { "doc_id": "CN050_1", "text": "Some blogs glorify yoga for all pains without evidence.", "relevance": 1 },
-      { "doc_id": "CN050_2", "text": "Wellness articles often neglect direct comparisons to physical therapy.", "relevance": 1 },
-      { "doc_id": "CN050_3", "text": "RCTs show both yoga and PT reduce pain intensity after 6 weeks.", "relevance": 2 },
-      { "doc_id": "CN050_4", "text": "Controlled comparisons find greater flexibility gains in yoga groups.", "relevance": 3 },
-      { "doc_id": "CN050_5", "text": "Systematic reviews indicate yoga performs as well as PT but not better.", "relevance": 4 },
-      { "doc_id": "CN050_6", "text": "Meta-analyses confirm both have long-term functional benefits when practiced regularly.", "relevance": 4 },
-      { "doc_id": "CN050_7", "text": "Experts conclude that neither approach is superior; individual preferences determine outcome.", "relevance": 5 }
+      {
+        "doc_id": "CN050_1",
+        "text": "Some blogs glorify yoga for all pains without evidence.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "CN050_2",
+        "text": "Wellness articles often neglect direct comparisons to physical therapy.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "CN050_3",
+        "text": "RCTs show both yoga and PT reduce pain intensity after 6 weeks.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "CN050_4",
+        "text": "Controlled comparisons find greater flexibility gains in yoga groups.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "CN050_5",
+        "text": "Systematic reviews indicate yoga performs as well as PT but not better.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "CN050_6",
+        "text": "Meta-analyses confirm both have long-term functional benefits when practiced regularly.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "CN050_7",
+        "text": "Experts conclude that neither approach is superior; individual preferences determine outcome.",
+        "relevance": 5
+      }
     ]
   }
-
-
 ]

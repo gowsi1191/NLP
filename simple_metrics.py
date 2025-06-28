@@ -56,5 +56,5 @@ for file_name in files:
             print(f"    {metric}: {mean}")
 
 # Save summary to file
-with open("implicit_150_base.json", "w") as outfile:
+with open("exp_30_20.json", "w") as outfile:
     json.dump(overall_summary, outfile, indent=2)

@@ -1,442 +1,1262 @@
-[{
-  "query_id": "EX101",
-  "query_type": "explicit_NOT",
-  "query_text": "Is it true that statins explicitly do NOT increase the risk of muscle weakness?",
-  "documents": [
-    { "doc_id": "EX101_1", "text": "Casual patient anecdotes often exaggerate statins’ role in muscle fatigue.", "relevance": 1 },
-    { "doc_id": "EX101_2", "text": "Older blog posts claim muscle issues are common, but lack scientific basis.", "relevance": 1 },
-    { "doc_id": "EX101_3", "text": "Minor studies suggest slight muscular discomfort may arise in some users.", "relevance": 2 },
-    { "doc_id": "EX101_4", "text": "There is some moderate evidence of muscle symptom reports in statin trials.", "relevance": 3 },
-    { "doc_id": "EX101_5", "text": "Meta-analyses show varying results with limited consensus on muscle side effects.", "relevance": 3 },
-    { "doc_id": "EX101_6", "text": "Clinical trial reports often mention muscle complaints, though rarely statistically significant.", "relevance": 4 },
-    { "doc_id": "EX101_7", "text": "Randomized trials found no causal link between statins and persistent muscle weakness.", "relevance": 5 }
-  ]
-},
-{
-  "query_id": "EX102",
-  "query_type": "explicit_NOT",
-  "query_text": "Does metformin explicitly NOT cause vitamin B12 deficiency in diabetic patients?",
-  "documents": [
-    { "doc_id": "EX102_1", "text": "Anecdotal claims often associate metformin with nutrient loss without rigorous backing.", "relevance": 1 },
-    { "doc_id": "EX102_2", "text": "Popular health sites incorrectly generalize risks of B12 deficiency with metformin.", "relevance": 1 },
-    { "doc_id": "EX102_3", "text": "Some smaller studies observed modest drops in B12 after prolonged metformin use.", "relevance": 2 },
-    { "doc_id": "EX102_4", "text": "Low-level observational data point to decreased B12 in certain demographics.", "relevance": 2 },
-    { "doc_id": "EX102_5", "text": "Experts note potential for reduced B12 levels, especially with high doses over time.", "relevance": 3 },
-    { "doc_id": "EX102_6", "text": "Systematic reviews suggest moderate but reversible reductions in B12.", "relevance": 4 },
-    { "doc_id": "EX102_7", "text": "Double-blind studies conclude no significant B12 impact in most patients.", "relevance": 5 }
-  ]
-},
-{
-  "query_id": "EX103",
-  "query_type": "explicit_NOT",
-  "query_text": "Is it accurate that PPIs explicitly do NOT contribute to calcium absorption issues?",
-  "documents": [
-    { "doc_id": "EX103_1", "text": "Blog writers often misrepresent calcium risks related to PPIs.", "relevance": 1 },
-    { "doc_id": "EX103_2", "text": "Many pharmacy leaflets omit detailed calcium interaction discussions.", "relevance": 1 },
-    { "doc_id": "EX103_3", "text": "Some cohort studies showed slight reductions in calcium uptake in older adults.", "relevance": 2 },
-    { "doc_id": "EX103_4", "text": "Mild effects on calcium absorption have been found in long-term PPI users.", "relevance": 3 },
-    { "doc_id": "EX103_5", "text": "Clinical results are mixed; some trials show a weak calcium interaction.", "relevance": 4 },
-    { "doc_id": "EX103_6", "text": "Larger-scale trials find no clinical evidence linking PPIs with bone mineral deficits.", "relevance": 4 },
-    { "doc_id": "EX103_7", "text": "Controlled studies affirm calcium metabolism remains stable with PPI use.", "relevance": 5 }
-  ]
-},
-{
-  "query_id": "EX104",
-  "query_type": "explicit_NOT",
-  "query_text": "Do beta blockers explicitly NOT cause memory loss in elderly populations?",
-  "documents": [
-    { "doc_id": "EX104_1", "text": "Rumors persist online about memory issues from beta blockers, but lack evidence.", "relevance": 1 },
-    { "doc_id": "EX104_2", "text": "User forums often speculate memory changes, without controlled study validation.", "relevance": 2 },
-    { "doc_id": "EX104_3", "text": "Some trial participants report memory lapses, though inconsistently.", "relevance": 2 },
-    { "doc_id": "EX104_4", "text": "A few observational studies associate mild cognitive decline with beta blocker exposure.", "relevance": 3 },
-    { "doc_id": "EX104_5", "text": "Systematic reviews suggest minor effects on cognition in sensitive populations.", "relevance": 3 },
-    { "doc_id": "EX104_6", "text": "Clinical findings report slight delays in recall among high-dose users.", "relevance": 4 },
-    { "doc_id": "EX104_7", "text": "Robust randomized trials show no long-term cognitive impact of beta blockers.", "relevance": 5 }
-  ]
-},
-{
-  "query_id": "EX105",
-  "query_type": "explicit_NOT",
-  "query_text": "Is it correct to say that corticosteroids explicitly do NOT elevate blood glucose in healthy individuals?",
-  "documents": [
-    { "doc_id": "EX105_1", "text": "Some health blogs falsely reassure readers that corticosteroids never raise glucose levels.", "relevance": 1 },
-    { "doc_id": "EX105_2", "text": "Layman summaries often ignore temporary glucose elevations from corticosteroid use.", "relevance": 2 },
-    { "doc_id": "EX105_3", "text": "Short-term studies document brief spikes in glucose post-steroid treatment.", "relevance": 3 },
-    { "doc_id": "EX105_4", "text": "Reports indicate glucose tolerance varies with corticosteroid dose and duration.", "relevance": 3 },
-    { "doc_id": "EX105_5", "text": "Controlled trials show reversible hyperglycemia in certain patients.", "relevance": 4 },
-    { "doc_id": "EX105_6", "text": "Meta-analyses confirm minimal long-term glucose effects in normoglycemic adults.", "relevance": 4 },
-    { "doc_id": "EX105_7", "text": "Multiple RCTs conclude no sustained glucose abnormalities from corticosteroids in healthy users.", "relevance": 5 }
-  ]
-},
-{
-  "query_id": "EX106",
-  "query_type": "explicit_NOT",
-  "query_text": "Is it accurate to claim that SSRIs explicitly do NOT lead to weight gain over time?",
-  "documents": [
-    { "doc_id": "EX106_1", "text": "Many lifestyle blogs incorrectly claim SSRIs always result in weight gain regardless of duration or dose.", "relevance": 1 },
-    { "doc_id": "EX106_2", "text": "General statements made in forums lack evidence when discussing long-term SSRI effects.", "relevance": 1 },
-    { "doc_id": "EX106_3", "text": "Some open-label trials show marginal weight gain trends in certain populations.", "relevance": 2 },
-    { "doc_id": "EX106_4", "text": "Double-blind studies note gradual weight increases over prolonged SSRI therapy.", "relevance": 3 },
-    { "doc_id": "EX106_5", "text": "Evidence suggests weight effects vary across SSRIs and individual metabolism.", "relevance": 3 },
-    { "doc_id": "EX106_6", "text": "Clinical evaluations confirm some SSRIs lead to weight gain more than others.", "relevance": 4 },
-    { "doc_id": "EX106_7", "text": "Several controlled studies conclude that while short-term use is neutral, weight gain is possible in long-term SSRI use.", "relevance": 5 }
-  ]
-},
-{
-  "query_id": "EX107",
-  "query_type": "explicit_NOT",
-  "query_text": "Do antihistamines explicitly NOT impair cognitive function in older adults?",
-  "documents": [
-    { "doc_id": "EX107_1", "text": "TV ads often suggest all antihistamines are completely safe without discussing potential cognitive side effects.", "relevance": 1 },
-    { "doc_id": "EX107_2", "text": "Patient blogs downplay the possibility of mental fog from common antihistamines.", "relevance": 1 },
-    { "doc_id": "EX107_3", "text": "There are limited studies showing mild cognitive decline in elderly antihistamine users.", "relevance": 2 },
-    { "doc_id": "EX107_4", "text": "Some trials found transient memory issues during high-dose antihistamine regimens.", "relevance": 2 },
-    { "doc_id": "EX107_5", "text": "Clinical evidence suggests older adults may experience minor confusion after prolonged use.", "relevance": 3 },
-    { "doc_id": "EX107_6", "text": "Meta-analyses support a moderate association between first-generation antihistamines and cognition issues.", "relevance": 4 },
-    { "doc_id": "EX107_7", "text": "Controlled studies confirm second-generation antihistamines do not impact cognition.", "relevance": 5 }
-  ]
-},
-{
-  "query_id": "EX108",
-  "query_type": "explicit_NOT",
-  "query_text": "Can ACE inhibitors explicitly NOT lead to persistent cough in patients?",
-  "documents": [
-    { "doc_id": "EX108_1", "text": "Popular social media health influencers often claim ACE inhibitors never cause cough.", "relevance": 1 },
-    { "doc_id": "EX108_2", "text": "Some pamphlets distributed in clinics minimize discussion on ACE inhibitor-induced cough.", "relevance": 1 },
-    { "doc_id": "EX108_3", "text": "Case reports occasionally mention patients discontinuing ACE inhibitors due to cough.", "relevance": 2 },
-    { "doc_id": "EX108_4", "text": "Retrospective studies reveal varying cough incidence rates across different populations.", "relevance": 3 },
-    { "doc_id": "EX108_5", "text": "The literature indicates that dry cough is one of the more common side effects.", "relevance": 4 },
-    { "doc_id": "EX108_6", "text": "Systematic reviews confirm that while some patients report cough, it is reversible and varies by formulation.", "relevance": 4 },
-    { "doc_id": "EX108_7", "text": "Large RCTs suggest that a majority of patients tolerate ACE inhibitors without developing chronic cough.", "relevance": 5 }
-  ]
-},
-{
-  "query_id": "EX109",
-  "query_type": "explicit_NOT",
-  "query_text": "Is it fair to say that anticoagulants explicitly do NOT elevate the risk of gastrointestinal bleeding?",
-  "documents": [
-    { "doc_id": "EX109_1", "text": "Misinformation online often promotes the idea that anticoagulants have no GI side effects.", "relevance": 1 },
-    { "doc_id": "EX109_2", "text": "Some educational brochures understate GI bleeding as a relevant anticoagulant concern.", "relevance": 2 },
-    { "doc_id": "EX109_3", "text": "Several studies link warfarin and DOACs with occasional GI bleeding, particularly in older populations.", "relevance": 2 },
-    { "doc_id": "EX109_4", "text": "Clinical registries report bleeding events in real-world anticoagulant use.", "relevance": 3 },
-    { "doc_id": "EX109_5", "text": "Trials indicate bleeding risk increases with NSAID co-administration or ulcer history.", "relevance": 4 },
-    { "doc_id": "EX109_6", "text": "High-quality RCTs show GI bleeding incidence is relatively low with modern agents.", "relevance": 4 },
-    { "doc_id": "EX109_7", "text": "Evidence from comparative studies confirms newer anticoagulants have reduced GI bleeding risk.", "relevance": 5 }
-  ]
-},
-{
-  "query_id": "EX110",
-  "query_type": "explicit_NOT",
-  "query_text": "Should we consider that antipsychotics explicitly do NOT increase prolactin levels in adolescent patients?",
-  "documents": [
-    { "doc_id": "EX110_1", "text": "Online discussions frequently dismiss prolactin elevation as a concern in modern antipsychotics.", "relevance": 1 },
-    { "doc_id": "EX110_2", "text": "Parental blogs often ignore the endocrine side effects of psychiatric medications in teens.", "relevance": 2 },
-    { "doc_id": "EX110_3", "text": "Case series have reported mild prolactin increases with certain atypical antipsychotics.", "relevance": 3 },
-    { "doc_id": "EX110_4", "text": "Endocrinology studies highlight dose-dependent prolactin response in pediatric cases.", "relevance": 3 },
-    { "doc_id": "EX110_5", "text": "Pharmacological data confirm risperidone and similar agents are more likely to influence prolactin.", "relevance": 4 },
-    { "doc_id": "EX110_6", "text": "Comprehensive reviews affirm some antipsychotics are prolactin-sparing, offering safer adolescent options.", "relevance": 4 },
-    { "doc_id": "EX110_7", "text": "Head-to-head trials show negligible prolactin impact with newer agents like aripiprazole.", "relevance": 5 }
-  ]
-},
-{
-  "query_id": "EX301",
-  "query_type": "explicit_NOT",
-  "query_text": "Is it accurate to claim that antipsychotics explicitly do NOT elevate prolactin levels in adolescents?",
-  "documents": [
-    { "doc_id": "EX301_1", "text": "Few mainstream sources discuss the hormonal consequences of psychiatric drugs in youth.", "relevance": 1 },
-    { "doc_id": "EX301_2", "text": "Do caregiver forums truly address the risk of prolactin shifts with adolescent medication?", "relevance": 1 },
-    { "doc_id": "EX301_3", "text": "Has any randomized trial reported a stable prolactin profile with olanzapine in teens?", "relevance": 2 },
-    { "doc_id": "EX301_4", "text": "Several studies document modest but measurable prolactin increases with quetiapine therapy.", "relevance": 3 },
-    { "doc_id": "EX301_5", "text": "Are pediatric psychiatrists generally aware of dose-related prolactin trends across second-generation antipsychotics?", "relevance": 3 },
-    { "doc_id": "EX301_6", "text": "Systematic reviews indicate prolactin elevation is notably higher with risperidone in younger populations.", "relevance": 4 },
-    { "doc_id": "EX301_7", "text": "Is aripiprazole still considered a prolactin-neutral antipsychotic in adolescent clinical settings?", "relevance": 5 }
-  ]
-}
-,
-{
-  "query_id": "EX302",
-  "query_type": "explicit_NOT",
-  "query_text": "Do antipsychotic medications in adolescents explicitly NOT affect prolactin levels?",
-  "documents": [
-    { "doc_id": "EX302_1", "text": "Medical blogs often downplay hormonal disturbances from psychiatric prescriptions in youth.", "relevance": 1 },
-    { "doc_id": "EX302_2", "text": "Does the average parent know that prolactin shifts may accompany antipsychotic use?", "relevance": 1 },
-    { "doc_id": "EX302_3", "text": "Anecdotal records have shown rare cases of transient prolactin changes during treatment.", "relevance": 2 },
-    { "doc_id": "EX302_4", "text": "Can ziprasidone contribute to prolactin elevation even when used at low doses in teens?", "relevance": 3 },
-    { "doc_id": "EX302_5", "text": "Clinical trials associate certain antipsychotics with elevated prolactin markers in minors.", "relevance": 4 },
-    { "doc_id": "EX302_6", "text": "Comprehensive endocrinology reviews suggest aripiprazole has minimal impact on prolactin.", "relevance": 5 },
-    { "doc_id": "EX302_7", "text": "Is there sustained evidence showing prolactin neutrality across atypical antipsychotics?", "relevance": 5 }
-  ]
-}
-,
-{
-  "query_id": "EX303",
-  "query_type": "explicit_NOT",
-  "query_text": "Can we confidently say that antipsychotics do NOT raise prolactin levels in adolescents?",
-  "documents": [
-    { "doc_id": "EX303_1", "text": "TikTok influencers have spread misinformation about hormonal risks from psychiatric drugs.", "relevance": 1 },
-    { "doc_id": "EX303_2", "text": "What role does patient education play in understanding medication-induced endocrine effects?", "relevance": 2 },
-    { "doc_id": "EX303_3", "text": "Case reports describe fluctuating prolactin levels in adolescents treated with risperidone.", "relevance": 3 },
-    { "doc_id": "EX303_4", "text": "Is prolactin monitoring recommended during adolescent psychopharmacological therapy?", "relevance": 3 },
-    { "doc_id": "EX303_5", "text": "Meta-analyses suggest newer agents are less likely to trigger prolactin dysregulation.", "relevance": 4 },
-    { "doc_id": "EX303_6", "text": "Longitudinal studies on aripiprazole indicate minimal hormonal interference.", "relevance": 4 },
-    { "doc_id": "EX303_7", "text": "Have any large-scale pediatric trials confirmed prolactin stability with lurasidone?", "relevance": 5 }
-  ]
-}
-,
-{
-  "query_id": "EX304",
-  "query_type": "explicit_NOT",
-  "query_text": "Should clinicians worry about prolactin elevation in adolescents prescribed antipsychotics?",
-  "documents": [
-    { "doc_id": "EX304_1", "text": "Discussion forums frequently ignore medication-induced hormonal shifts.", "relevance": 1 },
-    { "doc_id": "EX304_2", "text": "Few adolescent-focused studies clearly separate prolactin effects by drug type.", "relevance": 2 },
-    { "doc_id": "EX304_3", "text": "What does current evidence suggest about prolactin response to quetiapine in teens?", "relevance": 3 },
-    { "doc_id": "EX304_4", "text": "Randomized trials have shown measurable prolactin rises with risperidone.", "relevance": 4 },
-    { "doc_id": "EX304_5", "text": "Pediatric guidelines continue to cite prolactin monitoring as optional for aripiprazole.", "relevance": 5 },
-    { "doc_id": "EX304_6", "text": "Clinical consensus is building that prolactin risk varies across antipsychotics.", "relevance": 5 },
-    { "doc_id": "EX304_7", "text": "Has aripiprazole remained consistently prolactin-neutral across clinical settings?", "relevance": 5 }
-  ]
-}
-,
-{
-  "query_id": "EX305",
-  "query_type": "explicit_NOT",
-  "query_text": "Are prolactin changes a concern when prescribing antipsychotics to adolescents?",
-  "documents": [
-    { "doc_id": "EX305_1", "text": "End-user testimonials often overlook the physiological effects of psychiatric medication.", "relevance": 1 },
-    { "doc_id": "EX305_2", "text": "Most online resources rarely discuss hormone-level implications in teen patients.", "relevance": 1 },
-    { "doc_id": "EX305_3", "text": "Is there partial evidence suggesting mild prolactin alterations during risperidone treatment?", "relevance": 2 },
-    { "doc_id": "EX305_4", "text": "Recent studies observed transient prolactin elevation with olanzapine use.", "relevance": 3 },
-    { "doc_id": "EX305_5", "text": "Adolescent cohorts have shown dose-sensitive prolactin shifts under paliperidone therapy.", "relevance": 3 },
-    { "doc_id": "EX305_6", "text": "Clinical reviews affirm that prolactin levels are less affected by aripiprazole and brexpiprazole.", "relevance": 4 },
-    { "doc_id": "EX305_7", "text": "Is there broad consensus that aripiprazole poses minimal prolactin risk in teens?", "relevance": 5 }
-  ]
-}
-,
-{
-  "query_id": "EX306",
-  "query_type": "explicit_NOT",
-  "query_text": "Could we exclude prolactin elevation as an issue for adolescents on atypical antipsychotics?",
-  "documents": [
-    { "doc_id": "EX306_1", "text": "Do patient forums underplay endocrine effects of adolescent psychiatric treatment?", "relevance": 1 },
-    { "doc_id": "EX306_2", "text": "Parents often ask whether antipsychotics alter hormonal balance in teenagers.", "relevance": 2 },
-    { "doc_id": "EX306_3", "text": "How reliable are studies showing temporary prolactin spikes with ziprasidone?", "relevance": 3 },
-    { "doc_id": "EX306_4", "text": "Long-term evaluations report consistent prolactin increases with risperidone.", "relevance": 4 },
-    { "doc_id": "EX306_5", "text": "Are clinicians confident in prescribing aripiprazole to avoid endocrine side effects?", "relevance": 5 },
-    { "doc_id": "EX306_6", "text": "Pooled data on adolescent treatments show that prolactin-neutral options are viable.", "relevance": 5 },
-    { "doc_id": "EX306_7", "text": "Some exploratory trials even suggest prolactin reductions with partial agonists.", "relevance": 5 }
-  ]
-}
-,
-{
-  "query_id": "EX307",
-  "query_type": "explicit_NOT",
-  "query_text": "Should prolactin levels be monitored in teens taking second-generation antipsychotics?",
-  "documents": [
-    { "doc_id": "EX307_1", "text": "General online advice fails to mention hormonal monitoring in psychiatric treatment.", "relevance": 1 },
-    { "doc_id": "EX307_2", "text": "Are caregivers even aware of possible prolactin-related effects in youth meds?", "relevance": 1 },
-    { "doc_id": "EX307_3", "text": "There is weak evidence suggesting low-grade prolactin response to lurasidone.", "relevance": 2 },
-    { "doc_id": "EX307_4", "text": "Have recent pediatric trials confirmed prolactin stability across newer medications?", "relevance": 3 },
-    { "doc_id": "EX307_5", "text": "What does the literature say about adolescent prolactin changes on amisulpride?", "relevance": 4 },
-    { "doc_id": "EX307_6", "text": "Brexpiprazole continues to be considered prolactin-neutral in teen use cases.", "relevance": 4 },
-    { "doc_id": "EX307_7", "text": "Expert panels support aripiprazole's safety profile for prolactin in adolescents.", "relevance": 5 }
-  ]
-}
-,
-{
-  "query_id": "EX308",
-  "query_type": "explicit_NOT",
-  "query_text": "Are there antipsychotics that explicitly do NOT influence prolactin in young patients?",
-  "documents": [
-    { "doc_id": "EX308_1", "text": "Most social platforms avoid complex pharmacological topics like hormone regulation.", "relevance": 1 },
-    { "doc_id": "EX308_2", "text": "It's uncommon for patient-facing resources to mention prolactin shifts explicitly.", "relevance": 2 },
-    { "doc_id": "EX308_3", "text": "Pilot studies have recorded moderate prolactin elevation with risperidone use.", "relevance": 3 },
-    { "doc_id": "EX308_4", "text": "Endocrinological assessments link dose size with hormone response variability.", "relevance": 3 },
-    { "doc_id": "EX308_5", "text": "Among commonly used drugs, paliperidone shows a stronger prolactin signature.", "relevance": 4 },
-    { "doc_id": "EX308_6", "text": "Can aripiprazole’s partial agonism explain its limited prolactin effect?", "relevance": 4 },
-    { "doc_id": "EX308_7", "text": "Several peer-reviewed studies classify aripiprazole as prolactin-sparing.", "relevance": 5 }
-  ]
-}
-,
-{
-  "query_id": "EX309",
-  "query_type": "explicit_NOT",
-  "query_text": "Is there evidence that prolactin levels remain stable during adolescent antipsychotic treatment?",
-  "documents": [
-    { "doc_id": "EX309_1", "text": "Some caregivers aren't informed about hormone monitoring for mental health meds.", "relevance": 1 },
-    { "doc_id": "EX309_2", "text": "Why is prolactin rarely discussed in the context of teen psychiatric care?", "relevance": 2 },
-    { "doc_id": "EX309_3", "text": "What is the magnitude of prolactin change linked with second-gen antipsychotics?", "relevance": 3 },
-    { "doc_id": "EX309_4", "text": "Researchers confirm prolactin spikes with risperidone are age-dependent.", "relevance": 4 },
-    { "doc_id": "EX309_5", "text": "Clinical comparisons show aripiprazole consistently avoids prolactin increase.", "relevance": 5 },
-    { "doc_id": "EX309_6", "text": "Do newer agents maintain endocrine neutrality across adolescent populations?", "relevance": 5 },
-    { "doc_id": "EX309_7", "text": "Could prolactin response serve as a biomarker for medication choice?", "relevance": 5 }
-  ]
-}
-,
-{
-  "query_id": "EX310",
-  "query_type": "explicit_NOT",
-  "query_text": "Is prolactin elevation a valid concern with modern antipsychotics in youth?",
-  "documents": [
-    { "doc_id": "EX310_1", "text": "Family forums often confuse side effects like weight gain with hormonal shifts.", "relevance": 1 },
-    { "doc_id": "EX310_2", "text": "Do early side effect warnings include discussion of endocrine changes?", "relevance": 2 },
-    { "doc_id": "EX310_3", "text": "Small clinical cohorts have shown modest prolactin rise with quetiapine.", "relevance": 3 },
-    { "doc_id": "EX310_4", "text": "Larger trials on risperidone confirm significant prolactin increases in adolescents.", "relevance": 4 },
-    { "doc_id": "EX310_5", "text": "Is aripiprazole usage preferred in teens due to low prolactin interaction?", "relevance": 5 },
-    { "doc_id": "EX310_6", "text": "Pharmacovigilance data supports prolactin neutrality in brexpiprazole trials.", "relevance": 5 },
-    { "doc_id": "EX310_7", "text": "Do pharmacologists agree on prolactin-related risks across antipsychotic classes?", "relevance": 5 }
-  ]
-}
-,
-{
-  "query_id": "EX311",
-  "query_type": "explicit_NOT",
-  "query_text": "Is it true that prolactin levels remain unaffected in adolescents on antipsychotics?",
-  "documents": [
-    { "doc_id": "EX311_1", "text": "Online forums rarely cite hormonal disruptions as part of psychiatric side effects.", "relevance": 1 },
-    { "doc_id": "EX311_2", "text": "Has the conversation around adolescent antipsychotics neglected endocrine outcomes?", "relevance": 1 },
-    { "doc_id": "EX311_3", "text": "Are there preliminary findings suggesting mild prolactin response with lurasidone?", "relevance": 2 },
-    { "doc_id": "EX311_4", "text": "Investigators observed prolactin increases with long-acting risperidone in youth.", "relevance": 3 },
-    { "doc_id": "EX311_5", "text": "Is the prolactin-elevating effect of risperidone stronger in younger cohorts?", "relevance": 3 },
-    { "doc_id": "EX311_6", "text": "Studies of aripiprazole show minimal hormonal interference across age groups.", "relevance": 4 },
-    { "doc_id": "EX311_7", "text": "Is aripiprazole still considered prolactin-sparing in adolescent prescribing guides?", "relevance": 5 }
-  ]
-}
-,
-{
-  "query_id": "EX312",
-  "query_type": "explicit_NOT",
-  "query_text": "Do second-generation antipsychotics generally avoid prolactin elevation in adolescents?",
-  "documents": [
-    { "doc_id": "EX312_1", "text": "Few patient education materials cover prolactin changes as a drug side effect.", "relevance": 1 },
-    { "doc_id": "EX312_2", "text": "Why is hormonal impact rarely explained in pediatric mental health handouts?", "relevance": 2 },
-    { "doc_id": "EX312_3", "text": "Are prolactin shifts more likely with depot formulations of antipsychotics?", "relevance": 3 },
-    { "doc_id": "EX312_4", "text": "Meta-analyses confirm risperidone raises prolactin in adolescent samples.", "relevance": 4 },
-    { "doc_id": "EX312_5", "text": "Endocrine profiles of newer agents show relative prolactin neutrality.", "relevance": 5 },
-    { "doc_id": "EX312_6", "text": "Can the use of aripiprazole reduce the risk of prolactin-associated side effects?", "relevance": 5 },
-    { "doc_id": "EX312_7", "text": "What explains aripiprazole’s consistently benign hormonal impact in teens?", "relevance": 5 }
-  ]
-}
-,
-{
-  "query_id": "EX313",
-  "query_type": "explicit_NOT",
-  "query_text": "Are clinicians correct in assuming aripiprazole does not increase prolactin in youth?",
-  "documents": [
-    { "doc_id": "EX313_1", "text": "Social platforms provide inconsistent guidance about antipsychotic side effects.", "relevance": 1 },
-    { "doc_id": "EX313_2", "text": "Is there any role for prolactin screening in adolescent psychiatry today?", "relevance": 2 },
-    { "doc_id": "EX313_3", "text": "Researchers note occasional prolactin elevations even with low-dose risperidone.", "relevance": 3 },
-    { "doc_id": "EX313_4", "text": "Brexpiprazole has shown favorable prolactin outcomes in early adolescent trials.", "relevance": 4 },
-    { "doc_id": "EX313_5", "text": "Pooled trial data continues to support aripiprazole as prolactin-sparing.", "relevance": 5 },
-    { "doc_id": "EX313_6", "text": "Do international guidelines classify aripiprazole as endocrine-neutral for teens?", "relevance": 5 },
-    { "doc_id": "EX313_7", "text": "Have pharmacokinetic models explained aripiprazole’s prolactin effects?", "relevance": 5 }
-  ]
-}
-,
-{
-  "query_id": "EX314",
-  "query_type": "explicit_NOT",
-  "query_text": "Has it been proven that prolactin remains stable in adolescents on antipsychotics?",
-  "documents": [
-    { "doc_id": "EX314_1", "text": "Patient blogs typically omit endocrine side effects when reviewing medications.", "relevance": 1 },
-    { "doc_id": "EX314_2", "text": "Most public-facing health articles focus on sedation or weight gain, not hormones.", "relevance": 2 },
-    { "doc_id": "EX314_3", "text": "Clinical evaluations observed small prolactin increases with olanzapine.", "relevance": 3 },
-    { "doc_id": "EX314_4", "text": "Are high doses of risperidone more likely to raise prolactin in minors?", "relevance": 4 },
-    { "doc_id": "EX314_5", "text": "Do teen-focused treatment plans now prefer aripiprazole for endocrine safety?", "relevance": 5 },
-    { "doc_id": "EX314_6", "text": "Could aripiprazole’s receptor profile explain its prolactin-sparing properties?", "relevance": 5 },
-    { "doc_id": "EX314_7", "text": "Have newer partial agonists shown similar prolactin trends to aripiprazole?", "relevance": 5 }
-  ]
-}
-,
-{
-  "query_id": "EX315",
-  "query_type": "explicit_NOT",
-  "query_text": "Should we trust claims that antipsychotics have no effect on prolactin in teenagers?",
-  "documents": [
-    { "doc_id": "EX315_1", "text": "Mainstream summaries tend to overlook hormonal changes linked to psychiatric drugs.", "relevance": 1 },
-    { "doc_id": "EX315_2", "text": "What does the average patient know about prolactin risks in adolescent psychotropics?", "relevance": 2 },
-    { "doc_id": "EX315_3", "text": "Studies have recorded mild prolactin elevations with amisulpride in youth.", "relevance": 3 },
-    { "doc_id": "EX315_4", "text": "Are prolactin elevations consistently higher with risperidone than with aripiprazole?", "relevance": 4 },
-    { "doc_id": "EX315_5", "text": "Experts continue to endorse aripiprazole’s prolactin-neutral reputation.", "relevance": 5 },
-    { "doc_id": "EX315_6", "text": "How robust is the evidence supporting aripiprazole’s endocrine profile?", "relevance": 5 },
-    { "doc_id": "EX315_7", "text": "Is there universal clinical agreement about prolactin safety in newer antipsychotics?", "relevance": 5 }
-  ]
-}
-,
-{
-  "query_id": "EX316",
-  "query_type": "explicit_NOT",
-  "query_text": "Can prolactin stability be expected during adolescent treatment with second-gen antipsychotics?",
-  "documents": [
-    { "doc_id": "EX316_1", "text": "Few online discussions delve into hormone regulation during teen medication use.", "relevance": 1 },
-    { "doc_id": "EX316_2", "text": "Why is prolactin rarely part of the dialogue in child psychiatry forums?", "relevance": 2 },
-    { "doc_id": "EX316_3", "text": "Is lurasidone associated with meaningful prolactin changes in adolescent trials?", "relevance": 3 },
-    { "doc_id": "EX316_4", "text": "Risperidone remains one of the most prolactin-elevating drugs in youth therapy.", "relevance": 4 },
-    { "doc_id": "EX316_5", "text": "Pharmacovigilance reports support aripiprazole’s neutral impact on prolactin.", "relevance": 5 },
-    { "doc_id": "EX316_6", "text": "Are partial dopamine agonists generally safer for endocrine markers in teens?", "relevance": 5 },
-    { "doc_id": "EX316_7", "text": "Clinical consensus suggests prolactin risk varies widely by drug class.", "relevance": 5 }
-  ]
-}
-,
-{
-  "query_id": "EX317",
-  "query_type": "explicit_NOT",
-  "query_text": "Are prolactin levels unaffected by atypical antipsychotic use in adolescent populations?",
-  "documents": [
-    { "doc_id": "EX317_1", "text": "Patient discussion boards barely mention endocrine impacts of psychiatric drugs.", "relevance": 1 },
-    { "doc_id": "EX317_2", "text": "Hormonal disruptions are underrepresented in pediatric treatment resources.", "relevance": 2 },
-    { "doc_id": "EX317_3", "text": "Do early trials on ziprasidone show modest prolactin changes in teens?", "relevance": 3 },
-    { "doc_id": "EX317_4", "text": "Quantitative studies confirm elevated prolactin in risperidone-treated adolescents.", "relevance": 4 },
-    { "doc_id": "EX317_5", "text": "Has aripiprazole consistently shown prolactin neutrality across age groups?", "relevance": 5 },
-    { "doc_id": "EX317_6", "text": "Could low receptor occupancy explain aripiprazole’s endocrine profile?", "relevance": 5 },
-    { "doc_id": "EX317_7", "text": "Clinical protocols now emphasize drug selection based on hormonal safety.", "relevance": 5 }
-  ]
-}
-,
-{
-  "query_id": "EX318",
-  "query_type": "explicit_NOT",
-  "query_text": "Can adolescents on antipsychotics be assured of prolactin level stability?",
-  "documents": [
-    { "doc_id": "EX318_1", "text": "Media narratives often skip hormone-related effects in youth medication coverage.", "relevance": 1 },
-    { "doc_id": "EX318_2", "text": "Is there enough patient education around prolactin and psychiatric drugs?", "relevance": 2 },
-    { "doc_id": "EX318_3", "text": "Data on quetiapine shows modest, reversible prolactin changes.", "relevance": 3 },
-    { "doc_id": "EX318_4", "text": "Adolescent-specific studies show risperidone raises prolactin dose-dependently.", "relevance": 4 },
-    { "doc_id": "EX318_5", "text": "What do systematic reviews say about aripiprazole and hormonal safety?", "relevance": 5 },
-    { "doc_id": "EX318_6", "text": "Endocrinologists often recommend aripiprazole for prolactin-sensitive patients.", "relevance": 5 },
-    { "doc_id": "EX318_7", "text": "Some evidence even suggests prolactin reduction with certain atypical agents.", "relevance": 5 }
-  ]
-}
-,
-{
-  "query_id": "EX319",
-  "query_type": "explicit_NOT",
-  "query_text": "Do current guidelines support prolactin neutrality in adolescent antipsychotic use?",
-  "documents": [
-    { "doc_id": "EX319_1", "text": "Antipsychotic side effects are often simplified in public awareness campaigns.", "relevance": 1 },
-    { "doc_id": "EX319_2", "text": "Hormonal side effects receive less attention than weight or mood changes in education.", "relevance": 2 },
-    { "doc_id": "EX319_3", "text": "Do smaller trials indicate minor prolactin shifts even with newer drugs?", "relevance": 3 },
-    { "doc_id": "EX319_4", "text": "Endocrinological research flags risperidone for high prolactin elevation risk.", "relevance": 4 },
-    { "doc_id": "EX319_5", "text": "Do psychiatrists rely on aripiprazole’s profile when prolactin is a concern?", "relevance": 5 },
-    { "doc_id": "EX319_6", "text": "Pharmacology texts highlight aripiprazole's distinct receptor actions.", "relevance": 5 },
-    { "doc_id": "EX319_7", "text": "Consensus panels list aripiprazole as prolactin-sparing for adolescent use.", "relevance": 5 }
-  ]
-}
-,
-{
-  "query_id": "EX320",
-  "query_type": "explicit_NOT",
-  "query_text": "Can prolactin concerns be dismissed when using antipsychotics in teenagers?",
-  "documents": [
-    { "doc_id": "EX320_1", "text": "Online groups often omit detailed hormone side effects from user stories.", "relevance": 1 },
-    { "doc_id": "EX320_2", "text": "Are prolactin concerns overshadowed by focus on mood stabilization?", "relevance": 2 },
-    { "doc_id": "EX320_3", "text": "Prolactin increases have been documented with higher doses of paliperidone.", "relevance": 3 },
-    { "doc_id": "EX320_4", "text": "Do clinical comparisons show risperidone carries more hormonal risk?", "relevance": 4 },
-    { "doc_id": "EX320_5", "text": "Multiple adolescent studies affirm aripiprazole’s prolactin stability.", "relevance": 5 },
-    { "doc_id": "EX320_6", "text": "Should prolactin neutrality influence antipsychotic selection in teens?", "relevance": 5 },
-    { "doc_id": "EX320_7", "text": "How do clinicians interpret prolactin metrics in antipsychotic trials?", "relevance": 5 }
-  ]
-}
-
-
+[
+  {
+    "query_id": "EX101_8881",
+    "query_type": "explicit_NOT",
+    "query_text": "Is it true that statins explicitly do NOT increase the risk of muscle weakness?",
+    "documents": [
+      {
+        "doc_id": "EX101_1",
+        "text": "Casual patient anecdotes often exaggerate statins\u2019 role in muscle fatigue.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX101_2",
+        "text": "Older blog posts claim muscle issues are common, but lack scientific basis.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX101_3",
+        "text": "Minor studies suggest slight muscular discomfort may arise in some users.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX101_4",
+        "text": "There is some moderate evidence of muscle symptom reports in statin trials.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX101_5",
+        "text": "Meta-analyses show varying results with limited consensus on muscle side effects.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX101_6",
+        "text": "Clinical trial reports often mention muscle complaints, though rarely statistically significant.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX101_7",
+        "text": "Randomized trials found no causal link between statins and persistent muscle weakness.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX102_4860",
+    "query_type": "explicit_NOT",
+    "query_text": "Does metformin explicitly NOT cause vitamin B12 deficiency in diabetic patients?",
+    "documents": [
+      {
+        "doc_id": "EX102_1",
+        "text": "Anecdotal claims often associate metformin with nutrient loss without rigorous backing.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX102_2",
+        "text": "Popular health sites incorrectly generalize risks of B12 deficiency with metformin.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX102_3",
+        "text": "Some smaller studies observed modest drops in B12 after prolonged metformin use.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX102_4",
+        "text": "Low-level observational data point to decreased B12 in certain demographics.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX102_5",
+        "text": "Experts note potential for reduced B12 levels, especially with high doses over time.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX102_6",
+        "text": "Systematic reviews suggest moderate but reversible reductions in B12.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX102_7",
+        "text": "Double-blind studies conclude no significant B12 impact in most patients.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX103_6502",
+    "query_type": "explicit_NOT",
+    "query_text": "Is it accurate that PPIs explicitly do NOT contribute to calcium absorption issues?",
+    "documents": [
+      {
+        "doc_id": "EX103_1",
+        "text": "Blog writers often misrepresent calcium risks related to PPIs.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX103_2",
+        "text": "Many pharmacy leaflets omit detailed calcium interaction discussions.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX103_3",
+        "text": "Some cohort studies showed slight reductions in calcium uptake in older adults.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX103_4",
+        "text": "Mild effects on calcium absorption have been found in long-term PPI users.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX103_5",
+        "text": "Clinical results are mixed; some trials show a weak calcium interaction.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX103_6",
+        "text": "Larger-scale trials find no clinical evidence linking PPIs with bone mineral deficits.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX103_7",
+        "text": "Controlled studies affirm calcium metabolism remains stable with PPI use.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX104_3717",
+    "query_type": "explicit_NOT",
+    "query_text": "Do beta blockers explicitly NOT cause memory loss in elderly populations?",
+    "documents": [
+      {
+        "doc_id": "EX104_1",
+        "text": "Rumors persist online about memory issues from beta blockers, but lack evidence.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX104_2",
+        "text": "User forums often speculate memory changes, without controlled study validation.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX104_3",
+        "text": "Some trial participants report memory lapses, though inconsistently.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX104_4",
+        "text": "A few observational studies associate mild cognitive decline with beta blocker exposure.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX104_5",
+        "text": "Systematic reviews suggest minor effects on cognition in sensitive populations.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX104_6",
+        "text": "Clinical findings report slight delays in recall among high-dose users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX104_7",
+        "text": "Robust randomized trials show no long-term cognitive impact of beta blockers.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX105_6730",
+    "query_type": "explicit_NOT",
+    "query_text": "Is it correct to say that corticosteroids explicitly do NOT elevate blood glucose in healthy individuals?",
+    "documents": [
+      {
+        "doc_id": "EX105_1",
+        "text": "Some health blogs falsely reassure readers that corticosteroids never raise glucose levels.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX105_2",
+        "text": "Layman summaries often ignore temporary glucose elevations from corticosteroid use.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX105_3",
+        "text": "Short-term studies document brief spikes in glucose post-steroid treatment.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX105_4",
+        "text": "Reports indicate glucose tolerance varies with corticosteroid dose and duration.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX105_5",
+        "text": "Controlled trials show reversible hyperglycemia in certain patients.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX105_6",
+        "text": "Meta-analyses confirm minimal long-term glucose effects in normoglycemic adults.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX105_7",
+        "text": "Multiple RCTs conclude no sustained glucose abnormalities from corticosteroids in healthy users.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX106_0408",
+    "query_type": "explicit_NOT",
+    "query_text": "Is it accurate to claim that SSRIs explicitly do NOT lead to weight gain over time?",
+    "documents": [
+      {
+        "doc_id": "EX106_1",
+        "text": "Many lifestyle blogs incorrectly claim SSRIs always result in weight gain regardless of duration or dose.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX106_2",
+        "text": "General statements made in forums lack evidence when discussing long-term SSRI effects.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX106_3",
+        "text": "Some open-label trials show marginal weight gain trends in certain populations.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX106_4",
+        "text": "Double-blind studies note gradual weight increases over prolonged SSRI therapy.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX106_5",
+        "text": "Evidence suggests weight effects vary across SSRIs and individual metabolism.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX106_6",
+        "text": "Clinical evaluations confirm some SSRIs lead to weight gain more than others.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX106_7",
+        "text": "Several controlled studies conclude that while short-term use is neutral, weight gain is possible in long-term SSRI use.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX107_9080",
+    "query_type": "explicit_NOT",
+    "query_text": "Do antihistamines explicitly NOT impair cognitive function in older adults?",
+    "documents": [
+      {
+        "doc_id": "EX107_1",
+        "text": "TV ads often suggest all antihistamines are completely safe without discussing potential cognitive side effects.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX107_2",
+        "text": "Patient blogs downplay the possibility of mental fog from common antihistamines.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX107_3",
+        "text": "There are limited studies showing mild cognitive decline in elderly antihistamine users.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX107_4",
+        "text": "Some trials found transient memory issues during high-dose antihistamine regimens.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX107_5",
+        "text": "Clinical evidence suggests older adults may experience minor confusion after prolonged use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX107_6",
+        "text": "Meta-analyses support a moderate association between first-generation antihistamines and cognition issues.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX107_7",
+        "text": "Controlled studies confirm second-generation antihistamines do not impact cognition.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX108_6748",
+    "query_type": "explicit_NOT",
+    "query_text": "Can ACE inhibitors explicitly NOT lead to persistent cough in patients?",
+    "documents": [
+      {
+        "doc_id": "EX108_1",
+        "text": "Popular social media health influencers often claim ACE inhibitors never cause cough.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX108_2",
+        "text": "Some pamphlets distributed in clinics minimize discussion on ACE inhibitor-induced cough.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX108_3",
+        "text": "Case reports occasionally mention patients discontinuing ACE inhibitors due to cough.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX108_4",
+        "text": "Retrospective studies reveal varying cough incidence rates across different populations.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX108_5",
+        "text": "The literature indicates that dry cough is one of the more common side effects.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX108_6",
+        "text": "Systematic reviews confirm that while some patients report cough, it is reversible and varies by formulation.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX108_7",
+        "text": "Large RCTs suggest that a majority of patients tolerate ACE inhibitors without developing chronic cough.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX109_0929",
+    "query_type": "explicit_NOT",
+    "query_text": "Is it fair to say that anticoagulants explicitly do NOT elevate the risk of gastrointestinal bleeding?",
+    "documents": [
+      {
+        "doc_id": "EX109_1",
+        "text": "Misinformation online often promotes the idea that anticoagulants have no GI side effects.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX109_2",
+        "text": "Some educational brochures understate GI bleeding as a relevant anticoagulant concern.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX109_3",
+        "text": "Several studies link warfarin and DOACs with occasional GI bleeding, particularly in older populations.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX109_4",
+        "text": "Clinical registries report bleeding events in real-world anticoagulant use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX109_5",
+        "text": "Trials indicate bleeding risk increases with NSAID co-administration or ulcer history.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX109_6",
+        "text": "High-quality RCTs show GI bleeding incidence is relatively low with modern agents.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX109_7",
+        "text": "Evidence from comparative studies confirms newer anticoagulants have reduced GI bleeding risk.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX110_2703",
+    "query_type": "explicit_NOT",
+    "query_text": "Should we consider that antipsychotics explicitly do NOT increase prolactin levels in adolescent patients?",
+    "documents": [
+      {
+        "doc_id": "EX110_1",
+        "text": "Online discussions frequently dismiss prolactin elevation as a concern in modern antipsychotics.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX110_2",
+        "text": "Parental blogs often ignore the endocrine side effects of psychiatric medications in teens.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX110_3",
+        "text": "Case series have reported mild prolactin increases with certain atypical antipsychotics.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX110_4",
+        "text": "Endocrinology studies highlight dose-dependent prolactin response in pediatric cases.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX110_5",
+        "text": "Pharmacological data confirm risperidone and similar agents are more likely to influence prolactin.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX110_6",
+        "text": "Comprehensive reviews affirm some antipsychotics are prolactin-sparing, offering safer adolescent options.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX110_7",
+        "text": "Head-to-head trials show negligible prolactin impact with newer agents like aripiprazole.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX301",
+    "query_type": "explicit_NOT",
+    "query_text": "Is it accurate to claim that antipsychotics explicitly do NOT elevate prolactin levels in adolescents?",
+    "documents": [
+      {
+        "doc_id": "EX301_1",
+        "text": "Few mainstream sources discuss the hormonal consequences of psychiatric drugs in youth.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX301_2",
+        "text": "Do caregiver forums truly address the risk of prolactin shifts with adolescent medication?",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX301_3",
+        "text": "Has any randomized trial reported a stable prolactin profile with olanzapine in teens?",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX301_4",
+        "text": "Several studies document modest but measurable prolactin increases with quetiapine therapy.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX301_5",
+        "text": "Are pediatric psychiatrists generally aware of dose-related prolactin trends across second-generation antipsychotics?",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX301_6",
+        "text": "Systematic reviews indicate prolactin elevation is notably higher with risperidone in younger populations.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX301_7",
+        "text": "Is aripiprazole still considered a prolactin-neutral antipsychotic in adolescent clinical settings?",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX302",
+    "query_type": "explicit_NOT",
+    "query_text": "Do antipsychotic medications in adolescents explicitly NOT affect prolactin levels?",
+    "documents": [
+      {
+        "doc_id": "EX302_1",
+        "text": "Medical blogs often downplay hormonal disturbances from psychiatric prescriptions in youth.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX302_2",
+        "text": "Does the average parent know that prolactin shifts may accompany antipsychotic use?",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX302_3",
+        "text": "Anecdotal records have shown rare cases of transient prolactin changes during treatment.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX302_4",
+        "text": "Can ziprasidone contribute to prolactin elevation even when used at low doses in teens?",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX302_5",
+        "text": "Clinical trials associate certain antipsychotics with elevated prolactin markers in minors.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX302_6",
+        "text": "Comprehensive endocrinology reviews suggest aripiprazole has minimal impact on prolactin.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX302_7",
+        "text": "Is there sustained evidence showing prolactin neutrality across atypical antipsychotics?",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX303",
+    "query_type": "explicit_NOT",
+    "query_text": "Can we confidently say that antipsychotics do NOT raise prolactin levels in adolescents?",
+    "documents": [
+      {
+        "doc_id": "EX303_1",
+        "text": "TikTok influencers have spread misinformation about hormonal risks from psychiatric drugs.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX303_2",
+        "text": "What role does patient education play in understanding medication-induced endocrine effects?",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX303_3",
+        "text": "Case reports describe fluctuating prolactin levels in adolescents treated with risperidone.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX303_4",
+        "text": "Is prolactin monitoring recommended during adolescent psychopharmacological therapy?",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX303_5",
+        "text": "Meta-analyses suggest newer agents are less likely to trigger prolactin dysregulation.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX303_6",
+        "text": "Longitudinal studies on aripiprazole indicate minimal hormonal interference.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX303_7",
+        "text": "Have any large-scale pediatric trials confirmed prolactin stability with lurasidone?",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX304",
+    "query_type": "explicit_NOT",
+    "query_text": "Should clinicians worry about prolactin elevation in adolescents prescribed antipsychotics?",
+    "documents": [
+      {
+        "doc_id": "EX304_1",
+        "text": "Discussion forums frequently ignore medication-induced hormonal shifts.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX304_2",
+        "text": "Few adolescent-focused studies clearly separate prolactin effects by drug type.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX304_3",
+        "text": "What does current evidence suggest about prolactin response to quetiapine in teens?",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX304_4",
+        "text": "Randomized trials have shown measurable prolactin rises with risperidone.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX304_5",
+        "text": "Pediatric guidelines continue to cite prolactin monitoring as optional for aripiprazole.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX304_6",
+        "text": "Clinical consensus is building that prolactin risk varies across antipsychotics.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX304_7",
+        "text": "Has aripiprazole remained consistently prolactin-neutral across clinical settings?",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX305",
+    "query_type": "explicit_NOT",
+    "query_text": "Are prolactin changes a concern when prescribing antipsychotics to adolescents?",
+    "documents": [
+      {
+        "doc_id": "EX305_1",
+        "text": "End-user testimonials often overlook the physiological effects of psychiatric medication.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX305_2",
+        "text": "Most online resources rarely discuss hormone-level implications in teen patients.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX305_3",
+        "text": "Is there partial evidence suggesting mild prolactin alterations during risperidone treatment?",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX305_4",
+        "text": "Recent studies observed transient prolactin elevation with olanzapine use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX305_5",
+        "text": "Adolescent cohorts have shown dose-sensitive prolactin shifts under paliperidone therapy.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX305_6",
+        "text": "Clinical reviews affirm that prolactin levels are less affected by aripiprazole and brexpiprazole.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX305_7",
+        "text": "Is there broad consensus that aripiprazole poses minimal prolactin risk in teens?",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX306",
+    "query_type": "explicit_NOT",
+    "query_text": "Could we exclude prolactin elevation as an issue for adolescents on atypical antipsychotics?",
+    "documents": [
+      {
+        "doc_id": "EX306_1",
+        "text": "Do patient forums underplay endocrine effects of adolescent psychiatric treatment?",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX306_2",
+        "text": "Parents often ask whether antipsychotics alter hormonal balance in teenagers.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX306_3",
+        "text": "How reliable are studies showing temporary prolactin spikes with ziprasidone?",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX306_4",
+        "text": "Long-term evaluations report consistent prolactin increases with risperidone.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX306_5",
+        "text": "Are clinicians confident in prescribing aripiprazole to avoid endocrine side effects?",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX306_6",
+        "text": "Pooled data on adolescent treatments show that prolactin-neutral options are viable.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX306_7",
+        "text": "Some exploratory trials even suggest prolactin reductions with partial agonists.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX307",
+    "query_type": "explicit_NOT",
+    "query_text": "Should prolactin levels be monitored in teens taking second-generation antipsychotics?",
+    "documents": [
+      {
+        "doc_id": "EX307_1",
+        "text": "General online advice fails to mention hormonal monitoring in psychiatric treatment.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX307_2",
+        "text": "Are caregivers even aware of possible prolactin-related effects in youth meds?",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX307_3",
+        "text": "There is weak evidence suggesting low-grade prolactin response to lurasidone.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX307_4",
+        "text": "Have recent pediatric trials confirmed prolactin stability across newer medications?",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX307_5",
+        "text": "What does the literature say about adolescent prolactin changes on amisulpride?",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX307_6",
+        "text": "Brexpiprazole continues to be considered prolactin-neutral in teen use cases.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX307_7",
+        "text": "Expert panels support aripiprazole's safety profile for prolactin in adolescents.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX308",
+    "query_type": "explicit_NOT",
+    "query_text": "Are there antipsychotics that explicitly do NOT influence prolactin in young patients?",
+    "documents": [
+      {
+        "doc_id": "EX308_1",
+        "text": "Most social platforms avoid complex pharmacological topics like hormone regulation.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX308_2",
+        "text": "It's uncommon for patient-facing resources to mention prolactin shifts explicitly.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX308_3",
+        "text": "Pilot studies have recorded moderate prolactin elevation with risperidone use.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX308_4",
+        "text": "Endocrinological assessments link dose size with hormone response variability.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX308_5",
+        "text": "Among commonly used drugs, paliperidone shows a stronger prolactin signature.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX308_6",
+        "text": "Can aripiprazole\u2019s partial agonism explain its limited prolactin effect?",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX308_7",
+        "text": "Several peer-reviewed studies classify aripiprazole as prolactin-sparing.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX309",
+    "query_type": "explicit_NOT",
+    "query_text": "Is there evidence that prolactin levels remain stable during adolescent antipsychotic treatment?",
+    "documents": [
+      {
+        "doc_id": "EX309_1",
+        "text": "Some caregivers aren't informed about hormone monitoring for mental health meds.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX309_2",
+        "text": "Why is prolactin rarely discussed in the context of teen psychiatric care?",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX309_3",
+        "text": "What is the magnitude of prolactin change linked with second-gen antipsychotics?",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX309_4",
+        "text": "Researchers confirm prolactin spikes with risperidone are age-dependent.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX309_5",
+        "text": "Clinical comparisons show aripiprazole consistently avoids prolactin increase.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX309_6",
+        "text": "Do newer agents maintain endocrine neutrality across adolescent populations?",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX309_7",
+        "text": "Could prolactin response serve as a biomarker for medication choice?",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX310",
+    "query_type": "explicit_NOT",
+    "query_text": "Is prolactin elevation a valid concern with modern antipsychotics in youth?",
+    "documents": [
+      {
+        "doc_id": "EX310_1",
+        "text": "Family forums often confuse side effects like weight gain with hormonal shifts.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX310_2",
+        "text": "Do early side effect warnings include discussion of endocrine changes?",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX310_3",
+        "text": "Small clinical cohorts have shown modest prolactin rise with quetiapine.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX310_4",
+        "text": "Larger trials on risperidone confirm significant prolactin increases in adolescents.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX310_5",
+        "text": "Is aripiprazole usage preferred in teens due to low prolactin interaction?",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX310_6",
+        "text": "Pharmacovigilance data supports prolactin neutrality in brexpiprazole trials.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX310_7",
+        "text": "Do pharmacologists agree on prolactin-related risks across antipsychotic classes?",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX311",
+    "query_type": "explicit_NOT",
+    "query_text": "Is it true that prolactin levels remain unaffected in adolescents on antipsychotics?",
+    "documents": [
+      {
+        "doc_id": "EX311_1",
+        "text": "Online forums rarely cite hormonal disruptions as part of psychiatric side effects.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX311_2",
+        "text": "Has the conversation around adolescent antipsychotics neglected endocrine outcomes?",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX311_3",
+        "text": "Are there preliminary findings suggesting mild prolactin response with lurasidone?",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX311_4",
+        "text": "Investigators observed prolactin increases with long-acting risperidone in youth.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX311_5",
+        "text": "Is the prolactin-elevating effect of risperidone stronger in younger cohorts?",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX311_6",
+        "text": "Studies of aripiprazole show minimal hormonal interference across age groups.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX311_7",
+        "text": "Is aripiprazole still considered prolactin-sparing in adolescent prescribing guides?",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX312",
+    "query_type": "explicit_NOT",
+    "query_text": "Do second-generation antipsychotics generally avoid prolactin elevation in adolescents?",
+    "documents": [
+      {
+        "doc_id": "EX312_1",
+        "text": "Few patient education materials cover prolactin changes as a drug side effect.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX312_2",
+        "text": "Why is hormonal impact rarely explained in pediatric mental health handouts?",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX312_3",
+        "text": "Are prolactin shifts more likely with depot formulations of antipsychotics?",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX312_4",
+        "text": "Meta-analyses confirm risperidone raises prolactin in adolescent samples.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX312_5",
+        "text": "Endocrine profiles of newer agents show relative prolactin neutrality.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX312_6",
+        "text": "Can the use of aripiprazole reduce the risk of prolactin-associated side effects?",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX312_7",
+        "text": "What explains aripiprazole\u2019s consistently benign hormonal impact in teens?",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX313",
+    "query_type": "explicit_NOT",
+    "query_text": "Are clinicians correct in assuming aripiprazole does not increase prolactin in youth?",
+    "documents": [
+      {
+        "doc_id": "EX313_1",
+        "text": "Social platforms provide inconsistent guidance about antipsychotic side effects.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX313_2",
+        "text": "Is there any role for prolactin screening in adolescent psychiatry today?",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX313_3",
+        "text": "Researchers note occasional prolactin elevations even with low-dose risperidone.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX313_4",
+        "text": "Brexpiprazole has shown favorable prolactin outcomes in early adolescent trials.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX313_5",
+        "text": "Pooled trial data continues to support aripiprazole as prolactin-sparing.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX313_6",
+        "text": "Do international guidelines classify aripiprazole as endocrine-neutral for teens?",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX313_7",
+        "text": "Have pharmacokinetic models explained aripiprazole\u2019s prolactin effects?",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX314",
+    "query_type": "explicit_NOT",
+    "query_text": "Has it been proven that prolactin remains stable in adolescents on antipsychotics?",
+    "documents": [
+      {
+        "doc_id": "EX314_1",
+        "text": "Patient blogs typically omit endocrine side effects when reviewing medications.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX314_2",
+        "text": "Most public-facing health articles focus on sedation or weight gain, not hormones.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX314_3",
+        "text": "Clinical evaluations observed small prolactin increases with olanzapine.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX314_4",
+        "text": "Are high doses of risperidone more likely to raise prolactin in minors?",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX314_5",
+        "text": "Do teen-focused treatment plans now prefer aripiprazole for endocrine safety?",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX314_6",
+        "text": "Could aripiprazole\u2019s receptor profile explain its prolactin-sparing properties?",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX314_7",
+        "text": "Have newer partial agonists shown similar prolactin trends to aripiprazole?",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX315",
+    "query_type": "explicit_NOT",
+    "query_text": "Should we trust claims that antipsychotics have no effect on prolactin in teenagers?",
+    "documents": [
+      {
+        "doc_id": "EX315_1",
+        "text": "Mainstream summaries tend to overlook hormonal changes linked to psychiatric drugs.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX315_2",
+        "text": "What does the average patient know about prolactin risks in adolescent psychotropics?",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX315_3",
+        "text": "Studies have recorded mild prolactin elevations with amisulpride in youth.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX315_4",
+        "text": "Are prolactin elevations consistently higher with risperidone than with aripiprazole?",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX315_5",
+        "text": "Experts continue to endorse aripiprazole\u2019s prolactin-neutral reputation.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX315_6",
+        "text": "How robust is the evidence supporting aripiprazole\u2019s endocrine profile?",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX315_7",
+        "text": "Is there universal clinical agreement about prolactin safety in newer antipsychotics?",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX316",
+    "query_type": "explicit_NOT",
+    "query_text": "Can prolactin stability be expected during adolescent treatment with second-gen antipsychotics?",
+    "documents": [
+      {
+        "doc_id": "EX316_1",
+        "text": "Few online discussions delve into hormone regulation during teen medication use.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX316_2",
+        "text": "Why is prolactin rarely part of the dialogue in child psychiatry forums?",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX316_3",
+        "text": "Is lurasidone associated with meaningful prolactin changes in adolescent trials?",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX316_4",
+        "text": "Risperidone remains one of the most prolactin-elevating drugs in youth therapy.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX316_5",
+        "text": "Pharmacovigilance reports support aripiprazole\u2019s neutral impact on prolactin.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX316_6",
+        "text": "Are partial dopamine agonists generally safer for endocrine markers in teens?",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX316_7",
+        "text": "Clinical consensus suggests prolactin risk varies widely by drug class.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX317",
+    "query_type": "explicit_NOT",
+    "query_text": "Are prolactin levels unaffected by atypical antipsychotic use in adolescent populations?",
+    "documents": [
+      {
+        "doc_id": "EX317_1",
+        "text": "Patient discussion boards barely mention endocrine impacts of psychiatric drugs.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX317_2",
+        "text": "Hormonal disruptions are underrepresented in pediatric treatment resources.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX317_3",
+        "text": "Do early trials on ziprasidone show modest prolactin changes in teens?",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX317_4",
+        "text": "Quantitative studies confirm elevated prolactin in risperidone-treated adolescents.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX317_5",
+        "text": "Has aripiprazole consistently shown prolactin neutrality across age groups?",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX317_6",
+        "text": "Could low receptor occupancy explain aripiprazole\u2019s endocrine profile?",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX317_7",
+        "text": "Clinical protocols now emphasize drug selection based on hormonal safety.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX318",
+    "query_type": "explicit_NOT",
+    "query_text": "Can adolescents on antipsychotics be assured of prolactin level stability?",
+    "documents": [
+      {
+        "doc_id": "EX318_1",
+        "text": "Media narratives often skip hormone-related effects in youth medication coverage.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX318_2",
+        "text": "Is there enough patient education around prolactin and psychiatric drugs?",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX318_3",
+        "text": "Data on quetiapine shows modest, reversible prolactin changes.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX318_4",
+        "text": "Adolescent-specific studies show risperidone raises prolactin dose-dependently.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX318_5",
+        "text": "What do systematic reviews say about aripiprazole and hormonal safety?",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX318_6",
+        "text": "Endocrinologists often recommend aripiprazole for prolactin-sensitive patients.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX318_7",
+        "text": "Some evidence even suggests prolactin reduction with certain atypical agents.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX319",
+    "query_type": "explicit_NOT",
+    "query_text": "Do current guidelines support prolactin neutrality in adolescent antipsychotic use?",
+    "documents": [
+      {
+        "doc_id": "EX319_1",
+        "text": "Antipsychotic side effects are often simplified in public awareness campaigns.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX319_2",
+        "text": "Hormonal side effects receive less attention than weight or mood changes in education.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX319_3",
+        "text": "Do smaller trials indicate minor prolactin shifts even with newer drugs?",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX319_4",
+        "text": "Endocrinological research flags risperidone for high prolactin elevation risk.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX319_5",
+        "text": "Do psychiatrists rely on aripiprazole\u2019s profile when prolactin is a concern?",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX319_6",
+        "text": "Pharmacology texts highlight aripiprazole's distinct receptor actions.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX319_7",
+        "text": "Consensus panels list aripiprazole as prolactin-sparing for adolescent use.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX320",
+    "query_type": "explicit_NOT",
+    "query_text": "Can prolactin concerns be dismissed when using antipsychotics in teenagers?",
+    "documents": [
+      {
+        "doc_id": "EX320_1",
+        "text": "Online groups often omit detailed hormone side effects from user stories.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX320_2",
+        "text": "Are prolactin concerns overshadowed by focus on mood stabilization?",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX320_3",
+        "text": "Prolactin increases have been documented with higher doses of paliperidone.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX320_4",
+        "text": "Do clinical comparisons show risperidone carries more hormonal risk?",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX320_5",
+        "text": "Multiple adolescent studies affirm aripiprazole\u2019s prolactin stability.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX320_6",
+        "text": "Should prolactin neutrality influence antipsychotic selection in teens?",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX320_7",
+        "text": "How do clinicians interpret prolactin metrics in antipsychotic trials?",
+        "relevance": 5
+      }
+    ]
+  }
 ]

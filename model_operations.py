@@ -81,60 +81,43 @@ class ModelOperations:
         MAX_SCORE = 1.5
         MIN_SCORE = -1.0
 
+        model = self.nli_model_name
+
+        if mode == "explicit_NOT":
+            if model == "cross-encoder/nli-deberta-base":
+                score = torch.sigmoid(15 * n_tensor) + c_tensor - torch.sigmoid(15 * e_tensor)
+            elif model == "facebook/bart-large-mnli":
+                score = torch.sigmoid(15 * n_tensor) + c_tensor - torch.sigmoid(15 * e_tensor)
+            elif model == "microsoft/deberta-large-mnli":
+                score = (n_tensor > 0.5).float() + c_tensor - (e_tensor > 0.5).float()
+            elif model == "roberta-large-mnli":
+                score = (n_tensor > 0.7).float() + c_tensor - (e_tensor > 0.7).float()
+
+        elif mode == "implicit_NOT":
+            if model == "cross-encoder/nli-deberta-base":
+                score = (n_tensor > 0.5).float() + c_tensor - (e_tensor > 0.5).float()
+            elif model == "facebook/bart-large-mnli":
+                score = torch.sigmoid(15 * n_tensor) + c_tensor - torch.sigmoid(15 * e_tensor)
+            elif model == "microsoft/deberta-large-mnli":
+                score = torch.sigmoid(5 * n_tensor) + c_tensor - torch.sigmoid(5 * e_tensor)
+            elif model == "roberta-large-mnli":
+                score = (n_tensor > 0.3).float() + c_tensor - (e_tensor > 0.3).float()
+
+        elif mode == "comparative_NOT":
+            if model == "cross-encoder/nli-deberta-base":
+                score = torch.sigmoid(15 * n_tensor) + c_tensor - torch.sigmoid(15 * e_tensor)
+            elif model == "facebook/bart-large-mnli":
+                score = (n_tensor > 0.3).float() + c_tensor - (e_tensor > 0.3).float()
+            elif model == "microsoft/deberta-large-mnli":
+                score = torch.sigmoid(5 * n_tensor) + c_tensor - torch.sigmoid(5 * e_tensor)
+            elif model == "roberta-large-mnli":
+                score = torch.sigmoid(15 * n_tensor) + c_tensor - torch.sigmoid(15 * e_tensor)
+
+        if score is None:
+            raise ValueError("Score not calculated: check model and mode logic")
+
+        return max(MIN_SCORE, min(MAX_SCORE, score.item()))
 
 
-        # if mode == "explicit_NOT":
-        #     eps = 0.01  # for ratio stability
-            # Option 1: Ratio formula (high Pearson)
-            # return (n_tensor / (e_tensor + eps)) + c_tensor
-
-            # Option 2: Sigmoid-based formula σ(15n) + c - σ(15e)
-            # return torch.sigmoid(15 * n_tensor) + c_tensor - torch.sigmoid(15 * e_tensor)
-
-        #cross gives 41 facebook bart gives 44
-        # elif mode == "implicit_NOT":
-        # #     # Soft binary version of: (n > 0.3) + c - (e > 0.3)
-        #     return torch.sigmoid(40 * (n_tensor - 0.3)) + c_tensor - torch.sigmoid(40 * (e_tensor - 0.3))
-        
-        # elif mode == "implicit_NOT":
-        #     # Smooth sigmoid-based version of: (n > 0.5) + c - (e > 0.5)
-        #     return torch.sigmoid(40 * (n_tensor - 0.5)) + c_tensor - torch.sigmoid(40 * (e_tensor - 0.5))
-        
-        # # cross gives 48 fb gives 31, prajwal gives 41
-        # elif mode == "implicit_NOT":
-        #     # Smooth sigmoid-based formula: σ(10n) + c - σ(10e)
-        #     return torch.sigmoid(10 * n_tensor) + c_tensor - torch.sigmoid(10 * e_tensor)
-
-
-    #         The document's general formula for the Universal Linear Baseline is:
-
-    # Score= c tensor +n tensor −e tensor
-
-        if 1==1:
-            """
-            Canonical linear combination used in IR research (non-parametric):
-            - n_tensor: Neural relevance score (0-1)
-            - e_tensor: NOT component (0-1)
-            - c_tensor: Comparative component (0-1)
-            
-            Implements the standard: 
-            Score = PrimaryRelevance - NOT_Penalty + Comparison_Boost
-            """
-            return n_tensor - e_tensor + c_tensor
-
-
-
-
-        # elif mode == "comparative_NOT":
-        #     # --- Entailment reward: scaled sigmoid rising after 0.03, near 1 by 0.1 ---
-        #     return n_tensor + (n_tensor * c_tensor) - e_tensor
-
-
-
-        else:
-            # General mode: use sum of neutral and contradiction directly
-            raw_score = n_tensor + c_tensor
-
-        return max(MIN_SCORE, min(MAX_SCORE, raw_score.item()))
 
 

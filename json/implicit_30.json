@@ -1,6 +1,5 @@
 [
-  
-{
+  {
     "query_id": "IM301",
     "query_type": "implicit_NOT",
     "query_text": "Is sugar consumption inherently detrimental to all aspects of health?",
@@ -237,7 +236,7 @@
       },
       {
         "doc_id": "IM306_5",
-        "text": "For adults, temperatures below 103°F (39.4°C) can often be managed at home with rest and fluids.",
+        "text": "For adults, temperatures below 103\u00b0F (39.4\u00b0C) can often be managed at home with rest and fluids.",
         "relevance": 3
       },
       {
@@ -421,434 +420,423 @@
     ]
   },
   {
-  "query_id": "IM310",
-  "query_type": "implicit_NOT",
-  "query_text": "Is aging always accompanied by significant cognitive decline?",
-  "documents": [
-    {
-      "doc_id": "IM310_1",
-      "text": "Many believe that aging equates to inevitable memory loss, but this assumption oversimplifies the reality.",
-      "relevance": 1
-    },
-    {
-      "doc_id": "IM310_2",
-      "text": "Statements like 'old age causes confusion' are often heard but rarely backed by comprehensive evidence.",
-      "relevance": 1
-    },
-    {
-      "doc_id": "IM310_3",
-      "text": "Mild forgetfulness can be part of aging, yet marked cognitive deterioration is not a guaranteed outcome.",
-      "relevance": 2
-    },
-    {
-      "doc_id": "IM310_4",
-      "text": "Is it true that every elderly person becomes forgetful? Research suggests otherwise for the majority.",
-      "relevance": 3
-    },
-    {
-      "doc_id": "IM310_5",
-      "text": "Plenty of seniors remain intellectually sharp, especially those who stay mentally active and socially engaged.",
-      "relevance": 3
-    },
-    {
-      "doc_id": "IM310_6",
-      "text": "Functional MRI scans reveal older adults continue forming new neural connections when challenged cognitively.",
-      "relevance": 4
-    },
-    {
-      "doc_id": "IM310_7",
-      "text": "Evidence from large-scale geriatric studies shows that notable cognitive decline often points to specific disorders, not aging itself.",
-      "relevance": 5
-    }
-  ]
-}
-,
-
-{
-  "query_id": "IM311_1",
-  "query_type": "implicit_NOT",
-  "query_text": "Is aging always accompanied by significant cognitive decline?",
-  "documents": [
-    {
-      "doc_id": "IM311_1_1",
-      "text": "Statements generalizing aging with forgetfulness often ignore individual variability.",
-      "relevance": 1
-    },
-    {
-      "doc_id": "IM311_1_2",
-      "text": "It's commonly believed that aging brings about mental decline, but the truth is more nuanced.",
-      "relevance": 1
-    },
-    {
-      "doc_id": "IM311_1_3",
-      "text": "While small changes occur, these are often harmless and not indicative of decline.",
-      "relevance": 2
-    },
-    {
-      "doc_id": "IM311_1_4",
-      "text": "Minor lapses in memory may increase with age, but they don't necessarily signal cognitive impairment.",
-      "relevance": 2
-    },
-    {
-      "doc_id": "IM311_1_5",
-      "text": "Numerous retirees continue excelling in intellectually demanding tasks.",
-      "relevance": 3
-    },
-    {
-      "doc_id": "IM311_1_6",
-      "text": "Brain scans reveal active development in elderly individuals exposed to learning stimuli.",
-      "relevance": 4
-    },
-    {
-      "doc_id": "IM311_1_7",
-      "text": "In healthy aging, significant cognitive deterioration is the exception, not the rule.",
-      "relevance": 5
-    }
-  ]
-},
-
-{
-  "query_id": "IM311_2",
-  "query_type": "implicit_NOT",
-  "query_text": "Is aging always accompanied by significant cognitive decline?",
-  "documents": [
-    {
-      "doc_id": "IM311_2_1",
-      "text": "It's commonly believed that aging brings about mental decline, but the truth is more nuanced.",
-      "relevance": 1
-    },
-    {
-      "doc_id": "IM311_2_2",
-      "text": "Statements generalizing aging with forgetfulness often ignore individual variability.",
-      "relevance": 1
-    },
-    {
-      "doc_id": "IM311_2_3",
-      "text": "Minor lapses in memory may increase with age, but they don't necessarily signal cognitive impairment.",
-      "relevance": 2
-    },
-    {
-      "doc_id": "IM311_2_4",
-      "text": "Cognitive performance varies; many older adults remain mentally agile.",
-      "relevance": 3
-    },
-    {
-      "doc_id": "IM311_2_5",
-      "text": "Cognitive training has measurable benefits even among people in their 70s and 80s.",
-      "relevance": 4
-    },
-    {
-      "doc_id": "IM311_2_6",
-      "text": "Research shows that neural plasticity continues into senior years under the right conditions.",
-      "relevance": 4
-    },
-    {
-      "doc_id": "IM311_2_7",
-      "text": "In healthy aging, significant cognitive deterioration is the exception, not the rule.",
-      "relevance": 5
-    }
-  ]
-},
-
-{
-  "query_id": "IM311_3",
-  "query_type": "implicit_NOT",
-  "query_text": "Is aging always accompanied by significant cognitive decline?",
-  "documents": [
-    {
-      "doc_id": "IM311_3_1",
-      "text": "Statements generalizing aging with forgetfulness often ignore individual variability.",
-      "relevance": 1
-    },
-    {
-      "doc_id": "IM311_3_2",
-      "text": "Minor lapses in memory may increase with age, but they don't necessarily signal cognitive impairment.",
-      "relevance": 2
-    },
-    {
-      "doc_id": "IM311_3_3",
-      "text": "Some seniors experience slower recall, yet maintain overall mental sharpness.",
-      "relevance": 2
-    },
-    {
-      "doc_id": "IM311_3_4",
-      "text": "Numerous retirees continue excelling in intellectually demanding tasks.",
-      "relevance": 3
-    },
-    {
-      "doc_id": "IM311_3_5",
-      "text": "Cognitive performance varies; many older adults remain mentally agile.",
-      "relevance": 3
-    },
-    {
-      "doc_id": "IM311_3_6",
-      "text": "Cognitive training has measurable benefits even among people in their 70s and 80s.",
-      "relevance": 4
-    },
-    {
-      "doc_id": "IM311_3_7",
-      "text": "In healthy aging, significant cognitive deterioration is the exception, not the rule.",
-      "relevance": 5
-    }
-  ]
-},
-
-{
-  "query_id": "IM311_4",
-  "query_type": "implicit_NOT",
-  "query_text": "Is aging always accompanied by significant cognitive decline?",
-  "documents": [
-    {
-      "doc_id": "IM311_4_1",
-      "text": "Statements generalizing aging with forgetfulness often ignore individual variability.",
-      "relevance": 1
-    },
-    {
-      "doc_id": "IM311_4_2",
-      "text": "While small changes occur, these are often harmless and not indicative of decline.",
-      "relevance": 2
-    },
-    {
-      "doc_id": "IM311_4_3",
-      "text": "Mental acuity can persist well into later life, especially with ongoing engagement.",
-      "relevance": 3
-    },
-    {
-      "doc_id": "IM311_4_4",
-      "text": "Cognitive training has measurable benefits even among people in their 70s and 80s.",
-      "relevance": 4
-    },
-    {
-      "doc_id": "IM311_4_5",
-      "text": "Research shows that neural plasticity continues into senior years under the right conditions.",
-      "relevance": 4
-    },
-    {
-      "doc_id": "IM311_4_6",
-      "text": "Academic reviews note that aging alone is rarely the cause of substantial mental decline.",
-      "relevance": 5
-    },
-    {
-      "doc_id": "IM311_4_7",
-      "text": "In healthy aging, significant cognitive deterioration is the exception, not the rule.",
-      "relevance": 5
-    }
-  ]
-},
-
-{
-  "query_id": "IM311_5",
-  "query_type": "implicit_NOT",
-  "query_text": "Is aging always accompanied by significant cognitive decline?",
-  "documents": [
-    {
-      "doc_id": "IM311_5_1",
-      "text": "It's commonly believed that aging brings about mental decline, but the truth is more nuanced.",
-      "relevance": 1
-    },
-    {
-      "doc_id": "IM311_5_2",
-      "text": "While small changes occur, these are often harmless and not indicative of decline.",
-      "relevance": 2
-    },
-    {
-      "doc_id": "IM311_5_3",
-      "text": "Numerous retirees continue excelling in intellectually demanding tasks.",
-      "relevance": 3
-    },
-    {
-      "doc_id": "IM311_5_4",
-      "text": "Cognitive performance varies; many older adults remain mentally agile.",
-      "relevance": 3
-    },
-    {
-      "doc_id": "IM311_5_5",
-      "text": "Brain scans reveal active development in elderly individuals exposed to learning stimuli.",
-      "relevance": 4
-    },
-    {
-      "doc_id": "IM311_5_6",
-      "text": "Research shows that neural plasticity continues into senior years under the right conditions.",
-      "relevance": 4
-    },
-    {
-      "doc_id": "IM311_5_7",
-      "text": "Academic reviews note that aging alone is rarely the cause of substantial mental decline.",
-      "relevance": 5
-    }
-  ]
-},
-
-{
-  "query_id": "IM311_6",
-  "query_type": "implicit_NOT",
-  "query_text": "Is aging always accompanied by significant cognitive decline?",
-  "documents": [
-    {
-      "doc_id": "IM311_6_1",
-      "text": "It's commonly believed that aging brings about mental decline, but the truth is more nuanced.",
-      "relevance": 1
-    },
-    {
-      "doc_id": "IM311_6_2",
-      "text": "Many presume confusion is inherent to old age, though data supporting this is scarce.",
-      "relevance": 1
-    },
-    {
-      "doc_id": "IM311_6_3",
-      "text": "While small changes occur, these are often harmless and not indicative of decline.",
-      "relevance": 2
-    },
-    {
-      "doc_id": "IM311_6_4",
-      "text": "Minor lapses in memory may increase with age, but they don't necessarily signal cognitive impairment.",
-      "relevance": 2
-    },
-    {
-      "doc_id": "IM311_6_5",
-      "text": "Cognitive performance varies; many older adults remain mentally agile.",
-      "relevance": 3
-    },
-    {
-      "doc_id": "IM311_6_6",
-      "text": "Brain scans reveal active development in elderly individuals exposed to learning stimuli.",
-      "relevance": 4
-    },
-    {
-      "doc_id": "IM311_6_7",
-      "text": "Aging without pathology rarely leads to severe impairment of executive functions.",
-      "relevance": 6
-    }
-  ]
-},
-
-{
-  "query_id": "IM311_7",
-  "query_type": "implicit_NOT",
-  "query_text": "Is aging always accompanied by significant cognitive decline?",
-  "documents": [
-    {
-      "doc_id": "IM311_7_1",
-      "text": "It's commonly believed that aging brings about mental decline, but the truth is more nuanced.",
-      "relevance": 1
-    },
-    {
-      "doc_id": "IM311_7_2",
-      "text": "Statements generalizing aging with forgetfulness often ignore individual variability.",
-      "relevance": 1
-    },
-    {
-      "doc_id": "IM311_7_3",
-      "text": "Cognitive performance varies; many older adults remain mentally agile.",
-      "relevance": 3
-    },
-    {
-      "doc_id": "IM311_7_4",
-      "text": "Mental acuity can persist well into later life, especially with ongoing engagement.",
-      "relevance": 3
-    },
-    {
-      "doc_id": "IM311_7_5",
-      "text": "Cognitive training has measurable benefits even among people in their 70s and 80s.",
-      "relevance": 4
-    },
-    {
-      "doc_id": "IM311_7_6",
-      "text": "Research shows that neural plasticity continues into senior years under the right conditions.",
-      "relevance": 4
-    },
-    {
-      "doc_id": "IM311_7_7",
-      "text": "In healthy aging, significant cognitive deterioration is the exception, not the rule.",
-      "relevance": 5
-    }
-  ]
-},
-
-{
-  "query_id": "IM311_8",
-  "query_type": "implicit_NOT",
-  "query_text": "Is aging always accompanied by significant cognitive decline?",
-  "documents": [
-    {
-      "doc_id": "IM311_8_1",
-      "text": "Many presume confusion is inherent to old age, though data supporting this is scarce.",
-      "relevance": 1
-    },
-    {
-      "doc_id": "IM311_8_2",
-      "text": "While small changes occur, these are often harmless and not indicative of decline.",
-      "relevance": 2
-    },
-    {
-      "doc_id": "IM311_8_3",
-      "text": "Some seniors experience slower recall, yet maintain overall mental sharpness.",
-      "relevance": 2
-    },
-    {
-      "doc_id": "IM311_8_4",
-      "text": "Minor lapses in memory may increase with age, but they don't necessarily signal cognitive impairment.",
-      "relevance": 2
-    },
-    {
-      "doc_id": "IM311_8_5",
-      "text": "Numerous retirees continue excelling in intellectually demanding tasks.",
-      "relevance": 3
-    },
-    {
-      "doc_id": "IM311_8_6",
-      "text": "Brain scans reveal active development in elderly individuals exposed to learning stimuli.",
-      "relevance": 4
-    },
-    {
-      "doc_id": "IM311_8_7",
-      "text": "In healthy aging, significant cognitive deterioration is the exception, not the rule.",
-      "relevance": 5
-    }
-  ]
-},
-
-{
-  "query_id": "IM311_9",
-  "query_type": "implicit_NOT",
-  "query_text": "Is aging always accompanied by significant cognitive decline?",
-  "documents": [
-    {
-      "doc_id": "IM311_9_1",
-      "text": "Statements generalizing aging with forgetfulness often ignore individual variability.",
-      "relevance": 1
-    },
-    {
-      "doc_id": "IM311_9_2",
-      "text": "Many presume confusion is inherent to old age, though data supporting this is scarce.",
-      "relevance": 1
-    },
-    {
-      "doc_id": "IM311_9_3",
-      "text": "While small changes occur, these are often harmless and not indicative of decline.",
-      "relevance": 2
-    },
-    {
-      "doc_id": "IM311_9_4",
-      "text": "Numerous retirees continue excelling in intellectually demanding tasks.",
-      "relevance": 3
-    },
-    {
-      "doc_id": "IM311_9_5",
-      "text": "Cognitive performance varies; many older adults remain mentally agile.",
-      "relevance": 3
-    },
-    {
-      "doc_id": "IM311_9_6",
-      "text": "Longitudinal studies confirm that major decline typically stems from disease, not age itself.",
-      "relevance": 5
-    },
-    {
-      "doc_id": "IM311_9_7",
-      "text": "Academic reviews note that aging alone is rarely the cause of substantial mental decline.",
-      "relevance": 5
-    }
-  ]
-}
-
+    "query_id": "IM310_7421",
+    "query_type": "implicit_NOT",
+    "query_text": "Is aging always accompanied by significant cognitive decline?",
+    "documents": [
+      {
+        "doc_id": "IM310_1",
+        "text": "Many believe that aging equates to inevitable memory loss, but this assumption oversimplifies the reality.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM310_2",
+        "text": "Statements like 'old age causes confusion' are often heard but rarely backed by comprehensive evidence.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM310_3",
+        "text": "Mild forgetfulness can be part of aging, yet marked cognitive deterioration is not a guaranteed outcome.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM310_4",
+        "text": "Is it true that every elderly person becomes forgetful? Research suggests otherwise for the majority.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM310_5",
+        "text": "Plenty of seniors remain intellectually sharp, especially those who stay mentally active and socially engaged.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM310_6",
+        "text": "Functional MRI scans reveal older adults continue forming new neural connections when challenged cognitively.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM310_7",
+        "text": "Evidence from large-scale geriatric studies shows that notable cognitive decline often points to specific disorders, not aging itself.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM311_1",
+    "query_type": "implicit_NOT",
+    "query_text": "Is aging always accompanied by significant cognitive decline?",
+    "documents": [
+      {
+        "doc_id": "IM311_1_1",
+        "text": "Statements generalizing aging with forgetfulness often ignore individual variability.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM311_1_2",
+        "text": "It's commonly believed that aging brings about mental decline, but the truth is more nuanced.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM311_1_3",
+        "text": "While small changes occur, these are often harmless and not indicative of decline.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM311_1_4",
+        "text": "Minor lapses in memory may increase with age, but they don't necessarily signal cognitive impairment.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM311_1_5",
+        "text": "Numerous retirees continue excelling in intellectually demanding tasks.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM311_1_6",
+        "text": "Brain scans reveal active development in elderly individuals exposed to learning stimuli.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM311_1_7",
+        "text": "In healthy aging, significant cognitive deterioration is the exception, not the rule.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM311_2",
+    "query_type": "implicit_NOT",
+    "query_text": "Is aging always accompanied by significant cognitive decline?",
+    "documents": [
+      {
+        "doc_id": "IM311_2_1",
+        "text": "It's commonly believed that aging brings about mental decline, but the truth is more nuanced.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM311_2_2",
+        "text": "Statements generalizing aging with forgetfulness often ignore individual variability.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM311_2_3",
+        "text": "Minor lapses in memory may increase with age, but they don't necessarily signal cognitive impairment.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM311_2_4",
+        "text": "Cognitive performance varies; many older adults remain mentally agile.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM311_2_5",
+        "text": "Cognitive training has measurable benefits even among people in their 70s and 80s.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM311_2_6",
+        "text": "Research shows that neural plasticity continues into senior years under the right conditions.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM311_2_7",
+        "text": "In healthy aging, significant cognitive deterioration is the exception, not the rule.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM311_3",
+    "query_type": "implicit_NOT",
+    "query_text": "Is aging always accompanied by significant cognitive decline?",
+    "documents": [
+      {
+        "doc_id": "IM311_3_1",
+        "text": "Statements generalizing aging with forgetfulness often ignore individual variability.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM311_3_2",
+        "text": "Minor lapses in memory may increase with age, but they don't necessarily signal cognitive impairment.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM311_3_3",
+        "text": "Some seniors experience slower recall, yet maintain overall mental sharpness.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM311_3_4",
+        "text": "Numerous retirees continue excelling in intellectually demanding tasks.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM311_3_5",
+        "text": "Cognitive performance varies; many older adults remain mentally agile.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM311_3_6",
+        "text": "Cognitive training has measurable benefits even among people in their 70s and 80s.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM311_3_7",
+        "text": "In healthy aging, significant cognitive deterioration is the exception, not the rule.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM311_4",
+    "query_type": "implicit_NOT",
+    "query_text": "Is aging always accompanied by significant cognitive decline?",
+    "documents": [
+      {
+        "doc_id": "IM311_4_1",
+        "text": "Statements generalizing aging with forgetfulness often ignore individual variability.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM311_4_2",
+        "text": "While small changes occur, these are often harmless and not indicative of decline.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM311_4_3",
+        "text": "Mental acuity can persist well into later life, especially with ongoing engagement.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM311_4_4",
+        "text": "Cognitive training has measurable benefits even among people in their 70s and 80s.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM311_4_5",
+        "text": "Research shows that neural plasticity continues into senior years under the right conditions.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM311_4_6",
+        "text": "Academic reviews note that aging alone is rarely the cause of substantial mental decline.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "IM311_4_7",
+        "text": "In healthy aging, significant cognitive deterioration is the exception, not the rule.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM311_5",
+    "query_type": "implicit_NOT",
+    "query_text": "Is aging always accompanied by significant cognitive decline?",
+    "documents": [
+      {
+        "doc_id": "IM311_5_1",
+        "text": "It's commonly believed that aging brings about mental decline, but the truth is more nuanced.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM311_5_2",
+        "text": "While small changes occur, these are often harmless and not indicative of decline.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM311_5_3",
+        "text": "Numerous retirees continue excelling in intellectually demanding tasks.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM311_5_4",
+        "text": "Cognitive performance varies; many older adults remain mentally agile.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM311_5_5",
+        "text": "Brain scans reveal active development in elderly individuals exposed to learning stimuli.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM311_5_6",
+        "text": "Research shows that neural plasticity continues into senior years under the right conditions.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM311_5_7",
+        "text": "Academic reviews note that aging alone is rarely the cause of substantial mental decline.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM311_6",
+    "query_type": "implicit_NOT",
+    "query_text": "Is aging always accompanied by significant cognitive decline?",
+    "documents": [
+      {
+        "doc_id": "IM311_6_1",
+        "text": "It's commonly believed that aging brings about mental decline, but the truth is more nuanced.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM311_6_2",
+        "text": "Many presume confusion is inherent to old age, though data supporting this is scarce.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM311_6_3",
+        "text": "While small changes occur, these are often harmless and not indicative of decline.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM311_6_4",
+        "text": "Minor lapses in memory may increase with age, but they don't necessarily signal cognitive impairment.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM311_6_5",
+        "text": "Cognitive performance varies; many older adults remain mentally agile.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM311_6_6",
+        "text": "Brain scans reveal active development in elderly individuals exposed to learning stimuli.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM311_6_7",
+        "text": "Aging without pathology rarely leads to severe impairment of executive functions.",
+        "relevance": 6
+      }
+    ]
+  },
+  {
+    "query_id": "IM311_7",
+    "query_type": "implicit_NOT",
+    "query_text": "Is aging always accompanied by significant cognitive decline?",
+    "documents": [
+      {
+        "doc_id": "IM311_7_1",
+        "text": "It's commonly believed that aging brings about mental decline, but the truth is more nuanced.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM311_7_2",
+        "text": "Statements generalizing aging with forgetfulness often ignore individual variability.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM311_7_3",
+        "text": "Cognitive performance varies; many older adults remain mentally agile.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM311_7_4",
+        "text": "Mental acuity can persist well into later life, especially with ongoing engagement.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM311_7_5",
+        "text": "Cognitive training has measurable benefits even among people in their 70s and 80s.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM311_7_6",
+        "text": "Research shows that neural plasticity continues into senior years under the right conditions.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM311_7_7",
+        "text": "In healthy aging, significant cognitive deterioration is the exception, not the rule.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM311_8",
+    "query_type": "implicit_NOT",
+    "query_text": "Is aging always accompanied by significant cognitive decline?",
+    "documents": [
+      {
+        "doc_id": "IM311_8_1",
+        "text": "Many presume confusion is inherent to old age, though data supporting this is scarce.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM311_8_2",
+        "text": "While small changes occur, these are often harmless and not indicative of decline.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM311_8_3",
+        "text": "Some seniors experience slower recall, yet maintain overall mental sharpness.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM311_8_4",
+        "text": "Minor lapses in memory may increase with age, but they don't necessarily signal cognitive impairment.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM311_8_5",
+        "text": "Numerous retirees continue excelling in intellectually demanding tasks.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM311_8_6",
+        "text": "Brain scans reveal active development in elderly individuals exposed to learning stimuli.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "IM311_8_7",
+        "text": "In healthy aging, significant cognitive deterioration is the exception, not the rule.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "IM311_9",
+    "query_type": "implicit_NOT",
+    "query_text": "Is aging always accompanied by significant cognitive decline?",
+    "documents": [
+      {
+        "doc_id": "IM311_9_1",
+        "text": "Statements generalizing aging with forgetfulness often ignore individual variability.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM311_9_2",
+        "text": "Many presume confusion is inherent to old age, though data supporting this is scarce.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "IM311_9_3",
+        "text": "While small changes occur, these are often harmless and not indicative of decline.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "IM311_9_4",
+        "text": "Numerous retirees continue excelling in intellectually demanding tasks.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM311_9_5",
+        "text": "Cognitive performance varies; many older adults remain mentally agile.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "IM311_9_6",
+        "text": "Longitudinal studies confirm that major decline typically stems from disease, not age itself.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "IM311_9_7",
+        "text": "Academic reviews note that aging alone is rarely the cause of substantial mental decline.",
+        "relevance": 5
+      }
+    ]
+  }
 ]

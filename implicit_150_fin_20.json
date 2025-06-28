@@ -1,0 +1,82 @@
+{
+  "evaluation_results_cross-encoder-nli-deberta-base.json": {
+    "BGE": {
+      "P@1": 0.2133,
+      "P@2": 0.21,
+      "P@3": 0.1933,
+      "MRR": 0.4471,
+      "NDCG@3": 0.4973
+    },
+    "Roberta": {
+      "P@1": 0.1533,
+      "P@2": 0.16,
+      "P@3": 0.1511,
+      "MRR": 0.3794,
+      "NDCG@3": 0.4781
+    }
+  },
+  "evaluation_results_facebook-bart-large-mnli.json": {
+    "BGE": {
+      "P@1": 0.2133,
+      "P@2": 0.21,
+      "P@3": 0.1933,
+      "MRR": 0.4471,
+      "NDCG@3": 0.4973
+    },
+    "Roberta": {
+      "P@1": 0.16,
+      "P@2": 0.1533,
+      "P@3": 0.1378,
+      "MRR": 0.3618,
+      "NDCG@3": 0.4109
+    }
+  },
+  "evaluation_results_microsoft-deberta-large-mnli.json": {
+    "BGE": {
+      "P@1": 0.2133,
+      "P@2": 0.21,
+      "P@3": 0.1933,
+      "MRR": 0.4471,
+      "NDCG@3": 0.4973
+    },
+    "Roberta": {
+      "P@1": 0.2667,
+      "P@2": 0.2167,
+      "P@3": 0.2044,
+      "MRR": 0.4705,
+      "NDCG@3": 0.606
+    }
+  },
+  "evaluation_results_prajjwal1-albert-base-v2-mnli.json": {
+    "BGE": {
+      "P@1": 0.2133,
+      "P@2": 0.21,
+      "P@3": 0.1933,
+      "MRR": 0.4471,
+      "NDCG@3": 0.4973
+    },
+    "Roberta": {
+      "P@1": 0.12,
+      "P@2": 0.1167,
+      "P@3": 0.1311,
+      "MRR": 0.3373,
+      "NDCG@3": 0.3714
+    }
+  },
+  "evaluation_results_roberta-large-mnli.json": {
+    "BGE": {
+      "P@1": 0.2133,
+      "P@2": 0.21,
+      "P@3": 0.1933,
+      "MRR": 0.4471,
+      "NDCG@3": 0.4973
+    },
+    "Roberta": {
+      "P@1": 0.0933,
+      "P@2": 0.1033,
+      "P@3": 0.0822,
+      "MRR": 0.2931,
+      "NDCG@3": 0.3235
+    }
+  }
+}

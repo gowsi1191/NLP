@@ -141,7 +141,7 @@
   },
   {
     "query_id": "EX1",
-    "query_type": "explicit_not",
+    "query_type": "explicit_NOT",
     "query_text": "Does metformin not cause bone mineral density loss?",
     "documents": [
       {
@@ -183,7 +183,7 @@
   },
   {
     "query_id": "EX2",
-    "query_type": "explicit_not",
+    "query_type": "explicit_NOT",
     "query_text": "Does statins not cause liver enzyme elevation?",
     "documents": [
       {
@@ -225,7 +225,7 @@
   },
   {
     "query_id": "EX3",
-    "query_type": "explicit_not",
+    "query_type": "explicit_NOT",
     "query_text": "Does levothyroxine not cause cognitive function?",
     "documents": [
       {
@@ -267,7 +267,7 @@
   },
   {
     "query_id": "EX4",
-    "query_type": "explicit_not",
+    "query_type": "explicit_NOT",
     "query_text": "Does ACE inhibitors not cause blood pressure?",
     "documents": [
       {
@@ -309,7 +309,7 @@
   },
   {
     "query_id": "EX5",
-    "query_type": "explicit_not",
+    "query_type": "explicit_NOT",
     "query_text": "Does ibuprofen not cause sleep quality?",
     "documents": [
       {
@@ -351,7 +351,7 @@
   },
   {
     "query_id": "EX6",
-    "query_type": "explicit_not",
+    "query_type": "explicit_NOT",
     "query_text": "Does risperidone not cause gastric bleeding risk?",
     "documents": [
       {
@@ -393,7 +393,7 @@
   },
   {
     "query_id": "EX7",
-    "query_type": "explicit_not",
+    "query_type": "explicit_NOT",
     "query_text": "Does insulin not cause inflammation markers?",
     "documents": [
       {
@@ -435,7 +435,7 @@
   },
   {
     "query_id": "EX8",
-    "query_type": "explicit_not",
+    "query_type": "explicit_NOT",
     "query_text": "Does oral contraceptives not cause cognitive function?",
     "documents": [
       {
@@ -477,7 +477,7 @@
   },
   {
     "query_id": "EX9",
-    "query_type": "explicit_not",
+    "query_type": "explicit_NOT",
     "query_text": "Does sertraline not cause liver enzyme elevation?",
     "documents": [
       {
@@ -519,7 +519,7 @@
   },
   {
     "query_id": "EX10",
-    "query_type": "explicit_not",
+    "query_type": "explicit_NOT",
     "query_text": "Does amlodipine not cause blood glucose control?",
     "documents": [
       {
