@@ -9,7 +9,7 @@ import os
 
 class MetricsCalculator:
     def __init__(self):
-        self.relevant_scores = {5,4}  # <- updated to strict criteria
+        self.relevant_scores = {1,2}  # <- updated to strict criteria
         self.start_time = time.time()
 
     def _print_progress(self, current, total, message=""):

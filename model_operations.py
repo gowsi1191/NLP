@@ -63,12 +63,12 @@ class ModelOperations:
     def custom_e_curve_torch(x, k=8, sigmoid_mid=0.15, inverse_mid=0.5):
         sigmoid_part = 1 / (1 + torch.exp(-k * (x - sigmoid_mid)))
         inv_sigmoid_part = 1 - (1 / (1 + torch.exp(-k * (x - inverse_mid))))
-        linear_part = torch.clamp(x, 0.0, 1.0)
+        linear_part = x  # unclamped
 
         return torch.where(
-            x < 0.3,
+            x < 0.5,
             sigmoid_part,
-            torch.where(x < 0.8, inv_sigmoid_part, linear_part)
+            torch.where(x>5 and x < 0.8, inv_sigmoid_part, linear_part)
         )
 
     def calculate_score(self, e: float, n: float, c: float, 
@@ -79,14 +79,12 @@ class ModelOperations:
         c_tensor = torch.tensor(c)
         n_tensor = torch.tensor(n)
 
-        MAX_SCORE = 1.5
-        MIN_SCORE = -1.0
         model = self.nli_model_name
         score = None
 
         if mode == "explicit_NOT":
             if model == "cross-encoder/nli-deberta-base":
-                score = torch.sigmoid(15 * n_tensor) + c_tensor - torch.sigmoid(15 * e_tensor)
+                score = torch.sigmoid(15 * n_tensor) + c_tensor - 3*torch.sigmoid(15 * e_tensor)
 
             elif model == "prajjwal1/albert-base-v2-mnli" or "roberta-large-mnli":
                 # Use version v7 params → best performing
