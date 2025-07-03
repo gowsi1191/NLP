@@ -2809,7 +2809,7 @@
       {
         "doc_id": "EX107_7",
         "text": "Medical consensus strongly advises against or severely limits acetaminophen use in patients with significant liver disease due to the high risk of acute liver failure.",
-        "relevance": 6
+        "relevance": 5
       }
     ]
   },
@@ -3901,7 +3901,7 @@
       {
         "doc_id": "EX133_7",
         "text": "Comprehensive epidemiological analyses involving millions of children have definitively disproven any causal association between childhood vaccines and autism spectrum disorder.",
-        "relevance": 6
+        "relevance": 5
       }
     ]
   },
@@ -4195,7 +4195,7 @@
       {
         "doc_id": "EX140_7",
         "text": "Neuroscientific studies provide strong evidence that regular cannabis use during adolescence can negatively impact brain development, leading to long-lasting cognitive and psychiatric consequences.",
-        "relevance": 6
+        "relevance": 5
       }
     ]
   },
@@ -4825,7 +4825,7 @@
       {
         "doc_id": "EX155_7",
         "text": "Extensive clinical research confirms that while therapy is invaluable, not all mental health issues are fully treatable with psychotherapy alone, especially severe or biologically driven conditions.",
-        "relevance": 6
+        "relevance": 5
       }
     ]
   },

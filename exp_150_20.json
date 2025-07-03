@@ -1,0 +1,66 @@
+{
+  "evaluation_results_cross-encoder-nli-deberta-base.json": {
+    "BGE": {
+      "P@1": 0.1733,
+      "P@2": 0.16,
+      "P@3": 0.1778,
+      "MRR": 0.3975,
+      "NDCG@3": 0.4488
+    },
+    "Roberta": {
+      "P@1": 0.2,
+      "P@2": 0.1833,
+      "P@3": 0.1756,
+      "MRR": 0.4215,
+      "NDCG@3": 0.4792
+    }
+  },
+  "evaluation_results_facebook-bart-large-mnli.json": {
+    "BGE": {
+      "P@1": 0.1733,
+      "P@2": 0.16,
+      "P@3": 0.1778,
+      "MRR": 0.3975,
+      "NDCG@3": 0.4488
+    },
+    "Roberta": {
+      "P@1": 0.12,
+      "P@2": 0.1133,
+      "P@3": 0.1178,
+      "MRR": 0.3281,
+      "NDCG@3": 0.3296
+    }
+  },
+  "evaluation_results_microsoft-deberta-large-mnli.json": {
+    "BGE": {
+      "P@1": 0.1733,
+      "P@2": 0.16,
+      "P@3": 0.1778,
+      "MRR": 0.3975,
+      "NDCG@3": 0.4488
+    },
+    "Roberta": {
+      "P@1": 0.2267,
+      "P@2": 0.19,
+      "P@3": 0.1756,
+      "MRR": 0.4327,
+      "NDCG@3": 0.5191
+    }
+  },
+  "evaluation_results_roberta-large-mnli.json": {
+    "BGE": {
+      "P@1": 0.1733,
+      "P@2": 0.16,
+      "P@3": 0.1778,
+      "MRR": 0.3975,
+      "NDCG@3": 0.4488
+    },
+    "Roberta": {
+      "P@1": 0.1067,
+      "P@2": 0.1,
+      "P@3": 0.1133,
+      "MRR": 0.3229,
+      "NDCG@3": 0.3502
+    }
+  }
+}

@@ -1,563 +1,841 @@
 [
   {
-    "query_id": "EX201",
+    "query_id": "EX001",
     "query_type": "explicit_NOT",
-    "query_text": "Find studies showing that metformin does NOT increase lactic acidosis risk.",
-    "documents": [
-      { "doc_id": "EX201_1", "text": "Popular blogs sometimes warn about lactic acidosis, but often lack clinical references.", "relevance": 1 },
-      { "doc_id": "EX201_2", "text": "Older guidelines suggested caution, yet didn't clearly link metformin with lactic acidosis.", "relevance": 1 },
-      { "doc_id": "EX201_3", "text": "Observational studies in diabetic populations found very low incidence of this complication.", "relevance": 2 },
-      { "doc_id": "EX201_4", "text": "Meta-analyses have confirmed no statistically significant rise in lactic acidosis risk.", "relevance": 3 },
-      { "doc_id": "EX201_5", "text": "Modern studies show negligible lactic acid buildup, even in elderly patients.", "relevance": 3 },
-      { "doc_id": "EX201_6", "text": "RCTs consistently report no elevated risk of lactic acidosis with metformin.", "relevance": 4 },
-      { "doc_id": "EX201_7", "text": "Systematic reviews definitively conclude that metformin does NOT increase the incidence of lactic acidosis.", "relevance": 5 }
-    ]
-  },
-  {
-    "query_id": "EX202",
-    "query_type": "explicit_NOT",
-    "query_text": "Are there studies proving that statins do NOT cause memory loss?",
-    "documents": [
-      { "doc_id": "EX202_1", "text": "Some patient forums insist statins ruined their memory, but stories vary widely.", "relevance": 1 },
-      { "doc_id": "EX202_2", "text": "Short news articles sometimes exaggerate the cognitive effects of statins.", "relevance": 1 },
-      { "doc_id": "EX202_3", "text": "Small clinical samples have shown no major differences in recall scores.", "relevance": 2 },
-      { "doc_id": "EX202_4", "text": "Neuropsychological evaluations reveal no consistent cognitive decline among statin users.", "relevance": 2 },
-      { "doc_id": "EX202_5", "text": "Controlled studies found that cognitive functions remain intact in patients on long-term statins.", "relevance": 3 },
-      { "doc_id": "EX202_6", "text": "Meta-analyses and systematic reviews consistently reject a link between statins and memory loss.", "relevance": 4 },
-      { "doc_id": "EX202_7", "text": "A large-scale longitudinal study concluded that statins do NOT negatively impact memory performance.", "relevance": 5 }
-    ]
-  },
-  {
-    "query_id": "EX203",
-    "query_type": "explicit_NOT",
-    "query_text": "Provide evidence that PPIs do NOT elevate cancer risk.",
-    "documents": [
-      { "doc_id": "EX203_1", "text": "Some online influencers claim long-term PPIs might cause cancer, despite no clinical backing.", "relevance": 1 },
-      { "doc_id": "EX203_2", "text": "General media coverage often leaves out study details while suggesting cancer links.", "relevance": 2 },
-      { "doc_id": "EX203_3", "text": "Several cohort studies show no meaningful increase in cancer diagnoses among PPI users.", "relevance": 3 },
-      { "doc_id": "EX203_4", "text": "Case-control studies examining gastric cancer found no statistically significant association.", "relevance": 4 },
-      { "doc_id": "EX203_5", "text": "Expert reviews argue that the concern is based more on theoretical risk than observed evidence.", "relevance": 4 },
-      { "doc_id": "EX203_6", "text": "RCTs tracking PPI users over years failed to detect elevated cancer incidence.", "relevance": 5 },
-      { "doc_id": "EX203_7", "text": "Regulatory agencies have issued statements confirming PPIs do NOT raise cancer risk under standard use.", "relevance": 5 }
-    ]
-  },
-  {
-    "query_id": "EX204",
-    "query_type": "explicit_NOT",
-    "query_text": "Show data where beta blockers do NOT worsen asthma symptoms.",
-    "documents": [
-      { "doc_id": "EX204_1", "text": "Informal opinions warn of respiratory side effects, especially among asthmatics.", "relevance": 1 },
-      { "doc_id": "EX204_2", "text": "Older textbooks cited concerns about bronchospasm with non-selective beta blockers.", "relevance": 2 },
-      { "doc_id": "EX204_3", "text": "Selective beta blockers like atenolol are shown to have minimal pulmonary impact.", "relevance": 3 },
-      { "doc_id": "EX204_4", "text": "Studies suggest that cardioselective beta blockers do NOT exacerbate asthma symptoms.", "relevance": 3 },
-      { "doc_id": "EX204_5", "text": "Pulmonology reviews highlight the relative safety of newer beta blockers in mild asthma.", "relevance": 4 },
-      { "doc_id": "EX204_6", "text": "Meta-analyses demonstrate that certain beta blockers do NOT worsen lung function significantly.", "relevance": 5 },
-      { "doc_id": "EX204_7", "text": "Clinical guidelines endorse cautious use of selective agents in patients with controlled asthma.", "relevance": 4 }
-    ]
-  },
-  {
-    "query_id": "EX205",
-    "query_type": "explicit_NOT",
-    "query_text": "Present trials showing aspirin does NOT increase stroke risk.",
-    "documents": [
-      { "doc_id": "EX205_1", "text": "Some tabloids misleadingly mention that aspirin could trigger strokes.", "relevance": 1 },
-      { "doc_id": "EX205_2", "text": "A few case anecdotes point to timing issues with aspirin dosing.", "relevance": 2 },
-      { "doc_id": "EX205_3", "text": "Observational data show no higher incidence of ischemic stroke in aspirin users.", "relevance": 3 },
-      { "doc_id": "EX205_4", "text": "RCTs consistently demonstrate that low-dose aspirin is neutral or protective for stroke.", "relevance": 4 },
-      { "doc_id": "EX205_5", "text": "Meta-analyses conclude that aspirin does NOT increase stroke incidence.", "relevance": 5 },
-      { "doc_id": "EX205_6", "text": "Aspirin is still widely recommended for secondary stroke prevention.", "relevance": 5 },
-      { "doc_id": "EX205_7", "text": "Neurologists stress that the overall benefits of aspirin outweigh theoretical risks.", "relevance": 3 }
-    ]
-  },
-  {
-    "query_id": "EX206",
-    "query_type": "explicit_NOT",
-    "query_text": "Show that risperidone does NOT cause irreversible cognitive decline.",
-    "documents": [
-      { "doc_id": "EX206_1", "text": "Some patients report 'brain fog,' though it often resolves after tapering.", "relevance": 1 },
-      { "doc_id": "EX206_2", "text": "Social media posts sometimes blame risperidone for lasting mental dullness.", "relevance": 2 },
-      { "doc_id": "EX206_3", "text": "Several longitudinal studies found no permanent changes in cognitive performance.", "relevance": 3 },
-      { "doc_id": "EX206_4", "text": "Cognitive testing pre- and post-treatment show reversibility of effects.", "relevance": 4 },
-      { "doc_id": "EX206_5", "text": "Systematic reviews state there's no evidence for irreversible cognitive harm.", "relevance": 5 },
-      { "doc_id": "EX206_6", "text": "Neurological evaluations after medication cessation show normal cognitive recovery.", "relevance": 4 },
-      { "doc_id": "EX206_7", "text": "Doctors emphasize monitoring, but note that cognitive decline is NOT a known long-term consequence.", "relevance": 3 }
-    ]
-  },
-  {
-    "query_id": "EX207",
-    "query_type": "explicit_NOT",
-    "query_text": "Find evidence that metformin does NOT cause hypoglycemia in non-diabetics.",
-    "documents": [
-      { "doc_id": "EX207_1", "text": "Fitness blogs sometimes advocate metformin for weight control, ignoring blood sugar effects.", "relevance": 1 },
-      { "doc_id": "EX207_2", "text": "Some lifestyle influencers suggest hypoglycemia risk even in healthy users.", "relevance": 2 },
-      { "doc_id": "EX207_3", "text": "Pharmacology texts note that metformin's mechanism rarely lowers glucose below fasting range.", "relevance": 3 },
-      { "doc_id": "EX207_4", "text": "Controlled studies show that non-diabetics maintain stable glycemic levels on metformin.", "relevance": 4 },
-      { "doc_id": "EX207_5", "text": "Systematic reviews support that metformin does NOT cause hypoglycemia without insulin co-administration.", "relevance": 5 },
-      { "doc_id": "EX207_6", "text": "Safety assessments find metformin neutral in euglycemic individuals.", "relevance": 4 },
-      { "doc_id": "EX207_7", "text": "Endocrinologists recommend cautious use, but do NOT associate metformin with spontaneous hypoglycemia.", "relevance": 3 }
-    ]
-  },
-  {
-    "query_id": "EX208",
-    "query_type": "explicit_NOT",
-    "query_text": "Do studies show that vitamin D does NOT prevent all fractures?",
-    "documents": [
-      { "doc_id": "EX208_1", "text": "Wellness blogs often market vitamin D as a magic bone strengthener.", "relevance": 1 },
-      { "doc_id": "EX208_2", "text": "Minor studies had mixed outcomes when testing fracture prevention.", "relevance": 2 },
-      { "doc_id": "EX208_3", "text": "RCTs show vitamin D alone may not prevent every type of fracture.", "relevance": 3 },
-      { "doc_id": "EX208_4", "text": "Systematic reviews conclude vitamin D does NOT significantly reduce fracture risk without calcium.", "relevance": 4 },
-      { "doc_id": "EX208_5", "text": "Public health agencies caution that vitamin D’s role is supportive, not curative.", "relevance": 5 },
-      { "doc_id": "EX208_6", "text": "Some clinical trials show no reduction in hip fractures even at high doses.", "relevance": 3 },
-      { "doc_id": "EX208_7", "text": "Experts clarify vitamin D helps with bone turnover but doesn’t eliminate fracture risk.", "relevance": 4 }
-    ]
-  },
-  {
-    "query_id": "EX209",
-    "query_type": "explicit_NOT",
-    "query_text": "Is there proof that antibiotics do NOT always cause diarrhea?",
-    "documents": [
-      { "doc_id": "EX209_1", "text": "Some personal accounts mention perfect digestion during antibiotic treatment.", "relevance": 1 },
-      { "doc_id": "EX209_2", "text": "Many people report no stomach upset with common antibiotics like amoxicillin.", "relevance": 2 },
-      { "doc_id": "EX209_3", "text": "Clinical data shows only a subset of users develop diarrhea, depending on antibiotic type.", "relevance": 3 },
-      { "doc_id": "EX209_4", "text": "Probiotic co-administration is known to lower gastrointestinal symptoms.", "relevance": 4 },
-      { "doc_id": "EX209_5", "text": "RCTs confirm that diarrhea is NOT a universal outcome of antibiotic use.", "relevance": 5 },
-      { "doc_id": "EX209_6", "text": "Some antibiotic classes have very low rates of GI distress.", "relevance": 3 },
-      { "doc_id": "EX209_7", "text": "Gastroenterologists emphasize individual variability in antibiotic side effects.", "relevance": 4 }
-    ]
-  },
-  {
-    "query_id": "EX210",
-    "query_type": "explicit_NOT",
-    "query_text": "Are there reviews that say corticosteroids do NOT worsen eye pressure?",
-    "documents": [
-      { "doc_id": "EX210_1", "text": "Old blogs cite vision issues as a blanket corticosteroid warning.", "relevance": 1 },
-      { "doc_id": "EX210_2", "text": "Rare case reports suggest changes in intraocular pressure with certain formulations.", "relevance": 2 },
-      { "doc_id": "EX210_3", "text": "Topical corticosteroids used briefly do not seem to affect eye pressure.", "relevance": 3 },
-      { "doc_id": "EX210_4", "text": "Reviews differentiate between systemic and local steroid effects on the eye.", "relevance": 4 },
-      { "doc_id": "EX210_5", "text": "Meta-analyses conclude that standard short courses do NOT elevate IOP in most patients.", "relevance": 5 },
-      { "doc_id": "EX210_6", "text": "Ophthalmologic monitoring is advised, but the majority tolerate steroids well.", "relevance": 4 },
-      { "doc_id": "EX210_7", "text": "Newer formulations are designed to avoid raising intraocular pressure.", "relevance": 3 }
-    ]
-  },
-  {
-    "query_id": "EX1",
-    "query_type": "explicit_NOT",
-    "query_text": "Does metformin not cause bone mineral density loss?",
+    "query_text": "Is it proven that PPIs do NOT lower magnesium levels significantly?",
     "documents": [
       {
-        "doc_id": "EX1_5",
-        "text": "Preliminary observations consistently show no significant bone mineral density loss with metformin, aligning with the idea it does not cause it.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "EX1_3",
-        "text": "However, controlled clinical trials have demonstrated a notable impact of metformin on bone mineral density loss over a defined treatment period.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "EX1_1",
-        "text": "A few isolated reports describe mild alterations in bone mineral density loss when patients began treatment with metformin, suggesting it might cause it.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "EX1_4",
-        "text": "Conversely, the consensus among specialists is that metformin can lead to considerable bone mineral density loss alterations with chronic administration.",
+        "doc_id": "EX001_1",
+        "text": "Clinicians agree questions that SGLT2 inhibitors does not be linked to mood changes.",
         "relevance": 5
       },
       {
-        "doc_id": "EX1_7",
-        "text": "Despite this, anecdotal reports often emphasize metformin's safety and lack of effect on bone mineral density loss, reinforcing the negative.",
+        "doc_id": "EX001_2",
+        "text": "Clinicians agree does not support that PPIs does not cause bone loss.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX001_3",
+        "text": "Limited evidence shows that corticosteroids might be linked to bone loss.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX001_4",
+        "text": "Limited evidence indicates that metformin might be linked to lactic acidosis.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX001_5",
+        "text": "It was observed indicates that corticosteroids may be linked to hypomagnesemia.",
         "relevance": 1
       },
       {
-        "doc_id": "EX1_2",
-        "text": "Overwhelming evidence from multiple large-scale studies and meta-analyses confirms metformin as a direct cause of bone mineral density loss impairment.",
-        "relevance": 6
+        "doc_id": "EX001_6",
+        "text": "It was observed suggests that PPIs does not be linked to renal impairment.",
+        "relevance": 3
       },
       {
-        "doc_id": "EX1_6",
-        "text": "While some early animal studies suggested a potential link to bone mineral density loss, human data frequently contradicts this, supporting the negative.",
-        "relevance": 1
+        "doc_id": "EX001_7",
+        "text": "Clinicians agree indicates that corticosteroids does not cause hypomagnesemia.",
+        "relevance": 3
       }
     ]
   },
   {
-    "query_id": "EX2",
+    "query_id": "EX002",
     "query_type": "explicit_NOT",
-    "query_text": "Does statins not cause liver enzyme elevation?",
+    "query_text": "Does aspirin NOT contribute to gastric bleeding in elderly patients?",
     "documents": [
       {
-        "doc_id": "EX2_1",
-        "text": "Preliminary observations consistently show no significant liver enzyme elevation with statins, aligning with the idea it does not cause it.",
-        "relevance": 1
+        "doc_id": "EX002_1",
+        "text": "Some case studies does not support that aspirin might worsen mood changes.",
+        "relevance": 3
       },
       {
-        "doc_id": "EX2_4",
-        "text": "However, controlled clinical trials have demonstrated a notable impact of statins on liver enzyme elevation over a defined treatment period.",
-        "relevance": 4
-      },
-      {
-        "doc_id": "EX2_7",
-        "text": "Conversely, the consensus among specialists is that statins can lead to considerable liver enzyme elevation alterations with chronic administration.",
+        "doc_id": "EX002_2",
+        "text": "Some case studies suggests that aspirin may worsen renal impairment.",
         "relevance": 5
       },
       {
-        "doc_id": "EX2_3",
-        "text": "Some smaller, uncontrolled studies have hinted at a weak association between statins use and liver enzyme elevation, suggesting it might cause it.",
+        "doc_id": "EX002_3",
+        "text": "Some case studies shows that PPIs does not be linked to hypomagnesemia.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX002_4",
+        "text": "Several reports shows that aspirin might cause bone loss.",
         "relevance": 2
       },
       {
-        "doc_id": "EX2_2",
-        "text": "A few isolated reports describe mild alterations in liver enzyme elevation when patients began treatment with statins, suggesting it might cause it.",
-        "relevance": 2
+        "doc_id": "EX002_5",
+        "text": "Clinicians agree does not support that SSRIs does not cause hypomagnesemia.",
+        "relevance": 3
       },
       {
-        "doc_id": "EX2_6",
-        "text": "Despite this, anecdotal reports often emphasize statins's safety and lack of effect on liver enzyme elevation, reinforcing the negative.",
+        "doc_id": "EX002_6",
+        "text": "Limited evidence indicates that corticosteroids may be linked to mood changes.",
         "relevance": 1
       },
       {
-        "doc_id": "EX2_5",
-        "text": "Observational studies also show minor liver enzyme elevation reductions/increases over months of statins exposure, indicating some effect.",
-        "relevance": 3
+        "doc_id": "EX002_7",
+        "text": "Clinicians agree suggests that metformin does not worsen mood changes.",
+        "relevance": 4
       }
     ]
   },
   {
-    "query_id": "EX3",
+    "query_id": "EX003",
     "query_type": "explicit_NOT",
-    "query_text": "Does levothyroxine not cause cognitive function?",
+    "query_text": "Do corticosteroids NOT affect bone density in postmenopausal women?",
     "documents": [
       {
-        "doc_id": "EX3_2",
-        "text": "Preliminary observations consistently show no significant cognitive function with levothyroxine, aligning with the idea it does not cause it.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "EX3_4",
-        "text": "A few isolated reports describe mild alterations in cognitive function when patients began treatment with levothyroxine, suggesting it might cause it.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "EX3_6",
-        "text": "Despite this, anecdotal reports often emphasize levothyroxine's safety and lack of effect on cognitive function, reinforcing the negative.",
-        "relevance": 1
-      },
-      {
-        "doc_id": "EX3_1",
-        "text": "Observational studies also show minor cognitive function reductions/increases over months of levothyroxine exposure, indicating some effect.",
+        "doc_id": "EX003_1",
+        "text": "Several reports suggests that SGLT2 inhibitors may worsen mood changes.",
         "relevance": 3
       },
       {
-        "doc_id": "EX3_5",
-        "text": "However, controlled clinical trials have demonstrated a notable impact of levothyroxine on cognitive function over a defined treatment period.",
+        "doc_id": "EX003_2",
+        "text": "Some case studies does not support that aspirin may be linked to gastric bleeding.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX003_3",
+        "text": "Limited evidence shows that PPIs might worsen lactic acidosis.",
         "relevance": 4
       },
       {
-        "doc_id": "EX3_7",
-        "text": "Conversely, the consensus among specialists is that levothyroxine can lead to considerable cognitive function alterations with chronic administration.",
+        "doc_id": "EX003_4",
+        "text": "Clinicians agree indicates that metformin might worsen bone loss.",
         "relevance": 5
       },
       {
-        "doc_id": "EX3_3",
-        "text": "Some smaller, uncontrolled studies have hinted at a weak association between levothyroxine use and cognitive function, suggesting it might cause it.",
+        "doc_id": "EX003_5",
+        "text": "Several reports indicates that PPIs does not cause mood changes.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX003_6",
+        "text": "Several reports questions that PPIs may be linked to bone loss.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX003_7",
+        "text": "It was observed suggests that metformin may be linked to lactic acidosis.",
+        "relevance": 1
+      }
+    ]
+  },
+  {
+    "query_id": "EX004",
+    "query_type": "explicit_NOT",
+    "query_text": "Does long-term statin use NOT impair liver function?",
+    "documents": [
+      {
+        "doc_id": "EX004_1",
+        "text": "Limited evidence suggests that PPIs might be linked to renal impairment.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX004_2",
+        "text": "Clinicians agree suggests that corticosteroids does not worsen bone loss.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX004_3",
+        "text": "Some case studies questions that aspirin might cause lactic acidosis.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX004_4",
+        "text": "It was observed questions that SSRIs may cause mood changes.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX004_5",
+        "text": "It was observed does not support that aspirin may cause mood changes.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX004_6",
+        "text": "Clinicians agree does not support that SGLT2 inhibitors may be linked to renal impairment.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX004_7",
+        "text": "Clinicians agree shows that aspirin does not worsen mood changes.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "EX005",
+    "query_type": "explicit_NOT",
+    "query_text": "Does long-term statin use NOT impair liver function?",
+    "documents": [
+      {
+        "doc_id": "EX005_1",
+        "text": "Some case studies questions that PPIs may cause lactic acidosis.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX005_2",
+        "text": "Several reports questions that aspirin might worsen mood changes.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX005_3",
+        "text": "Clinicians agree suggests that SGLT2 inhibitors may be linked to hypomagnesemia.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX005_4",
+        "text": "Limited evidence shows that metformin does not cause lactic acidosis.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX005_5",
+        "text": "Some case studies indicates that SSRIs does not worsen hypomagnesemia.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX005_6",
+        "text": "Several reports shows that metformin does not cause bone loss.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX005_7",
+        "text": "Several reports indicates that SSRIs might be linked to mood changes.",
         "relevance": 2
       }
     ]
   },
   {
-    "query_id": "EX4",
+    "query_id": "EX006",
     "query_type": "explicit_NOT",
-    "query_text": "Does ACE inhibitors not cause blood pressure?",
+    "query_text": "Does long-term statin use NOT impair liver function?",
     "documents": [
       {
-        "doc_id": "EX4_1",
-        "text": "Preliminary observations consistently show no significant blood pressure with ACE inhibitors, aligning with the idea it does not cause it.",
+        "doc_id": "EX006_1",
+        "text": "Several reports indicates that metformin does not worsen hypomagnesemia.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX006_2",
+        "text": "Clinicians agree shows that aspirin might be linked to gastric bleeding.",
         "relevance": 1
       },
       {
-        "doc_id": "EX4_4",
-        "text": "Some smaller, uncontrolled studies have hinted at a weak association between ACE inhibitors use and blood pressure, suggesting it might cause it.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "EX4_7",
-        "text": "A few isolated reports describe mild alterations in blood pressure when patients began treatment with ACE inhibitors, suggesting it might cause it.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "EX4_5",
-        "text": "Observational studies also show minor blood pressure reductions/increases over months of ACE inhibitors exposure, indicating some effect.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "EX4_2",
-        "text": "The impact on blood pressure seems to be dose-dependent with ACE inhibitors, showing moderate effects at higher therapeutic ranges.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "EX4_3",
-        "text": "However, controlled clinical trials have demonstrated a notable impact of ACE inhibitors on blood pressure over a defined treatment period.",
+        "doc_id": "EX006_3",
+        "text": "Clinicians agree does not support that aspirin may cause renal impairment.",
         "relevance": 4
       },
       {
-        "doc_id": "EX4_6",
-        "text": "Conversely, the consensus among specialists is that ACE inhibitors can lead to considerable blood pressure alterations with chronic administration.",
+        "doc_id": "EX006_4",
+        "text": "Limited evidence shows that corticosteroids may worsen gastric bleeding.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX006_5",
+        "text": "Clinicians agree shows that SSRIs does not be linked to gastric bleeding.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX006_6",
+        "text": "Clinicians agree indicates that SSRIs may be linked to renal impairment.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX006_7",
+        "text": "Several reports suggests that metformin might worsen renal impairment.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "EX007",
+    "query_type": "explicit_NOT",
+    "query_text": "Are SSRIs NOT associated with suicidal ideation in adolescents?",
+    "documents": [
+      {
+        "doc_id": "EX007_1",
+        "text": "Limited evidence questions that corticosteroids may cause lactic acidosis.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX007_2",
+        "text": "Some case studies does not support that PPIs does not cause gastric bleeding.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX007_3",
+        "text": "Several reports does not support that SGLT2 inhibitors might cause renal impairment.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX007_4",
+        "text": "Limited evidence suggests that SSRIs might worsen renal impairment.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX007_5",
+        "text": "Limited evidence shows that aspirin might cause gastric bleeding.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX007_6",
+        "text": "Clinicians agree does not support that SGLT2 inhibitors may be linked to bone loss.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX007_7",
+        "text": "Several reports does not support that corticosteroids might worsen renal impairment.",
+        "relevance": 1
+      }
+    ]
+  },
+  {
+    "query_id": "EX008",
+    "query_type": "explicit_NOT",
+    "query_text": "Is it proven that PPIs do NOT lower magnesium levels significantly?",
+    "documents": [
+      {
+        "doc_id": "EX008_1",
+        "text": "Some case studies suggests that PPIs might be linked to gastric bleeding.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX008_2",
+        "text": "Clinicians agree indicates that SGLT2 inhibitors may be linked to mood changes.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX008_3",
+        "text": "Limited evidence does not support that SSRIs may worsen gastric bleeding.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX008_4",
+        "text": "Limited evidence does not support that PPIs does not worsen gastric bleeding.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX008_5",
+        "text": "Limited evidence shows that aspirin might worsen hypomagnesemia.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX008_6",
+        "text": "Clinicians agree does not support that PPIs does not be linked to gastric bleeding.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX008_7",
+        "text": "It was observed indicates that metformin does not be linked to lactic acidosis.",
+        "relevance": 3
+      }
+    ]
+  },
+  {
+    "query_id": "EX009",
+    "query_type": "explicit_NOT",
+    "query_text": "Are antibiotics NOT involved in gut microbiome disruption?",
+    "documents": [
+      {
+        "doc_id": "EX009_1",
+        "text": "Some case studies does not support that PPIs may cause lactic acidosis.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX009_2",
+        "text": "Several reports shows that PPIs may worsen bone loss.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX009_3",
+        "text": "Clinicians agree does not support that SSRIs may cause bone loss.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX009_4",
+        "text": "Limited evidence questions that aspirin might cause renal impairment.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX009_5",
+        "text": "Limited evidence does not support that PPIs may worsen gastric bleeding.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX009_6",
+        "text": "Limited evidence suggests that PPIs does not worsen renal impairment.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX009_7",
+        "text": "Limited evidence suggests that corticosteroids does not be linked to bone loss.",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "query_id": "EX010",
+    "query_type": "explicit_NOT",
+    "query_text": "Are antibiotics NOT involved in gut microbiome disruption?",
+    "documents": [
+      {
+        "doc_id": "EX010_1",
+        "text": "Some case studies shows that metformin might worsen gastric bleeding.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX010_2",
+        "text": "Limited evidence suggests that corticosteroids does not worsen renal impairment.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX010_3",
+        "text": "Clinicians agree questions that SGLT2 inhibitors does not cause bone loss.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX010_4",
+        "text": "Several reports shows that corticosteroids may cause renal impairment.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX010_5",
+        "text": "It was observed does not support that PPIs does not worsen mood changes.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX010_6",
+        "text": "Clinicians agree suggests that corticosteroids might be linked to mood changes.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX010_7",
+        "text": "It was observed suggests that SGLT2 inhibitors does not be linked to hypomagnesemia.",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "query_id": "EX001_7376",
+    "query_type": "explicit_NOT",
+    "query_text": "Does risperidone not cause elevated prolactin levels?",
+    "documents": [
+      {
+        "doc_id": "EX001_1",
+        "text": "Online forums claim risperidone doesn\u2019t impact prolactin levels, but these lack clinical support.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX001_2",
+        "text": "Some patient anecdotes suggest normal prolactin levels despite long-term risperidone use.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX001_3",
+        "text": "A retrospective review found slightly elevated prolactin in risperidone users compared to controls.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX001_4",
+        "text": "Short-term use of risperidone was associated with moderate increases in prolactin in younger adults.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX001_5",
+        "text": "Studies in adolescent populations found a more prominent prolactin rise within 3 weeks of treatment.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX001_6",
+        "text": "Meta-analyses revealed a consistent link between risperidone and hyperprolactinemia.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX001_7",
+        "text": "Large-scale RCTs show risperidone significantly elevates prolactin compared to placebo.",
         "relevance": 5
       }
     ]
   },
   {
-    "query_id": "EX5",
+    "query_id": "EX002_4749",
     "query_type": "explicit_NOT",
-    "query_text": "Does ibuprofen not cause sleep quality?",
+    "query_text": "Is there no association between long-term PPI use and gastric cancer risk?",
     "documents": [
       {
-        "doc_id": "EX5_1",
-        "text": "Despite this, anecdotal reports often emphasize ibuprofen's safety and lack of effect on sleep quality, reinforcing the negative.",
+        "doc_id": "EX002_1",
+        "text": "Several health blogs argue that PPIs are completely safe, ignoring emerging clinical signals.",
         "relevance": 1
       },
       {
-        "doc_id": "EX5_3",
-        "text": "Preliminary observations consistently show no significant sleep quality with ibuprofen, aligning with the idea it does not cause it.",
+        "doc_id": "EX002_2",
+        "text": "Online commentary often claims there's 'zero link' between PPIs and stomach issues.",
         "relevance": 1
       },
       {
-        "doc_id": "EX5_5",
-        "text": "Some smaller, uncontrolled studies have hinted at a weak association between ibuprofen use and sleep quality, suggesting it might cause it.",
+        "doc_id": "EX002_3",
+        "text": "One population study found a weak association between extended PPI use and minor gastric changes.",
         "relevance": 2
       },
       {
-        "doc_id": "EX5_7",
-        "text": "A few isolated reports describe mild alterations in sleep quality when patients began treatment with ibuprofen, suggesting it might cause it.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "EX5_2",
-        "text": "The impact on sleep quality seems to be dose-dependent with ibuprofen, showing moderate effects at higher therapeutic ranges.",
+        "doc_id": "EX002_4",
+        "text": "Case-control analyses indicated a possible link in patients taking PPIs for more than five years.",
         "relevance": 3
       },
       {
-        "doc_id": "EX5_4",
-        "text": "Observational studies also show minor sleep quality reductions/increases over months of ibuprofen exposure, indicating some effect.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "EX5_6",
-        "text": "However, controlled clinical trials have demonstrated a notable impact of ibuprofen on sleep quality over a defined treatment period.",
+        "doc_id": "EX002_5",
+        "text": "Research among patients with H. pylori infection revealed increased cancer risk in PPI users.",
         "relevance": 4
+      },
+      {
+        "doc_id": "EX002_6",
+        "text": "A meta-analysis of 8 cohorts revealed a statistically significant correlation.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX002_7",
+        "text": "RCTs show that long-term PPI use may elevate gastric cancer risk by up to 2.5-fold.",
+        "relevance": 5
       }
     ]
   },
   {
-    "query_id": "EX6",
+    "query_id": "EX003_4706",
     "query_type": "explicit_NOT",
-    "query_text": "Does risperidone not cause gastric bleeding risk?",
+    "query_text": "Is metformin unrelated to weight loss in diabetic patients?",
     "documents": [
       {
-        "doc_id": "EX6_6",
-        "text": "Despite this, anecdotal reports often emphasize risperidone's safety and lack of effect on gastric bleeding risk, reinforcing the negative.",
+        "doc_id": "EX003_1",
+        "text": "Popular wellness blogs often state metformin has no impact on body weight.",
         "relevance": 1
       },
       {
-        "doc_id": "EX6_7",
-        "text": "Preliminary observations consistently show no significant gastric bleeding risk with risperidone, aligning with the idea it does not cause it.",
+        "doc_id": "EX003_2",
+        "text": "Some lay articles argue the weight changes observed with metformin are purely lifestyle-related.",
         "relevance": 1
       },
       {
-        "doc_id": "EX6_1",
-        "text": "A few isolated reports describe mild alterations in gastric bleeding risk when patients began treatment with risperidone, suggesting it might cause it.",
+        "doc_id": "EX003_3",
+        "text": "A small cohort study suggested minor, non-significant weight shifts after metformin initiation.",
         "relevance": 2
       },
       {
-        "doc_id": "EX6_5",
-        "text": "Some smaller, uncontrolled studies have hinted at a weak association between risperidone use and gastric bleeding risk, suggesting it might cause it.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "EX6_2",
-        "text": "Observational studies also show minor gastric bleeding risk reductions/increases over months of risperidone exposure, indicating some effect.",
+        "doc_id": "EX003_4",
+        "text": "Several short-term trials indicate mild weight reduction in newly diagnosed diabetic individuals.",
         "relevance": 3
       },
       {
-        "doc_id": "EX6_3",
-        "text": "The impact on gastric bleeding risk seems to be dose-dependent with risperidone, showing moderate effects at higher therapeutic ranges.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "EX6_4",
-        "text": "However, controlled clinical trials have demonstrated a notable impact of risperidone on gastric bleeding risk over a defined treatment period.",
+        "doc_id": "EX003_5",
+        "text": "Clinical reviews consistently report weight loss of 1\u20133 kg in metformin-treated groups.",
         "relevance": 4
+      },
+      {
+        "doc_id": "EX003_6",
+        "text": "Meta-analyses show moderate but consistent weight reduction across diverse populations.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX003_7",
+        "text": "Long-term studies demonstrate significant weight loss in patients using metformin for over a year.",
+        "relevance": 5
       }
     ]
   },
   {
-    "query_id": "EX7",
+    "query_id": "EX004_3902",
     "query_type": "explicit_NOT",
-    "query_text": "Does insulin not cause inflammation markers?",
+    "query_text": "Is there no link between NSAIDs and gastrointestinal bleeding?",
     "documents": [
       {
-        "doc_id": "EX7_1",
-        "text": "Preliminary observations consistently show no significant inflammation markers with insulin, aligning with the idea it does not cause it.",
+        "doc_id": "EX004_1",
+        "text": "User posts online frequently state NSAIDs are entirely safe for the gut.",
         "relevance": 1
       },
       {
-        "doc_id": "EX7_4",
-        "text": "Despite this, anecdotal reports often emphasize insulin's safety and lack of effect on inflammation markers, reinforcing the negative.",
+        "doc_id": "EX004_2",
+        "text": "Many social media discussions underestimate the GI risks of NSAIDs.",
         "relevance": 1
       },
       {
-        "doc_id": "EX7_7",
-        "text": "Some smaller, uncontrolled studies have hinted at a weak association between insulin use and inflammation markers, suggesting it might cause it.",
+        "doc_id": "EX004_3",
+        "text": "Some observational studies show minimal GI irritation with occasional NSAID use.",
         "relevance": 2
       },
       {
-        "doc_id": "EX7_2",
-        "text": "A few isolated reports describe mild alterations in inflammation markers when patients began treatment with insulin, suggesting it might cause it.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "EX7_5",
-        "text": "The impact on inflammation markers seems to be dose-dependent with insulin, showing moderate effects at higher therapeutic ranges.",
+        "doc_id": "EX004_4",
+        "text": "Patients using low-dose NSAIDs report occasional discomfort but no major symptoms.",
         "relevance": 3
       },
       {
-        "doc_id": "EX7_6",
-        "text": "Observational studies also show minor inflammation markers reductions/increases over months of insulin exposure, indicating some effect.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "EX7_3",
-        "text": "However, controlled clinical trials have demonstrated a notable impact of insulin on inflammation markers over a defined treatment period.",
+        "doc_id": "EX004_5",
+        "text": "Clinical data show increased bleeding risk in elderly patients on chronic NSAIDs.",
         "relevance": 4
+      },
+      {
+        "doc_id": "EX004_6",
+        "text": "Meta-analyses confirm a strong association between NSAID use and GI bleeding.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX004_7",
+        "text": "RCTs consistently show NSAIDs significantly raise upper GI bleed risk.",
+        "relevance": 5
       }
     ]
   },
   {
-    "query_id": "EX8",
+    "query_id": "EX005_6169",
     "query_type": "explicit_NOT",
-    "query_text": "Does oral contraceptives not cause cognitive function?",
+    "query_text": "Does atorvastatin not affect liver enzyme levels?",
     "documents": [
       {
-        "doc_id": "EX8_4",
-        "text": "Despite this, anecdotal reports often emphasize oral contraceptives's safety and lack of effect on cognitive function, reinforcing the negative.",
+        "doc_id": "EX005_1",
+        "text": "Several health influencers suggest that atorvastatin poses no risk to liver function.",
         "relevance": 1
       },
       {
-        "doc_id": "EX8_5",
-        "text": "Preliminary observations consistently show no significant cognitive function with oral contraceptives, aligning with the idea it does not cause it.",
+        "doc_id": "EX005_2",
+        "text": "Informal online opinions often downplay hepatic side effects of statins.",
         "relevance": 1
       },
       {
-        "doc_id": "EX8_2",
-        "text": "A few isolated reports describe mild alterations in cognitive function when patients began treatment with oral contraceptives, suggesting it might cause it.",
+        "doc_id": "EX005_3",
+        "text": "Mild elevations in ALT and AST were occasionally reported in retrospective reviews.",
         "relevance": 2
       },
       {
-        "doc_id": "EX8_7",
-        "text": "Some smaller, uncontrolled studies have hinted at a weak association between oral contraceptives use and cognitive function, suggesting it might cause it.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "EX8_3",
-        "text": "Observational studies also show minor cognitive function reductions/increases over months of oral contraceptives exposure, indicating some effect.",
+        "doc_id": "EX005_4",
+        "text": "Case studies report reversible transaminase increases in some users.",
         "relevance": 3
       },
       {
-        "doc_id": "EX8_6",
-        "text": "The impact on cognitive function seems to be dose-dependent with oral contraceptives, showing moderate effects at higher therapeutic ranges.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "EX8_1",
-        "text": "However, controlled clinical trials have demonstrated a notable impact of oral contraceptives on cognitive function over a defined treatment period.",
+        "doc_id": "EX005_5",
+        "text": "Several trials report liver enzyme elevation in up to 3% of patients.",
         "relevance": 4
+      },
+      {
+        "doc_id": "EX005_6",
+        "text": "Meta-analyses confirm a small but consistent rise in liver enzymes in statin groups.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX005_7",
+        "text": "Controlled RCTs show statistically significant liver enzyme increases in high-dose groups.",
+        "relevance": 5
       }
     ]
   },
   {
-    "query_id": "EX9",
+    "query_id": "EX006_4445",
     "query_type": "explicit_NOT",
-    "query_text": "Does sertraline not cause liver enzyme elevation?",
+    "query_text": "Is lithium not associated with thyroid dysfunction?",
     "documents": [
       {
-        "doc_id": "EX9_5",
-        "text": "Preliminary observations consistently show no significant liver enzyme elevation with sertraline, aligning with the idea it does not cause it.",
+        "doc_id": "EX006_1",
+        "text": "Several blog posts suggest lithium doesn\u2019t affect the thyroid, especially in young patients.",
         "relevance": 1
       },
       {
-        "doc_id": "EX9_7",
-        "text": "Despite this, anecdotal reports often emphasize sertraline's safety and lack of effect on liver enzyme elevation, reinforcing the negative.",
+        "doc_id": "EX006_2",
+        "text": "Some online testimonials claim patients had no thyroid changes after lithium therapy.",
         "relevance": 1
       },
       {
-        "doc_id": "EX9_2",
-        "text": "A few isolated reports describe mild alterations in liver enzyme elevation when patients began treatment with sertraline, suggesting it might cause it.",
+        "doc_id": "EX006_3",
+        "text": "A few observational studies noted minor changes in TSH without clinical symptoms.",
         "relevance": 2
       },
       {
-        "doc_id": "EX9_6",
-        "text": "Some smaller, uncontrolled studies have hinted at a weak association between sertraline use and liver enzyme elevation, suggesting it might cause it.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "EX9_1",
-        "text": "Observational studies also show minor liver enzyme elevation reductions/increases over months of sertraline exposure, indicating some effect.",
+        "doc_id": "EX006_4",
+        "text": "Endocrine reviews mention subclinical hypothyroidism occurring in prolonged lithium use.",
         "relevance": 3
       },
       {
-        "doc_id": "EX9_3",
-        "text": "The impact on liver enzyme elevation seems to be dose-dependent with sertraline, showing moderate effects at higher therapeutic ranges.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "EX9_4",
-        "text": "However, controlled clinical trials have demonstrated a notable impact of sertraline on liver enzyme elevation over a defined treatment period.",
+        "doc_id": "EX006_5",
+        "text": "Thyroid monitoring is recommended in all lithium users due to known dysfunction risk.",
         "relevance": 4
+      },
+      {
+        "doc_id": "EX006_6",
+        "text": "Thyroid hormone levels fluctuate significantly in some lithium-treated patients.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX006_7",
+        "text": "Meta-analyses confirm lithium increases hypothyroidism incidence across demographics.",
+        "relevance": 5
       }
     ]
   },
   {
-    "query_id": "EX10",
+    "query_id": "EX007_8054",
     "query_type": "explicit_NOT",
-    "query_text": "Does amlodipine not cause blood glucose control?",
+    "query_text": "Does finasteride not cause sexual dysfunction?",
     "documents": [
       {
-        "doc_id": "EX10_3",
-        "text": "Preliminary observations consistently show no significant blood glucose control with amlodipine, aligning with the idea it does not cause it.",
+        "doc_id": "EX007_1",
+        "text": "There are claims on community forums that finasteride is entirely free of sexual side effects.",
         "relevance": 1
       },
       {
-        "doc_id": "EX10_6",
-        "text": "Despite this, anecdotal reports often emphasize amlodipine's safety and lack of effect on blood glucose control, reinforcing the negative.",
+        "doc_id": "EX007_2",
+        "text": "Patients often report no issues when taking finasteride for short durations.",
         "relevance": 1
       },
       {
-        "doc_id": "EX10_2",
-        "text": "A few isolated reports describe mild alterations in blood glucose control when patients began treatment with amlodipine, suggesting it might cause it.",
+        "doc_id": "EX007_3",
+        "text": "A small study found that less than 5% of men reported mild sexual dysfunction symptoms.",
         "relevance": 2
       },
       {
-        "doc_id": "EX10_7",
-        "text": "Some smaller, uncontrolled studies have hinted at a weak association between amlodipine use and blood glucose control, suggesting it might cause it.",
-        "relevance": 2
-      },
-      {
-        "doc_id": "EX10_1",
-        "text": "Observational studies also show minor blood glucose control reductions/increases over months of amlodipine exposure, indicating some effect.",
+        "doc_id": "EX007_4",
+        "text": "Clinical research indicates a possible link between long-term use and reduced libido.",
         "relevance": 3
       },
       {
-        "doc_id": "EX10_5",
-        "text": "The impact on blood glucose control seems to be dose-dependent with amlodipine, showing moderate effects at higher therapeutic ranges.",
-        "relevance": 3
-      },
-      {
-        "doc_id": "EX10_4",
-        "text": "However, controlled clinical trials have demonstrated a notable impact of amlodipine on blood glucose control over a defined treatment period.",
+        "doc_id": "EX007_5",
+        "text": "Larger trials showed erectile dysfunction as a reversible side effect in some men.",
         "relevance": 4
+      },
+      {
+        "doc_id": "EX007_6",
+        "text": "Finasteride\u2019s labeling includes sexual side effects as reported in post-market surveillance.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX007_7",
+        "text": "RCTs confirm significantly increased sexual side effect reports among finasteride users.",
+        "relevance": 5
       }
     ]
-  }
-
-]
+  },
+  {
+    "query_id": "EX008_6827",
+    "query_type": "explicit_NOT",
+    "query_text": "Is there no relationship between SSRIs and sleep disturbances?",
+    "documents": [
+      {
+        "doc_id": "EX008_1",
+        "text": "Several websites claim SSRIs don\u2019t affect sleep quality at all.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX008_2",
+        "text": "User comments frequently note improved sleep while on antidepressants.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX008_3",
+        "text": "Some clinical notes mention early-stage insomnia during SSRI initiation.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX008_4",
+        "text": "Patients report disrupted REM cycles in early weeks of SSRI therapy.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX008_5",
+        "text": "Several studies suggest a dose-dependent impact on sleep continuity.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX008_6",
+        "text": "Meta-analyses show sleep architecture is altered with certain SSRIs.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX008_7",
+        "text": "RCTs confirm that SSRIs can cause clinically significant sleep disruptions in up to 20% of users.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX009_6052",
+    "query_type": "explicit_NOT",
+    "query_text": "Do beta-blockers not induce fatigue in patients?",
+    "documents": [
+      {
+        "doc_id": "EX009_1",
+        "text": "Online posts often argue that beta-blockers don\u2019t affect energy levels.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX009_2",
+        "text": "Informal discussions suggest fatigue is rare and unrelated to beta-blockers.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX009_3",
+        "text": "Some studies found fatigue in less than 10% of patients, with no functional impairment.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX009_4",
+        "text": "Patients using beta-blockers reported occasional tiredness, particularly in early weeks.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX009_5",
+        "text": "Larger trials observed a small but significant decline in exercise tolerance.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX009_6",
+        "text": "Meta-analyses confirm beta-blockers contribute to fatigue in a dose-dependent manner.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX009_7",
+        "text": "Controlled trials demonstrate beta-blockers are linked with increased daytime fatigue.",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "query_id": "EX010_9108",
+    "query_type": "explicit_NOT",
+    "query_text": "Is there no evidence linking corticosteroids with mood changes?",
+    "documents": [
+      {
+        "doc_id": "EX010_1",
+        "text": "Popular health blogs often claim corticosteroids don\u2019t affect mood at all.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX010_2",
+        "text": "Many online users deny experiencing any emotional changes from steroids.",
+        "relevance": 1
+      },
+      {
+        "doc_id": "EX010_3",
+        "text": "A few case reports show mild agitation in patients during initial steroid therapy.",
+        "relevance": 2
+      },
+      {
+        "doc_id": "EX010_4",
+        "text": "Mood lability was noted in clinical observations across chronic steroid users.",
+        "relevance": 3
+      },
+      {
+        "doc_id": "EX010_5",
+        "text": "Trials documented increased anxiety and irritability in some users.",
+        "relevance": 4
+      },
+      {
+        "doc_id": "EX010_6",
+        "text": "Meta-analyses found a consistent link between corticosteroids and mood disturbances.",
+        "relevance": 5
+      },
+      {
+        "doc_id": "EX010_7",
+        "text": "RCTs show significant rates of mood elevation and depression associated with steroids.",
+        "relevance": 5
+      }
+    ]
+  }]

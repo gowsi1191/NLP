@@ -4,13 +4,13 @@ import pandas as pd
 
 # List of JSON filenames
 model_files = [
-    "evaluation_results_cross-encoder-nli-deberta-base.json",
-    "evaluation_results_facebook-bart-large-mnli.json",
+    # "evaluation_results_cross-encoder-nli-deberta-base.json",
+    # "evaluation_results_facebook-bart-large-mnli.json",
     "evaluation_results_microsoft-deberta-large-mnli.json",
-    "evaluation_results_prajjwal1-albert-base-v2-mnli.json",
-    "evaluation_results_pritamdeka-PubMedBERT-MNLI-MedNLI.json",
-    "evaluation_results_roberta-large-mnli.json",
-    "evaluation_results_typeform-distilbert-base-uncased-mnli.json"
+    # "evaluation_results_prajjwal1-albert-base-v2-mnli.json",
+    # "evaluation_results_pritamdeka-PubMedBERT-MNLI-MedNLI.json",
+    # "evaluation_results_roberta-large-mnli.json",
+    # "evaluation_results_typeform-distilbert-base-uncased-mnli.json"
 ]
 
 # Process each file

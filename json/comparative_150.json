@@ -2521,7 +2521,7 @@
   },
   {
     "query_id": "EX1_3970",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that PPIs (Proton Pump Inhibitors) leads to blood glucose control?",
     "documents": [
       {
@@ -2563,7 +2563,7 @@
   },
   {
     "query_id": "EX2_0668",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that sertraline leads to kidney function?",
     "documents": [
       {
@@ -2605,7 +2605,7 @@
   },
   {
     "query_id": "EX3_8098",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that beta-blockers leads to cardiovascular risk?",
     "documents": [
       {
@@ -2647,7 +2647,7 @@
   },
   {
     "query_id": "EX4_4483",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that oral contraceptives leads to liver enzyme elevation?",
     "documents": [
       {
@@ -2689,7 +2689,7 @@
   },
   {
     "query_id": "EX5_7603",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that insulin leads to mental health?",
     "documents": [
       {
@@ -2731,7 +2731,7 @@
   },
   {
     "query_id": "EX6_3848",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that statins leads to electrolyte imbalance?",
     "documents": [
       {
@@ -2773,7 +2773,7 @@
   },
   {
     "query_id": "EX7_8563",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that ibuprofen leads to blood pressure?",
     "documents": [
       {
@@ -2815,7 +2815,7 @@
   },
   {
     "query_id": "EX8_0217",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that sertraline leads to weight changes?",
     "documents": [
       {
@@ -2857,7 +2857,7 @@
   },
   {
     "query_id": "EX9_2156",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that PPIs (Proton Pump Inhibitors) leads to blood pressure?",
     "documents": [
       {
@@ -2899,7 +2899,7 @@
   },
   {
     "query_id": "EX10_5517",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that thyroid hormones leads to cholesterol levels?",
     "documents": [
       {
@@ -2941,7 +2941,7 @@
   },
   {
     "query_id": "EX11_6441",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that beta-blockers leads to kidney function?",
     "documents": [
       {
@@ -2983,7 +2983,7 @@
   },
   {
     "query_id": "EX12_5101",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that sertraline leads to blood glucose control?",
     "documents": [
       {
@@ -3025,7 +3025,7 @@
   },
   {
     "query_id": "EX13_7972",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that beta-blockers leads to cholesterol levels?",
     "documents": [
       {
@@ -3067,7 +3067,7 @@
   },
   {
     "query_id": "EX14_6800",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that amlodipine leads to prolactin levels?",
     "documents": [
       {
@@ -3109,7 +3109,7 @@
   },
   {
     "query_id": "EX15",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that oral contraceptives leads to cholesterol levels?",
     "documents": [
       {
@@ -3151,7 +3151,7 @@
   },
   {
     "query_id": "EX16",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that insulin leads to liver enzyme elevation?",
     "documents": [
       {
@@ -3193,7 +3193,7 @@
   },
   {
     "query_id": "EX17",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that statins leads to gastrointestinal discomfort?",
     "documents": [
       {
@@ -3235,7 +3235,7 @@
   },
   {
     "query_id": "EX18",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that warfarin leads to mental health?",
     "documents": [
       {
@@ -3277,7 +3277,7 @@
   },
   {
     "query_id": "EX19",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that levothyroxine leads to blood pressure?",
     "documents": [
       {
@@ -3319,7 +3319,7 @@
   },
   {
     "query_id": "EX20",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that omeprazole leads to electrolyte imbalance?",
     "documents": [
       {
@@ -3361,7 +3361,7 @@
   },
   {
     "query_id": "EX21",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that statins leads to liver enzyme elevation?",
     "documents": [
       {
@@ -3403,7 +3403,7 @@
   },
   {
     "query_id": "EX22",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that PPIs (Proton Pump Inhibitors) leads to cardiovascular risk?",
     "documents": [
       {
@@ -3445,7 +3445,7 @@
   },
   {
     "query_id": "EX23",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that amlodipine leads to sleep quality?",
     "documents": [
       {
@@ -3487,7 +3487,7 @@
   },
   {
     "query_id": "EX24",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that beta-blockers leads to cardiovascular risk?",
     "documents": [
       {
@@ -3529,7 +3529,7 @@
   },
   {
     "query_id": "EX25",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that insulin leads to cholesterol levels?",
     "documents": [
       {
@@ -3571,7 +3571,7 @@
   },
   {
     "query_id": "EX26",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that risperidone leads to blood pressure?",
     "documents": [
       {
@@ -3613,7 +3613,7 @@
   },
   {
     "query_id": "EX27",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that levothyroxine leads to prolactin levels?",
     "documents": [
       {
@@ -3655,7 +3655,7 @@
   },
   {
     "query_id": "EX28",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that amlodipine leads to kidney function?",
     "documents": [
       {
@@ -3697,7 +3697,7 @@
   },
   {
     "query_id": "EX29",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that levothyroxine leads to inflammation markers?",
     "documents": [
       {
@@ -3739,7 +3739,7 @@
   },
   {
     "query_id": "EX30",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that oral contraceptives leads to cholesterol levels?",
     "documents": [
       {
@@ -3781,7 +3781,7 @@
   },
   {
     "query_id": "EX31",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that PPIs (Proton Pump Inhibitors) leads to kidney function?",
     "documents": [
       {
@@ -3823,7 +3823,7 @@
   },
   {
     "query_id": "EX32",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that oral contraceptives leads to blood pressure?",
     "documents": [
       {
@@ -3865,7 +3865,7 @@
   },
   {
     "query_id": "EX33",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that corticosteroids leads to cardiovascular risk?",
     "documents": [
       {
@@ -3907,7 +3907,7 @@
   },
   {
     "query_id": "EX34",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that biologics leads to sleep quality?",
     "documents": [
       {
@@ -3949,7 +3949,7 @@
   },
   {
     "query_id": "EX35",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that beta-blockers leads to cholesterol levels?",
     "documents": [
       {
@@ -3991,7 +3991,7 @@
   },
   {
     "query_id": "EX36",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that statins leads to heart rhythm?",
     "documents": [
       {
@@ -4033,7 +4033,7 @@
   },
   {
     "query_id": "EX37",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that amlodipine leads to cardiovascular risk?",
     "documents": [
       {
@@ -4075,7 +4075,7 @@
   },
   {
     "query_id": "EX38",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that beta-blockers leads to cognitive function?",
     "documents": [
       {
@@ -4117,7 +4117,7 @@
   },
   {
     "query_id": "EX39",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that oral contraceptives leads to mental health?",
     "documents": [
       {
@@ -4159,7 +4159,7 @@
   },
   {
     "query_id": "EX40",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that metformin leads to sleep quality?",
     "documents": [
       {
@@ -4201,7 +4201,7 @@
   },
   {
     "query_id": "EX41",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that statins leads to liver enzyme elevation?",
     "documents": [
       {
@@ -4243,7 +4243,7 @@
   },
   {
     "query_id": "EX42",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that corticosteroids leads to bone mineral density loss?",
     "documents": [
       {
@@ -4285,7 +4285,7 @@
   },
   {
     "query_id": "EX43",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that levothyroxine leads to cholesterol levels?",
     "documents": [
       {
@@ -4327,7 +4327,7 @@
   },
   {
     "query_id": "EX44",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that statins leads to prolactin levels?",
     "documents": [
       {
@@ -4369,7 +4369,7 @@
   },
   {
     "query_id": "EX45",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that ibuprofen leads to drug interactions?",
     "documents": [
       {
@@ -4411,7 +4411,7 @@
   },
   {
     "query_id": "EX46",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that PPIs (Proton Pump Inhibitors) leads to weight changes?",
     "documents": [
       {
@@ -4453,7 +4453,7 @@
   },
   {
     "query_id": "EX47",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that metformin leads to prolactin levels?",
     "documents": [
       {
@@ -4495,7 +4495,7 @@
   },
   {
     "query_id": "EX48",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that diuretics leads to mental health?",
     "documents": [
       {
@@ -4537,7 +4537,7 @@
   },
   {
     "query_id": "EX49",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that sertraline leads to drug interactions?",
     "documents": [
       {
@@ -4579,7 +4579,7 @@
   },
   {
     "query_id": "EX50",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that PPIs (Proton Pump Inhibitors) leads to blood glucose control?",
     "documents": [
       {
@@ -4621,7 +4621,7 @@
   },
   {
     "query_id": "EX51",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that corticosteroids leads to electrolyte imbalance?",
     "documents": [
       {
@@ -4663,7 +4663,7 @@
   },
   {
     "query_id": "EX52",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that levothyroxine leads to mental health?",
     "documents": [
       {
@@ -4705,7 +4705,7 @@
   },
   {
     "query_id": "EX53",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that ibuprofen leads to sleep quality?",
     "documents": [
       {
@@ -4747,7 +4747,7 @@
   },
   {
     "query_id": "EX54",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that statins leads to mental health?",
     "documents": [
       {
@@ -4789,7 +4789,7 @@
   },
   {
     "query_id": "EX55",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that diuretics leads to sleep quality?",
     "documents": [
       {
@@ -4831,7 +4831,7 @@
   },
   {
     "query_id": "EX56",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that levothyroxine leads to cardiovascular risk?",
     "documents": [
       {
@@ -4873,7 +4873,7 @@
   },
   {
     "query_id": "EX57",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that PPIs (Proton Pump Inhibitors) leads to mental health?",
     "documents": [
       {
@@ -4915,7 +4915,7 @@
   },
   {
     "query_id": "EX58",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that beta-blockers leads to sleep quality?",
     "documents": [
       {
@@ -4957,7 +4957,7 @@
   },
   {
     "query_id": "EX59",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that oral contraceptives leads to cholesterol levels?",
     "documents": [
       {
@@ -4999,7 +4999,7 @@
   },
   {
     "query_id": "EX60",
-    "query_type": "comparitive_not",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that levothyroxine leads to heart rhythm?",
     "documents": [
       {
@@ -5041,7 +5041,7 @@
   },
   {
     "query_id": "IM102_6190",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Does metformin increase the risk of vitamin B12 deficiency?",
     "documents": [
       {
@@ -5083,7 +5083,7 @@
   },
   {
     "query_id": "IM103_2805",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Is there a connection between PPIs and increased fracture risk?",
     "documents": [
       {
@@ -5125,7 +5125,7 @@
   },
   {
     "query_id": "IM104_3578",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Do antipsychotics like risperidone elevate prolactin levels significantly?",
     "documents": [
       {
@@ -5167,7 +5167,7 @@
   },
   {
     "query_id": "IM105_7771",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Are SSRIs associated with gastrointestinal bleeding risks?",
     "documents": [
       {
@@ -5209,7 +5209,7 @@
   },
   {
     "query_id": "IM106_2987",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Does long-term opioid use cause hormonal imbalances?",
     "documents": [
       {
@@ -5251,7 +5251,7 @@
   },
   {
     "query_id": "IM107_2761",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence linking statins to cognitive decline?",
     "documents": [
       {
@@ -5293,7 +5293,7 @@
   },
   {
     "query_id": "IM108_0662",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Do bisphosphonates increase atypical femur fracture risk?",
     "documents": [
       {
@@ -5335,7 +5335,7 @@
   },
   {
     "query_id": "IM109_0262",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Is valproate associated with polycystic ovary syndrome (PCOS) features?",
     "documents": [
       {
@@ -5377,7 +5377,7 @@
   },
   {
     "query_id": "IM110_0076",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Does prolonged antibiotic use lead to permanent gut microbiome changes?",
     "documents": [
       {
@@ -5419,7 +5419,7 @@
   },
   {
     "query_id": "IM111_0853",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Are there cardiovascular risks associated with ADHD stimulant medications?",
     "documents": [
       {
@@ -5461,7 +5461,7 @@
   },
   {
     "query_id": "IM112_6619",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Does isotretinoin cause permanent mood changes or depression?",
     "documents": [
       {
@@ -5503,7 +5503,7 @@
   },
   {
     "query_id": "IM113_7991",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Is there a connection between proton pump inhibitors and dementia risk?",
     "documents": [
       {
@@ -5545,7 +5545,7 @@
   },
   {
     "query_id": "IM114_3501",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Do fluoroquinolone antibiotics increase the risk of aortic aneurysm?",
     "documents": [
       {
@@ -5587,7 +5587,7 @@
   },
   {
     "query_id": "IM115_7452",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that antihistamines cause cognitive impairment in older adults?",
     "documents": [
       {
@@ -5629,7 +5629,7 @@
   },
   {
     "query_id": "IM116_1955",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Does long-term NSAID use increase the risk of kidney disease?",
     "documents": [
       {
@@ -5671,7 +5671,7 @@
   },
   {
     "query_id": "IM117_2175",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Is there a link between beta-blockers and depression?",
     "documents": [
       {
@@ -5713,7 +5713,7 @@
   },
   {
     "query_id": "IM118_7101",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Do calcium channel blockers increase the risk of breast cancer?",
     "documents": [
       {
@@ -5755,7 +5755,7 @@
   },
   {
     "query_id": "IM119_7677",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that diuretics cause significant electrolyte imbalances in elderly patients?",
     "documents": [
       {
@@ -5797,7 +5797,7 @@
   },
   {
     "query_id": "IM120_1181",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Does long-term aspirin use lead to hearing loss?",
     "documents": [
       {
@@ -5839,7 +5839,7 @@
   },
   {
     "query_id": "IM121_7879",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Is there a connection between antidepressants and weight gain?",
     "documents": [
       {
@@ -5881,7 +5881,7 @@
   },
   {
     "query_id": "IM122_3453",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Do cholesterol-lowering drugs contribute to muscle pain or weakness?",
     "documents": [
       {
@@ -5923,7 +5923,7 @@
   },
   {
     "query_id": "IM123_5196",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that antacids impair nutrient absorption?",
     "documents": [
       {
@@ -5965,7 +5965,7 @@
   },
   {
     "query_id": "IM124_9401",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Does long-term use of oral contraceptives affect fertility?",
     "documents": [
       {
@@ -6007,7 +6007,7 @@
   },
   {
     "query_id": "IM125_1071",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Are there neurological risks associated with quinolone antibiotics?",
     "documents": [
       {
@@ -6049,7 +6049,7 @@
   },
   {
     "query_id": "IM126_5288",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Does phentermine cause heart valve damage?",
     "documents": [
       {
@@ -6091,7 +6091,7 @@
   },
   {
     "query_id": "IM127_9833",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Is there a link between thyroid medications and osteoporosis?",
     "documents": [
       {
@@ -6133,7 +6133,7 @@
   },
   {
     "query_id": "IM128_3910",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Do benzodiazepines increase dementia risk with long-term use?",
     "documents": [
       {
@@ -6175,7 +6175,7 @@
   },
   {
     "query_id": "IM129_4674",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Does methotrexate cause permanent liver damage at low doses?",
     "documents": [
       {
@@ -6217,7 +6217,7 @@
   },
   {
     "query_id": "IM130_3234",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Is there evidence that antihypertensive drugs cause erectile dysfunction?",
     "documents": [
       {
@@ -6259,7 +6259,7 @@
   },
   {
     "query_id": "IM131_7697",
-    "query_type": "compartive_NOT",
+    "query_type": "comparative_NOT",
     "query_text": "Do SSRIs increase bleeding risk during surgery?",
     "documents": [
       {

@@ -10,7 +10,7 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Construct full paths to the JSON files
 file_names = [
-    os.path.join(script_dir, "json", "explicit_comb_30.json"),
+    os.path.join(script_dir, "json", "explicit_150.json"),
     # os.path.join(script_dir, "json","explicit_30.json"),
     # os.path.join(script_dir, "json","comparative_150.json"),
     # os.path.join(script_dir, "json","scope.json"),
@@ -29,11 +29,12 @@ def main():
 
         # Hardcoded models
         AVAILABLE_MODELS = {
-            "roberta-large-mnli": "RoBERTa-large (MNLI)",
-            "microsoft/deberta-large-mnli": "DeBERTa-large (MNLI)",
-            # "prajjwal1/albert-base-v2-mnli": "ALBERT-base (MNLI)",
-            "facebook/bart-large-mnli": "BART-large (MNLI)", 
-            "cross-encoder/nli-deberta-base": "Cross-Encoder (DeBERTa-base NLI)",
+            # "roberta-large-mnli": "RoBERTa-large (MNLI)",
+            "prajjwal1/albert-base-v2-mnli": "ALBERT-base (MNLI)",
+
+            # "microsoft/deberta-large-mnli": "DeBERTa-large (MNLI)",
+            # "facebook/bart-large-mnli": "BART-large (MNLI)", 
+            # "cross-encoder/nli-deberta-base": "Cross-Encoder (DeBERTa-base NLI)",
         }
 
         for model_id in AVAILABLE_MODELS:
